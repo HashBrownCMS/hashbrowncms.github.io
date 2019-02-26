@@ -1,0 +1,1830 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                43
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "Path",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Path",
+        "longname": "Path",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                51,
+                77
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 4,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000011",
+                "name": "FileSystem",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "FileSystem",
+        "longname": "FileSystem",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                121,
+                147
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 7,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000017",
+                "name": "RimRaf",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "RimRaf",
+        "longname": "RimRaf",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                155,
+                181
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 8,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000023",
+                "name": "Multer",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Multer",
+        "longname": "Multer",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                189,
+                211
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 9,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000029",
+                "name": "Glob",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Glob",
+        "longname": "Glob",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                220,
+                277
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 11,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000035",
+                "name": "MediaHelperCommon",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "MediaHelperCommon",
+        "longname": "MediaHelperCommon",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                286,
+                318
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 13,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000041",
+                "name": "WATCH_CACHE_INTERVAL",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "WATCH_CACHE_INTERVAL",
+        "longname": "WATCH_CACHE_INTERVAL",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                340,
+                381
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 14,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000047",
+                "name": "MAX_CACHE_TIME",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "MAX_CACHE_TIME",
+        "longname": "MAX_CACHE_TIME",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The helper class for Media\n *\n * @memberof HashBrown.Server.Helpers\n */",
+        "meta": {
+            "range": [
+                473,
+                11909
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 21,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000058",
+                "name": "MediaHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The helper class for Media",
+        "memberof": "HashBrown.Server.Helpers",
+        "name": "MediaHelper",
+        "longname": "HashBrown.Server.Helpers.MediaHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Start watching cache\n     */",
+        "meta": {
+            "range": [
+                567,
+                723
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 25,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000062",
+                "name": "MediaHelper.startWatchingCache",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Start watching cache",
+        "name": "startWatchingCache",
+        "longname": "HashBrown.Server.Helpers.MediaHelper.startWatchingCache",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.MediaHelper",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets the upload handler\n     *\n     * @param {Boolean} isSingleFile\n     *\n     * @return {Function} handler\n     */",
+        "meta": {
+            "range": [
+                865,
+                1840
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 40,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000082",
+                "name": "MediaHelper.getUploadHandler",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "isSingleFile"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets the upload handler",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "name": "isSingleFile"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "description": "handler"
+            }
+        ],
+        "name": "getUploadHandler",
+        "longname": "HashBrown.Server.Helpers.MediaHelper.getUploadHandler",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.MediaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                917,
+                1680
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 41,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000088",
+                "name": "handler",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "handler",
+        "longname": "<anonymous>~handler",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                948,
+                1669
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 42,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000093",
+                "name": "storage",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "storage",
+        "longname": "storage",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                994,
+                1529
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 43,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000099",
+                "name": "destination",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "path": "destination~path",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "destination",
+        "longname": "destination",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1057,
+                1100
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 44,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000106",
+                "name": "path",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "destination~path",
+        "kind": "member",
+        "memberof": "destination",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1547,
+                1654
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 58,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000149",
+                "name": "filename",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "filename",
+        "longname": "filename",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Makes a directory recursively\n     *\n     * @param {String} dirPath\n     * @param {Function} callback\n     * @param {Number} position\n     */",
+        "meta": {
+            "range": [
+                2003,
+                2696
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 78,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000179",
+                "name": "MediaHelper.mkdirRecursively",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "dirPath",
+                    "callback",
+                    "position"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Makes a directory recursively",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "dirPath"
+            },
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "name": "callback",
+                "defaultvalue": null
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "position",
+                "defaultvalue": 0
+            }
+        ],
+        "name": "mkdirRecursively",
+        "longname": "HashBrown.Server.Helpers.MediaHelper.mkdirRecursively",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.MediaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2138,
+                2185
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 81,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000197",
+                "name": "parts",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "parts",
+        "longname": "<anonymous>~parts",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2374,
+                2434
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 91,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000225",
+                "name": "currentDirPath",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "currentDirPath",
+        "longname": "<anonymous>~currentDirPath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Renames a Media object\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     * @param {String} name\n     *\n     * @return {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                2919,
+                3374
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 112,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000268",
+                "name": "MediaHelper.renameMedia",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "id",
+                    "name"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renames a Media object",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "renameMedia",
+        "longname": "HashBrown.Server.Helpers.MediaHelper.renameMedia",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.MediaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Uploads a file from temp storage\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     * @param {String} tempPath\n     *\n     * @returns {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                3611,
+                5052
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 135,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000324",
+                "name": "MediaHelper.uploadFromTemp",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "id",
+                    "tempPath"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Uploads a file from temp storage",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "tempPath"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "uploadFromTemp",
+        "longname": "HashBrown.Server.Helpers.MediaHelper.uploadFromTemp",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.MediaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3876,
+                3886
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 141,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000357",
+                "name": "connection"
+            }
+        },
+        "undocumented": true,
+        "name": "connection",
+        "longname": "<anonymous>~connection",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3900,
+                3934
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 142,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000360",
+                "name": "filename",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "filename",
+        "longname": "<anonymous>~filename",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4098,
+                4119
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 147,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000389",
+                "name": "connection",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "provider",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "connection",
+        "longname": "<anonymous>~connection",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Gets the Media tree\n     *\n     * NOTE: This method, as opposed to most other resource methods, does not merge\n     * local and remote resources since it would be too complicated in the end\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @return {Promise} Tree\n     */",
+        "meta": {
+            "range": [
+                5381,
+                6614
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 189,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000483",
+                "name": "MediaHelper.getTree",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets the Media tree\n\nNOTE: This method, as opposed to most other resource methods, does not merge\nlocal and remote resources since it would be too complicated in the end",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Tree"
+            }
+        ],
+        "name": "getTree",
+        "longname": "HashBrown.Server.Helpers.MediaHelper.getTree",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.MediaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5537,
+                5572
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 193,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000502",
+                "name": "collection",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "collection",
+        "longname": "<anonymous>~collection",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6013,
+                6024
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 205,
+            "columnno": 26,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000567",
+                "name": "folder",
+                "type": "Literal",
+                "value": "/"
+            }
+        },
+        "undocumented": true,
+        "name": "folder",
+        "longname": "folder",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6026,
+                6033
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 205,
+            "columnno": 39,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000569",
+                "name": "id",
+                "type": "Literal",
+                "value": "*"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "id",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6091,
+                6095
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 208,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000573",
+                "name": "item"
+            }
+        },
+        "undocumented": true,
+        "name": "item",
+        "longname": "<anonymous>~item",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6123,
+                6155
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 209,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000578",
+                "name": "item.folder",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "folder",
+        "longname": "<anonymous>~item.folder",
+        "kind": "member",
+        "memberof": "<anonymous>~item",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6272,
+                6303
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 213,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000599",
+                "name": "item.folder",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "folder",
+        "longname": "<anonymous>~item.folder",
+        "kind": "member",
+        "memberof": "<anonymous>~item",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6376,
+                6407
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 217,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000609",
+                "name": "item.folder",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "folder",
+        "longname": "<anonymous>~item.folder",
+        "kind": "member",
+        "memberof": "<anonymous>~item",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6492,
+                6538
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 220,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000619",
+                "name": "item.folder",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "folder",
+        "longname": "<anonymous>~item.folder",
+        "kind": "member",
+        "memberof": "<anonymous>~item",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Sets a Media tree parent\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     * @param {Object} item\n     *\n     * @return {Promise} promise\n     */",
+        "meta": {
+            "range": [
+                6839,
+                8065
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 237,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000637",
+                "name": "MediaHelper.setTreeItem",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "id",
+                    "item"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Sets a Media tree parent",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "item"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "promise"
+            }
+        ],
+        "name": "setTreeItem",
+        "longname": "HashBrown.Server.Helpers.MediaHelper.setTreeItem",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.MediaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7535,
+                7541
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 253,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000715",
+                "name": "id",
+                "type": "Identifier",
+                "value": "id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "id",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7678,
+                7690
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 259,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000719",
+                "name": "item.id",
+                "type": "Identifier",
+                "value": "id",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "item.id",
+        "kind": "member",
+        "memberof": "item",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7879,
+                7885
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 265,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000738",
+                "name": "id",
+                "type": "Identifier",
+                "value": "id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "id",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7981,
+                7993
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 269,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000742",
+                "name": "upsert",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "upsert",
+        "longname": "upsert",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Gets the media temp path\n     *\n     * @param {String} project\n     *\n     * @returns {String} path\n     */",
+        "meta": {
+            "range": [
+                8198,
+                8346
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 283,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000744",
+                "name": "MediaHelper.getTempPath",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets the media temp path",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "path"
+            }
+        ],
+        "name": "getTempPath",
+        "longname": "HashBrown.Server.Helpers.MediaHelper.getTempPath",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.MediaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Cleans the Media cache\n     */",
+        "meta": {
+            "range": [
+                8398,
+                9522
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 292,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000764",
+                "name": "MediaHelper.cleanCache",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Cleans the Media cache",
+        "name": "cleanCache",
+        "longname": "HashBrown.Server.Helpers.MediaHelper.cleanCache",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.MediaHelper",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8432,
+                8478
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 293,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000769",
+                "name": "storageFolder",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "storageFolder",
+        "longname": "<anonymous>~storageFolder",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8674,
+                8680
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 300,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000802",
+                "name": "folder"
+            }
+        },
+        "undocumented": true,
+        "name": "folder",
+        "longname": "<anonymous>~folder",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8716,
+                8771
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 301,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000807",
+                "name": "cacheFolder",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "cacheFolder",
+        "longname": "<anonymous>~cacheFolder",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9000,
+                9004
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 308,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000841",
+                "name": "file"
+            }
+        },
+        "undocumented": true,
+        "name": "file",
+        "longname": "<anonymous>~file",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9045,
+                9086
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 309,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000846",
+                "name": "cachedFile",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "cachedFile",
+        "longname": "<anonymous>~cachedFile",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Removes a cached version of a Media object\n     *\n     * @param {String} project\n     * @param {String} id\n     * \n     * @return {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                9698,
+                10035
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 332,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000895",
+                "name": "MediaHelper.removeCachedMedia",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Removes a cached version of a Media object",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "removeCachedMedia",
+        "longname": "HashBrown.Server.Helpers.MediaHelper.removeCachedMedia",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.MediaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9837,
+                9899
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 336,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000914",
+                "name": "cacheFolder",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "cacheFolder",
+        "longname": "<anonymous>~cacheFolder",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9913,
+                9952
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 337,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000925",
+                "name": "cachedPath",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "cachedPath",
+        "longname": "<anonymous>~cachedPath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets a cached version of a Media object\n     *\n     * @param {String} project\n     * @param {Media} media\n     * @param {Number} width\n     * @param {Number} height\n     *\n     * @returns {Promise} Media\n     */",
+        "meta": {
+            "range": [
+                10269,
+                11907
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 353,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000945",
+                "name": "MediaHelper.getCachedMedia",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "media",
+                    "width",
+                    "height"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a cached version of a Media object",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Media"
+                    ]
+                },
+                "name": "media"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "width",
+                "defaultvalue": 0
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "height",
+                "defaultvalue": 0
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Media"
+            }
+        ],
+        "name": "getCachedMedia",
+        "longname": "HashBrown.Server.Helpers.MediaHelper.getCachedMedia",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.MediaHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10549,
+                10611
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 359,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000986",
+                "name": "cacheFolder",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "cacheFolder",
+        "longname": "<anonymous>~cacheFolder",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10625,
+                10670
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 360,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000997",
+                "name": "cachedPath",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "cachedPath",
+        "longname": "<anonymous>~cachedPath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10713,
+                10738
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 363,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001011",
+                "name": "cachedPath",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "cachedPath",
+        "longname": "<anonymous>~cachedPath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10792,
+                10818
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 367,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001020",
+                "name": "cachedPath",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "cachedPath",
+        "longname": "<anonymous>~cachedPath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10971,
+                10982
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 373,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001037",
+                "name": "data",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "data",
+        "longname": "<anonymous>~data",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11043,
+                11101
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 377,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001043",
+                "name": "data",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "data",
+        "longname": "<anonymous>~data",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11810,
+                11868
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 396,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001133",
+                "name": "data",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "data",
+        "longname": "<anonymous>~data",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11911,
+                11939
+            ],
+            "filename": "MediaHelper.js",
+            "lineno": 403,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001148",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "MediaHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers/MediaHelper.js"
+        ]
+    }
+]

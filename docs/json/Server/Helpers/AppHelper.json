@@ -1,0 +1,352 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                60
+            ],
+            "filename": "AppHelper.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "ChildProcess",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "ChildProcess",
+        "longname": "ChildProcess",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                68,
+                94
+            ],
+            "filename": "AppHelper.js",
+            "lineno": 4,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000011",
+                "name": "FileSystem",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "FileSystem",
+        "longname": "FileSystem",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The main class for basic app operations\n *\n * @memberof HashBrown.Server.Helpers\n */",
+        "meta": {
+            "range": [
+                189,
+                1270
+            ],
+            "filename": "AppHelper.js",
+            "lineno": 11,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000016",
+                "name": "AppHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The main class for basic app operations",
+        "memberof": "HashBrown.Server.Helpers",
+        "name": "AppHelper",
+        "longname": "HashBrown.Server.Helpers.AppHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Executes a console command\n     *\n     * @param {String} cmd\n     * @param {String} cwd\n     *\n     * @returns {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                362,
+                1268
+            ],
+            "filename": "AppHelper.js",
+            "lineno": 20,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000019",
+                "name": "AppHelper.exec",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "cmd",
+                    "cwd"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Executes a console command",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "cmd"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "cwd"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "exec",
+        "longname": "HashBrown.Server.Helpers.AppHelper.exec",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.AppHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                491,
+                505
+            ],
+            "filename": "AppHelper.js",
+            "lineno": 24,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000044",
+                "name": "cwd",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "APP_ROOT",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "cwd",
+        "longname": "<anonymous>~cwd",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                635,
+                681
+            ],
+            "filename": "AppHelper.js",
+            "lineno": 29,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000065",
+                "name": "process",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "process",
+        "longname": "<anonymous>~process",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                670,
+                678
+            ],
+            "filename": "AppHelper.js",
+            "lineno": 29,
+            "columnno": 51,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000073",
+                "name": "cwd",
+                "type": "Identifier",
+                "value": "cwd"
+            }
+        },
+        "undocumented": true,
+        "name": "cwd",
+        "longname": "cwd",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                699,
+                710
+            ],
+            "filename": "AppHelper.js",
+            "lineno": 30,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000076",
+                "name": "result",
+                "type": "Literal",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "result",
+        "longname": "<anonymous>~result",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                728,
+                740
+            ],
+            "filename": "AppHelper.js",
+            "lineno": 31,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000080",
+                "name": "message",
+                "type": "Literal",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "message",
+        "longname": "<anonymous>~message",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                809,
+                823
+            ],
+            "filename": "AppHelper.js",
+            "lineno": 34,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000095",
+                "name": "result",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "data",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "result",
+        "longname": "<anonymous>~result",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                908,
+                923
+            ],
+            "filename": "AppHelper.js",
+            "lineno": 38,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000110",
+                "name": "message",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "data",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "message",
+        "longname": "<anonymous>~message",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1272,
+                1298
+            ],
+            "filename": "AppHelper.js",
+            "lineno": 52,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000157",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "AppHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers/AppHelper.js"
+        ]
+    }
+]

@@ -1,0 +1,3901 @@
+[
+    {
+        "comment": "/**\n * The editor for Forms\n *\n * @memberof HashBrown.Client.Views.Editors\n */",
+        "meta": {
+            "range": [
+                94,
+                14557
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000004",
+                "name": "FormEditor",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "The editor for Forms",
+        "memberof": "HashBrown.Client.Views.Editors",
+        "name": "FormEditor",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                136,
+                217
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 9,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000010",
+                "name": "FormEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "FormEditor",
+        "longname": "HashBrown.Client.Views.Editors~FormEditor",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Editors",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Event: Click advanced. Routes to the JSON editor\n     */",
+        "meta": {
+            "range": [
+                299,
+                398
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 18,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000024",
+                "name": "FormEditor#onClickAdvanced",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click advanced. Routes to the JSON editor",
+        "name": "onClickAdvanced",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#onClickAdvanced",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                327,
+                391
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 19,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000029",
+                "name": "location.hash",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "location.hash",
+        "kind": "member",
+        "memberof": "location",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Click save. Posts the model to the modelUrl\n     */",
+        "meta": {
+            "range": [
+                478,
+                1049
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 25,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000041",
+                "name": "FormEditor#onClickSave",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click save. Posts the model to the modelUrl",
+        "name": "onClickSave",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#onClickSave",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                921,
+                958
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 36,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000121",
+                "name": "navbar",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "navbar",
+        "longname": "<anonymous>~navbar",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Event: Click add input\n     */",
+        "meta": {
+            "range": [
+                1101,
+                1266
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 46,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000139",
+                "name": "FormEditor#onClickAddInput",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click add input",
+        "name": "onClickAddInput",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#onClickAddInput",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1178,
+                1226
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 48,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000154",
+                "name": "this.model.inputs['newinput']",
+                "type": "ObjectExpression",
+                "value": "{\"type\":\"text\"}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'newinput'",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#model.inputs.'newinput'",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor#model.inputs",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1212,
+                1224
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 48,
+            "columnno": 46,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000163",
+                "name": "type",
+                "type": "Literal",
+                "value": "text"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#model.inputs.'newinput'.type",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor#model.inputs.'newinput'",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Click remove input\n     *\n     * @param {String} key\n     */",
+        "meta": {
+            "range": [
+                1355,
+                1448
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 59,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000170",
+                "name": "FormEditor#onClickRemoveInput",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "key"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click remove input",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "key"
+            }
+        ],
+        "name": "onClickRemoveInput",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#onClickRemoveInput",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Renders the allowed origin editor\n     *\n     * @return {Object} element\n     */",
+        "meta": {
+            "range": [
+                1554,
+                1987
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 70,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000189",
+                "name": "FormEditor#renderAllowedOriginEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the allowed origin editor",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "element"
+            }
+        ],
+        "name": "renderAllowedOriginEditor",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#renderAllowedOriginEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1606,
+                1635
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 71,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000199",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1702,
+                1733
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 73,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000211",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.allowedOrigin"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1751,
+                1826
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 74,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000217",
+                "name": "tooltip",
+                "type": "Literal",
+                "value": "The allowed origin from which entries to this form can be posted"
+            }
+        },
+        "undocumented": true,
+        "name": "tooltip",
+        "longname": "tooltip",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1844,
+                1946
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 75,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000219",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.allowedOrigin": "HashBrown.Client.Views.Editors.FormEditor#model.allowedOrigin"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1891,
+                1927
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 76,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000224",
+                "name": "this.model.allowedOrigin",
+                "type": "Identifier",
+                "value": "newOrigin",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "allowedOrigin",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#model.allowedOrigin",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the title editor\n     *\n     * @return {Object} element\n     */",
+        "meta": {
+            "range": [
+                2080,
+                2444
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 87,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000232",
+                "name": "FormEditor#renderTitleEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the title editor",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "element"
+            }
+        ],
+        "name": "renderTitleEditor",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#renderTitleEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2124,
+                2153
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 88,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000242",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2220,
+                2243
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 90,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000254",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.title"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2261,
+                2293
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 91,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000260",
+                "name": "tooltip",
+                "type": "Literal",
+                "value": "The title of the form"
+            }
+        },
+        "undocumented": true,
+        "name": "tooltip",
+        "longname": "tooltip",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2311,
+                2403
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 92,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000262",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.title": "HashBrown.Client.Views.Editors.FormEditor#model.title"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2357,
+                2384
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 93,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000267",
+                "name": "this.model.title",
+                "type": "Identifier",
+                "value": "newTitle",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#model.title",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the redirect editor\n     *\n     * @return {Object} element\n     */",
+        "meta": {
+            "range": [
+                2544,
+                3497
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 104,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000275",
+                "name": "FormEditor#renderRedirectEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the redirect editor",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "element"
+            }
+        ],
+        "name": "renderRedirectEditor",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#renderRedirectEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2591,
+                2620
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 105,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000285",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2642,
+                2663
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 106,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000292",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget-group"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2738,
+                2764
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 108,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000304",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.redirect"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2786,
+                2872
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 109,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000310",
+                "name": "tooltip",
+                "type": "Literal",
+                "value": "The URL that the user will be redirected to after submitting the form entry"
+            }
+        },
+        "undocumented": true,
+        "name": "tooltip",
+        "longname": "tooltip",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2894,
+                2993
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 110,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000312",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.redirect": "HashBrown.Client.Views.Editors.FormEditor#model.redirect"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2942,
+                2970
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 111,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000317",
+                "name": "this.model.redirect",
+                "type": "Identifier",
+                "value": "newUrl",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "redirect",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#model.redirect",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3095,
+                3127
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 115,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000335",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.appendRedirect"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3149,
+                3170
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 116,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000341",
+                "name": "placeholder",
+                "type": "Literal",
+                "value": "Append"
+            }
+        },
+        "undocumented": true,
+        "name": "placeholder",
+        "longname": "placeholder",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3192,
+                3208
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 117,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000343",
+                "name": "type",
+                "type": "Literal",
+                "value": "checkbox"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3230,
+                3307
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 118,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000345",
+                "name": "tooltip",
+                "type": "Literal",
+                "value": "If ticked, the redirect URL will be appended to that of the origin"
+            }
+        },
+        "undocumented": true,
+        "name": "tooltip",
+        "longname": "tooltip",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3329,
+                3438
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 119,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000347",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.appendRedirect": "HashBrown.Client.Views.Editors.FormEditor#model.appendRedirect"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3379,
+                3415
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 120,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000352",
+                "name": "this.model.appendRedirect",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "appendRedirect",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#model.appendRedirect",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the inputs editor\n     *\n     * @return {Object} element\n     */",
+        "meta": {
+            "range": [
+                3591,
+                8656
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 132,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000360",
+                "name": "FormEditor#renderInputsEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the inputs editor",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "element"
+            }
+        ],
+        "name": "renderInputsEditor",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#renderInputsEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3626,
+                3754
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 133,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000365",
+                "name": "types",
+                "type": "ArrayExpression",
+                "value": "[\"checkbox\",\"hidden\",\"number\",\"select\",\"text\"]"
+            }
+        },
+        "undocumented": true,
+        "name": "types",
+        "longname": "<anonymous>~types",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3779,
+                3808
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 141,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000379",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3897,
+                3926
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 143,
+            "columnno": 30,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000400",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field raised"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3956,
+                3987
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 144,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000407",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__actions"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4024,
+                4084
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 145,
+            "columnno": 34,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000416",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__action editor__field__action--remove"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4086,
+                4107
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 145,
+            "columnno": 96,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000418",
+                "name": "title",
+                "type": "Literal",
+                "value": "Remove field"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4236,
+                4265
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 148,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000434",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4299,
+                4321
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 149,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000441",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4359,
+                4386
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 150,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000448",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4433,
+                4462
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 151,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000456",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4569,
+                4579
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 153,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000468",
+                "name": "value",
+                "type": "Identifier",
+                "value": "key"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4617,
+                4881
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 154,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000470",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "key": "onChange~key",
+                "this.model.inputs[undefined]": "HashBrown.Client.Views.Editors.FormEditor#model.inputs[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4755,
+                4769
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 157,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000484",
+                "name": "key",
+                "type": "Identifier",
+                "funcscope": "onChange",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "longname": "onChange~key",
+        "kind": "member",
+        "memberof": "onChange",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4812,
+                4842
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 159,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000488",
+                "name": "this.model.inputs[undefined]",
+                "type": "Identifier",
+                "value": "input",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "inputs[undefined]",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#model.inputs[undefined]",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5014,
+                5036
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 164,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000503",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5074,
+                5101
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 165,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000510",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5148,
+                5177
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 166,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000518",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5287,
+                5304
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 168,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000530",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "input.type"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5342,
+                5356
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 169,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000534",
+                "name": "options",
+                "type": "Identifier",
+                "value": "types"
+            }
+        },
+        "undocumented": true,
+        "name": "options",
+        "longname": "options",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5394,
+                5575
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 170,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000536",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "input.type": "input.type"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5460,
+                5481
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 171,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000541",
+                "name": "input.type",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "input.type",
+        "kind": "member",
+        "memberof": "input",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5765,
+                5787
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 179,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000566",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5829,
+                5856
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 180,
+            "columnno": 39,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000573",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5917,
+                5946
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 181,
+            "columnno": 39,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000581",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6061,
+                6087
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 183,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000593",
+                "name": "value",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6129,
+                6333
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 184,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000599",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "input.options": "input.options"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6199,
+                6223
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 185,
+            "columnno": 44,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000604",
+                "name": "input.options",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "options",
+        "longname": "input.options",
+        "kind": "member",
+        "memberof": "input",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6504,
+                6526
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 193,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000620",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6564,
+                6591
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 194,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000627",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6642,
+                6671
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 195,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000635",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6778,
+                6794
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 197,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000647",
+                "name": "type",
+                "type": "Literal",
+                "value": "checkbox"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6832,
+                6862
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 198,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000649",
+                "name": "value",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6900,
+                7030
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 199,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000655",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "input.required": "input.required"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6966,
+                6991
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 200,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000660",
+                "name": "input.required",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "required",
+        "longname": "input.required",
+        "kind": "member",
+        "memberof": "input",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7163,
+                7185
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 205,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000671",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7223,
+                7250
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 206,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000678",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7309,
+                7338
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 207,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000686",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7445,
+                7461
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 209,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000698",
+                "name": "type",
+                "type": "Literal",
+                "value": "checkbox"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7499,
+                7536
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 210,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000700",
+                "name": "value",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7574,
+                7711
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 211,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000706",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "input.checkDuplicates": "input.checkDuplicates"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7640,
+                7672
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 212,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000711",
+                "name": "input.checkDuplicates",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "checkDuplicates",
+        "longname": "input.checkDuplicates",
+        "kind": "member",
+        "memberof": "input",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7844,
+                7866
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 217,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000722",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7904,
+                7931
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 218,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000729",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7981,
+                8010
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 219,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000737",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8117,
+                8137
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 221,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000749",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "input.pattern"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8175,
+                8304
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 222,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000753",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "input.pattern": "input.pattern"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8241,
+                8265
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 223,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000758",
+                "name": "input.pattern",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "pattern",
+        "longname": "input.pattern",
+        "kind": "member",
+        "memberof": "input",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8484,
+                8550
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 231,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000771",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button round editor__field__add fa fa-plus"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8552,
+                8573
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 231,
+            "columnno": 90,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000773",
+                "name": "title",
+                "type": "Literal",
+                "value": "Add an input"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Renders a preview\n     *\n     * @return {Object} element\n     */",
+        "meta": {
+            "range": [
+                8742,
+                9393
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 241,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000784",
+                "name": "FormEditor#renderPreview",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders a preview",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "element"
+            }
+        ],
+        "name": "renderPreview",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#renderPreview",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8772,
+                8827
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 242,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000789",
+                "name": "$preview",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "$preview",
+        "longname": "<anonymous>~$preview",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9057,
+                9085
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 248,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000838",
+                "name": "options",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "options",
+        "longname": "options",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9179,
+                9234
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 251,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000852",
+                "name": "class",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9236,
+                9252
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 251,
+            "columnno": 93,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000860",
+                "name": "placeholder",
+                "type": "Identifier",
+                "value": "key"
+            }
+        },
+        "undocumented": true,
+        "name": "placeholder",
+        "longname": "placeholder",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9254,
+                9270
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 251,
+            "columnno": 111,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000862",
+                "name": "type",
+                "type": "MemberExpression",
+                "value": "input.type"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9272,
+                9281
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 251,
+            "columnno": 129,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000866",
+                "name": "name",
+                "type": "Identifier",
+                "value": "key"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9283,
+                9305
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 251,
+            "columnno": 140,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000868",
+                "name": "pattern",
+                "type": "MemberExpression",
+                "value": "input.pattern"
+            }
+        },
+        "undocumented": true,
+        "name": "pattern",
+        "longname": "pattern",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9307,
+                9340
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 251,
+            "columnno": 164,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000872",
+                "name": "required",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "required",
+        "longname": "required",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Renders all entries\n     *\n     * @return {Object} element\n     */",
+        "meta": {
+            "range": [
+                9481,
+                10395
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 262,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000878",
+                "name": "FormEditor#renderEntries",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders all entries",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "element"
+            }
+        ],
+        "name": "renderEntries",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#renderEntries",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9521,
+                9550
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 263,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000888",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9572,
+                9593
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 264,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000895",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget-group"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9622,
+                9664
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 265,
+            "columnno": 26,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000904",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button low warning"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9996,
+                10019
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 269,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000953",
+                "name": "this.model.entries",
+                "type": "ArrayExpression",
+                "value": "[]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "entries",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#model.entries",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10165,
+                10199
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 274,
+            "columnno": 26,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000971",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button low"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10248,
+                10344
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 275,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000978",
+                "name": "location",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "location",
+        "longname": "<anonymous>~location",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Renders a single field\n     *\n     * @return {HTMLElement} Element\n     */",
+        "meta": {
+            "range": [
+                10491,
+                10703
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 286,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000997",
+                "name": "FormEditor#renderField",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "label",
+                    "$content",
+                    "className"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders a single field",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Element"
+            }
+        ],
+        "name": "renderField",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#renderField",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10555,
+                10577
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 287,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001010",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10599,
+                10626
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 288,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001017",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Renders all fields\n     *\n     * @return {Object} element\n     */",
+        "meta": {
+            "range": [
+                10798,
+                13360
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 300,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001021",
+                "name": "FormEditor#renderFields",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders all fields",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "element"
+            }
+        ],
+        "name": "renderFields",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#renderFields",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10827,
+                10868
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 301,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001026",
+                "name": "$element",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "$element",
+        "longname": "<anonymous>~$element",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10845,
+                10866
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 301,
+            "columnno": 30,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001033",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__body"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10882,
+                11094
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 302,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001036",
+                "name": "postUrl",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "postUrl",
+        "longname": "<anonymous>~postUrl",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11127,
+                11148
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 304,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001083",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__body"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11170,
+                11192
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 305,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001090",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11218,
+                11245
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 306,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001097",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11319,
+                11348
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 307,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001115",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11444,
+                11466
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 311,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001126",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11492,
+                11519
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 312,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001133",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11558,
+                11587
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 313,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001141",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11617,
+                11638
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 314,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001148",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget-group"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11674,
+                11694
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 315,
+            "columnno": 33,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001155",
+                "name": "readonly",
+                "type": "Literal",
+                "value": "readonly"
+            }
+        },
+        "undocumented": true,
+        "name": "readonly",
+        "longname": "readonly",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11696,
+                11730
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 315,
+            "columnno": 55,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001157",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--input text"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11732,
+                11744
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 315,
+            "columnno": 91,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001159",
+                "name": "type",
+                "type": "Literal",
+                "value": "text"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11746,
+                11760
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 315,
+            "columnno": 105,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001161",
+                "name": "value",
+                "type": "Identifier",
+                "value": "postUrl"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11798,
+                11845
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 316,
+            "columnno": 34,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001170",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button small fa fa-copy"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11847,
+                11869
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 316,
+            "columnno": 83,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001172",
+                "name": "title",
+                "type": "Literal",
+                "value": "Copy POST URL"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12116,
+                12138
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 323,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001193",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12164,
+                12191
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 324,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001200",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12227,
+                12256
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 325,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001208",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12356,
+                12378
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 329,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001219",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12404,
+                12431
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 330,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001226",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12476,
+                12505
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 331,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001234",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12614,
+                12636
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 335,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001245",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12662,
+                12689
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 336,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001252",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12732,
+                12761
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 337,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001260",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12865,
+                12887
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 341,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001271",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12913,
+                12940
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 342,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001278",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12977,
+                13006
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 343,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001286",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13107,
+                13129
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 347,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001297",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13155,
+                13182
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 348,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001304",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13220,
+                13249
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 349,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001312",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13279,
+                13309
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 350,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001319",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor--form__preview"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Post render\n     */",
+        "meta": {
+            "range": [
+                13401,
+                13451
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 359,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001321",
+                "name": "FormEditor#postrender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Post render",
+        "name": "postrender",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#postrender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Renders this editor\n     */",
+        "meta": {
+            "range": [
+                13500,
+                14555
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 366,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001330",
+                "name": "FormEditor#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders this editor",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13535,
+                13604
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 367,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001340",
+                "name": "class",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13626,
+                13649
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 368,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001356",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13676,
+                13719
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 369,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001363",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header__icon fa fa-wpforms"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13745,
+                13775
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 370,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001370",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header__title"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13863,
+                13886
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 373,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001386",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__footer"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13913,
+                13945
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 374,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001393",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__footer__buttons"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13978,
+                14017
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 375,
+            "columnno": 30,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001402",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button embedded"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                14190,
+                14484
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 379,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001423",
+                "name": "this.$saveBtn",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "$saveBtn",
+        "longname": "HashBrown.Client.Views.Editors.FormEditor#$saveBtn",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FormEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                14216,
+                14246
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 379,
+            "columnno": 50,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001434",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                14285,
+                14322
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 380,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001441",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--button__text-default"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                14371,
+                14408
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 381,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001449",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--button__text-working"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                14559,
+                14586
+            ],
+            "filename": "FormEditor.js",
+            "lineno": 390,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001461",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "FormEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FormEditor.js"
+        ]
+    }
+]

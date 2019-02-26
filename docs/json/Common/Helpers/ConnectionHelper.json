@@ -1,0 +1,353 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                69
+            ],
+            "filename": "ConnectionHelper.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "Connection",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Connection",
+        "longname": "Connection",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The helper class for Connections\n *\n * @memberof HashBrown.Common.Helpers\n */",
+        "meta": {
+            "range": [
+                157,
+                2360
+            ],
+            "filename": "ConnectionHelper.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000010",
+                "name": "ConnectionHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The helper class for Connections",
+        "memberof": "HashBrown.Common.Helpers",
+        "name": "ConnectionHelper",
+        "longname": "HashBrown.Common.Helpers.ConnectionHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets all connections\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Promise(Array)} connections\n     */",
+        "meta": {
+            "range": [
+                355,
+                548
+            ],
+            "filename": "ConnectionHelper.js",
+            "lineno": 19,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000013",
+                "name": "ConnectionHelper.getAllConnections",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets all connections",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise(Array)"
+                    ]
+                },
+                "description": "connections"
+            }
+        ],
+        "name": "getAllConnections",
+        "longname": "HashBrown.Common.Helpers.ConnectionHelper.getAllConnections",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Helpers.ConnectionHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Sets the Media provider\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @return {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                744,
+                1237
+            ],
+            "filename": "ConnectionHelper.js",
+            "lineno": 35,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000036",
+                "name": "ConnectionHelper.setMediaProvider",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Sets the Media provider",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id",
+                "defaultvalue": null
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "setMediaProvider",
+        "longname": "HashBrown.Common.Helpers.ConnectionHelper.setMediaProvider",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Helpers.ConnectionHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1046,
+                1073
+            ],
+            "filename": "ConnectionHelper.js",
+            "lineno": 41,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000076",
+                "name": "providers",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "providers",
+        "longname": "<anonymous>~providers",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1087,
+                1107
+            ],
+            "filename": "ConnectionHelper.js",
+            "lineno": 42,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000082",
+                "name": "providers.media",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "id",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "media",
+        "longname": "<anonymous>~providers.media",
+        "kind": "member",
+        "memberof": "<anonymous>~providers",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets the Media provider\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @return {Promise} Connection object\n     */",
+        "meta": {
+            "range": [
+                1413,
+                2358
+            ],
+            "filename": "ConnectionHelper.js",
+            "lineno": 56,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000100",
+                "name": "ConnectionHelper.getMediaProvider",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets the Media provider",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Connection object"
+            }
+        ],
+        "name": "getMediaProvider",
+        "longname": "HashBrown.Common.Helpers.ConnectionHelper.getMediaProvider",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Helpers.ConnectionHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2110,
+                2137
+            ],
+            "filename": "ConnectionHelper.js",
+            "lineno": 74,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000166",
+                "name": "providers",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "providers",
+        "longname": "<anonymous>~providers",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2362,
+                2395
+            ],
+            "filename": "ConnectionHelper.js",
+            "lineno": 85,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000194",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "ConnectionHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers/ConnectionHelper.js"
+        ]
+    }
+]

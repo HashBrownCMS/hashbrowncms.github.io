@@ -1,0 +1,514 @@
+[
+    {
+        "comment": "/**\n * A picker for referencing Media \n *\n * @description Example:\n * <pre>\n * {\n *     \"myMediaReference\": {\n *         \"label\": \"My medie reference\",\n *         \"tabId\": \"content\",\n *         \"schemaId\": \"mediaReference\"\n *     }\n * }\n * </pre>\n *\n * @memberof HashBrown.Client.Views.Editors.FieldEditors\n */",
+        "meta": {
+            "range": [
+                326,
+                2479
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 19,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000004",
+                "name": "MediaReferenceEditor",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A picker for referencing Media",
+        "description": "Example:\n<pre>\n{\n    \"myMediaReference\": {\n        \"label\": \"My medie reference\",\n        \"tabId\": \"content\",\n        \"schemaId\": \"mediaReference\"\n    }\n}\n</pre>",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors",
+        "name": "MediaReferenceEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.MediaReferenceEditor",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                416,
+                489
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 20,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000016",
+                "name": "MediaReferenceEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "MediaReferenceEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors~MediaReferenceEditor",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Renders this editor\n     */",
+        "meta": {
+            "range": [
+                538,
+                2477
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 29,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000030",
+                "name": "MediaReferenceEditor#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders this editor",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.MediaReferenceEditor#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.MediaReferenceEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                563,
+                629
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 30,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000035",
+                "name": "media",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "media",
+        "longname": "<anonymous>~media",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                654,
+                705
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 32,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000054",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor field-editor--media-reference"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                707,
+                736
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 32,
+            "columnno": 75,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000056",
+                "name": "title",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                761,
+                805
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 33,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000069",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--media-reference__pick"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                883,
+                928
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 35,
+            "columnno": 47,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000087",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--media-reference__empty"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1027,
+                1093
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 38,
+            "columnno": 38,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000101",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--media-reference__preview fa fa-file-audio-o"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1200,
+                1266
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 42,
+            "columnno": 38,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000115",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--media-reference__preview fa fa-file-video-o"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1373,
+                1420
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 46,
+            "columnno": 38,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000129",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--media-reference__preview"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1422,
+                1576
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 46,
+            "columnno": 87,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000131",
+                "name": "src",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "src",
+        "longname": "src",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1727,
+                1744
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 51,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000174",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.value"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1824,
+                1839
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 54,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000184",
+                "name": "this.value",
+                "type": "Identifier",
+                "value": "id",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.MediaReferenceEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.MediaReferenceEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1988,
+                2034
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 61,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000208",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--media-reference__footer"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2062,
+                2106
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 62,
+            "columnno": 25,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000215",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--media-reference__name"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2161,
+                2207
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 63,
+            "columnno": 26,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000230",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--media-reference__remove"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2209,
+                2243
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 63,
+            "columnno": 74,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000232",
+                "name": "title",
+                "type": "Literal",
+                "value": "Clear the Media selection"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2305,
+                2322
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 65,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000238",
+                "name": "this.value",
+                "type": "Literal",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.MediaReferenceEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.MediaReferenceEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2481,
+                2518
+            ],
+            "filename": "MediaReferenceEditor.js",
+            "lineno": 76,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000258",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "MediaReferenceEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors/MediaReferenceEditor.js"
+        ]
+    }
+]

@@ -1,0 +1,258 @@
+[
+    {
+        "comment": "/**\n * A modal for confirming actions\n *\n * @memberof HashBrown.Client.Views.Modals\n */",
+        "meta": {
+            "range": [
+                103,
+                1072
+            ],
+            "filename": "ConfirmModal.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000004",
+                "name": "ConfirmModal",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "A modal for confirming actions",
+        "memberof": "HashBrown.Client.Views.Modals",
+        "name": "ConfirmModal",
+        "longname": "HashBrown.Client.Views.Modals.ConfirmModal",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Post render\n     */",
+        "meta": {
+            "range": [
+                200,
+                283
+            ],
+            "filename": "ConfirmModal.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000014",
+                "name": "ConfirmModal#postrender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Post render",
+        "name": "postrender",
+        "longname": "HashBrown.Client.Views.Modals.ConfirmModal#postrender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.ConfirmModal",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Render header\n     */",
+        "meta": {
+            "range": [
+                326,
+                420
+            ],
+            "filename": "ConfirmModal.js",
+            "lineno": 19,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000029",
+                "name": "ConfirmModal#renderHeader",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Render header",
+        "name": "renderHeader",
+        "longname": "HashBrown.Client.Views.Modals.ConfirmModal#renderHeader",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.ConfirmModal",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                364,
+                399
+            ],
+            "filename": "ConfirmModal.js",
+            "lineno": 20,
+            "columnno": 21,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000039",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__header__title"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Renders the modal footer\n     *\n     * @returns {HTMLElement} Footer\n     */",
+        "meta": {
+            "range": [
+                522,
+                983
+            ],
+            "filename": "ConfirmModal.js",
+            "lineno": 28,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000044",
+                "name": "ConfirmModal#renderFooter",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the modal footer",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Footer"
+            }
+        ],
+        "name": "renderFooter",
+        "longname": "HashBrown.Client.Views.Modals.ConfirmModal#renderFooter",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.ConfirmModal",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                578,
+                617
+            ],
+            "filename": "ConfirmModal.js",
+            "lineno": 30,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000057",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button standard"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                782,
+                820
+            ],
+            "filename": "ConfirmModal.js",
+            "lineno": 36,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000081",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button warning"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Render body\n     */",
+        "meta": {
+            "range": [
+                1024,
+                1070
+            ],
+            "filename": "ConfirmModal.js",
+            "lineno": 48,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000102",
+                "name": "ConfirmModal#renderBody",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Render body",
+        "name": "renderBody",
+        "longname": "HashBrown.Client.Views.Modals.ConfirmModal#renderBody",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.ConfirmModal",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1074,
+                1103
+            ],
+            "filename": "ConfirmModal.js",
+            "lineno": 53,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000111",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "ConfirmModal",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals/ConfirmModal.js"
+        ]
+    }
+]

@@ -1,0 +1,1702 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                66
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000005",
+                "name": "beautify",
+                "type": "MemberExpression",
+                "value": ".js_beautify"
+            }
+        },
+        "undocumented": true,
+        "name": "beautify",
+        "longname": "beautify",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * A basic JSON editor for any object\n *\n * @memberof HashBrown.Client.Views.Editors\n */",
+        "meta": {
+            "range": [
+                162,
+                8311
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000012",
+                "name": "JSONEditor",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A basic JSON editor for any object",
+        "memberof": "HashBrown.Client.Views.Editors",
+        "name": "JSONEditor",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                204,
+                623
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 11,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000018",
+                "name": "JSONEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "JSONEditor",
+        "longname": "HashBrown.Client.Views.Editors~JSONEditor",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Editors",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                258,
+                448
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 14,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000028",
+                "name": "this.$error",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "$error",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#$error",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                279,
+                309
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 14,
+            "columnno": 29,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000039",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__footer__error"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                331,
+                370
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 15,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000046",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__footer__error__heading"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                393,
+                429
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 16,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000053",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__footer__error__body"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                507,
+                583
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 20,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000068",
+                "name": "this.modelUrl",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "modelUrl",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#modelUrl",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Event: Click basic. Returns to the regular editor\n     */",
+        "meta": {
+            "range": [
+                702,
+                933
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 29,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000088",
+                "name": "JSONEditor#onClickBasic",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click basic. Returns to the regular editor",
+        "name": "onClickBasic",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#onClickBasic",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                731,
+                790
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 30,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000093",
+                "name": "url",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "url",
+        "longname": "<anonymous>~url",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                827,
+                841
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 33,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000106",
+                "name": "location",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "url",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "location",
+        "longname": "<anonymous>~location",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Event: Click save. Posts the model to the apiPath\n     */",
+        "meta": {
+            "range": [
+                1012,
+                1499
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 42,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000121",
+                "name": "JSONEditor#onClickSave",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click save. Posts the model to the apiPath",
+        "name": "onClickSave",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#onClickSave",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1040,
+                1051
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 43,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000126",
+                "name": "view",
+                "type": "ThisExpression",
+                "value": "this"
+            }
+        },
+        "undocumented": true,
+        "name": "view",
+        "longname": "<anonymous>~view",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Event: Click beautify button\n     */",
+        "meta": {
+            "range": [
+                1557,
+                1938
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 63,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000188",
+                "name": "JSONEditor#onClickBeautify",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click beautify button",
+        "name": "onClickBeautify",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#onClickBeautify",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1603,
+                1636
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 65,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000195",
+                "name": "this.value",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Debug the JSON string\n     *\n     * @param {Boolean} fromModel\n     */",
+        "meta": {
+            "range": [
+                2030,
+                5809
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 81,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000250",
+                "name": "JSONEditor#debug",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "fromModel"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Debug the JSON string",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "name": "fromModel"
+            }
+        ],
+        "name": "debug",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#debug",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2061,
+                2075
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 82,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000256",
+                "name": "isValid",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "isValid",
+        "longname": "<anonymous>~isValid",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2147,
+                4492
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 85,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000260",
+                "name": "check",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "invalidSchemas": "<anonymous>~check~invalidSchemas",
+                "r": "<anonymous>~check~r",
+                "schema": "<anonymous>~check~schema",
+                "b": "<anonymous>~check~b",
+                "invalidConnections": "<anonymous>~check~invalidConnections",
+                "connection": "<anonymous>~check~connection",
+                "c": "<anonymous>~check~c"
+            }
+        },
+        "undocumented": true,
+        "name": "check",
+        "longname": "<anonymous>~check",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2601,
+                2628
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 97,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000302",
+                "name": "invalidSchemas",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "invalidSchemas",
+        "longname": "<anonymous>~check~invalidSchemas",
+        "kind": "member",
+        "memberof": "<anonymous>~check",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2679,
+                2680
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 99,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000311",
+                "name": "r"
+            }
+        },
+        "undocumented": true,
+        "name": "r",
+        "longname": "<anonymous>~check~r",
+        "kind": "member",
+        "memberof": "<anonymous>~check",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2733,
+                2762
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 100,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000318",
+                "name": "schema",
+                "type": "MemberExpression",
+                "value": "resources.schemas[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "schema",
+        "longname": "<anonymous>~check~schema",
+        "kind": "member",
+        "memberof": "<anonymous>~check",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2821,
+                2850
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 102,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000327",
+                "name": "b",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "b",
+        "longname": "<anonymous>~check~b",
+        "kind": "member",
+        "memberof": "<anonymous>~check",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3549,
+                3580
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 120,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000393",
+                "name": "invalidConnections",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "invalidConnections",
+        "longname": "<anonymous>~check~invalidConnections",
+        "kind": "member",
+        "memberof": "<anonymous>~check",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3631,
+                3632
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 122,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000402",
+                "name": "r"
+            }
+        },
+        "undocumented": true,
+        "name": "r",
+        "longname": "<anonymous>~check~r",
+        "kind": "member",
+        "memberof": "<anonymous>~check",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3689,
+                3726
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 123,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000409",
+                "name": "connection",
+                "type": "MemberExpression",
+                "value": "resources.connections[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "connection",
+        "longname": "<anonymous>~check~connection",
+        "kind": "member",
+        "memberof": "<anonymous>~check",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3761,
+                3794
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 125,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000418",
+                "name": "c",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "c",
+        "longname": "<anonymous>~check~c",
+        "kind": "member",
+        "memberof": "<anonymous>~check",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4556,
+                5200
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 147,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000483",
+                "name": "recurse",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "k": "<anonymous>~recurse~k",
+                "v": "<anonymous>~recurse~v",
+                "failMessage": "<anonymous>~recurse~failMessage",
+                "isValid": "<anonymous>~recurse~isValid"
+            }
+        },
+        "undocumented": true,
+        "name": "recurse",
+        "longname": "<anonymous>~recurse",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4641,
+                4642
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 149,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000495",
+                "name": "k"
+            }
+        },
+        "undocumented": true,
+        "name": "k",
+        "longname": "<anonymous>~recurse~k",
+        "kind": "member",
+        "memberof": "<anonymous>~recurse",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4677,
+                4687
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 150,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000500",
+                "name": "v",
+                "type": "MemberExpression",
+                "value": "obj[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "v",
+        "longname": "<anonymous>~recurse~v",
+        "kind": "member",
+        "memberof": "<anonymous>~recurse",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4714,
+                4739
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 152,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000506",
+                "name": "failMessage",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "failMessage",
+        "longname": "<anonymous>~recurse~failMessage",
+        "kind": "member",
+        "memberof": "<anonymous>~recurse",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5086,
+                5101
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 159,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000547",
+                "name": "isValid",
+                "type": "Literal",
+                "funcscope": "<anonymous>~recurse",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isValid",
+        "longname": "<anonymous>~recurse~isValid",
+        "kind": "member",
+        "memberof": "<anonymous>~recurse",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5363,
+                5398
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 173,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000569",
+                "name": "this.model",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "model",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#model",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5719,
+                5734
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 184,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000619",
+                "name": "isValid",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isValid",
+        "longname": "<anonymous>~isValid",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5755,
+                5777
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 187,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000623",
+                "name": "this.isValid",
+                "type": "Identifier",
+                "value": "isValid",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isValid",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#isValid",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Event: Change text. Make sure the value is up to date\n     */",
+        "meta": {
+            "range": [
+                5892,
+                6054
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 195,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000630",
+                "name": "JSONEditor#onChangeText",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Change text. Make sure the value is up to date",
+        "name": "onChangeText",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#onChangeText",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5917,
+                5961
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 196,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000635",
+                "name": "this.value",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Pre render\n     */",
+        "meta": {
+            "range": [
+                6094,
+                6383
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 206,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000663",
+                "name": "JSONEditor#prerender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Pre render",
+        "name": "prerender",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#prerender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6327,
+                6376
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 212,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000674",
+                "name": "this.value",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Renders this editor\n     */",
+        "meta": {
+            "range": [
+                6432,
+                7526
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 218,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000687",
+                "name": "JSONEditor#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders this editor",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6467,
+                6495
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 219,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000697",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor editor--json"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6517,
+                6540
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 220,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000704",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6568,
+                6608
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 221,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000711",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header__icon fa fa-code"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6634,
+                6664
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 222,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000718",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header__title"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6725,
+                6746
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 224,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000732",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__body"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6813,
+                6836
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 227,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000743",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__footer"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6892,
+                6924
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 229,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000753",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__footer__buttons"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6957,
+                6996
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 230,
+            "columnno": 30,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000762",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button embedded"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7163,
+                7455
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 234,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000783",
+                "name": "this.$saveBtn",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "$saveBtn",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#$saveBtn",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7189,
+                7219
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 234,
+            "columnno": 50,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000794",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7258,
+                7295
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 235,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000801",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--button__text-default"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7343,
+                7380
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 236,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000809",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--button__text-working"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Post render\n     */",
+        "meta": {
+            "range": [
+                7567,
+                8309
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 247,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000820",
+                "name": "JSONEditor#postrender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Post render",
+        "name": "postrender",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#postrender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7621,
+                8126
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 249,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000830",
+                "name": "this.editor",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "editor",
+        "longname": "HashBrown.Client.Views.Editors.JSONEditor#editor",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.JSONEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7717,
+                7734
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 250,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000846",
+                "name": "lineNumbers",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "lineNumbers",
+        "longname": "lineNumbers",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7752,
+                7848
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 251,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000848",
+                "name": "mode",
+                "type": "ObjectExpression",
+                "value": "{\"name\":\"javascript\",\"json\":true}"
+            }
+        },
+        "undocumented": true,
+        "name": "mode",
+        "longname": "mode",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7780,
+                7798
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 252,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000850",
+                "name": "name",
+                "type": "Literal",
+                "value": "javascript"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "mode.name",
+        "kind": "member",
+        "memberof": "mode",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7820,
+                7830
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 253,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000852",
+                "name": "json",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "json",
+        "longname": "mode.json",
+        "kind": "member",
+        "memberof": "mode",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7866,
+                7884
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 255,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000854",
+                "name": "viewportMargin",
+                "type": "Literal",
+                "value": 10
+            }
+        },
+        "undocumented": true,
+        "name": "viewportMargin",
+        "longname": "viewportMargin",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7902,
+                7912
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 256,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000856",
+                "name": "tabSize",
+                "type": "Literal",
+                "value": 4
+            }
+        },
+        "undocumented": true,
+        "name": "tabSize",
+        "longname": "tabSize",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7930,
+                7949
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 257,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000858",
+                "name": "lineWrapping",
+                "type": "Literal",
+                "value": false
+            }
+        },
+        "undocumented": true,
+        "name": "lineWrapping",
+        "longname": "lineWrapping",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7967,
+                7980
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 258,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000860",
+                "name": "indentUnit",
+                "type": "Literal",
+                "value": 4
+            }
+        },
+        "undocumented": true,
+        "name": "indentUnit",
+        "longname": "indentUnit",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7998,
+                8018
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 259,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000862",
+                "name": "indentWithTabs",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "indentWithTabs",
+        "longname": "indentWithTabs",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8036,
+                8076
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 260,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000864",
+                "name": "theme",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "theme",
+        "longname": "theme",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8094,
+                8111
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 261,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000870",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.value"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8313,
+                8340
+            ],
+            "filename": "JSONEditor.js",
+            "lineno": 273,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000909",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "JSONEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/JSONEditor.js"
+        ]
+    }
+]

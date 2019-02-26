@@ -1,0 +1,1201 @@
+[
+    {
+        "comment": "/**\n * The Schema navbar pane\n * \n * @memberof HashBrown.Client.Views.Navigation\n */",
+        "meta": {
+            "range": [
+                100,
+                6107
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000004",
+                "name": "SchemaPane",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The Schema navbar pane",
+        "memberof": "HashBrown.Client.Views.Navigation",
+        "name": "SchemaPane",
+        "longname": "HashBrown.Client.Views.Navigation.SchemaPane",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Click remove schema\n     */",
+        "meta": {
+            "range": [
+                219,
+                1610
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000014",
+                "name": "SchemaPane.onClickRemoveSchema",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click remove schema",
+        "name": "onClickRemoveSchema",
+        "longname": "HashBrown.Client.Views.Navigation.SchemaPane.onClickRemoveSchema",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Navigation.SchemaPane",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                262,
+                298
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 13,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000019",
+                "name": "$element",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "$element",
+        "longname": "<anonymous>~$element",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                313,
+                337
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 14,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000025",
+                "name": "id",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                351,
+                412
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 15,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000033",
+                "name": "schema",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "schema",
+        "longname": "<anonymous>~schema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1264,
+                1291
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 34,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000133",
+                "name": "location.hash",
+                "type": "Literal",
+                "value": "/schemas/",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "location.hash",
+        "kind": "member",
+        "memberof": "location",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Click new Schema\n     */",
+        "meta": {
+            "range": [
+                1663,
+                2247
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 51,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000156",
+                "name": "SchemaPane.onClickNewSchema",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click new Schema",
+        "name": "onClickNewSchema",
+        "longname": "HashBrown.Client.Views.Navigation.SchemaPane.onClickNewSchema",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Navigation.SchemaPane",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1703,
+                1750
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 52,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000161",
+                "name": "parentId",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "parentId",
+        "longname": "<anonymous>~parentId",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1764,
+                1837
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 53,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000171",
+                "name": "parentSchema",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "parentSchema",
+        "longname": "<anonymous>~parentSchema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2140,
+                2182
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 61,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000229",
+                "name": "location.hash",
+                "type": "BinaryExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "location.hash",
+        "kind": "member",
+        "memberof": "location",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Click pull Schema\n     */",
+        "meta": {
+            "range": [
+                2305,
+                2992
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 70,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000242",
+                "name": "SchemaPane.onClickPullSchema",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click pull Schema",
+        "name": "onClickPullSchema",
+        "longname": "HashBrown.Client.Views.Navigation.SchemaPane.onClickPullSchema",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Navigation.SchemaPane",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2346,
+                2391
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 71,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000247",
+                "name": "schemaEditor",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "schemaEditor",
+        "longname": "<anonymous>~schemaEditor",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2405,
+                2450
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 72,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000257",
+                "name": "pullId",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "pullId",
+        "longname": "<anonymous>~pullId",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2747,
+                2783
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 81,
+            "columnno": 3,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000314",
+                "name": "location.hash",
+                "type": "BinaryExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "location.hash",
+        "kind": "member",
+        "memberof": "location",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2795,
+                2834
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 83,
+            "columnno": 7,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000322",
+                "name": "editor",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "editor",
+        "longname": "<anonymous>~editor",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2898,
+                2917
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 86,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000343",
+                "name": "editor.model",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "model",
+        "longname": "<anonymous>~editor.model",
+        "kind": "member",
+        "memberof": "<anonymous>~editor",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Click push Schema\n     */",
+        "meta": {
+            "range": [
+                3050,
+                3531
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 96,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000357",
+                "name": "SchemaPane.onClickPushSchema",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click push Schema",
+        "name": "onClickPushSchema",
+        "longname": "HashBrown.Client.Views.Navigation.SchemaPane.onClickPushSchema",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Navigation.SchemaPane",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3085,
+                3121
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 97,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000362",
+                "name": "$element",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "$element",
+        "longname": "<anonymous>~$element",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3135,
+                3163
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 98,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000368",
+                "name": "pushId",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "pushId",
+        "longname": "<anonymous>~pushId",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Init\n     */",
+        "meta": {
+            "range": [
+                3565,
+                6105
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 115,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000434",
+                "name": "SchemaPane.init",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Init",
+        "name": "init",
+        "longname": "HashBrown.Client.Views.Navigation.SchemaPane.init",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Navigation.SchemaPane",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3742,
+                3787
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 119,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000460",
+                "name": "getItems",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getItems",
+        "longname": "getItems",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3835,
+                5437
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 122,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000467",
+                "name": "getItemContextMenu",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "menu": "getItemContextMenu~menu",
+                "isSyncEnabled": "getItemContextMenu~isSyncEnabled",
+                "menu['This schema']": "getItemContextMenu~menu.'This schema']",
+                "menu['Open in new tab']": "getItemContextMenu~menu.'Open in new tab']",
+                "": null,
+                "menu['New child schema']": "getItemContextMenu~menu.'New child schema']",
+                "menu['Remove']": "getItemContextMenu~menu.'Remove']",
+                "menu['Copy id']": "getItemContextMenu~menu.'Copy id']",
+                "menu['Sync']": "getItemContextMenu~menu.'Sync']",
+                "menu['Push to remote']": "getItemContextMenu~menu.'Push to remote']",
+                "menu['Remove local copy']": "getItemContextMenu~menu.'Remove local copy']",
+                "menu['Pull from remote']": "getItemContextMenu~menu.'Pull from remote']",
+                "menu['General']": "getItemContextMenu~menu.'General']",
+                "menu['Refresh']": "getItemContextMenu~menu.'Refresh']"
+            }
+        },
+        "undocumented": true,
+        "name": "getItemContextMenu",
+        "longname": "getItemContextMenu",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3887,
+                3896
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 123,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000472",
+                "name": "menu",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "menu",
+        "longname": "getItemContextMenu~menu",
+        "kind": "member",
+        "memberof": "getItemContextMenu",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3918,
+                4054
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 124,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000476",
+                "name": "isSyncEnabled",
+                "type": "MemberExpression",
+                "value": ".enabled"
+            }
+        },
+        "undocumented": true,
+        "name": "isSyncEnabled",
+        "longname": "getItemContextMenu~isSyncEnabled",
+        "kind": "member",
+        "memberof": "getItemContextMenu",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4073,
+                4100
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 126,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000498",
+                "name": "menu['This schema']",
+                "type": "Literal",
+                "funcscope": "getItemContextMenu",
+                "value": "---",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'This schema']",
+        "longname": "getItemContextMenu~menu.'This schema']",
+        "kind": "member",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4135,
+                4198
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 128,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000504",
+                "name": "menu['Open in new tab']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Open in new tab']",
+        "longname": "getItemContextMenu~menu.'Open in new tab']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4232,
+                4293
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 130,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000516",
+                "name": "menu['New child schema']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'New child schema']",
+        "longname": "getItemContextMenu~menu.'New child schema']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4416,
+                4470
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 133,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000548",
+                "name": "menu['Remove']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Remove']",
+        "longname": "getItemContextMenu~menu.'Remove']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4523,
+                4576
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 136,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000560",
+                "name": "menu['Copy id']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Copy id']",
+        "longname": "getItemContextMenu~menu.'Copy id']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4654,
+                4675
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 138,
+            "columnno": 59,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000584",
+                "name": "isSyncEnabled",
+                "type": "Literal",
+                "funcscope": "getItemContextMenu",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isSyncEnabled",
+        "longname": "getItemContextMenu~isSyncEnabled",
+        "kind": "member",
+        "memberof": "getItemContextMenu",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4736,
+                4756
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 141,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000591",
+                "name": "menu['Sync']",
+                "type": "Literal",
+                "funcscope": "getItemContextMenu",
+                "value": "---",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Sync']",
+        "longname": "getItemContextMenu~menu.'Sync']",
+        "kind": "member",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4849,
+                4909
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 144,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000605",
+                "name": "menu['Push to remote']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Push to remote']",
+        "longname": "getItemContextMenu~menu.'Push to remote']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5004,
+                5069
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 148,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000624",
+                "name": "menu['Remove local copy']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Remove local copy']",
+        "longname": "getItemContextMenu~menu.'Remove local copy']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5163,
+                5225
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 152,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000643",
+                "name": "menu['Pull from remote']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Pull from remote']",
+        "longname": "getItemContextMenu~menu.'Pull from remote']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5284,
+                5307
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 156,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000655",
+                "name": "menu['General']",
+                "type": "Literal",
+                "funcscope": "getItemContextMenu",
+                "value": "---",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'General']",
+        "longname": "getItemContextMenu~menu.'General']",
+        "kind": "member",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5325,
+                5392
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 157,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000661",
+                "name": "menu['Refresh']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Refresh']",
+        "longname": "getItemContextMenu~menu.'Refresh']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5510,
+                5653
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 163,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000675",
+                "name": "paneContextMenu",
+                "type": "ObjectExpression",
+                "value": "{\"undefined\":\"\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "paneContextMenu",
+        "longname": "paneContextMenu",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5545,
+                5561
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 164,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000677",
+                "name": "Schemas",
+                "type": "Literal",
+                "value": "---"
+            }
+        },
+        "undocumented": true,
+        "name": "Schemas",
+        "longname": "paneContextMenu.Schemas",
+        "kind": "member",
+        "memberof": "paneContextMenu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5579,
+                5639
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 165,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000679",
+                "name": "Refresh",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "Refresh",
+        "longname": "paneContextMenu.Refresh",
+        "kind": "function",
+        "memberof": "paneContextMenu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5699,
+                6087
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 169,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000688",
+                "name": "hierarchy",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "queueItem.parentDirAttr": "queueItem.parentDirAttr"
+            }
+        },
+        "undocumented": true,
+        "name": "hierarchy",
+        "longname": "hierarchy",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5883,
+                5949
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 173,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000710",
+                "name": "queueItem.parentDirAttr",
+                "type": "ObjectExpression",
+                "value": "{\"undefined\":\"\"}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "parentDirAttr",
+        "longname": "queueItem.parentDirAttr",
+        "kind": "member",
+        "memberof": "queueItem",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5910,
+                5947
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 173,
+            "columnno": 47,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000715",
+                "name": "\"data-schema-id\"",
+                "type": "MemberExpression",
+                "value": "item.parentSchemaId"
+            }
+        },
+        "undocumented": true,
+        "name": "\"data-schema-id\"",
+        "longname": "queueItem.parentDirAttr.\"data-schema-id\"",
+        "kind": "member",
+        "memberof": "queueItem.parentDirAttr",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5997,
+                6054
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 176,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000721",
+                "name": "queueItem.parentDirAttr",
+                "type": "ObjectExpression",
+                "value": "{\"undefined\":\"\"}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "parentDirAttr",
+        "longname": "queueItem.parentDirAttr",
+        "kind": "member",
+        "memberof": "queueItem",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6024,
+                6053
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 176,
+            "columnno": 47,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000726",
+                "name": "\"data-schema-type\"",
+                "type": "MemberExpression",
+                "value": "item.type"
+            }
+        },
+        "undocumented": true,
+        "name": "\"data-schema-type\"",
+        "longname": "queueItem.parentDirAttr.\"data-schema-type\"",
+        "kind": "member",
+        "memberof": "queueItem.parentDirAttr",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6109,
+                6136
+            ],
+            "filename": "SchemaPane.js",
+            "lineno": 183,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000731",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "SchemaPane",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation/SchemaPane.js"
+        ]
+    }
+]

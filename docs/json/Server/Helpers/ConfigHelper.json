@@ -1,0 +1,600 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                47
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "FileSystem",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "FileSystem",
+        "longname": "FileSystem",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                55,
+                77
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 4,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000011",
+                "name": "Path",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Path",
+        "longname": "Path",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                143,
+                153
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 7,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000017",
+                "name": "cache",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "cache",
+        "longname": "cache",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * A helper class for reading and writing config files\n *\n * @memberof HashBrown.Server.Helpers\n */",
+        "meta": {
+            "range": [
+                260,
+                3879
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 14,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000020",
+                "name": "ConfigHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "A helper class for reading and writing config files",
+        "memberof": "HashBrown.Server.Helpers",
+        "name": "ConfigHelper",
+        "longname": "HashBrown.Server.Helpers.ConfigHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Sets a config section\n     *\n     * @param {String} name\n     * @param {Object} config\n     *\n     * @returns {Promise}\n     */",
+        "meta": {
+            "range": [
+                428,
+                961
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 23,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000023",
+                "name": "ConfigHelper.set",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "name",
+                    "config"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Sets a config section",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "config"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                }
+            }
+        ],
+        "name": "set",
+        "longname": "HashBrown.Server.Helpers.ConfigHelper.set",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ConfigHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                610,
+                661
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 28,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000049",
+                "name": "path",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "<anonymous>~path",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets whether a config section exists\n     *\n     * @param {String} name\n     *\n     * @returns {Boolean} Config section exists\n     */",
+        "meta": {
+            "range": [
+                1121,
+                1404
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 51,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000092",
+                "name": "ConfigHelper.existsSync",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "name"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets whether a config section exists",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "description": "Config section exists"
+            }
+        ],
+        "name": "existsSync",
+        "longname": "HashBrown.Server.Helpers.ConfigHelper.existsSync",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ConfigHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1209,
+                1260
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 54,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000104",
+                "name": "path",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "<anonymous>~path",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets whether a config section exists\n     *\n     * @param {String} name\n     *\n     * @returns {Promise} Config section exists\n     */",
+        "meta": {
+            "range": [
+                1564,
+                1956
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 72,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000128",
+                "name": "ConfigHelper.exists",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "name"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets whether a config section exists",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Config section exists"
+            }
+        ],
+        "name": "exists",
+        "longname": "HashBrown.Server.Helpers.ConfigHelper.exists",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ConfigHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1648,
+                1699
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 75,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000140",
+                "name": "path",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "<anonymous>~path",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets a particular config section\n     *\n     * @param {String} name\n     *\n     * @returns {Promise} Config object\n     */",
+        "meta": {
+            "range": [
+                2108,
+                3204
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 95,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000179",
+                "name": "ConfigHelper.get",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "name"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a particular config section",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Config object"
+            }
+        ],
+        "name": "get",
+        "longname": "HashBrown.Server.Helpers.ConfigHelper.get",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ConfigHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2330,
+                2381
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 103,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000211",
+                "name": "path",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "<anonymous>~path",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2705,
+                2730
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 113,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000255",
+                "name": "result",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "result",
+        "longname": "<anonymous>~result",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2765,
+                2785
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 115,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000263",
+                "name": "cache[undefined]",
+                "type": "Identifier",
+                "value": "result",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "cache[undefined]",
+        "longname": "cache[undefined]",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Gets a particular config section synchronously\n     * This method throws away all error messages\n     *\n     * @param {String} name\n     *\n     * @returns {Object} Config object\n     */",
+        "meta": {
+            "range": [
+                3415,
+                3877
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 142,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000288",
+                "name": "ConfigHelper.getSync",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "name"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a particular config section synchronously\nThis method throws away all error messages",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "Config object"
+            }
+        ],
+        "name": "getSync",
+        "longname": "HashBrown.Server.Helpers.ConfigHelper.getSync",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ConfigHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3569,
+                3620
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 149,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000309",
+                "name": "path",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "<anonymous>~path",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3692,
+                3728
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 153,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000331",
+                "name": "data",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "data",
+        "longname": "<anonymous>~data",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3881,
+                3910
+            ],
+            "filename": "ConfigHelper.js",
+            "lineno": 167,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000356",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "ConfigHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers/ConfigHelper.js"
+        ]
+    }
+]

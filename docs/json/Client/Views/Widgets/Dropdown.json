@@ -1,0 +1,2490 @@
+[
+    {
+        "comment": "/**\n * A multi purpose dropdown\n *\n * @memberof HashBrown.Client.Views.Widgets\n */",
+        "meta": {
+            "range": [
+                98,
+                10619
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000004",
+                "name": "Dropdown",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A multi purpose dropdown",
+        "memberof": "HashBrown.Client.Views.Widgets",
+        "name": "Dropdown",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown",
+        "kind": "class",
+        "scope": "static",
+        "description": "Constructor",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Constructor\n     */",
+        "meta": {
+            "range": [
+                193,
+                580
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000014",
+                "name": "Dropdown",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Constructor",
+        "name": "Dropdown",
+        "longname": "HashBrown.Client.Views.Widgets~Dropdown",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Widgets",
+        "scope": "inner",
+        "params": [],
+        "undocumented": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                259,
+                280
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 14,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000025",
+                "name": "params.isAsync",
+                "type": "Literal",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isAsync",
+        "longname": "params.isAsync",
+        "kind": "member",
+        "memberof": "params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                422,
+                444
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 18,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000050",
+                "name": "this.options",
+                "type": "Identifier",
+                "value": "options",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "options",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#options",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                552,
+                573
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 26,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000065",
+                "name": "this.optionIcons",
+                "type": "ObjectExpression",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "optionIcons",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#optionIcons",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Gets option icon\n     *\n     * @param {String} label\n     *\n     * @returns {String} Icon\n     */",
+        "meta": {
+            "range": [
+                702,
+                1267
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 36,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000070",
+                "name": "Dropdown#getOptionIcon",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "label"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets option icon",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "label"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "Icon"
+            }
+        ],
+        "name": "getOptionIcon",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#getOptionIcon",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                826,
+                829
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 39,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000095",
+                "name": "key"
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "longname": "<anonymous>~key",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                865,
+                890
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 40,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000102",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.options[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                909,
+                967
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 42,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000110",
+                "name": "optionLabel",
+                "type": "ConditionalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "optionLabel",
+        "longname": "<anonymous>~optionLabel",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1048,
+                1103
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 45,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000129",
+                "name": "optionLabel",
+                "type": "ConditionalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "optionLabel",
+        "longname": "<anonymous>~optionLabel",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Converts options into a flattened structure\n     *\n     * @returns {Object} Options\n     */",
+        "meta": {
+            "range": [
+                1380,
+                3218
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 61,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000153",
+                "name": "Dropdown#getFlattenedOptions",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Converts options into a flattened structure",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "Options"
+            }
+        ],
+        "name": "getFlattenedOptions",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#getFlattenedOptions",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1543,
+                1555
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 64,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000186",
+                "name": "options",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "options",
+        "longname": "<anonymous>~options",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1574,
+                1577
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 66,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000191",
+                "name": "key"
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "longname": "<anonymous>~key",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1613,
+                1638
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 67,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000198",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.options[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1657,
+                1715
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 69,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000206",
+                "name": "optionLabel",
+                "type": "ConditionalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "optionLabel",
+        "longname": "<anonymous>~optionLabel",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1733,
+                1791
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 70,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000219",
+                "name": "optionValue",
+                "type": "ConditionalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "optionValue",
+        "longname": "<anonymous>~optionValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1872,
+                1927
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 73,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000238",
+                "name": "optionValue",
+                "type": "ConditionalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "optionValue",
+        "longname": "<anonymous>~optionValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2023,
+                2078
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 77,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000254",
+                "name": "optionLabel",
+                "type": "ConditionalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "optionLabel",
+        "longname": "<anonymous>~optionLabel",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2153,
+                2171
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 81,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000264",
+                "name": "isDisabled",
+                "type": "Literal",
+                "value": false
+            }
+        },
+        "undocumented": true,
+        "name": "isDisabled",
+        "longname": "<anonymous>~isDisabled",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2276,
+                2287
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 84,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000282",
+                "name": "disabledKey"
+            }
+        },
+        "undocumented": true,
+        "name": "disabledKey",
+        "longname": "<anonymous>~disabledKey",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2339,
+                2388
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 85,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000289",
+                "name": "disabledValue",
+                "type": "MemberExpression",
+                "value": "this.disabledOptions[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "disabledValue",
+        "longname": "<anonymous>~disabledValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2414,
+                2496
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 86,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000297",
+                "name": "disabledOptionValue",
+                "type": "ConditionalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "disabledOptionValue",
+        "longname": "<anonymous>~disabledOptionValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2609,
+                2661
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 89,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000316",
+                "name": "disabledOptionValue",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "disabledOptionValue",
+        "longname": "<anonymous>~disabledOptionValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2787,
+                2804
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 93,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000328",
+                "name": "isDisabled",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isDisabled",
+        "longname": "<anonymous>~isDisabled",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2946,
+                2980
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 101,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000337",
+                "name": "options[undefined]",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "optionValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~options.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~options",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3044,
+                3062
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 105,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000343",
+                "name": "sortedOptions",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "sortedOptions",
+        "longname": "<anonymous>~sortedOptions",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3081,
+                3086
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 107,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000348",
+                "name": "label"
+            }
+        },
+        "undocumented": true,
+        "name": "label",
+        "longname": "<anonymous>~label",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3133,
+                3170
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 108,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000360",
+                "name": "sortedOptions[undefined]",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "label",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~sortedOptions.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~sortedOptions",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets the current value label\n     *\n     * @returns {String} Value label\n     */",
+        "meta": {
+            "range": [
+                3320,
+                4076
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 119,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000369",
+                "name": "Dropdown#getValueLabel",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets the current value label",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "Value label"
+            }
+        ],
+        "name": "getValueLabel",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#getValueLabel",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3524,
+                3560
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 126,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000392",
+                "name": "label",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "label",
+        "longname": "<anonymous>~label",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3574,
+                3610
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 127,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000400",
+                "name": "options",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "options",
+        "longname": "<anonymous>~options",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3660,
+                3671
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 130,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000412",
+                "name": "labels",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "labels",
+        "longname": "<anonymous>~labels",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3694,
+                3697
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 132,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000417",
+                "name": "key"
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "longname": "<anonymous>~key",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3732,
+                3752
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 133,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000422",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "options[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3900,
+                3925
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 140,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000448",
+                "name": "label",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "label",
+        "longname": "<anonymous>~label",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3957,
+                4027
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 143,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000457",
+                "name": "label",
+                "type": "ConditionalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "label",
+        "longname": "<anonymous>~label",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Performs a sanity check of the value\n     */",
+        "meta": {
+            "range": [
+                4142,
+                4362
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 153,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000477",
+                "name": "Dropdown#sanityCheck",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Performs a sanity check of the value",
+        "name": "sanityCheck",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#sanityCheck",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4231,
+                4246
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 155,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000496",
+                "name": "this.value",
+                "type": "ArrayExpression",
+                "value": "[]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4328,
+                4345
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 157,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000516",
+                "name": "this.value",
+                "type": "Literal",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Updates all selected classes\n     */",
+        "meta": {
+            "range": [
+                4420,
+                4875
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 164,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000521",
+                "name": "Dropdown#updateSelectedClasses",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Updates all selected classes",
+        "name": "updateSelectedClasses",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#updateSelectedClasses",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4458,
+                4529
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 165,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000526",
+                "name": "btnOptions",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "btnOptions",
+        "longname": "<anonymous>~btnOptions",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4593,
+                4598
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 169,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000542",
+                "name": "i",
+                "type": "Literal",
+                "value": 0
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4646,
+                4681
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 170,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000554",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "btnOptions[undefined].dataset.value"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4699,
+                4791
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 171,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000564",
+                "name": "hasValue",
+                "type": "ConditionalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "hasValue",
+        "longname": "<anonymous>~hasValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Updates all position classes\n     */",
+        "meta": {
+            "range": [
+                4933,
+                5610
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 180,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000600",
+                "name": "Dropdown#updatePositionClasses",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Updates all position classes",
+        "name": "updatePositionClasses",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#updatePositionClasses",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5002,
+                5066
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 182,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000610",
+                "name": "toggle",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "toggle",
+        "longname": "<anonymous>~toggle",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5084,
+                5110
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 183,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000620",
+                "name": "isChecked",
+                "type": "MemberExpression",
+                "value": "toggle.checked"
+            }
+        },
+        "undocumented": true,
+        "name": "isChecked",
+        "longname": "<anonymous>~isChecked",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5137,
+                5158
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 185,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000626",
+                "name": "toggle.checked",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "checked",
+        "longname": "<anonymous>~toggle.checked",
+        "kind": "member",
+        "memberof": "<anonymous>~toggle",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5177,
+                5266
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 187,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000632",
+                "name": "bounds",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "bounds",
+        "longname": "<anonymous>~bounds",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5293,
+                5319
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 189,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000645",
+                "name": "toggle.checked",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "isChecked",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "checked",
+        "longname": "<anonymous>~toggle.checked",
+        "kind": "member",
+        "memberof": "<anonymous>~toggle",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5338,
+                5388
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 191,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000651",
+                "name": "isAtRight",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isAtRight",
+        "longname": "<anonymous>~isAtRight",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5406,
+                5459
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 192,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000663",
+                "name": "isAtBottom",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isAtBottom",
+        "longname": "<anonymous>~isAtBottom",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Event: Change value\n     *\n     * @param {Object} newValue\n     */",
+        "meta": {
+            "range": [
+                5698,
+                7130
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 204,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000697",
+                "name": "Dropdown#onChangeInternal",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "newValue"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Change value",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "newValue"
+            }
+        ],
+        "name": "onChangeInternal",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#onChangeInternal",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5910,
+                5928
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 210,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000713",
+                "name": "foundValue",
+                "type": "Literal",
+                "value": false
+            }
+        },
+        "undocumented": true,
+        "name": "foundValue",
+        "longname": "<anonymous>~foundValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5963,
+                5964
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 212,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000718",
+                "name": "i"
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6096,
+                6113
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 215,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000743",
+                "name": "foundValue",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "foundValue",
+        "longname": "<anonymous>~foundValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6306,
+                6321
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 223,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000756",
+                "name": "this.value",
+                "type": "ArrayExpression",
+                "value": "[]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6488,
+                6509
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 231,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000772",
+                "name": "this.value",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6636,
+                6701
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 238,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000783",
+                "name": "divValue",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "divValue",
+        "longname": "<anonymous>~divValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6739,
+                6780
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 241,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000796",
+                "name": "divValue.innerHTML",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "innerHTML",
+        "longname": "<anonymous>~divValue.innerHTML",
+        "kind": "member",
+        "memberof": "<anonymous>~divValue",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Typeahead\n     *\n     * @param {String} query\n     */",
+        "meta": {
+            "range": [
+                7212,
+                7679
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 264,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000840",
+                "name": "Dropdown#onTypeahead",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "query"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Typeahead",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "query"
+            }
+        ],
+        "name": "onTypeahead",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#onTypeahead",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7245,
+                7316
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 265,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000846",
+                "name": "btnOptions",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "btnOptions",
+        "longname": "<anonymous>~btnOptions",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7372,
+                7407
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 269,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000861",
+                "name": "query",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "query",
+        "longname": "<anonymous>~query",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7426,
+                7431
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 271,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000871",
+                "name": "i",
+                "type": "Literal",
+                "value": 0
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7479,
+                7524
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 272,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000883",
+                "name": "value",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7542,
+                7597
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 273,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000894",
+                "name": "isMatch",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isMatch",
+        "longname": "<anonymous>~isMatch",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Toggles open/closed\n     *\n     * @param {Boolean} isOpen\n     */",
+        "meta": {
+            "range": [
+                7766,
+                8306
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 284,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000922",
+                "name": "Dropdown#toggle",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "isOpen"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Toggles open/closed",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "name": "isOpen"
+            }
+        ],
+        "name": "toggle",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#toggle",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7795,
+                7859
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 285,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000928",
+                "name": "toggle",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "toggle",
+        "longname": "<anonymous>~toggle",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7926,
+                7950
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 288,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000944",
+                "name": "isOpen",
+                "type": "UnaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "!toggle.checked",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isOpen",
+        "longname": "<anonymous>~isOpen",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7971,
+                7994
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 291,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000951",
+                "name": "toggle.checked",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "isOpen",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "checked",
+        "longname": "<anonymous>~toggle.checked",
+        "kind": "member",
+        "memberof": "<anonymous>~toggle",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Template\n     */",
+        "meta": {
+            "range": [
+                8344,
+                10617
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 308,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000993",
+                "name": "Dropdown#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Template",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Widgets.Dropdown#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Dropdown",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8379,
+                8398
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 309,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001003",
+                "name": "title",
+                "type": "MemberExpression",
+                "value": "this.tooltip"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8400,
+                8474
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 309,
+            "columnno": 43,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001007",
+                "name": "class",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8517,
+                8549
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 311,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001021",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--dropdown__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8631,
+                8664
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 314,
+            "columnno": 21,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001034",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--dropdown__toggle"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8666,
+                8682
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 314,
+            "columnno": 56,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001036",
+                "name": "type",
+                "type": "Literal",
+                "value": "checkbox"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8904,
+                8959
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 321,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001064",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--dropdown__typeahead__icon fa fa-search"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8988,
+                9024
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 322,
+            "columnno": 25,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001073",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--dropdown__typeahead"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9026,
+                9038
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 322,
+            "columnno": 63,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001075",
+                "name": "type",
+                "type": "Literal",
+                "value": "text"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9194,
+                9228
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 327,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001097",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--dropdown__options"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9338,
+                9382
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 329,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001112",
+                "name": "optionIcon",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "optionIcon",
+        "longname": "<anonymous>~optionIcon",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9499,
+                9516
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 333,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001125",
+                "name": "key",
+                "type": "Identifier",
+                "value": "optionLabel"
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "longname": "<anonymous>~key",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9546,
+                9565
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 334,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001129",
+                "name": "value",
+                "type": "Identifier",
+                "value": "optionValue"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9592,
+                9609
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 336,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001133",
+                "name": "optionValue",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "key",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "optionValue",
+        "longname": "<anonymous>~optionValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9635,
+                9654
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 337,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001137",
+                "name": "optionLabel",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "value",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "optionLabel",
+        "longname": "<anonymous>~optionLabel",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9781,
+                9817
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 341,
+            "columnno": 38,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001154",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--dropdown__separator"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9894,
+                9927
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 344,
+            "columnno": 37,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001165",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--dropdown__option"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9929,
+                9954
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 344,
+            "columnno": 72,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001167",
+                "name": "\"data-value\"",
+                "type": "Identifier",
+                "value": "optionValue"
+            }
+        },
+        "undocumented": true,
+        "name": "\"data-value\"",
+        "longname": "\"data-value\"",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10036,
+                10095
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 346,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001179",
+                "name": "class",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10409,
+                10454
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 357,
+            "columnno": 26,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001208",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--dropdown__clear fa fa-remove"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10456,
+                10480
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 357,
+            "columnno": 73,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001210",
+                "name": "title",
+                "type": "Literal",
+                "value": "Clear selection"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10621,
+                10646
+            ],
+            "filename": "Dropdown.js",
+            "lineno": 366,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100001223",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "Dropdown",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets/Dropdown.js"
+        ]
+    }
+]

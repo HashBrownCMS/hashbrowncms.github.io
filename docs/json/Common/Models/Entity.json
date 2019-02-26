@@ -1,0 +1,1053 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                19,
+                45
+            ],
+            "filename": "Entity.js",
+            "lineno": 3,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000005",
+                "name": "crypto",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "crypto",
+        "longname": "crypto",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The base class for everything\n *\n * @memberof HashBrown.Common.Models\n */",
+        "meta": {
+            "range": [
+                129,
+                4819
+            ],
+            "filename": "Entity.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000010",
+                "name": "Entity",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "The base class for everything",
+        "memberof": "HashBrown.Common.Models",
+        "name": "Entity",
+        "longname": "HashBrown.Common.Models.Entity",
+        "kind": "class",
+        "scope": "static",
+        "description": "Constructs an entity",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "params"
+            }
+        ]
+    },
+    {
+        "comment": "/**\n     * Constructs an entity\n     *\n     * @param {Object} params\n     */",
+        "meta": {
+            "range": [
+                229,
+                637
+            ],
+            "filename": "Entity.js",
+            "lineno": 16,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000013",
+                "name": "Entity",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Constructs an entity",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "params"
+            }
+        ],
+        "name": "Entity",
+        "longname": "HashBrown.Common.Models~Entity",
+        "kind": "class",
+        "memberof": "HashBrown.Common.Models",
+        "scope": "inner",
+        "undocumented": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                285,
+                330
+            ],
+            "filename": "Entity.js",
+            "lineno": 18,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000024",
+                "name": "params",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "params",
+        "longname": "<anonymous>~params",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                377,
+                378
+            ],
+            "filename": "Entity.js",
+            "lineno": 22,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000041",
+                "name": "k"
+            }
+        },
+        "undocumented": true,
+        "name": "k",
+        "longname": "<anonymous>~k",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                485,
+                504
+            ],
+            "filename": "Entity.js",
+            "lineno": 25,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000056",
+                "name": "this[undefined]",
+                "type": "MemberExpression",
+                "value": "params[undefined]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "[undefined]",
+        "longname": "HashBrown.Common.Models.Entity#[undefined]",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.Entity",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Sets up a structure before sealing the object\n     */",
+        "meta": {
+            "range": [
+                712,
+                732
+            ],
+            "filename": "Entity.js",
+            "lineno": 37,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000074",
+                "name": "Entity#structure",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Sets up a structure before sealing the object",
+        "name": "structure",
+        "longname": "HashBrown.Common.Models.Entity#structure",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Entity",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Checks the parameters berfore they're committed\n     *\n     * @params {Object} params\n     *\n     * @returns {Object} Params\n     */",
+        "meta": {
+            "range": [
+                886,
+                943
+            ],
+            "filename": "Entity.js",
+            "lineno": 48,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000078",
+                "name": "Entity.paramsCheck",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Checks the parameters berfore they're committed",
+        "tags": [
+            {
+                "originalTitle": "params",
+                "title": "params",
+                "text": "{Object} params",
+                "value": "{Object} params"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "Params"
+            }
+        ],
+        "name": "paramsCheck",
+        "longname": "HashBrown.Common.Models.Entity.paramsCheck",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Entity",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Generates a new random id\n     *\n     * @param {Number} length\n     *\n     * @returns {String} id\n     */",
+        "meta": {
+            "range": [
+                1070,
+                1236
+            ],
+            "filename": "Entity.js",
+            "lineno": 59,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000085",
+                "name": "Entity.createId",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "length"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Generates a new random id",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "length"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "id"
+            }
+        ],
+        "name": "createId",
+        "longname": "HashBrown.Common.Models.Entity.createId",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Entity",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1118,
+                1128
+            ],
+            "filename": "Entity.js",
+            "lineno": 60,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000095",
+                "name": "length",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": 8,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "length",
+        "longname": "<anonymous>~length",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1157,
+                1167
+            ],
+            "filename": "Entity.js",
+            "lineno": 61,
+            "columnno": 25,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000104",
+                "name": "length",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": 4,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "length",
+        "longname": "<anonymous>~length",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Gets a copy of every field in this object as a mutable object\n     *\n     * @returns {Object} object\n     */",
+        "meta": {
+            "range": [
+                1366,
+                1434
+            ],
+            "filename": "Entity.js",
+            "lineno": 71,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000117",
+                "name": "Entity#getObject",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a copy of every field in this object as a mutable object",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "object"
+            }
+        ],
+        "name": "getObject",
+        "longname": "HashBrown.Common.Models.Entity#getObject",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Entity",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Defines a type safe member variable\n     *\n     * @param {String} type\n     * @param {String} name\n     * @param {Anything} defaultValue\n     */",
+        "meta": {
+            "range": [
+                1600,
+                4817
+            ],
+            "filename": "Entity.js",
+            "lineno": 82,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000131",
+                "name": "Entity#def",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "type",
+                    "name",
+                    "defaultValue"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Defines a type safe member variable",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "type"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Anything"
+                    ]
+                },
+                "name": "defaultValue"
+            }
+        ],
+        "name": "def",
+        "longname": "HashBrown.Common.Models.Entity#def",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Entity",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2068,
+                2085
+            ],
+            "filename": "Entity.js",
+            "lineno": 94,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000179",
+                "name": "defaultValue",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "defaultValue",
+        "longname": "<anonymous>~defaultValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2164,
+                2180
+            ],
+            "filename": "Entity.js",
+            "lineno": 98,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000186",
+                "name": "defaultValue",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": 0,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "defaultValue",
+        "longname": "<anonymous>~defaultValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2257,
+                2276
+            ],
+            "filename": "Entity.js",
+            "lineno": 102,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000193",
+                "name": "defaultValue",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "defaultValue",
+        "longname": "<anonymous>~defaultValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2356,
+                2376
+            ],
+            "filename": "Entity.js",
+            "lineno": 106,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000200",
+                "name": "defaultValue",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "defaultValue",
+        "longname": "<anonymous>~defaultValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2451,
+                2470
+            ],
+            "filename": "Entity.js",
+            "lineno": 110,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000206",
+                "name": "defaultValue",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "defaultValue",
+        "longname": "<anonymous>~defaultValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2536,
+                2560
+            ],
+            "filename": "Entity.js",
+            "lineno": 115,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000211",
+                "name": "thisValue",
+                "type": "Identifier",
+                "value": "defaultValue"
+            }
+        },
+        "undocumented": true,
+        "name": "thisValue",
+        "longname": "<anonymous>~thisValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2574,
+                2589
+            ],
+            "filename": "Entity.js",
+            "lineno": 116,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000215",
+                "name": "thisType",
+                "type": "Identifier",
+                "value": "type"
+            }
+        },
+        "undocumented": true,
+        "name": "thisType",
+        "longname": "<anonymous>~thisType",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2648,
+                2664
+            ],
+            "filename": "Entity.js",
+            "lineno": 119,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000226",
+                "name": "enumerable",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "enumerable",
+        "longname": "enumerable",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2678,
+                2738
+            ],
+            "filename": "Entity.js",
+            "lineno": 120,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000228",
+                "name": "get",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "get",
+        "longname": "get",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2752,
+                4799
+            ],
+            "filename": "Entity.js",
+            "lineno": 123,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000233",
+                "name": "set",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "thatValue": "set~thatValue",
+                "thisValue": "set~thisValue",
+                "thatType": "set~thatType"
+            }
+        },
+        "undocumented": true,
+        "name": "set",
+        "longname": "set",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2919,
+                2936
+            ],
+            "filename": "Entity.js",
+            "lineno": 127,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000247",
+                "name": "thatValue",
+                "type": "Literal",
+                "funcscope": "set",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "thatValue",
+        "longname": "set~thatValue",
+        "kind": "member",
+        "memberof": "set",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3082,
+                3099
+            ],
+            "filename": "Entity.js",
+            "lineno": 131,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000262",
+                "name": "thatValue",
+                "type": "Literal",
+                "funcscope": "set",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "thatValue",
+        "longname": "set~thatValue",
+        "kind": "member",
+        "memberof": "set",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3187,
+                3203
+            ],
+            "filename": "Entity.js",
+            "lineno": 133,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000271",
+                "name": "thatValue",
+                "type": "Literal",
+                "funcscope": "set",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "thatValue",
+        "longname": "set~thatValue",
+        "kind": "member",
+        "memberof": "set",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3415,
+                3428
+            ],
+            "filename": "Entity.js",
+            "lineno": 141,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000284",
+                "name": "thatValue",
+                "type": "Literal",
+                "funcscope": "set",
+                "value": 0,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "thatValue",
+        "longname": "set~thatValue",
+        "kind": "member",
+        "memberof": "set",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3561,
+                3594
+            ],
+            "filename": "Entity.js",
+            "lineno": 144,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000300",
+                "name": "thatValue",
+                "type": "CallExpression",
+                "funcscope": "set",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "thatValue",
+        "longname": "set~thatValue",
+        "kind": "member",
+        "memberof": "set",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3777,
+                3793
+            ],
+            "filename": "Entity.js",
+            "lineno": 152,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000315",
+                "name": "thatValue",
+                "type": "Literal",
+                "funcscope": "set",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "thatValue",
+        "longname": "set~thatValue",
+        "kind": "member",
+        "memberof": "set",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3940,
+                3971
+            ],
+            "filename": "Entity.js",
+            "lineno": 155,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000332",
+                "name": "thatValue",
+                "type": "NewExpression",
+                "funcscope": "set",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "thatValue",
+        "longname": "set~thatValue",
+        "kind": "member",
+        "memberof": "set",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4138,
+                4159
+            ],
+            "filename": "Entity.js",
+            "lineno": 162,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000349",
+                "name": "thisValue",
+                "type": "Identifier",
+                "funcscope": "set",
+                "value": "thatValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "thisValue",
+        "longname": "set~thisValue",
+        "kind": "member",
+        "memberof": "set",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4240,
+                4272
+            ],
+            "filename": "Entity.js",
+            "lineno": 166,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000354",
+                "name": "thatType",
+                "type": "MemberExpression",
+                "value": "thatValue.constructor"
+            }
+        },
+        "undocumented": true,
+        "name": "thatType",
+        "longname": "set~thatType",
+        "kind": "member",
+        "memberof": "set",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4617,
+                4638
+            ],
+            "filename": "Entity.js",
+            "lineno": 171,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000402",
+                "name": "thisValue",
+                "type": "Identifier",
+                "funcscope": "set",
+                "value": "thatValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "thisValue",
+        "longname": "set~thisValue",
+        "kind": "member",
+        "memberof": "set",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4725,
+                4749
+            ],
+            "filename": "Entity.js",
+            "lineno": 175,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000407",
+                "name": "thisValue",
+                "type": "Identifier",
+                "funcscope": "set",
+                "value": "defaultValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "thisValue",
+        "longname": "set~thisValue",
+        "kind": "member",
+        "memberof": "set",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4821,
+                4844
+            ],
+            "filename": "Entity.js",
+            "lineno": 183,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000411",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "Entity",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models/Entity.js"
+        ]
+    }
+]

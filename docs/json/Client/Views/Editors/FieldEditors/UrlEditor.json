@@ -1,0 +1,1268 @@
+[
+    {
+        "comment": "/**\n * An editor for content URLs\n *\n * @description Example:\n * <pre>\n * {\n *     \"myUrl\": {\n *         \"label\": \"My URL\",\n *         \"tabId\": \"content\",\n *         \"schemaId\": \"url\"\n *     }\n * }\n * </pre>\n *\n * @memberof HashBrown.Client.Views.Editors.FieldEditors\n */",
+        "meta": {
+            "range": [
+                287,
+                5589
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 19,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000004",
+                "name": "UrlEditor",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "An editor for content URLs",
+        "description": "Example:\n<pre>\n{\n    \"myUrl\": {\n        \"label\": \"My URL\",\n        \"tabId\": \"content\",\n        \"schemaId\": \"url\"\n    }\n}\n</pre>",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors",
+        "name": "UrlEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                366,
+                439
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 20,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000016",
+                "name": "UrlEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "UrlEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors~UrlEditor",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Get all parent content nodes\n     *\n     * @param {String} contentId\n     *\n     * @return {Array} nodes\n     */",
+        "meta": {
+            "range": [
+                573,
+                1233
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 33,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000030",
+                "name": "UrlEditor.getAllParents",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "contentId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Get all parent content nodes",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "contentId"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "nodes"
+            }
+        ],
+        "name": "getAllParents",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor.getAllParents",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                619,
+                629
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 34,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000036",
+                "name": "nodes",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "nodes",
+        "longname": "<anonymous>~nodes",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                647,
+                694
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 35,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000040",
+                "name": "contentEditor",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "contentEditor",
+        "longname": "<anonymous>~contentEditor",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                705,
+                1149
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 37,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000049",
+                "name": "iterate",
+                "type": "FunctionDeclaration",
+                "paramnames": [
+                    "id"
+                ]
+            },
+            "vars": {
+                "node": "<anonymous>~iterate~node",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "iterate",
+        "longname": "<anonymous>~iterate",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                744,
+                748
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 38,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000054",
+                "name": "node"
+            }
+        },
+        "undocumented": true,
+        "name": "node",
+        "longname": "<anonymous>~iterate~node",
+        "kind": "member",
+        "memberof": "<anonymous>~iterate",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                771,
+                877
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 40,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000057",
+                "name": "node",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>~iterate",
+                "value": "[0]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "node",
+        "longname": "<anonymous>~iterate~node",
+        "kind": "member",
+        "memberof": "<anonymous>~iterate",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Generates a new url based on content id\n     *\n     * @param {String} contentId\n     *\n     * @return {String} url\n     */",
+        "meta": {
+            "range": [
+                1377,
+                3521
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 70,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000121",
+                "name": "UrlEditor#generateUrl",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "contentId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Generates a new url based on content id",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "contentId"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "url"
+            }
+        ],
+        "name": "generateUrl",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor#generateUrl",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1414,
+                1456
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 71,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000127",
+                "name": "nodes",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "nodes",
+        "longname": "<anonymous>~nodes",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1470,
+                1479
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 72,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000135",
+                "name": "url",
+                "type": "Literal",
+                "value": "/"
+            }
+        },
+        "undocumented": true,
+        "name": "url",
+        "longname": "<anonymous>~url",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1532,
+                1560
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 75,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000144",
+                "name": "url",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "url",
+        "longname": "<anonymous>~url",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1589,
+                1593
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 78,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000153",
+                "name": "node"
+            }
+        },
+        "undocumented": true,
+        "name": "node",
+        "longname": "<anonymous>~node",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1622,
+                1632
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 79,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000158",
+                "name": "title",
+                "type": "Literal",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "<anonymous>~title",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1811,
+                1890
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 83,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000175",
+                "name": "title",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "<anonymous>~title",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2115,
+                2133
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 89,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000193",
+                "name": "title",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "node.title",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "<anonymous>~title",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2406,
+                2452
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 95,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000221",
+                "name": "title",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "node.properties.title[undefined]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "<anonymous>~title",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2626,
+                2655
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 99,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000243",
+                "name": "title",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "node.properties.title",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "<anonymous>~title",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2745,
+                2804
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 105,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000251",
+                "name": "url",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "url",
+        "longname": "<anonymous>~url",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2865,
+                2877
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 109,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000265",
+                "name": "sameUrls",
+                "type": "Literal",
+                "value": 0
+            }
+        },
+        "undocumented": true,
+        "name": "sameUrls",
+        "longname": "<anonymous>~sameUrls",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2896,
+                2903
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 111,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000270",
+                "name": "content"
+            }
+        },
+        "undocumented": true,
+        "name": "content",
+        "longname": "<anonymous>~content",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2997,
+                3043
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 113,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000286",
+                "name": "thatUrl",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "thatUrl",
+        "longname": "<anonymous>~thatUrl",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3065,
+                3162
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 114,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000297",
+                "name": "isMatchWithNumber",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isMatchWithNumber",
+        "longname": "<anonymous>~isMatchWithNumber",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3184,
+                3231
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 115,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000318",
+                "name": "isSameUrl",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isSameUrl",
+        "longname": "<anonymous>~isSameUrl",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3437,
+                3483
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 125,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000337",
+                "name": "url",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "url",
+        "longname": "<anonymous>~url",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Regenerates the URL\n     */",
+        "meta": {
+            "range": [
+                3570,
+                3745
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 134,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000351",
+                "name": "UrlEditor#regenerate",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Regenerates the URL",
+        "name": "regenerate",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor#regenerate",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3597,
+                3646
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 135,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000356",
+                "name": "newUrl",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "newUrl",
+        "longname": "<anonymous>~newUrl",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Fetch the URL from the Content title\n     */",
+        "meta": {
+            "range": [
+                3812,
+                3909
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 145,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000389",
+                "name": "UrlEditor#fetchFromTitle",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Fetch the URL from the Content title",
+        "name": "fetchFromTitle",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor#fetchFromTitle",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3839,
+                3874
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 146,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000394",
+                "name": "this.value",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Event: Change value\n     */",
+        "meta": {
+            "range": [
+                3958,
+                4508
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 154,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000409",
+                "name": "UrlEditor#onChange",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Change value",
+        "name": "onChange",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor#onChange",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3979,
+                4009
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 155,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000414",
+                "name": "this.value",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4103,
+                4132
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 159,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000443",
+                "name": "this.value",
+                "type": "BinaryExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4306,
+                4335
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 164,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000486",
+                "name": "this.value",
+                "type": "BinaryExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Renders this editor\n     */",
+        "meta": {
+            "range": [
+                4558,
+                5072
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 177,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000520",
+                "name": "UrlEditor#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders this editor",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4593,
+                4632
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 178,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000530",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor field-editor--url"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4654,
+                4675
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 179,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000537",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget-group"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4677,
+                4706
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 179,
+            "columnno": 42,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000539",
+                "name": "title",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4725,
+                4879
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 180,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000545",
+                "name": "this.$input",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "$input",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor#$input",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4748,
+                4782
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 180,
+            "columnno": 39,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000556",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--input text"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4784,
+                4796
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 180,
+            "columnno": 75,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000558",
+                "name": "type",
+                "type": "Literal",
+                "value": "text"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4798,
+                4815
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 180,
+            "columnno": 89,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000560",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.value"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4907,
+                4957
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 182,
+            "columnno": 26,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000580",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button small fa fa-refresh"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4959,
+                4982
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 182,
+            "columnno": 78,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000582",
+                "name": "title",
+                "type": "Literal",
+                "value": "Regenerate URL"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Post render\n     */",
+        "meta": {
+            "range": [
+                5113,
+                5587
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 191,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000592",
+                "name": "UrlEditor#postrender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Post render",
+        "name": "postrender",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor#postrender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5222,
+                5297
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 194,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000602",
+                "name": "this.$titleInput",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "$titleInput",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor#$titleInput",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.UrlEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5591,
+                5617
+            ],
+            "filename": "UrlEditor.js",
+            "lineno": 209,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000646",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "UrlEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors/UrlEditor.js"
+        ]
+    }
+]

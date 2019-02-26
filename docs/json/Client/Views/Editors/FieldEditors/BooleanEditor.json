@@ -1,0 +1,351 @@
+[
+    {
+        "comment": "/**\n * A simple boolean editor\n *\n * @description Example:\n * <pre>\n * {\n *     \"myBoolean\": {\n *         \"label\": \"My boolean\",\n *         \"tabId\": \"content\",\n *         \"schemaId\": \"boolean\"\n *     }\n * }\n * </pre>\n *\n * @memberof HashBrown.Client.Views.Editors.FieldEditors\n */",
+        "meta": {
+            "range": [
+                296,
+                1486
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 19,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000004",
+                "name": "BooleanEditor",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A simple boolean editor",
+        "description": "Example:\n<pre>\n{\n    \"myBoolean\": {\n        \"label\": \"My boolean\",\n        \"tabId\": \"content\",\n        \"schemaId\": \"boolean\"\n    }\n}\n</pre>",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors",
+        "name": "BooleanEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.BooleanEditor",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Constructor\n     */",
+        "meta": {
+            "range": [
+                414,
+                969
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 23,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000016",
+                "name": "BooleanEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Constructor",
+        "name": "BooleanEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors~BooleanEditor",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors",
+        "scope": "inner",
+        "params": [],
+        "undocumented": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                544,
+                562
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 28,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000034",
+                "name": "this.value",
+                "type": "Literal",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.BooleanEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.BooleanEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                637,
+                670
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 31,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000048",
+                "name": "this.value",
+                "type": "BinaryExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.BooleanEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.BooleanEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                738,
+                756
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 34,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000066",
+                "name": "this.value",
+                "type": "Literal",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.BooleanEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.BooleanEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Render this editor\n     */",
+        "meta": {
+            "range": [
+                1017,
+                1484
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 49,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000091",
+                "name": "BooleanEditor#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Render this editor",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.BooleanEditor#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.BooleanEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1052,
+                1095
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 50,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000101",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor field-editor--boolean"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1162,
+                1178
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 52,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000113",
+                "name": "type",
+                "type": "Literal",
+                "value": "checkbox"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1196,
+                1213
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 53,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000115",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.value"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1231,
+                1262
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 54,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000119",
+                "name": "tooltip",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "tooltip",
+        "longname": "tooltip",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1280,
+                1443
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 55,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000125",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.value": "HashBrown.Client.Views.Editors.FieldEditors.BooleanEditor#value"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1326,
+                1347
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 56,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000130",
+                "name": "this.value",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.BooleanEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.BooleanEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1488,
+                1518
+            ],
+            "filename": "BooleanEditor.js",
+            "lineno": 65,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000146",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "BooleanEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors/BooleanEditor.js"
+        ]
+    }
+]

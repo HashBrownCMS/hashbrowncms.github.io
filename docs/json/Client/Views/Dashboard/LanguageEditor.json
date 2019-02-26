@@ -1,0 +1,483 @@
+[
+    {
+        "comment": "/**\n * The language settings editor\n *\n * @memberof HashBrown.Client.Views.Dashboard\n */",
+        "meta": {
+            "range": [
+                104,
+                1503
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000004",
+                "name": "LanguageEditor",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "The language settings editor",
+        "memberof": "HashBrown.Client.Views.Dashboard",
+        "name": "LanguageEditor",
+        "longname": "HashBrown.Client.Views.Dashboard.LanguageEditor",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                168,
+                544
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 9,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000014",
+                "name": "LanguageEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "LanguageEditor",
+        "longname": "HashBrown.Client.Views.Dashboard~LanguageEditor",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Dashboard",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                198,
+                224
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 10,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000020",
+                "name": "params.title",
+                "type": "Literal",
+                "value": "Languages",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "params.title",
+        "kind": "member",
+        "memberof": "params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                234,
+                447
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 11,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000026",
+                "name": "params.actions",
+                "type": "ArrayExpression",
+                "value": "[\"{\\\"label\\\":\\\"Save\\\",\\\"onClick\\\":\\\"\\\"}\"]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "actions",
+        "longname": "params.actions",
+        "kind": "member",
+        "memberof": "params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                283,
+                296
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 13,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000032",
+                "name": "label",
+                "type": "Literal",
+                "value": "Save"
+            }
+        },
+        "undocumented": true,
+        "name": "label",
+        "longname": "label",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                314,
+                423
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 14,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000034",
+                "name": "onClick",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "onClick",
+        "longname": "onClick",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                458,
+                482
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 22,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000045",
+                "name": "params.autoFetch",
+                "type": "Literal",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "autoFetch",
+        "longname": "params.autoFetch",
+        "kind": "member",
+        "memberof": "params",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Click save\n     */",
+        "meta": {
+            "range": [
+                591,
+                839
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 32,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000059",
+                "name": "LanguageEditor#onClickSave",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click save",
+        "name": "onClickSave",
+        "longname": "HashBrown.Client.Views.Dashboard.LanguageEditor#onClickSave",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Dashboard.LanguageEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Renders the modal body\n     *\n     * @returns {HTMLElement} Body\n     */",
+        "meta": {
+            "range": [
+                933,
+                1501
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 47,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000106",
+                "name": "LanguageEditor#renderBody",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the modal body",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Body"
+            }
+        ],
+        "name": "renderBody",
+        "longname": "HashBrown.Client.Views.Dashboard.LanguageEditor#renderBody",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Dashboard.LanguageEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                970,
+                991
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 48,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000116",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget-group"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1015,
+                1044
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 49,
+            "columnno": 21,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000123",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--label"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1137,
+                1173
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 51,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000136",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.settings.languages"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1191,
+                1209
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 52,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000144",
+                "name": "useTypeAhead",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "useTypeAhead",
+        "longname": "useTypeAhead",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1227,
+                1244
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 53,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000146",
+                "name": "useMultiple",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "useMultiple",
+        "longname": "useMultiple",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1262,
+                1337
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 54,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000148",
+                "name": "options",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "options",
+        "longname": "options",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1355,
+                1460
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 55,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000162",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.settings.languages": "HashBrown.Client.Views.Dashboard.LanguageEditor#model.settings.languages"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1401,
+                1441
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 56,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000167",
+                "name": "this.model.settings.languages",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "languages",
+        "longname": "HashBrown.Client.Views.Dashboard.LanguageEditor#model.settings.languages",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Dashboard.LanguageEditor#model.settings",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1505,
+                1536
+            ],
+            "filename": "LanguageEditor.js",
+            "lineno": 63,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard",
+            "code": {
+                "id": "astnode100000178",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "LanguageEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Dashboard/LanguageEditor.js"
+        ]
+    }
+]

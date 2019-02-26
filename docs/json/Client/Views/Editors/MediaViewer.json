@@ -1,0 +1,590 @@
+[
+    {
+        "comment": "/**\n * An editor for displaying Media objects\n *\n * @memberof HashBrown.Client.Views.Editors\n */",
+        "meta": {
+            "range": [
+                112,
+                1908
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000004",
+                "name": "MediaViewer",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "An editor for displaying Media objects",
+        "memberof": "HashBrown.Client.Views.Editors",
+        "name": "MediaViewer",
+        "longname": "HashBrown.Client.Views.Editors.MediaViewer",
+        "kind": "class",
+        "scope": "static",
+        "description": "Constructor",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Constructor\n     */",
+        "meta": {
+            "range": [
+                190,
+                263
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000010",
+                "name": "MediaViewer",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Constructor",
+        "name": "MediaViewer",
+        "longname": "HashBrown.Client.Views.Editors~MediaViewer",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Editors",
+        "scope": "inner",
+        "params": [],
+        "undocumented": true
+    },
+    {
+        "comment": "/**\n     * Pre render\n     */",
+        "meta": {
+            "range": [
+                303,
+                475
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 21,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000024",
+                "name": "MediaViewer#prerender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Pre render",
+        "name": "prerender",
+        "longname": "HashBrown.Client.Views.Editors.MediaViewer#prerender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.MediaViewer",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                398,
+                449
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 23,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000042",
+                "name": "this.model",
+                "type": "NewExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "model",
+        "longname": "HashBrown.Client.Views.Editors.MediaViewer#model",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.MediaViewer",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Renders this editor\n     */",
+        "meta": {
+            "range": [
+                524,
+                1906
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 31,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000055",
+                "name": "MediaViewer#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders this editor",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Editors.MediaViewer#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.MediaViewer",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                549,
+                730
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 32,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000060",
+                "name": "mediaSrc",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "mediaSrc",
+        "longname": "<anonymous>~mediaSrc",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                755,
+                784
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 34,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000102",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor editor--media"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                806,
+                829
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 35,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000109",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                856,
+                904
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 36,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000116",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header__icon fa fa-file-image-o"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                930,
+                960
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 37,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000123",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header__title"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1028,
+                1068
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 39,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000135",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header__title__appendix"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1207,
+                1228
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 44,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000148",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__body"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1301,
+                1332
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 46,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000165",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor--media__preview"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1334,
+                1347
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 46,
+            "columnno": 60,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000167",
+                "name": "src",
+                "type": "Identifier",
+                "value": "mediaSrc"
+            }
+        },
+        "undocumented": true,
+        "name": "src",
+        "longname": "src",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1441,
+                1472
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 49,
+            "columnno": 29,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000184",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor--media__preview"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1474,
+                1488
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 49,
+            "columnno": 62,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000186",
+                "name": "controls",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "controls",
+        "longname": "controls",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1525,
+                1538
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 50,
+            "columnno": 34,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000193",
+                "name": "src",
+                "type": "Identifier",
+                "value": "mediaSrc"
+            }
+        },
+        "undocumented": true,
+        "name": "src",
+        "longname": "src",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1540,
+                1579
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 50,
+            "columnno": 49,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000195",
+                "name": "type",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1695,
+                1726
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 54,
+            "columnno": 29,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000217",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor--media__preview"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1728,
+                1742
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 54,
+            "columnno": 62,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000219",
+                "name": "controls",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "controls",
+        "longname": "controls",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1779,
+                1792
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 55,
+            "columnno": 34,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000226",
+                "name": "src",
+                "type": "Identifier",
+                "value": "mediaSrc"
+            }
+        },
+        "undocumented": true,
+        "name": "src",
+        "longname": "src",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1794,
+                1833
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 55,
+            "columnno": 49,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000228",
+                "name": "type",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1910,
+                1938
+            ],
+            "filename": "MediaViewer.js",
+            "lineno": 63,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000236",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "MediaViewer",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/MediaViewer.js"
+        ]
+    }
+]

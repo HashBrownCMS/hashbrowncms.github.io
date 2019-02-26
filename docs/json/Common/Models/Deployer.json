@@ -1,0 +1,931 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                43
+            ],
+            "filename": "Deployer.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000005",
+                "name": "Path",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Path",
+        "longname": "Path",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                52,
+                80
+            ],
+            "filename": "Deployer.js",
+            "lineno": 5,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000011",
+                "name": "Entity",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Entity",
+        "longname": "Entity",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * A class for deploying and retrieving data to and from a server\n *\n * @memberof HashBrown.Common.Models\n */",
+        "meta": {
+            "range": [
+                197,
+                3225
+            ],
+            "filename": "Deployer.js",
+            "lineno": 12,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000016",
+                "name": "Deployer",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A class for deploying and retrieving data to and from a server",
+        "memberof": "HashBrown.Common.Models",
+        "name": "Deployer",
+        "longname": "HashBrown.Common.Models.Deployer",
+        "kind": "class",
+        "scope": "static",
+        "description": "Constructor",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                255,
+                295
+            ],
+            "filename": "Deployer.js",
+            "lineno": 14,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000020",
+                "name": "Deployer.name",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "HashBrown.Common.Models.Deployer.name",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                300,
+                341
+            ],
+            "filename": "Deployer.js",
+            "lineno": 15,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000026",
+                "name": "Deployer.alias",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "alias",
+        "longname": "HashBrown.Common.Models.Deployer.alias",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Constructor\n     */",
+        "meta": {
+            "range": [
+                386,
+                571
+            ],
+            "filename": "Deployer.js",
+            "lineno": 20,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000032",
+                "name": "Deployer",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Constructor",
+        "name": "Deployer",
+        "longname": "HashBrown.Common.Models~Deployer",
+        "kind": "class",
+        "memberof": "HashBrown.Common.Models",
+        "scope": "inner",
+        "params": [],
+        "undocumented": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                440,
+                473
+            ],
+            "filename": "Deployer.js",
+            "lineno": 23,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000042",
+                "name": "this.name",
+                "type": "MemberExpression",
+                "value": "this.constructor.name",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "HashBrown.Common.Models.Deployer#name",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                483,
+                518
+            ],
+            "filename": "Deployer.js",
+            "lineno": 24,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000052",
+                "name": "this.alias",
+                "type": "MemberExpression",
+                "value": "this.constructor.alias",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "alias",
+        "longname": "HashBrown.Common.Models.Deployer#alias",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                547,
+                562
+            ],
+            "filename": "Deployer.js",
+            "lineno": 26,
+            "columnno": 26,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000068",
+                "name": "this.paths",
+                "type": "ObjectExpression",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "paths",
+        "longname": "HashBrown.Common.Models.Deployer#paths",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Structure\n     */",
+        "meta": {
+            "range": [
+                614,
+                797
+            ],
+            "filename": "Deployer.js",
+            "lineno": 32,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000073",
+                "name": "Deployer#structure",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Structure",
+        "name": "structure",
+        "longname": "HashBrown.Common.Models.Deployer#structure",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                745,
+                754
+            ],
+            "filename": "Deployer.js",
+            "lineno": 36,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000099",
+                "name": "media",
+                "type": "Literal",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "media",
+        "longname": "media",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                768,
+                779
+            ],
+            "filename": "Deployer.js",
+            "lineno": 37,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000101",
+                "name": "content",
+                "type": "Literal",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "content",
+        "longname": "content",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Gets the root path\n     *\n     * @returns {String} Root\n     */",
+        "meta": {
+            "range": [
+                882,
+                975
+            ],
+            "filename": "Deployer.js",
+            "lineno": 46,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000103",
+                "name": "Deployer#getRootPath",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets the root path",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "Root"
+            }
+        ],
+        "name": "getRootPath",
+        "longname": "HashBrown.Common.Models.Deployer#getRootPath",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets a deployment path\n     *\n     * @param {String} name\n     * @param {String} filename\n     * @param {Boolean} ignoreRoot\n     *\n     * @returns {String} Path\n     */",
+        "meta": {
+            "range": [
+                1166,
+                1542
+            ],
+            "filename": "Deployer.js",
+            "lineno": 59,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000111",
+                "name": "Deployer#getPath",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "name",
+                    "filename",
+                    "ignoreRoot"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a deployment path",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "filename"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "name": "ignoreRoot",
+                "defaultvalue": false
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "Path"
+            }
+        ],
+        "name": "getPath",
+        "longname": "HashBrown.Common.Models.Deployer#getPath",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1229,
+                1238
+            ],
+            "filename": "Deployer.js",
+            "lineno": 60,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000123",
+                "name": "path",
+                "type": "Literal",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "<anonymous>~path",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1287,
+                1312
+            ],
+            "filename": "Deployer.js",
+            "lineno": 63,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000131",
+                "name": "path",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "<anonymous>~path",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1375,
+                1415
+            ],
+            "filename": "Deployer.js",
+            "lineno": 67,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000145",
+                "name": "path",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "<anonymous>~path",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1463,
+                1495
+            ],
+            "filename": "Deployer.js",
+            "lineno": 71,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000161",
+                "name": "path",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "<anonymous>~path",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Tests this deployment\n     *\n     * @returns {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                1633,
+                1732
+            ],
+            "filename": "Deployer.js",
+            "lineno": 82,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000171",
+                "name": "Deployer#test",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Tests this deployment",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "test",
+        "longname": "HashBrown.Common.Models.Deployer#test",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Renames a file\n     *\n     * @param {String} path\n     * @param {String} name\n     *\n     * @returns {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                1883,
+                2004
+            ],
+            "filename": "Deployer.js",
+            "lineno": 94,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000183",
+                "name": "Deployer#renameFile",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path",
+                    "name"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renames a file",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "renameFile",
+        "longname": "HashBrown.Common.Models.Deployer#renameFile",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Sets a file\n     *\n     * @param {String} path\n     * @param {String} base64\n     *\n     * @returns {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                2150,
+                2268
+            ],
+            "filename": "Deployer.js",
+            "lineno": 106,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000197",
+                "name": "Deployer#setFile",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path",
+                    "content"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Sets a file",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "base64"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "setFile",
+        "longname": "HashBrown.Common.Models.Deployer#setFile",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Gets a file\n     *\n     * @param {String} path\n     *\n     * @returns {Promise} File\n     */",
+        "meta": {
+            "range": [
+                2386,
+                2495
+            ],
+            "filename": "Deployer.js",
+            "lineno": 117,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000211",
+                "name": "Deployer#getFile",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a file",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "File"
+            }
+        ],
+        "name": "getFile",
+        "longname": "HashBrown.Common.Models.Deployer#getFile",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Removes a file\n     *\n     * @param {String} path\n     *\n     * @returns {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                2618,
+                2733
+            ],
+            "filename": "Deployer.js",
+            "lineno": 128,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000224",
+                "name": "Deployer#removeFile",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Removes a file",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "removeFile",
+        "longname": "HashBrown.Common.Models.Deployer#removeFile",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Gets a list of files\n     *\n     * @param {String} path\n     *\n     * @returns {Promise} Files\n     */",
+        "meta": {
+            "range": [
+                2861,
+                2974
+            ],
+            "filename": "Deployer.js",
+            "lineno": 139,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000237",
+                "name": "Deployer#getFolder",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a list of files",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Files"
+            }
+        ],
+        "name": "getFolder",
+        "longname": "HashBrown.Common.Models.Deployer#getFolder",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Removes a folder\n     *\n     * @param {String} path\n     *\n     * @returns {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                3099,
+                3218
+            ],
+            "filename": "Deployer.js",
+            "lineno": 150,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000250",
+                "name": "Deployer#removeFolder",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Removes a folder",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "removeFolder",
+        "longname": "HashBrown.Common.Models.Deployer#removeFolder",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Deployer",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3227,
+                3252
+            ],
+            "filename": "Deployer.js",
+            "lineno": 156,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000264",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "Deployer",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models/Deployer.js"
+        ]
+    }
+]

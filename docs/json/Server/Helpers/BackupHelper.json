@@ -1,0 +1,743 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                47
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "FileSystem",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "FileSystem",
+        "longname": "FileSystem",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                55,
+                77
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 4,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000011",
+                "name": "Glob",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Glob",
+        "longname": "Glob",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                85,
+                111
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 5,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000017",
+                "name": "Multer",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Multer",
+        "longname": "Multer",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * A helper class for managing backups\n *\n * @memberof HashBrown.Server.Helpers\n */",
+        "meta": {
+            "range": [
+                202,
+                4864
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 12,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000022",
+                "name": "BackupHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "A helper class for managing backups",
+        "memberof": "HashBrown.Server.Helpers",
+        "name": "BackupHelper",
+        "longname": "HashBrown.Server.Helpers.BackupHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets config\n     *\n     * @returns {Promise} Storage provider settings\n     */",
+        "meta": {
+            "range": [
+                321,
+                1385
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 18,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000025",
+                "name": "BackupHelper.getConfig",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets config",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Storage provider settings"
+            }
+        ],
+        "name": "getConfig",
+        "longname": "HashBrown.Server.Helpers.BackupHelper.getConfig",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.BackupHelper",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                408,
+                452
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 20,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000037",
+                "name": "configPath",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "configPath",
+        "longname": "<anonymous>~configPath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets the upload handler\n     *\n     * @return {Function} handler\n     */",
+        "meta": {
+            "range": [
+                1479,
+                2220
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 53,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000110",
+                "name": "BackupHelper.getUploadHandler",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets the upload handler",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "description": "handler"
+            }
+        ],
+        "name": "getUploadHandler",
+        "longname": "HashBrown.Server.Helpers.BackupHelper.getUploadHandler",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.BackupHelper",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1519,
+                2163
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 54,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000115",
+                "name": "handler",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "handler",
+        "longname": "<anonymous>~handler",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1550,
+                2152
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 55,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000120",
+                "name": "storage",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "storage",
+        "longname": "storage",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1596,
+                2012
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 56,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000126",
+                "name": "destination",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "path": "destination~path",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "destination",
+        "longname": "destination",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1659,
+                1720
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 57,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000133",
+                "name": "path",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "destination~path",
+        "kind": "member",
+        "memberof": "destination",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2030,
+                2137
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 66,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000173",
+                "name": "filename",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "filename",
+        "longname": "filename",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Gets a list of backups for a project\n     *\n     * @param {String} id\n     *\n     * @returns {Array} List of backup names as strings\n     */",
+        "meta": {
+            "range": [
+                2386,
+                2914
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 82,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000192",
+                "name": "BackupHelper.getBackupsForProject",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a list of backups for a project",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "List of backup names as strings"
+            }
+        ],
+        "name": "getBackupsForProject",
+        "longname": "HashBrown.Server.Helpers.BackupHelper.getBackupsForProject",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.BackupHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2673,
+                2674
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 88,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000230",
+                "name": "i"
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2711,
+                2802
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 89,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000235",
+                "name": "files[undefined]",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "files[undefined]",
+        "longname": "files[undefined]",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Restores a backup for a project\n     *\n     * @param {String} projectName\n     * @param {String} timestamp\n     *\n     * @returns {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                3091,
+                3224
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 106,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000262",
+                "name": "BackupHelper.restoreBackup",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "projectName",
+                    "timestamp"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Restores a backup for a project",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "projectName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "timestamp"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "restoreBackup",
+        "longname": "HashBrown.Server.Helpers.BackupHelper.restoreBackup",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.BackupHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Creates a backup for a project\n     *\n     * @param {String} projectName\n     *\n     * @returns {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                3372,
+                3536
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 118,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000279",
+                "name": "BackupHelper.createBackup",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "projectName"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Creates a backup for a project",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "projectName"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "createBackup",
+        "longname": "HashBrown.Server.Helpers.BackupHelper.createBackup",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.BackupHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Deletes a backup\n     *\n     * @param {String} projectName\n     * @param {String} timestamp\n     *\n     * @returns {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                3698,
+                4193
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 132,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000300",
+                "name": "BackupHelper.deleteBackup",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "projectName",
+                    "timestamp"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Deletes a backup",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "projectName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "timestamp"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "deleteBackup",
+        "longname": "HashBrown.Server.Helpers.BackupHelper.deleteBackup",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.BackupHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3810,
+                3885
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 134,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000314",
+                "name": "path",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "<anonymous>~path",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets the file path for a backup\n     *\n     * @param {String} projectName\n     * @param {String} timestamp\n     *\n     * @returns {Promise} The backup file path\n     */",
+        "meta": {
+            "range": [
+                4383,
+                4862
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 154,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000358",
+                "name": "BackupHelper.getBackupPath",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "projectName",
+                    "timestamp"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets the file path for a backup",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "projectName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "timestamp"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "The backup file path"
+            }
+        ],
+        "name": "getBackupPath",
+        "longname": "HashBrown.Server.Helpers.BackupHelper.getBackupPath",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.BackupHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4496,
+                4571
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 156,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000372",
+                "name": "path",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "<anonymous>~path",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4866,
+                4895
+            ],
+            "filename": "BackupHelper.js",
+            "lineno": 169,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000412",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "BackupHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers/BackupHelper.js"
+        ]
+    }
+]

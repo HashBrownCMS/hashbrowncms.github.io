@@ -1,0 +1,119 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                81
+            ],
+            "filename": "ContentSchema.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000005",
+                "name": "ContentSchemaCommon",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "ContentSchemaCommon",
+        "longname": "ContentSchemaCommon",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * Schema for content nodes\n *\n * @memberof HashBrown.Server.Models\n */",
+        "meta": {
+            "range": [
+                160,
+                274
+            ],
+            "filename": "ContentSchema.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000010",
+                "name": "ContentSchema",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "properties"
+                ]
+            }
+        },
+        "classdesc": "Schema for content nodes",
+        "memberof": "HashBrown.Server.Models",
+        "name": "ContentSchema",
+        "longname": "HashBrown.Server.Models.ContentSchema",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                214,
+                272
+            ],
+            "filename": "ContentSchema.js",
+            "lineno": 11,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000014",
+                "name": "ContentSchema",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "properties"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "ContentSchema",
+        "longname": "HashBrown.Server.Models~ContentSchema",
+        "kind": "class",
+        "memberof": "HashBrown.Server.Models",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                276,
+                306
+            ],
+            "filename": "ContentSchema.js",
+            "lineno": 16,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000024",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "ContentSchema",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models/ContentSchema.js"
+        ]
+    }
+]

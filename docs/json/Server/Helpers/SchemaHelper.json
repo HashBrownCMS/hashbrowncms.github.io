@@ -1,0 +1,2178 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                80
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "SchemaHelperCommon",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "SchemaHelperCommon",
+        "longname": "SchemaHelperCommon",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                89,
+                115
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 5,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000011",
+                "name": "FileSystem",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "FileSystem",
+        "longname": "FileSystem",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                123,
+                145
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 6,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000017",
+                "name": "Path",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Path",
+        "longname": "Path",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                189,
+                211
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 9,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000023",
+                "name": "Glob",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Glob",
+        "longname": "Glob",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The helpers class for Schemas\n *\n * @memberof HashBrown.Server.Helpers\n */",
+        "meta": {
+            "range": [
+                296,
+                14643
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 16,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000028",
+                "name": "SchemaHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The helpers class for Schemas",
+        "memberof": "HashBrown.Server.Helpers",
+        "name": "SchemaHelper",
+        "longname": "HashBrown.Server.Helpers.SchemaHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets a list of native schema objects\n     *\n     * @returns {Promise} Array of Schemas\n     */",
+        "meta": {
+            "range": [
+                458,
+                3263
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 22,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000032",
+                "name": "SchemaHelper.getNativeSchemas",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a list of native schema objects",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Array of Schemas"
+            }
+        ],
+        "name": "getNativeSchemas",
+        "longname": "HashBrown.Server.Helpers.SchemaHelper.getNativeSchemas",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SchemaHelper",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                755,
+                774
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 29,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000064",
+                "name": "queue",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "queue",
+        "longname": "<anonymous>~queue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                846,
+                864
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 32,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000070",
+                "name": "nativeSchemas",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "nativeSchemas",
+        "longname": "<anonymous>~nativeSchemas",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                938,
+                3077
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 35,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000081",
+                "name": "readNextSchema",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "schemaPath": "<anonymous>~readNextSchema~schemaPath",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "readNextSchema",
+        "longname": "<anonymous>~readNextSchema",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                995,
+                1016
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 36,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000086",
+                "name": "schemaPath",
+                "type": "MemberExpression",
+                "value": "queue[0]"
+            }
+        },
+        "undocumented": true,
+        "name": "schemaPath",
+        "longname": "<anonymous>~readNextSchema~schemaPath",
+        "kind": "member",
+        "memberof": "<anonymous>~readNextSchema",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1256,
+                1285
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 43,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000107",
+                "name": "properties",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "properties",
+        "longname": "<anonymous>~properties",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1323,
+                1380
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 44,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000115",
+                "name": "parentDirName",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "parentDirName",
+        "longname": "<anonymous>~parentDirName",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1418,
+                1457
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 45,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000130",
+                "name": "id",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1576,
+                1594
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 48,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000139",
+                "name": "properties.id",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "id",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~properties.id",
+        "kind": "member",
+        "memberof": "<anonymous>~properties",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1633,
+                1639
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 50,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000145",
+                "name": "schema"
+            }
+        },
+        "undocumented": true,
+        "name": "schema",
+        "longname": "<anonymous>~schema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1822,
+                1877
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 54,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000152",
+                "name": "schema",
+                "type": "NewExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "schema",
+        "longname": "<anonymous>~schema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2016,
+                2069
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 57,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000165",
+                "name": "schema",
+                "type": "NewExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "schema",
+        "longname": "<anonymous>~schema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2256,
+                2278
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 62,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000176",
+                "name": "schema.isLocked",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isLocked",
+        "longname": "<anonymous>~schema.isLocked",
+        "kind": "member",
+        "memberof": "<anonymous>~schema",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets a list of all custom schema objects\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Promise} Array of Schemas\n     */",
+        "meta": {
+            "range": [
+                3460,
+                4101
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 101,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000215",
+                "name": "SchemaHelper.getCustomSchemas",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a list of all custom schema objects",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Array of Schemas"
+            }
+        ],
+        "name": "getCustomSchemas",
+        "longname": "HashBrown.Server.Helpers.SchemaHelper.getCustomSchemas",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3625,
+                3662
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 105,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000234",
+                "name": "collection",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "collection",
+        "longname": "<anonymous>~collection",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3676,
+                3687
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 106,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000240",
+                "name": "result",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "result",
+        "longname": "<anonymous>~result",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3870,
+                3871
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 114,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000263",
+                "name": "i"
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3902,
+                3940
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 115,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000268",
+                "name": "schemas[undefined]",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "schemas[undefined]",
+        "longname": "schemas[undefined]",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4063,
+                4079
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 118,
+            "columnno": 106,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000293",
+                "name": "customOnly",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "customOnly",
+        "longname": "customOnly",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Gets a list of all schema objects\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Promise} Array of Schemas\n     */",
+        "meta": {
+            "range": [
+                4287,
+                4723
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 130,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000295",
+                "name": "SchemaHelper.getAllSchemas",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a list of all schema objects",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Array of Schemas"
+            }
+        ],
+        "name": "getAllSchemas",
+        "longname": "HashBrown.Server.Helpers.SchemaHelper.getAllSchemas",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Checks whether a Schema id belongs to a native schema\n     *\n     * @param {String} id\n     *\n     * @returns {Boolean} isNative\n     */",
+        "meta": {
+            "range": [
+                4881,
+                5374
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 150,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000347",
+                "name": "SchemaHelper.isNativeSchema",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Checks whether a Schema id belongs to a native schema",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "description": "isNative"
+            }
+        ],
+        "name": "isNativeSchema",
+        "longname": "HashBrown.Server.Helpers.SchemaHelper.isNativeSchema",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4921,
+                4987
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 151,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000353",
+                "name": "fieldPath",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "fieldPath",
+        "longname": "<anonymous>~fieldPath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5001,
+                5071
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 152,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000363",
+                "name": "contentPath",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "contentPath",
+        "longname": "<anonymous>~contentPath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets a native Schema by id\n     *\n     * @param {String} id\n     *\n     * @returns {Promise} Schema\n     */",
+        "meta": {
+            "range": [
+                5503,
+                6685
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 177,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000396",
+                "name": "SchemaHelper.getNativeSchema",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a native Schema by id",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Schema"
+            }
+        ],
+        "name": "getNativeSchema",
+        "longname": "HashBrown.Server.Helpers.SchemaHelper.getNativeSchema",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5810,
+                5831
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 184,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000433",
+                "name": "schemaPath",
+                "type": "MemberExpression",
+                "value": "paths[0]"
+            }
+        },
+        "undocumented": true,
+        "name": "schemaPath",
+        "longname": "<anonymous>~schemaPath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6079,
+                6108
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 191,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000459",
+                "name": "properties",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "properties",
+        "longname": "<anonymous>~properties",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6142,
+                6199
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 192,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000467",
+                "name": "parentDirName",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "parentDirName",
+        "longname": "<anonymous>~parentDirName",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6233,
+                6272
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 193,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000482",
+                "name": "id",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6383,
+                6401
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 196,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000491",
+                "name": "properties.id",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "id",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~properties.id",
+        "kind": "member",
+        "memberof": "<anonymous>~properties",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6431,
+                6476
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 197,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000497",
+                "name": "properties.type",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "<anonymous>~properties.type",
+        "kind": "member",
+        "memberof": "<anonymous>~properties",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6506,
+                6532
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 198,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000506",
+                "name": "properties.isLocked",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isLocked",
+        "longname": "<anonymous>~properties.isLocked",
+        "kind": "member",
+        "memberof": "<anonymous>~properties",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets a Schema by id\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @return {Promise} Schema\n     */",
+        "meta": {
+            "range": [
+                6872,
+                7964
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 217,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000515",
+                "name": "SchemaHelper.getSchemaById",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a Schema by id",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Schema"
+            }
+        ],
+        "name": "getSchemaById",
+        "longname": "HashBrown.Server.Helpers.SchemaHelper.getSchemaById",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7076,
+                7113
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 222,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000541",
+                "name": "collection",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "collection",
+        "longname": "<anonymous>~collection",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7224,
+                7499
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 228,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000559",
+                "name": "promise",
+                "type": "ConditionalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "promise",
+        "longname": "<anonymous>~promise",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7461,
+                7467
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 235,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000583",
+                "name": "id",
+                "type": "Identifier",
+                "value": "id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "id",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Gets all parent fields\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {Promise} Schema with all aprent fields\n     */",
+        "meta": {
+            "range": [
+                8181,
+                9312
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 263,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000642",
+                "name": "SchemaHelper.getSchemaWithParentFields",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets all parent fields",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Schema with all aprent fields"
+            }
+        ],
+        "name": "getSchemaWithParentFields",
+        "longname": "HashBrown.Server.Helpers.SchemaHelper.getSchemaWithParentFields",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8970,
+                9024
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 281,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000719",
+                "name": "mergedSchema",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "mergedSchema",
+        "longname": "<anonymous>~mergedSchema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9208,
+                9237
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 288,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000734",
+                "name": "model",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "model",
+        "longname": "<anonymous>~model",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Removes a Schema object by id\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @return {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                9515,
+                11487
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 304,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000747",
+                "name": "SchemaHelper.removeSchemaById",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Removes a Schema object by id",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "removeSchemaById",
+        "longname": "HashBrown.Server.Helpers.SchemaHelper.removeSchemaById",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9722,
+                9759
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 309,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000773",
+                "name": "collection",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "collection",
+        "longname": "<anonymous>~collection",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9773,
+                9783
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 310,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000779",
+                "name": "thisSchema"
+            }
+        },
+        "undocumented": true,
+        "name": "thisSchema",
+        "longname": "<anonymous>~thisSchema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9971,
+                9990
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 317,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000800",
+                "name": "thisSchema",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "result",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "thisSchema",
+        "longname": "<anonymous>~thisSchema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10197,
+                11163
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 324,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000815",
+                "name": "checkNext",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "customSchema": "<anonymous>~checkNext~customSchema",
+                "id": "<anonymous>~checkNext~id",
+                "customSchema.parentSchemaId": "<anonymous>~checkNext~customSchema.parentSchemaId",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "checkNext",
+        "longname": "<anonymous>~checkNext",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10272,
+                10284
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 326,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000820",
+                "name": "customSchema"
+            }
+        },
+        "undocumented": true,
+        "name": "customSchema",
+        "longname": "<anonymous>~checkNext~customSchema",
+        "kind": "member",
+        "memberof": "<anonymous>~checkNext",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10327,
+                10329
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 328,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000824",
+                "name": "id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~checkNext~id",
+        "kind": "member",
+        "memberof": "<anonymous>~checkNext",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10370,
+                10402
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 329,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000829",
+                "name": "customSchema",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>~checkNext",
+                "value": "customSchemas[undefined]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "customSchema",
+        "longname": "<anonymous>~checkNext~customSchema",
+        "kind": "member",
+        "memberof": "<anonymous>~checkNext",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10905,
+                10960
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 341,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000862",
+                "name": "customSchema.parentSchemaId",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>~checkNext",
+                "value": "thisSchema.parentSchemaId",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "parentSchemaId",
+        "longname": "<anonymous>~checkNext~customSchema.parentSchemaId",
+        "kind": "member",
+        "memberof": "<anonymous>~checkNext~customSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11430,
+                11436
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 358,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000906",
+                "name": "id",
+                "type": "Identifier",
+                "value": "id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "id",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Checks if a Schema is being updated with an id that already exists\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} oldId\n     * @param {String} newId\n     *\n     * @return {Promise} Check result\n     */",
+        "meta": {
+            "range": [
+                11763,
+                12334
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 374,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000908",
+                "name": "SchemaHelper.duplicateIdCheck",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "oldId",
+                    "newId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Checks if a Schema is being updated with an id that already exists",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "oldId"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "newId"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Check result"
+            }
+        ],
+        "name": "duplicateIdCheck",
+        "longname": "HashBrown.Server.Helpers.SchemaHelper.duplicateIdCheck",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Sets a Schema by id\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {Number} id\n     * @param {Schema} schema\n     * @param {Boolean} create\n     *\n     * @return {Promise} Resulting Schema\n     */",
+        "meta": {
+            "range": [
+                12592,
+                13848
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 402,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000973",
+                "name": "SchemaHelper.setSchemaById",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "id",
+                    "schema",
+                    "create"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Sets a Schema by id",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Schema"
+                    ]
+                },
+                "name": "schema"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "name": "create",
+                "defaultvalue": false
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Resulting Schema"
+            }
+        ],
+        "name": "setSchemaById",
+        "longname": "HashBrown.Server.Helpers.SchemaHelper.setSchemaById",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12883,
+                12920
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 408,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001013",
+                "name": "collection",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "collection",
+        "longname": "<anonymous>~collection",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12938,
+                12959
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 410,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001019",
+                "name": "schema",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "schema",
+        "longname": "<anonymous>~schema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13003,
+                13026
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 413,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001025",
+                "name": "schema.isLocked",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isLocked",
+        "longname": "<anonymous>~schema.isLocked",
+        "kind": "member",
+        "memberof": "<anonymous>~schema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13037,
+                13068
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 415,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001031",
+                "name": "schema.sync",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "sync",
+        "longname": "<anonymous>~schema.sync",
+        "kind": "member",
+        "memberof": "<anonymous>~schema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13078,
+                13161
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 416,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001041",
+                "name": "schema.sync",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{\"isRemote\":false,\"hasRemote\":false}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "sync",
+        "longname": "<anonymous>~schema.sync",
+        "kind": "member",
+        "memberof": "<anonymous>~schema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13106,
+                13121
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 417,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001046",
+                "name": "isRemote",
+                "type": "Literal",
+                "value": false
+            }
+        },
+        "undocumented": true,
+        "name": "isRemote",
+        "longname": "<anonymous>~schema.sync.isRemote",
+        "kind": "member",
+        "memberof": "<anonymous>~schema.sync",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13135,
+                13151
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 418,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001048",
+                "name": "hasRemote",
+                "type": "Literal",
+                "value": false
+            }
+        },
+        "undocumented": true,
+        "name": "hasRemote",
+        "longname": "<anonymous>~schema.sync.hasRemote",
+        "kind": "member",
+        "memberof": "<anonymous>~schema.sync",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13576,
+                13582
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 431,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001098",
+                "name": "id",
+                "type": "Identifier",
+                "value": "id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "id",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13664,
+                13678
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 435,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001102",
+                "name": "upsert",
+                "type": "Identifier",
+                "value": "create"
+            }
+        },
+        "undocumented": true,
+        "name": "upsert",
+        "longname": "upsert",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Creates a new Schema\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {Schema} parentSchema\n     *\n     * @returns {Promise} Created Schema\n     */",
+        "meta": {
+            "range": [
+                14055,
+                14641
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 452,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001117",
+                "name": "SchemaHelper.createSchema",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "parentSchema"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Creates a new Schema",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Schema"
+                    ]
+                },
+                "name": "parentSchema"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Created Schema"
+            }
+        ],
+        "name": "createSchema",
+        "longname": "HashBrown.Server.Helpers.SchemaHelper.createSchema",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                14305,
+                14342
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 457,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001147",
+                "name": "collection",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "collection",
+        "longname": "<anonymous>~collection",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                14356,
+                14412
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 458,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001153",
+                "name": "newSchema",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "newSchema",
+        "longname": "<anonymous>~newSchema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                14645,
+                14674
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 470,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001191",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "SchemaHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers/SchemaHelper.js"
+        ]
+    }
+]

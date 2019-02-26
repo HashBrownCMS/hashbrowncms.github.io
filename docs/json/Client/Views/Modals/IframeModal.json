@@ -1,0 +1,166 @@
+[
+    {
+        "comment": "/**\n * A modal for showng iframes\n *\n * @memberof HashBrown.Client.Views.Modals\n */",
+        "meta": {
+            "range": [
+                99,
+                414
+            ],
+            "filename": "IframeModal.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000004",
+                "name": "IframeModal",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "A modal for showng iframes",
+        "memberof": "HashBrown.Client.Views.Modals",
+        "name": "IframeModal",
+        "longname": "HashBrown.Client.Views.Modals.IframeModal",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Post render\n     */",
+        "meta": {
+            "range": [
+                195,
+                277
+            ],
+            "filename": "IframeModal.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000014",
+                "name": "IframeModal#postrender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Post render",
+        "name": "postrender",
+        "longname": "HashBrown.Client.Views.Modals.IframeModal#postrender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.IframeModal",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Render body\n     */",
+        "meta": {
+            "range": [
+                318,
+                412
+            ],
+            "filename": "IframeModal.js",
+            "lineno": 19,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000029",
+                "name": "IframeModal#renderBody",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Render body",
+        "name": "renderBody",
+        "longname": "HashBrown.Client.Views.Modals.IframeModal#renderBody",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.IframeModal",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                358,
+                388
+            ],
+            "filename": "IframeModal.js",
+            "lineno": 20,
+            "columnno": 25,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000039",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--iframe__iframe"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                390,
+                403
+            ],
+            "filename": "IframeModal.js",
+            "lineno": 20,
+            "columnno": 57,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000041",
+                "name": "src",
+                "type": "MemberExpression",
+                "value": "this.url"
+            }
+        },
+        "undocumented": true,
+        "name": "src",
+        "longname": "src",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                416,
+                444
+            ],
+            "filename": "IframeModal.js",
+            "lineno": 24,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000046",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "IframeModal",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals/IframeModal.js"
+        ]
+    }
+]

@@ -1,0 +1,2577 @@
+[
+    {
+        "comment": "/**\n * The editor for Connections\n *\n * @memberof HashBrown.Client.Views.Editors\n */",
+        "meta": {
+            "range": [
+                100,
+                10248
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000004",
+                "name": "ConnectionEditor",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "The editor for Connections",
+        "memberof": "HashBrown.Client.Views.Editors",
+        "name": "ConnectionEditor",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                148,
+                221
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 9,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000010",
+                "name": "ConnectionEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "ConnectionEditor",
+        "longname": "HashBrown.Client.Views.Editors~ConnectionEditor",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Editors",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Event: Click advanced. Routes to the JSON editor\n     */",
+        "meta": {
+            "range": [
+                299,
+                386
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 18,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000024",
+                "name": "ConnectionEditor#onClickAdvanced",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click advanced. Routes to the JSON editor",
+        "name": "onClickAdvanced",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#onClickAdvanced",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                327,
+                379
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 19,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000029",
+                "name": "location.hash",
+                "type": "BinaryExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "location.hash",
+        "kind": "member",
+        "memberof": "location",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Click save. Posts the model to the modelUrl\n     */",
+        "meta": {
+            "range": [
+                466,
+                799
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 25,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000040",
+                "name": "ConnectionEditor#onClickSave",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click save. Posts the model to the modelUrl",
+        "name": "onClickSave",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#onClickSave",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Renders the Media provider editor\n     */",
+        "meta": {
+            "range": [
+                862,
+                1647
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 40,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000098",
+                "name": "ConnectionEditor#renderMediaProviderEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the Media provider editor",
+        "name": "renderMediaProviderEditor",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#renderMediaProviderEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                904,
+                1210
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 41,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000103",
+                "name": "input",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "input",
+        "longname": "<anonymous>~input",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                960,
+                972
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 42,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000114",
+                "name": "value",
+                "type": "Literal",
+                "value": false
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                986,
+                1002
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 43,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000116",
+                "name": "type",
+                "type": "Literal",
+                "value": "checkbox"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1016,
+                1199
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 44,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000118",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1466,
+                1484
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 56,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000183",
+                "name": "input.value",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~input.value",
+        "kind": "member",
+        "memberof": "<anonymous>~input",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the title editor\n     */",
+        "meta": {
+            "range": [
+                1701,
+                1934
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 69,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000206",
+                "name": "ConnectionEditor#renderTitleEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the title editor",
+        "name": "renderTitleEditor",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#renderTitleEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1786,
+                1809
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 71,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000221",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.title"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1823,
+                1907
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 72,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000227",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.title": "HashBrown.Client.Views.Editors.ConnectionEditor#model.title"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1865,
+                1892
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 73,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000232",
+                "name": "this.model.title",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#model.title",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the URL editor\n     */",
+        "meta": {
+            "range": [
+                1990,
+                2217
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 81,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000240",
+                "name": "ConnectionEditor#renderUrlEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the URL editor",
+        "name": "renderUrlEditor",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#renderUrlEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2073,
+                2094
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 83,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000255",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.url"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2108,
+                2190
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 84,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000261",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.url": "HashBrown.Client.Views.Editors.ConnectionEditor#model.url"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2150,
+                2175
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 85,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000266",
+                "name": "this.model.url",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "url",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#model.url",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the processing settings editor\n     */",
+        "meta": {
+            "range": [
+                2285,
+                4105
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 93,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000274",
+                "name": "ConnectionEditor#renderProcessorSettingsEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the processing settings editor",
+        "name": "renderProcessorSettingsEditor",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#renderProcessorSettingsEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2355,
+                2377
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 95,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000285",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2403,
+                2430
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 96,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000292",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2465,
+                2494
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 97,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000300",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2580,
+                2613
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 99,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000312",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.processor.alias"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2639,
+                2675
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 100,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000320",
+                "name": "optionsUrl",
+                "type": "Literal",
+                "value": "connections/processors"
+            }
+        },
+        "undocumented": true,
+        "name": "optionsUrl",
+        "longname": "optionsUrl",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2702,
+                2719
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 101,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000322",
+                "name": "valueKey",
+                "type": "Literal",
+                "value": "alias"
+            }
+        },
+        "undocumented": true,
+        "name": "valueKey",
+        "longname": "valueKey",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2745,
+                2761
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 102,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000324",
+                "name": "labelKey",
+                "type": "Literal",
+                "value": "name"
+            }
+        },
+        "undocumented": true,
+        "name": "labelKey",
+        "longname": "labelKey",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2787,
+                2806
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 103,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000326",
+                "name": "placeholder",
+                "type": "Literal",
+                "value": "Type"
+            }
+        },
+        "undocumented": true,
+        "name": "placeholder",
+        "longname": "placeholder",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2832,
+                2993
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 104,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000328",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.processor.alias": "HashBrown.Client.Views.Editors.ConnectionEditor#model.processor.alias"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2886,
+                2923
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 105,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000333",
+                "name": "this.model.processor.alias",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "alias",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#model.processor.alias",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor#model.processor",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3078,
+                3100
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 112,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000353",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3126,
+                3153
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 113,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000360",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3183,
+                3217
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 114,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000367",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key__label"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3266,
+                3306
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 115,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000375",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key__description"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3624,
+                3651
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 121,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000412",
+                "name": "model",
+                "type": "MemberExpression",
+                "value": "this.model.processor"
+            }
+        },
+        "undocumented": true,
+        "name": "model",
+        "longname": "model",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3728,
+                3757
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 124,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000424",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3840,
+                3881
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 126,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000435",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.processor.fileExtension"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3907,
+                4033
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 127,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000443",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.processor.fileExtension": "HashBrown.Client.Views.Editors.ConnectionEditor#model.processor.fileExtension"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3961,
+                4006
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 128,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000448",
+                "name": "this.model.processor.fileExtension",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "fileExtension",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#model.processor.fileExtension",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor#model.processor",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the deployment settings editor\n     */",
+        "meta": {
+            "range": [
+                4177,
+                7077
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 139,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000457",
+                "name": "ConnectionEditor#renderDeployerSettingsEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the deployment settings editor",
+        "name": "renderDeployerSettingsEditor",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#renderDeployerSettingsEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4246,
+                4268
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 141,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000468",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4294,
+                4321
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 142,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000475",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4356,
+                4385
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 143,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000483",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4471,
+                4503
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 145,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000495",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.deployer.alias"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4529,
+                4564
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 146,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000503",
+                "name": "optionsUrl",
+                "type": "Literal",
+                "value": "connections/deployers"
+            }
+        },
+        "undocumented": true,
+        "name": "optionsUrl",
+        "longname": "optionsUrl",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4591,
+                4608
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 147,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000505",
+                "name": "valueKey",
+                "type": "Literal",
+                "value": "alias"
+            }
+        },
+        "undocumented": true,
+        "name": "valueKey",
+        "longname": "valueKey",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4634,
+                4650
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 148,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000507",
+                "name": "labelKey",
+                "type": "Literal",
+                "value": "name"
+            }
+        },
+        "undocumented": true,
+        "name": "labelKey",
+        "longname": "labelKey",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4676,
+                4695
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 149,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000509",
+                "name": "placeholder",
+                "type": "Literal",
+                "value": "Type"
+            }
+        },
+        "undocumented": true,
+        "name": "placeholder",
+        "longname": "placeholder",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4721,
+                4881
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 150,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000511",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.deployer.alias": "HashBrown.Client.Views.Editors.ConnectionEditor#model.deployer.alias"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4775,
+                4811
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 151,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000516",
+                "name": "this.model.deployer.alias",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "alias",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#model.deployer.alias",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor#model.deployer",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5179,
+                5205
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 162,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000565",
+                "name": "model",
+                "type": "MemberExpression",
+                "value": "this.model.deployer"
+            }
+        },
+        "undocumented": true,
+        "name": "model",
+        "longname": "model",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5406,
+                5428
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 168,
+            "columnno": 30,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000602",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5458,
+                5485
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 169,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000609",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5519,
+                5553
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 170,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000616",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key__label"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5597,
+                5637
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 171,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000624",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key__description"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5732,
+                5761
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 173,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000632",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5795,
+                5817
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 174,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000639",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5855,
+                5882
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 175,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000646",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5932,
+                5961
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 176,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000654",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6068,
+                6108
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 178,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000665",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.deployer.paths.content"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6146,
+                6295
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 179,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000675",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.deployer.paths.content": "HashBrown.Client.Views.Editors.ConnectionEditor#model.deployer.paths.content"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6212,
+                6256
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 180,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000680",
+                "name": "this.model.deployer.paths.content",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "content",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#model.deployer.paths.content",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor#model.deployer.paths",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6419,
+                6441
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 185,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000696",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6479,
+                6506
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 186,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000703",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6554,
+                6583
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 187,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000711",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6690,
+                6728
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 189,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000722",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.deployer.paths.media"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6766,
+                6913
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 190,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000732",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.deployer.paths.media": "HashBrown.Client.Views.Editors.ConnectionEditor#model.deployer.paths.media"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6832,
+                6874
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 191,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000737",
+                "name": "this.model.deployer.paths.media",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "media",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#model.deployer.paths.media",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor#model.deployer.paths",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Prerender\n     */",
+        "meta": {
+            "range": [
+                7116,
+                7289
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 205,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000748",
+                "name": "ConnectionEditor#prerender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Prerender",
+        "name": "prerender",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#prerender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7216,
+                7272
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 207,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000766",
+                "name": "this.model",
+                "type": "NewExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "model",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#model",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Renders this editor\n     */",
+        "meta": {
+            "range": [
+                7338,
+                10246
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 214,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000779",
+                "name": "ConnectionEditor#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders this editor",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7373,
+                7448
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 215,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000789",
+                "name": "class",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7470,
+                7493
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 216,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000805",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7520,
+                7564
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 217,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000812",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header__icon fa fa-exchange"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7590,
+                7620
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 218,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000819",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__header__title"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7675,
+                7696
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 220,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000831",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__body"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7722,
+                7744
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 221,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000838",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7774,
+                7801
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 222,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000845",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7853,
+                7882
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 223,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000853",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8006,
+                8028
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 227,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000864",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8058,
+                8085
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 228,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000871",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8125,
+                8154
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 229,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000879",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8270,
+                8292
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 233,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000890",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8322,
+                8349
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 234,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000897",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8387,
+                8416
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 235,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000905",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8530,
+                8552
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 239,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000916",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8582,
+                8609
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 240,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000923",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8643,
+                8677
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 241,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000930",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key__label"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8725,
+                8765
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 242,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000938",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key__description"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8855,
+                8884
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 244,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000946",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9012,
+                9034
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 248,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000957",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9064,
+                9091
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 249,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000964",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9125,
+                9159
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 250,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000971",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key__label"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9206,
+                9246
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 251,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000979",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key__description"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9357,
+                9386
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 253,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000987",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9523,
+                9546
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 258,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000998",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__footer"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9573,
+                9605
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 259,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001005",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__footer__buttons"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9638,
+                9677
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 260,
+            "columnno": 30,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001014",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button embedded"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9851,
+                10175
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 264,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001035",
+                "name": "this.$saveBtn",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "$saveBtn",
+        "longname": "HashBrown.Client.Views.Editors.ConnectionEditor#$saveBtn",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.ConnectionEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9877,
+                9937
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 264,
+            "columnno": 50,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001046",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button editor__footer__buttons__save"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9976,
+                10013
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 265,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001053",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--button__text-default"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10062,
+                10099
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 266,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001061",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--button__text-working"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10250,
+                10283
+            ],
+            "filename": "ConnectionEditor.js",
+            "lineno": 275,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100001073",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "ConnectionEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/ConnectionEditor.js"
+        ]
+    }
+]

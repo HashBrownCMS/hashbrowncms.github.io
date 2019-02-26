@@ -1,0 +1,579 @@
+[
+    {
+        "comment": "/**\n * The helpers class for system tests\n *\n * @memberof HashBrown.Server.Helpers\n */",
+        "meta": {
+            "range": [
+                102,
+                9133
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000004",
+                "name": "TestHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The helpers class for system tests",
+        "memberof": "HashBrown.Server.Helpers",
+        "name": "TestHelper",
+        "longname": "HashBrown.Server.Helpers.TestHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * HashBrown.Helpers.BackupHelper test\n     *\n     * @param {String} project\n     * @param {Function} onMessage\n     *\n     * @returns {Promise}\n     */",
+        "meta": {
+            "range": [
+                290,
+                1343
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 17,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000007",
+                "name": "TestHelper.testBackupHelper",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "onMessage"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "HashBrown.Helpers.BackupHelper test",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "name": "onMessage"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                }
+            }
+        ],
+        "name": "testBackupHelper",
+        "longname": "HashBrown.Server.Helpers.TestHelper.testBackupHelper",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.TestHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                451,
+                460
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 21,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000026",
+                "name": "timestamp"
+            }
+        },
+        "undocumented": true,
+        "name": "timestamp",
+        "longname": "<anonymous>~timestamp",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                803,
+                827
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 30,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000077",
+                "name": "timestamp",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "newTimestamp",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "timestamp",
+        "longname": "<anonymous>~timestamp",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * HashBrown.Helpers.ConnectionHelper test\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {Function} onMessage\n     *\n     * @returns {Promise}\n     */",
+        "meta": {
+            "range": [
+                1553,
+                2825
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 52,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000145",
+                "name": "TestHelper.testConnectionHelper",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "onMessage"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "HashBrown.Helpers.ConnectionHelper test",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "name": "onMessage"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                }
+            }
+        ],
+        "name": "testConnectionHelper",
+        "longname": "HashBrown.Server.Helpers.TestHelper.testConnectionHelper",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.TestHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * HashBrown.Helpers.FormHelper test\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {Function} onMessage\n     *\n     * @returns {Promise}\n     */",
+        "meta": {
+            "range": [
+                3029,
+                4337
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 86,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000297",
+                "name": "TestHelper.testFormHelper",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "onMessage"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "HashBrown.Helpers.FormHelper test",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "name": "onMessage"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                }
+            }
+        ],
+        "name": "testFormHelper",
+        "longname": "HashBrown.Server.Helpers.TestHelper.testFormHelper",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.TestHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * HashBrown.Helpers.ContentHelper test\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {User} user\n     * @param {Function} onMessage\n     *\n     * @returns {Promise}\n     */",
+        "meta": {
+            "range": [
+                4570,
+                5915
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 125,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000480",
+                "name": "TestHelper.testContentHelper",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "user",
+                    "onMessage"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "HashBrown.Helpers.ContentHelper test",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "User"
+                    ]
+                },
+                "name": "user"
+            },
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "name": "onMessage"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                }
+            }
+        ],
+        "name": "testContentHelper",
+        "longname": "HashBrown.Server.Helpers.TestHelper.testContentHelper",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.TestHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * HashBrown.Helpers.ProjectHelper test\n     *\n     * @param {Project} testProject \n     * @param {Function} onMessage\n     *\n     * @returns {Promise}\n     */",
+        "meta": {
+            "range": [
+                6097,
+                7265
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 164,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000646",
+                "name": "TestHelper.testProjectHelper",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "testProject",
+                    "onMessage"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "HashBrown.Helpers.ProjectHelper test",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Project"
+                    ]
+                },
+                "name": "testProject"
+            },
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "name": "onMessage"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                }
+            }
+        ],
+        "name": "testProjectHelper",
+        "longname": "HashBrown.Server.Helpers.TestHelper.testProjectHelper",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.TestHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * HashBrown.Helpers.SchemaHelper test\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {Function} onMessage\n     *\n     * @returns {Promise}\n     */",
+        "meta": {
+            "range": [
+                7471,
+                9131
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 197,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000802",
+                "name": "TestHelper.testSchemaHelper",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "onMessage"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "HashBrown.Helpers.SchemaHelper test",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "name": "onMessage"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                }
+            }
+        ],
+        "name": "testSchemaHelper",
+        "longname": "HashBrown.Server.Helpers.TestHelper.testSchemaHelper",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.TestHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7846,
+                7857
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 205,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000855",
+                "name": "contentBase"
+            }
+        },
+        "undocumented": true,
+        "name": "contentBase",
+        "longname": "<anonymous>~contentBase",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7880,
+                7881
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 207,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000859",
+                "name": "i"
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7982,
+                8012
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 209,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000873",
+                "name": "contentBase",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "nativeSchemas[undefined]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "contentBase",
+        "longname": "<anonymous>~contentBase",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9135,
+                9162
+            ],
+            "filename": "TestHelper.js",
+            "lineno": 240,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001000",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "TestHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers/TestHelper.js"
+        ]
+    }
+]

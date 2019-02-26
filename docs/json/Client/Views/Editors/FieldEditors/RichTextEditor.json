@@ -1,0 +1,3170 @@
+[
+    {
+        "comment": "/**\n * A rich text editor\n *\n * @description Example:\n * <pre>\n * {\n *     \"myRichText\": {\n *         \"label\": \"My rich text\",\n *         \"tabId\": \"content\",\n *         \"schemaId\": \"richText\"\n *     }\n * }\n * </pre>\n *\n * @memberof HashBrown.Client.Views.Editors.FieldEditors\n */",
+        "meta": {
+            "range": [
+                295,
+                11933
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 19,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000004",
+                "name": "RichTextEditor",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A rich text editor",
+        "description": "Example:\n<pre>\n{\n    \"myRichText\": {\n        \"label\": \"My rich text\",\n        \"tabId\": \"content\",\n        \"schemaId\": \"richText\"\n    }\n}\n</pre>",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors",
+        "name": "RichTextEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                379,
+                792
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 20,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000016",
+                "name": "RichTextEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "RichTextEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors~RichTextEditor",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                515,
+                544
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 25,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000034",
+                "name": "this.value",
+                "type": "LogicalExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                623,
+                654
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 30,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000046",
+                "name": "this.value",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Renders the config editor\n     *\n     * @param {Object} config\n     *\n     * @returns {HTMLElement} Element\n     */",
+        "meta": {
+            "range": [
+                933,
+                1564
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 45,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000061",
+                "name": "RichTextEditor.renderConfigEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "config"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the config editor",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "config"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Element"
+            }
+        ],
+        "name": "renderConfigEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor.renderConfigEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1005,
+                1027
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 47,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000073",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1053,
+                1080
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 48,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000080",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1127,
+                1156
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 49,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000088",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1239,
+                1255
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 51,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000100",
+                "name": "type",
+                "type": "Literal",
+                "value": "checkbox"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1281,
+                1325
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 52,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000102",
+                "name": "tooltip",
+                "type": "Literal",
+                "value": "Hides the markdown tab if enabled"
+            }
+        },
+        "undocumented": true,
+        "name": "tooltip",
+        "longname": "tooltip",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1351,
+                1392
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 53,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000104",
+                "name": "value",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1418,
+                1483
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 54,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000110",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "config.isMarkdownDisabled": "config.isMarkdownDisabled"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1444,
+                1480
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 54,
+            "columnno": 50,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000115",
+                "name": "config.isMarkdownDisabled",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isMarkdownDisabled",
+        "longname": "config.isMarkdownDisabled",
+        "kind": "member",
+        "memberof": "config",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Change input\n     *\n     * @param {String} value\n     */",
+        "meta": {
+            "range": [
+                1649,
+                1951
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 66,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000121",
+                "name": "RichTextEditor#onChange",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "value"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Change input",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "value"
+            }
+        ],
+        "name": "onChange",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#onChange",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1675,
+                1694
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 67,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000127",
+                "name": "value",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1705,
+                1723
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 69,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000133",
+                "name": "this.value",
+                "type": "Identifier",
+                "value": "value",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1779,
+                1804
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 72,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000146",
+                "name": "this.silentChange",
+                "type": "Literal",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "silentChange",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#silentChange",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Event: On click tab\n     *\n     * @param {String} source\n     */",
+        "meta": {
+            "range": [
+                2037,
+                2155
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 87,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000170",
+                "name": "RichTextEditor#onClickTab",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "source"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: On click tab",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "source"
+            }
+        ],
+        "name": "onClickTab",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#onClickTab",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2066,
+                2090
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 88,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000176",
+                "name": "this.silentChange",
+                "type": "Literal",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "silentChange",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#silentChange",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2101,
+                2125
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 90,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000182",
+                "name": "this.activeView",
+                "type": "Identifier",
+                "value": "source",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "activeView",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#activeView",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Event: Click insert media\n     */",
+        "meta": {
+            "range": [
+                2210,
+                3414
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 98,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000192",
+                "name": "RichTextEditor#onClickInsertMedia",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click insert media",
+        "name": "onClickInsertMedia",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#onClickInsertMedia",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2245,
+                2301
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 99,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000197",
+                "name": "mediaBrowser",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "mediaBrowser",
+        "longname": "<anonymous>~mediaBrowser",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2458,
+                2467
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 104,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000235",
+                "name": "html",
+                "type": "Literal",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "html",
+        "longname": "<anonymous>~html",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2528,
+                2612
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 107,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000245",
+                "name": "html",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "html",
+        "longname": "<anonymous>~html",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2679,
+                2765
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 109,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000271",
+                "name": "html",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "html",
+        "longname": "<anonymous>~html",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2806,
+                2847
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 112,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000291",
+                "name": "activeView",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "activeView",
+        "longname": "<anonymous>~activeView",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets the tab content\n     *\n     * @returns {HTMLElement} Tab content\n     */",
+        "meta": {
+            "range": [
+                3517,
+                3625
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 137,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000341",
+                "name": "RichTextEditor#getTabContent",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets the tab content",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Tab content"
+            }
+        ],
+        "name": "getTabContent",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#getTabContent",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Initialises the HTML editor\n     */",
+        "meta": {
+            "range": [
+                3682,
+                4471
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 144,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000353",
+                "name": "RichTextEditor#initHtmlEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Initialises the HTML editor",
+        "name": "initHtmlEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#initHtmlEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3780,
+                4172
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 147,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000363",
+                "name": "this.html",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "html",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#html",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3856,
+                3874
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 148,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000376",
+                "name": "lineNumbers",
+                "type": "Literal",
+                "value": false
+            }
+        },
+        "undocumented": true,
+        "name": "lineNumbers",
+        "longname": "lineNumbers",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3892,
+                3949
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 149,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000378",
+                "name": "mode",
+                "type": "ObjectExpression",
+                "value": "{\"name\":\"xml\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "mode",
+        "longname": "mode",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3920,
+                3931
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 150,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000380",
+                "name": "name",
+                "type": "Literal",
+                "value": "xml"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "mode.name",
+        "kind": "member",
+        "memberof": "mode",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3967,
+                3991
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 152,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000382",
+                "name": "viewportMargin",
+                "type": "Identifier",
+                "value": "Infinity"
+            }
+        },
+        "undocumented": true,
+        "name": "viewportMargin",
+        "longname": "viewportMargin",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4009,
+                4019
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 153,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000384",
+                "name": "tabSize",
+                "type": "Literal",
+                "value": 4
+            }
+        },
+        "undocumented": true,
+        "name": "tabSize",
+        "longname": "tabSize",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4037,
+                4050
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 154,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000386",
+                "name": "indentUnit",
+                "type": "Literal",
+                "value": 4
+            }
+        },
+        "undocumented": true,
+        "name": "indentUnit",
+        "longname": "indentUnit",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4068,
+                4088
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 155,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000388",
+                "name": "indentWithTabs",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "indentWithTabs",
+        "longname": "indentWithTabs",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4106,
+                4122
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 156,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000390",
+                "name": "theme",
+                "type": "Literal",
+                "value": "default"
+            }
+        },
+        "undocumented": true,
+        "name": "theme",
+        "longname": "theme",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4140,
+                4157
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 157,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000392",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.value"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4372,
+                4396
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 166,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000421",
+                "name": "this.silentChange",
+                "type": "Literal",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "silentChange",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#silentChange",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Initialises the markdown editor\n     */",
+        "meta": {
+            "range": [
+                4536,
+                5382
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 174,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000440",
+                "name": "RichTextEditor#initMarkdownEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Initialises the markdown editor",
+        "name": "initMarkdownEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#initMarkdownEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4638,
+                5051
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 177,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000450",
+                "name": "this.markdown",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "markdown",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#markdown",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4718,
+                4736
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 178,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000463",
+                "name": "lineNumbers",
+                "type": "Literal",
+                "value": false
+            }
+        },
+        "undocumented": true,
+        "name": "lineNumbers",
+        "longname": "lineNumbers",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4754,
+                4816
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 179,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000465",
+                "name": "mode",
+                "type": "ObjectExpression",
+                "value": "{\"name\":\"markdown\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "mode",
+        "longname": "mode",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4782,
+                4798
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 180,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000467",
+                "name": "name",
+                "type": "Literal",
+                "value": "markdown"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "mode.name",
+        "kind": "member",
+        "memberof": "mode",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4834,
+                4858
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 182,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000469",
+                "name": "viewportMargin",
+                "type": "Identifier",
+                "value": "Infinity"
+            }
+        },
+        "undocumented": true,
+        "name": "viewportMargin",
+        "longname": "viewportMargin",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4876,
+                4886
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 183,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000471",
+                "name": "tabSize",
+                "type": "Literal",
+                "value": 4
+            }
+        },
+        "undocumented": true,
+        "name": "tabSize",
+        "longname": "tabSize",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4904,
+                4917
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 184,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000473",
+                "name": "indentUnit",
+                "type": "Literal",
+                "value": 4
+            }
+        },
+        "undocumented": true,
+        "name": "indentUnit",
+        "longname": "indentUnit",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4935,
+                4955
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 185,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000475",
+                "name": "indentWithTabs",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "indentWithTabs",
+        "longname": "indentWithTabs",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4973,
+                4989
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 186,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000477",
+                "name": "theme",
+                "type": "Literal",
+                "value": "default"
+            }
+        },
+        "undocumented": true,
+        "name": "theme",
+        "longname": "theme",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5007,
+                5036
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 187,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000479",
+                "name": "value",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5267,
+                5291
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 196,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000512",
+                "name": "this.silentChange",
+                "type": "Literal",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "silentChange",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#silentChange",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Initialises the WYSIWYG editor\n     */",
+        "meta": {
+            "range": [
+                5442,
+                9703
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 204,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000533",
+                "name": "RichTextEditor#initWYSIWYGEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Initialises the WYSIWYG editor",
+        "name": "initWYSIWYGEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#initWYSIWYGEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5472,
+                6529
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 205,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000538",
+                "name": "this.wysiwyg",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "wysiwyg",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#wysiwyg",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5569,
+                5618
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 208,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000551",
+                "name": "removePlugins",
+                "type": "Literal",
+                "value": "contextmenu,liststyle,tabletools"
+            }
+        },
+        "undocumented": true,
+        "name": "removePlugins",
+        "longname": "removePlugins",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5636,
+                5656
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 209,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000553",
+                "name": "allowedContent",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "allowedContent",
+        "longname": "allowedContent",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5674,
+                5685
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 210,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000555",
+                "name": "height",
+                "type": "Literal",
+                "value": 400
+            }
+        },
+        "undocumented": true,
+        "name": "height",
+        "longname": "height",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5703,
+                6248
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 211,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000557",
+                "name": "toolbarGroups",
+                "type": "ArrayExpression",
+                "value": "[\"{\\\"name\\\":\\\"styles\\\"}\",\"{\\\"name\\\":\\\"basicstyles\\\",\\\"groups\\\":\\\"\\\"}\",\"{\\\"name\\\":\\\"paragraph\\\",\\\"groups\\\":\\\"\\\"}\",\"{\\\"name\\\":\\\"links\\\"}\",\"{\\\"name\\\":\\\"insert\\\"}\",\"{\\\"name\\\":\\\"forms\\\"}\",\"{\\\"name\\\":\\\"tools\\\"}\",\"{\\\"name\\\":\\\"document\\\",\\\"groups\\\":\\\"\\\"}\",\"{\\\"name\\\":\\\"others\\\"}\"]"
+            }
+        },
+        "undocumented": true,
+        "name": "toolbarGroups",
+        "longname": "toolbarGroups",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5742,
+                5756
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 212,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000560",
+                "name": "name",
+                "type": "Literal",
+                "value": "styles"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5782,
+                5801
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 213,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000563",
+                "name": "name",
+                "type": "Literal",
+                "value": "basicstyles"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5803,
+                5839
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 213,
+            "columnno": 43,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000565",
+                "name": "groups",
+                "type": "ArrayExpression",
+                "value": "[\"basicstyles\",\"cleanup\"]"
+            }
+        },
+        "undocumented": true,
+        "name": "groups",
+        "longname": "groups",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5865,
+                5882
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 214,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000570",
+                "name": "name",
+                "type": "Literal",
+                "value": "paragraph"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5886,
+                5941
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 214,
+            "columnno": 43,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000572",
+                "name": "groups",
+                "type": "ArrayExpression",
+                "value": "[\"list\",\"indent\",\"blocks\",\"align\",\"bidi\"]"
+            }
+        },
+        "undocumented": true,
+        "name": "groups",
+        "longname": "groups",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5967,
+                5980
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 215,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000580",
+                "name": "name",
+                "type": "Literal",
+                "value": "links"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6006,
+                6020
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 216,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000583",
+                "name": "name",
+                "type": "Literal",
+                "value": "insert"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6046,
+                6059
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 217,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000586",
+                "name": "name",
+                "type": "Literal",
+                "value": "forms"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6085,
+                6098
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 218,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000589",
+                "name": "name",
+                "type": "Literal",
+                "value": "tools"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6124,
+                6140
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 219,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000592",
+                "name": "name",
+                "type": "Literal",
+                "value": "document"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6145,
+                6187
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 219,
+            "columnno": 43,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000594",
+                "name": "groups",
+                "type": "ArrayExpression",
+                "value": "[\"mode\",\"document\",\"doctools\"]"
+            }
+        },
+        "undocumented": true,
+        "name": "groups",
+        "longname": "groups",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6213,
+                6227
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 220,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000600",
+                "name": "name",
+                "type": "Literal",
+                "value": "others"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6278,
+                6309
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 223,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000602",
+                "name": "extraPlugins",
+                "type": "Literal",
+                "value": "justify,divarea"
+            }
+        },
+        "undocumented": true,
+        "name": "extraPlugins",
+        "longname": "extraPlugins",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6328,
+                6438
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 225,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000604",
+                "name": "removeButtons",
+                "type": "Literal",
+                "value": "Image,Styles,Underline,Subscript,Superscript,Source,SpecialChar,HorizontalRule,Maximize,Table"
+            }
+        },
+        "undocumented": true,
+        "name": "removeButtons",
+        "longname": "removeButtons",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6457,
+                6505
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 227,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000606",
+                "name": "removeDialogTabs",
+                "type": "Literal",
+                "value": "image:advanced;link:advanced"
+            }
+        },
+        "undocumented": true,
+        "name": "removeDialogTabs",
+        "longname": "removeDialogTabs",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6747,
+                6837
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 237,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000640",
+                "name": "stripStyle",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "stripStyle",
+        "longname": "<anonymous>~stripStyle",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6948,
+                9549
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 243,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000664",
+                "name": "elements",
+                "type": "ObjectExpression",
+                "value": "{\"p\":\"\",\"h1\":\"\",\"h2\":\"\",\"h3\":\"\",\"h4\":\"\",\"h5\":\"\",\"h6\":\"\",\"span\":\"\",\"div\":\"\",\"section\":\"\",\"hr\":\"\",\"header\":\"\",\"aside\":\"\",\"footer\":\"\",\"ul\":\"\",\"li\":\"\",\"blockquote\":\"\",\"img\":\"\",\"video\":\"\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "elements",
+        "longname": "elements",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7037,
+                7050
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 245,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000666",
+                "name": "p",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "p",
+        "longname": "elements.p",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7072,
+                7086
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 246,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000668",
+                "name": "h1",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "h1",
+        "longname": "elements.h1",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7108,
+                7122
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 247,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000670",
+                "name": "h2",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "h2",
+        "longname": "elements.h2",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7144,
+                7158
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 248,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000672",
+                "name": "h3",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "h3",
+        "longname": "elements.h3",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7180,
+                7194
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 249,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000674",
+                "name": "h4",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "h4",
+        "longname": "elements.h4",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7216,
+                7230
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 250,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000676",
+                "name": "h5",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "h5",
+        "longname": "elements.h5",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7252,
+                7266
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 251,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000678",
+                "name": "h6",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "h6",
+        "longname": "elements.h6",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7288,
+                7304
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 252,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000680",
+                "name": "span",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "span",
+        "longname": "elements.span",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7326,
+                7341
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 253,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000682",
+                "name": "div",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "div",
+        "longname": "elements.div",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7363,
+                7382
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 254,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000684",
+                "name": "section",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "section",
+        "longname": "elements.section",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7404,
+                7418
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 255,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000686",
+                "name": "hr",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "hr",
+        "longname": "elements.hr",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7440,
+                7458
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 256,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000688",
+                "name": "header",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "header",
+        "longname": "elements.header",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7480,
+                7497
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 257,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000690",
+                "name": "aside",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "aside",
+        "longname": "elements.aside",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7519,
+                7537
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 258,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000692",
+                "name": "footer",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "footer",
+        "longname": "elements.footer",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7559,
+                7573
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 259,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000694",
+                "name": "ul",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "ul",
+        "longname": "elements.ul",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7595,
+                7609
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 260,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000696",
+                "name": "li",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "li",
+        "longname": "elements.li",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7631,
+                7653
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 261,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000698",
+                "name": "blockquote",
+                "type": "Identifier",
+                "value": "stripStyle"
+            }
+        },
+        "undocumented": true,
+        "name": "blockquote",
+        "longname": "elements.blockquote",
+        "kind": "member",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7745,
+                8581
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 264,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000700",
+                "name": "img",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "element.attributes.src": "element.attributes.src"
+            }
+        },
+        "undocumented": true,
+        "name": "img",
+        "longname": "elements.img",
+        "kind": "function",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7952,
+                8132
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 269,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000716",
+                "name": "element.attributes.src",
+                "type": "BinaryExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "src",
+        "longname": "element.attributes.src",
+        "kind": "member",
+        "memberof": "element.attributes",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8271,
+                8482
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 273,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000751",
+                "name": "element.attributes.src",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "src",
+        "longname": "element.attributes.src",
+        "kind": "member",
+        "memberof": "element.attributes",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8693,
+                9531
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 280,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000787",
+                "name": "video",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "element.attributes.src": "element.attributes.src"
+            }
+        },
+        "undocumented": true,
+        "name": "video",
+        "longname": "elements.video",
+        "kind": "function",
+        "memberof": "elements",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8902,
+                9082
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 285,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000803",
+                "name": "element.attributes.src",
+                "type": "BinaryExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "src",
+        "longname": "element.attributes.src",
+        "kind": "member",
+        "memberof": "element.attributes",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9221,
+                9432
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 289,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000838",
+                "name": "element.attributes.src",
+                "type": "CallExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "src",
+        "longname": "element.attributes.src",
+        "kind": "member",
+        "memberof": "element.attributes",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9614,
+                9638
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 298,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000875",
+                "name": "this.silentChange",
+                "type": "Literal",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "silentChange",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#silentChange",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Prerender\n     */",
+        "meta": {
+            "range": [
+                9742,
+                9846
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 306,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000890",
+                "name": "RichTextEditor#prerender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Prerender",
+        "name": "prerender",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#prerender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9764,
+                9784
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 307,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000895",
+                "name": "this.markdown",
+                "type": "Literal",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "markdown",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#markdown",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9794,
+                9813
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 308,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000901",
+                "name": "this.wysiwyg",
+                "type": "Literal",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "wysiwyg",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#wysiwyg",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9823,
+                9839
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 309,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000907",
+                "name": "this.html",
+                "type": "Literal",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "html",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#html",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/** \n     * Renders this editor\n     */",
+        "meta": {
+            "range": [
+                9896,
+                11486
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 315,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000912",
+                "name": "RichTextEditor#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders this editor",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9921,
+                9962
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 316,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000917",
+                "name": "activeView",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "activeView",
+        "longname": "<anonymous>~activeView",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9987,
+                10032
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 318,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000930",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor field-editor--rich-text"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10034,
+                10063
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 318,
+            "columnno": 69,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000932",
+                "name": "title",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10085,
+                10125
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 319,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000943",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--rich-text__header"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10152,
+                10169
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 320,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000950",
+                "name": "wysiwyg",
+                "type": "Literal",
+                "value": "Visual"
+            }
+        },
+        "undocumented": true,
+        "name": "wysiwyg",
+        "longname": "wysiwyg",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10171,
+                10191
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 320,
+            "columnno": 43,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000952",
+                "name": "markdown",
+                "type": "Literal",
+                "value": "Markdown"
+            }
+        },
+        "undocumented": true,
+        "name": "markdown",
+        "longname": "markdown",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10193,
+                10205
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 320,
+            "columnno": 65,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000954",
+                "name": "html",
+                "type": "Literal",
+                "value": "HTML"
+            }
+        },
+        "undocumented": true,
+        "name": "html",
+        "longname": "html",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10265,
+                10352
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 321,
+            "columnno": 37,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000968",
+                "name": "class",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10474,
+                10525
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 324,
+            "columnno": 26,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000994",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--rich-text__header__add-media"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10656,
+                10694
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 328,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100001010",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--rich-text__body"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10771,
+                10816
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 330,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100001024",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--rich-text__tab wysiwyg"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10850,
+                10896
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 331,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100001031",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--rich-text__tab__content"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10898,
+                10921
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 331,
+            "columnno": 79,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100001033",
+                "name": "contenteditable",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "contenteditable",
+        "longname": "contenteditable",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11040,
+                11086
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 335,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100001047",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--rich-text__tab markdown"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11125,
+                11171
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 336,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100001054",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--rich-text__tab__content"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11286,
+                11328
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 340,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100001068",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--rich-text__tab html"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11367,
+                11413
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 341,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100001075",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor--rich-text__tab__content"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Post render\n     */",
+        "meta": {
+            "range": [
+                11532,
+                11931
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 351,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100001077",
+                "name": "RichTextEditor#postrender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Post render",
+        "name": "postrender",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor#postrender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.RichTextEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11559,
+                11600
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 352,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100001082",
+                "name": "activeView",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "activeView",
+        "longname": "<anonymous>~activeView",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11935,
+                11966
+            ],
+            "filename": "RichTextEditor.js",
+            "lineno": 370,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100001116",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "RichTextEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors/RichTextEditor.js"
+        ]
+    }
+]

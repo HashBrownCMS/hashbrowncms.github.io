@@ -1,0 +1,1565 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                84
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "SettingsHelperCommon",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "SettingsHelperCommon",
+        "longname": "SettingsHelperCommon",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The helper class for settings\n *\n * @memberof HashBrown.Server.Helpers\n */",
+        "meta": {
+            "range": [
+                169,
+                12444
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000010",
+                "name": "SettingsHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The helper class for settings",
+        "memberof": "HashBrown.Server.Helpers",
+        "name": "SettingsHelper",
+        "longname": "HashBrown.Server.Helpers.SettingsHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Migrates old settings format\n     *\n     * @param {String} project\n     * @param {Boolean} commitChanges\n     *\n     * @returns {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                394,
+                5687
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 19,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000014",
+                "name": "SettingsHelper.migrateOldSettings",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "commitChanges"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Migrates old settings format",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "name": "commitChanges",
+                "defaultvalue": false
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "migrateOldSettings",
+        "longname": "HashBrown.Server.Helpers.SettingsHelper.migrateOldSettings",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SettingsHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                600,
+                615
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 24,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000040",
+                "name": "collection",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "collection",
+        "longname": "<anonymous>~collection",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                638,
+                700
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 26,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000044",
+                "name": "newProjectSettings",
+                "type": "ObjectExpression",
+                "value": "{\"usedBy\":\"project\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "newProjectSettings",
+        "longname": "<anonymous>~newProjectSettings",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                673,
+                690
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 27,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000047",
+                "name": "usedBy",
+                "type": "Literal",
+                "value": "project"
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "<anonymous>~newProjectSettings.usedBy",
+        "kind": "member",
+        "memberof": "<anonymous>~newProjectSettings",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1621,
+                1673
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 55,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000142",
+                "name": "projectSettings.environments",
+                "type": "ObjectExpression",
+                "value": "{\"names\":\"\"}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "environments",
+        "longname": "projectSettings.environments",
+        "kind": "member",
+        "memberof": "projectSettings",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1654,
+                1671
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 55,
+            "columnno": 49,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000147",
+                "name": "names",
+                "type": "ArrayExpression",
+                "value": "[\"live\"]"
+            }
+        },
+        "undocumented": true,
+        "name": "names",
+        "longname": "projectSettings.environments.names",
+        "kind": "member",
+        "memberof": "projectSettings.environments",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1710,
+                1717
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 58,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000152",
+                "name": "section"
+            }
+        },
+        "undocumented": true,
+        "name": "section",
+        "longname": "<anonymous>~section",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1760,
+                1788
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 59,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000157",
+                "name": "sectionKey",
+                "type": "MemberExpression",
+                "value": "section.section"
+            }
+        },
+        "undocumented": true,
+        "name": "sectionKey",
+        "longname": "<anonymous>~sectionKey",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2003,
+                2043
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 66,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000174",
+                "name": "newProjectSettings[undefined]",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "section",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~newProjectSettings.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~newProjectSettings",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2131,
+                4268
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 70,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000180",
+                "name": "parseNextEnvironment",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "environment": "<anonymous>~parseNextEnvironment~environment",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "parseNextEnvironment",
+        "longname": "<anonymous>~parseNextEnvironment",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2182,
+                2236
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 71,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000185",
+                "name": "environment",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "environment",
+        "longname": "<anonymous>~parseNextEnvironment~environment",
+        "kind": "member",
+        "memberof": "<anonymous>~parseNextEnvironment",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2889,
+                2981
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 88,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000259",
+                "name": "newEnvironmentSettings",
+                "type": "ObjectExpression",
+                "value": "{\"usedBy\":\"\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "newEnvironmentSettings",
+        "longname": "<anonymous>~newEnvironmentSettings",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2940,
+                2959
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 89,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000262",
+                "name": "usedBy",
+                "type": "Identifier",
+                "value": "environment"
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "<anonymous>~newEnvironmentSettings.usedBy",
+        "kind": "member",
+        "memberof": "<anonymous>~newEnvironmentSettings",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3074,
+                3081
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 94,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000272",
+                "name": "section"
+            }
+        },
+        "undocumented": true,
+        "name": "section",
+        "longname": "<anonymous>~section",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3136,
+                3164
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 95,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000277",
+                "name": "sectionKey",
+                "type": "MemberExpression",
+                "value": "section.section"
+            }
+        },
+        "undocumented": true,
+        "name": "sectionKey",
+        "longname": "<anonymous>~sectionKey",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3296,
+                3514
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 100,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000293",
+                "name": "newProjectSettings.sync",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{\"project\":\"\",\"url\":\"\",\"token\":\"\"}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "sync",
+        "longname": "<anonymous>~newProjectSettings.sync",
+        "kind": "member",
+        "memberof": "<anonymous>~newProjectSettings",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3356,
+                3380
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 101,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000298",
+                "name": "project",
+                "type": "MemberExpression",
+                "value": "section.project"
+            }
+        },
+        "undocumented": true,
+        "name": "project",
+        "longname": "<anonymous>~newProjectSettings.sync.project",
+        "kind": "member",
+        "memberof": "<anonymous>~newProjectSettings.sync",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3414,
+                3430
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 102,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000302",
+                "name": "url",
+                "type": "MemberExpression",
+                "value": "section.url"
+            }
+        },
+        "undocumented": true,
+        "name": "url",
+        "longname": "<anonymous>~newProjectSettings.sync.url",
+        "kind": "member",
+        "memberof": "<anonymous>~newProjectSettings.sync",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3464,
+                3484
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 103,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000306",
+                "name": "token",
+                "type": "MemberExpression",
+                "value": "section.token"
+            }
+        },
+        "undocumented": true,
+        "name": "token",
+        "longname": "<anonymous>~newProjectSettings.sync.token",
+        "kind": "member",
+        "memberof": "<anonymous>~newProjectSettings.sync",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3576,
+                3620
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 106,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000312",
+                "name": "newEnvironmentSettings[undefined]",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "section",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~newEnvironmentSettings.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~newEnvironmentSettings",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4838,
+                5478
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 146,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000409",
+                "name": "insertNextSetting",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "setting": "<anonymous>~insertNextSetting~setting",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "insertNextSetting",
+        "longname": "<anonymous>~insertNextSetting",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4886,
+                4912
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 147,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000414",
+                "name": "setting",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "setting",
+        "longname": "<anonymous>~insertNextSetting~setting",
+        "kind": "member",
+        "memberof": "<anonymous>~insertNextSetting",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Checks if migration is needed\n     * This is determined by the existence of the \"section\" key within any setting \n     *\n     * @param {String} project\n     *\n     * @returns {Boolean} Migration is needed or not\n     */",
+        "meta": {
+            "range": [
+                5928,
+                6398
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 183,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000495",
+                "name": "SettingsHelper.checkIfNeedsMigration",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Checks if migration is needed\nThis is determined by the existence of the \"section\" key within any setting",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "description": "Migration is needed or not"
+            }
+        ],
+        "name": "checkIfNeedsMigration",
+        "longname": "HashBrown.Server.Helpers.SettingsHelper.checkIfNeedsMigration",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SettingsHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6133,
+                6159
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 189,
+            "columnno": 14,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000520",
+                "name": "section",
+                "type": "ObjectExpression",
+                "value": "{\"$exists\":true}"
+            }
+        },
+        "undocumented": true,
+        "name": "section",
+        "longname": "section",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6144,
+                6157
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 189,
+            "columnno": 25,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000522",
+                "name": "$exists",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "$exists",
+        "longname": "section.$exists",
+        "kind": "member",
+        "memberof": "section",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Migration check for all projects\n     *\n     * @returns {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                6500,
+                7274
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 204,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000553",
+                "name": "SettingsHelper.migrationCheck",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Migration check for all projects",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "migrationCheck",
+        "longname": "HashBrown.Server.Helpers.SettingsHelper.migrationCheck",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SettingsHelper",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6638,
+                7222
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 207,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000573",
+                "name": "checkNext",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "project": "<anonymous>~checkNext~project",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "checkNext",
+        "longname": "<anonymous>~checkNext",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6678,
+                6702
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 208,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000578",
+                "name": "project",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "project",
+        "longname": "<anonymous>~checkNext~project",
+        "kind": "member",
+        "memberof": "<anonymous>~checkNext",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets all settings\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} section\n     *\n     * @return {Promise} Settings\n     */",
+        "meta": {
+            "range": [
+                7466,
+                9277
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 240,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000632",
+                "name": "SettingsHelper.getSettings",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "section"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets all settings",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment",
+                "defaultvalue": null
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "section",
+                "defaultvalue": null
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Settings"
+            }
+        ],
+        "name": "getSettings",
+        "longname": "HashBrown.Server.Helpers.SettingsHelper.getSettings",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SettingsHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7688,
+                7706
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 245,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000655",
+                "name": "environment",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "environment",
+        "longname": "<anonymous>~environment",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7914,
+                7931
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 250,
+            "columnno": 83,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000677",
+                "name": "usedBy",
+                "type": "Literal",
+                "value": "project"
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "usedBy",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8035,
+                8055
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 253,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000688",
+                "name": "projectSettings",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "projectSettings",
+        "longname": "<anonymous>~projectSettings",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8666,
+                8695
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 271,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000738",
+                "name": "query",
+                "type": "ObjectExpression",
+                "value": "{\"usedBy\":\"project\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "query",
+        "longname": "<anonymous>~query",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8676,
+                8693
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 271,
+            "columnno": 26,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000741",
+                "name": "usedBy",
+                "type": "Literal",
+                "value": "project"
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "<anonymous>~query.usedBy",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8744,
+                8770
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 274,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000747",
+                "name": "query.usedBy",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "environment",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "<anonymous>~query.usedBy",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9016,
+                9029
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 283,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000773",
+                "name": "settings",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "settings",
+        "longname": "<anonymous>~settings",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Sets settings\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} section\n     * @param {Object} settings\n     * @param {Boolean} upsertEnvironment\n     *\n     * @return {Promise} promise\n     */",
+        "meta": {
+            "range": [
+                9542,
+                12442
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 306,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000793",
+                "name": "SettingsHelper.setSettings",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "section",
+                    "settings",
+                    "upsertEnvironment"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Sets settings",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment",
+                "defaultvalue": null
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "section",
+                "defaultvalue": null
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "settings"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "name": "upsertEnvironment",
+                "defaultvalue": false
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "promise"
+            }
+        ],
+        "name": "setSettings",
+        "longname": "HashBrown.Server.Helpers.SettingsHelper.setSettings",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.SettingsHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10434,
+                10450
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 324,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000898",
+                "name": "oldSettings",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "oldSettings",
+        "longname": "<anonymous>~oldSettings",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10602,
+                10629
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 329,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000907",
+                "name": "oldSettings.sync",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "settings",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "sync",
+        "longname": "<anonymous>~oldSettings.sync",
+        "kind": "member",
+        "memberof": "<anonymous>~oldSettings",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10721,
+                10738
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 331,
+            "columnno": 89,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000924",
+                "name": "usedBy",
+                "type": "Literal",
+                "value": "project"
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "usedBy",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10757,
+                10769
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 331,
+            "columnno": 125,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000928",
+                "name": "upsert",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "upsert",
+        "longname": "upsert",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11259,
+                11269
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 343,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000959",
+                "name": "query",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "query",
+        "longname": "<anonymous>~query",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11291,
+                11316
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 344,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000963",
+                "name": "newSettings",
+                "type": "Identifier",
+                "value": "oldSettings"
+            }
+        },
+        "undocumented": true,
+        "name": "newSettings",
+        "longname": "<anonymous>~newSettings",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11437,
+                11468
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 348,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000970",
+                "name": "newSettings[undefined]",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "settings",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~newSettings.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~newSettings",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11713,
+                11735
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 355,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000984",
+                "name": "newSettings",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "settings",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "newSettings",
+        "longname": "<anonymous>~newSettings",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11886,
+                11918
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 360,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000991",
+                "name": "newSettings.usedBy",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "environment",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "<anonymous>~newSettings.usedBy",
+        "kind": "member",
+        "memberof": "<anonymous>~newSettings",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11940,
+                11966
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 361,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000997",
+                "name": "query.usedBy",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "environment",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "<anonymous>~query.usedBy",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12013,
+                12043
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 363,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001004",
+                "name": "newSettings.usedBy",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "project",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "<anonymous>~newSettings.usedBy",
+        "kind": "member",
+        "memberof": "<anonymous>~newSettings",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12065,
+                12089
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 364,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001010",
+                "name": "query.usedBy",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "project",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "<anonymous>~query.usedBy",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12375,
+                12387
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 373,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001029",
+                "name": "upsert",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "upsert",
+        "longname": "upsert",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12446,
+                12477
+            ],
+            "filename": "SettingsHelper.js",
+            "lineno": 380,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001032",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "SettingsHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers/SettingsHelper.js"
+        ]
+    }
+]

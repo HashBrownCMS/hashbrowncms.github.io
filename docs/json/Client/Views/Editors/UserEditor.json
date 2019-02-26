@@ -1,0 +1,1823 @@
+[
+    {
+        "comment": "/**\n * An editor for Users\n *\n * @memberof HashBrown.Client.Views.Editors\n */",
+        "meta": {
+            "range": [
+                93,
+                7082
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000004",
+                "name": "UserEditor",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "An editor for Users",
+        "memberof": "HashBrown.Client.Views.Editors",
+        "name": "UserEditor",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor",
+        "kind": "class",
+        "scope": "static",
+        "description": "Constructor",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Constructor\n     */",
+        "meta": {
+            "range": [
+                188,
+                758
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000014",
+                "name": "UserEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Constructor",
+        "name": "UserEditor",
+        "longname": "HashBrown.Client.Views.Editors~UserEditor",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Editors",
+        "scope": "inner",
+        "params": [],
+        "undocumented": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                218,
+                347
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 13,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000020",
+                "name": "params.title",
+                "type": "BinaryExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "params.title",
+        "kind": "member",
+        "memberof": "params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                357,
+                499
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 14,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000052",
+                "name": "params.actions",
+                "type": "ArrayExpression",
+                "value": "[\"{\\\"label\\\":\\\"Save\\\",\\\"onClick\\\":\\\"\\\"}\"]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "actions",
+        "longname": "params.actions",
+        "kind": "member",
+        "memberof": "params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                406,
+                419
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 16,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000058",
+                "name": "label",
+                "type": "Literal",
+                "value": "Save"
+            }
+        },
+        "undocumented": true,
+        "name": "label",
+        "longname": "label",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                437,
+                475
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 17,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000060",
+                "name": "onClick",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "onClick",
+        "longname": "onClick",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                510,
+                534
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 21,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000069",
+                "name": "params.autoFetch",
+                "type": "Literal",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "autoFetch",
+        "longname": "params.autoFetch",
+        "kind": "member",
+        "memberof": "params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                688,
+                712
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 27,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000096",
+                "name": "this.projects",
+                "type": "Identifier",
+                "value": "projects",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "projects",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#projects",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Event: Click save.\n     */",
+        "meta": {
+            "range": [
+                810,
+                1214
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 36,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000106",
+                "name": "UserEditor#onClickSave",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click save.",
+        "name": "onClickSave",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#onClickSave",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                838,
+                876
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 37,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000111",
+                "name": "newUserObject",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "newUserObject",
+        "longname": "<anonymous>~newUserObject",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                922,
+                963
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 40,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000125",
+                "name": "newUserObject.password",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "this.newPassword",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "password",
+        "longname": "<anonymous>~newUserObject.password",
+        "kind": "member",
+        "memberof": "<anonymous>~newUserObject",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the username editor\n     *\n     * @returns {HTMLElement} Element\n     */",
+        "meta": {
+            "range": [
+                1321,
+                1615
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 57,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000175",
+                "name": "UserEditor#renderUserNameEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the username editor",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Element"
+            }
+        ],
+        "name": "renderUserNameEditor",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#renderUserNameEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1409,
+                1435
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 59,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000190",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.username"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1449,
+                1487
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 60,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000196",
+                "name": "placeholder",
+                "type": "Literal",
+                "value": "Input the username here"
+            }
+        },
+        "undocumented": true,
+        "name": "placeholder",
+        "longname": "placeholder",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1501,
+                1588
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 61,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000198",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.username": "HashBrown.Client.Views.Editors.UserEditor#model.username"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1543,
+                1573
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 62,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000203",
+                "name": "this.model.username",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "username",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#model.username",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the scopes editor\n     *\n     * @param {String} project\n     *\n     * @returns {HTMLElement} Element\n     */",
+        "meta": {
+            "range": [
+                1753,
+                2217
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 74,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000211",
+                "name": "UserEditor#renderScopesEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the scopes editor",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Element"
+            }
+        ],
+        "name": "renderScopesEditor",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#renderScopesEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1849,
+                1885
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 76,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000227",
+                "name": "value",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1899,
+                1916
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 77,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000235",
+                "name": "useMultiple",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "useMultiple",
+        "longname": "useMultiple",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1930,
+                1956
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 78,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000237",
+                "name": "placeholder",
+                "type": "Literal",
+                "value": "(no scopes)"
+            }
+        },
+        "undocumented": true,
+        "name": "placeholder",
+        "longname": "placeholder",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1970,
+                2051
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 79,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000239",
+                "name": "options",
+                "type": "ArrayExpression",
+                "value": "[\"connections\",\"schemas\"]"
+            }
+        },
+        "undocumented": true,
+        "name": "options",
+        "longname": "options",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2065,
+                2190
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 83,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000243",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.scopes[undefined]": "HashBrown.Client.Views.Editors.UserEditor#model.scopes[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2107,
+                2144
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 84,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000248",
+                "name": "this.model.scopes[undefined]",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "scopes[undefined]",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#model.scopes[undefined]",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the full name editor\n     *\n     * @return {HTMLElement} Element\n     */",
+        "meta": {
+            "range": [
+                2319,
+                2561
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 96,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000263",
+                "name": "UserEditor#renderFullNameEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the full name editor",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Element"
+            }
+        ],
+        "name": "renderFullNameEditor",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#renderFullNameEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2407,
+                2433
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 98,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000278",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.fullName"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2447,
+                2534
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 99,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000284",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.fullName": "HashBrown.Client.Views.Editors.UserEditor#model.fullName"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2489,
+                2519
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 100,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000289",
+                "name": "this.model.fullName",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "fullName",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#model.fullName",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the email editor\n     *\n     * @return {HTMLElement} Element\n     */",
+        "meta": {
+            "range": [
+                2663,
+                2896
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 110,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000297",
+                "name": "UserEditor#renderEmailEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the email editor",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Element"
+            }
+        ],
+        "name": "renderEmailEditor",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#renderEmailEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2748,
+                2771
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 112,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000312",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.email"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2785,
+                2869
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 113,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000318",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.email": "HashBrown.Client.Views.Editors.UserEditor#model.email"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2827,
+                2854
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 114,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000323",
+                "name": "this.model.email",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "email",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#model.email",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the password\n     *\n     * @return {HTMLElement} Element\n     */",
+        "meta": {
+            "range": [
+                2994,
+                4609
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 124,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000331",
+                "name": "UserEditor#renderPasswordEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the password",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Element"
+            }
+        ],
+        "name": "renderPasswordEditor",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#renderPasswordEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3031,
+                3040
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 125,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000336",
+                "name": "password1"
+            }
+        },
+        "undocumented": true,
+        "name": "password1",
+        "longname": "<anonymous>~password1",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3054,
+                3063
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 126,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000339",
+                "name": "password2"
+            }
+        },
+        "undocumented": true,
+        "name": "password2",
+        "longname": "<anonymous>~password2",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3078,
+                3959
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 128,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000342",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "isMatch": "<anonymous>~onChange~isMatch",
+                "isLongEnough": "<anonymous>~onChange~isLongEnough",
+                "isValid": "<anonymous>~onChange~isValid",
+                "$passwordWarning": "<anonymous>~onChange~$passwordWarning",
+                "this.newPassword": "<anonymous>#newPassword"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "<anonymous>~onChange",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3113,
+                3145
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 129,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000347",
+                "name": "isMatch",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isMatch",
+        "longname": "<anonymous>~onChange~isMatch",
+        "kind": "member",
+        "memberof": "<anonymous>~onChange",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3163,
+                3211
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 130,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000353",
+                "name": "isLongEnough",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isLongEnough",
+        "longname": "<anonymous>~onChange~isLongEnough",
+        "kind": "member",
+        "memberof": "<anonymous>~onChange",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3229,
+                3262
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 131,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000363",
+                "name": "isValid",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isValid",
+        "longname": "<anonymous>~onChange~isValid",
+        "kind": "member",
+        "memberof": "<anonymous>~onChange",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3382,
+                3454
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 135,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000383",
+                "name": "$passwordWarning",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "$passwordWarning",
+        "longname": "<anonymous>~onChange~$passwordWarning",
+        "kind": "member",
+        "memberof": "<anonymous>~onChange",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3499,
+                3527
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 138,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000396",
+                "name": "this.newPassword",
+                "type": "Identifier",
+                "value": "password1",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "newPassword",
+        "longname": "<anonymous>#newPassword",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3679,
+                3702
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 145,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000413",
+                "name": "this.newPassword",
+                "type": "Literal",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "newPassword",
+        "longname": "<anonymous>#newPassword",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3983,
+                4004
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 155,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000444",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget-group"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4071,
+                4103
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 157,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000456",
+                "name": "placeholder",
+                "type": "Literal",
+                "value": "Type new password"
+            }
+        },
+        "undocumented": true,
+        "name": "placeholder",
+        "longname": "placeholder",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4121,
+                4137
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 158,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000458",
+                "name": "type",
+                "type": "Literal",
+                "value": "password"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4155,
+                4273
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 159,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000460",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "password1": "onChange~password1"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4201,
+                4221
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 160,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000465",
+                "name": "password1",
+                "type": "Identifier",
+                "funcscope": "onChange",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "password1",
+        "longname": "onChange~password1",
+        "kind": "member",
+        "memberof": "onChange",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4363,
+                4398
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 166,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000482",
+                "name": "placeholder",
+                "type": "Literal",
+                "value": "Confirm new password"
+            }
+        },
+        "undocumented": true,
+        "name": "placeholder",
+        "longname": "placeholder",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4416,
+                4432
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 167,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000484",
+                "name": "type",
+                "type": "Literal",
+                "value": "password"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4450,
+                4568
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 168,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000486",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "password2": "onChange~password2"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4496,
+                4516
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 169,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000491",
+                "name": "password2",
+                "type": "Identifier",
+                "funcscope": "onChange",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "password2",
+        "longname": "onChange~password2",
+        "kind": "member",
+        "memberof": "onChange",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Renders the admin editor\n     *\n     * @return {HTMLElement} Element\n     */",
+        "meta": {
+            "range": [
+                4711,
+                5081
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 182,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000498",
+                "name": "UserEditor#renderAdminEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the admin editor",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Element"
+            }
+        ],
+        "name": "renderAdminEditor",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#renderAdminEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4796,
+                4812
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 184,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000513",
+                "name": "type",
+                "type": "Literal",
+                "value": "checkbox"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4826,
+                4859
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 185,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000515",
+                "name": "value",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4873,
+                5054
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 186,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000523",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.isAdmin": "HashBrown.Client.Views.Editors.UserEditor#model.isAdmin",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4915,
+                4944
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 187,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000528",
+                "name": "this.model.isAdmin",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isAdmin",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#model.isAdmin",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders a single field\n     *\n     * @return {HTMLElement} Element\n     */",
+        "meta": {
+            "range": [
+                5177,
+                5379
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 201,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000547",
+                "name": "UserEditor#renderField",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "label",
+                    "$content"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders a single field",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Element"
+            }
+        ],
+        "name": "renderField",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#renderField",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5230,
+                5251
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 202,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000559",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget-group"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5273,
+                5302
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 203,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000566",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--label"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Renders this editor\n     */",
+        "meta": {
+            "range": [
+                5432,
+                7080
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 213,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000570",
+                "name": "UserEditor#renderBody",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders this editor",
+        "name": "renderBody",
+        "longname": "HashBrown.Client.Views.Editors.UserEditor#renderBody",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.UserEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5762,
+                5837
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 219,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000617",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--label warning hidden editor--user__password-warning"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6048,
+                6081
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 225,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000654",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--separator"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6195,
+                6216
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 227,
+            "columnno": 38,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000674",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget-group"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6315,
+                6331
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 229,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000686",
+                "name": "type",
+                "type": "Literal",
+                "value": "checkbox"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6365,
+                6403
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 230,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000688",
+                "name": "value",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6437,
+                6780
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 231,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000698",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6857,
+                6886
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 239,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000732",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--label"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7084,
+                7111
+            ],
+            "filename": "UserEditor.js",
+            "lineno": 249,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000749",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "UserEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/UserEditor.js"
+        ]
+    }
+]

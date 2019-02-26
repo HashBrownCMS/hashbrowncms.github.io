@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:
+    php:
+        image: php:apache
+        container_name: "hashbrown-rocks"
+        ports:
+            - "1004:80"
+        restart: unless-stopped
+        volumes:
+            - "./:/var/www/html/"
+            - "./site.conf:/etc/apache2/sites-available/000-default.conf"

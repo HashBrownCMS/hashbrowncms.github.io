@@ -1,0 +1,680 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                53
+            ],
+            "filename": "Form.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000005",
+                "name": "Resource",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Resource",
+        "longname": "Resource",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The Form class\n *\n * @memberof HashBrown.Common.Models\n */",
+        "meta": {
+            "range": [
+                122,
+                3024
+            ],
+            "filename": "Form.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000010",
+                "name": "Form",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The Form class",
+        "memberof": "HashBrown.Common.Models",
+        "name": "Form",
+        "longname": "HashBrown.Common.Models.Form",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Structure\n     */",
+        "meta": {
+            "range": [
+                189,
+                644
+            ],
+            "filename": "Form.js",
+            "lineno": 14,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000014",
+                "name": "Form#structure",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Structure",
+        "name": "structure",
+        "longname": "HashBrown.Common.Models.Form#structure",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Form",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Creates a new Form object\n     *\n     * @return {Form} form\n     */",
+        "meta": {
+            "range": [
+                733,
+                940
+            ],
+            "filename": "Form.js",
+            "lineno": 36,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000083",
+                "name": "Form.create",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Creates a new Form object",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Form"
+                    ]
+                },
+                "description": "form"
+            }
+        ],
+        "name": "create",
+        "longname": "HashBrown.Common.Models.Form.create",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Form",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                763,
+                903
+            ],
+            "filename": "Form.js",
+            "lineno": 37,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000088",
+                "name": "form",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "form",
+        "longname": "<anonymous>~form",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                793,
+                812
+            ],
+            "filename": "Form.js",
+            "lineno": 38,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000093",
+                "name": "id",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "id",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                826,
+                843
+            ],
+            "filename": "Form.js",
+            "lineno": 39,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000098",
+                "name": "title",
+                "type": "Literal",
+                "value": "New form"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                857,
+                867
+            ],
+            "filename": "Form.js",
+            "lineno": 40,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000100",
+                "name": "inputs",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "inputs",
+        "longname": "inputs",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                881,
+                892
+            ],
+            "filename": "Form.js",
+            "lineno": 41,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000102",
+                "name": "entries",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "entries",
+        "longname": "entries",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Clears all entries\n     */",
+        "meta": {
+            "range": [
+                988,
+                1040
+            ],
+            "filename": "Form.js",
+            "lineno": 50,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000106",
+                "name": "Form#clearAllEntries",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Clears all entries",
+        "name": "clearAllEntries",
+        "longname": "HashBrown.Common.Models.Form#clearAllEntries",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Form",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1016,
+                1033
+            ],
+            "filename": "Form.js",
+            "lineno": 51,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000111",
+                "name": "this.entries",
+                "type": "ArrayExpression",
+                "value": "[]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "entries",
+        "longname": "HashBrown.Common.Models.Form#entries",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.Form",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Adds an entry\n     *\n     * @param {Object} entry\n     */",
+        "meta": {
+            "range": [
+                1119,
+                3022
+            ],
+            "filename": "Form.js",
+            "lineno": 59,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000116",
+                "name": "Form#addEntry",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "entry"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Adds an entry",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "entry"
+            }
+        ],
+        "name": "addEntry",
+        "longname": "HashBrown.Common.Models.Form#addEntry",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Form",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1181,
+                1199
+            ],
+            "filename": "Form.js",
+            "lineno": 62,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000127",
+                "name": "filteredEntry",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "filteredEntry",
+        "longname": "<anonymous>~filteredEntry",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1213,
+                1233
+            ],
+            "filename": "Form.js",
+            "lineno": 63,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000131",
+                "name": "duplicateChecks",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "duplicateChecks",
+        "longname": "<anonymous>~duplicateChecks",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1318,
+                1319
+            ],
+            "filename": "Form.js",
+            "lineno": 66,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000136",
+                "name": "k"
+            }
+        },
+        "undocumented": true,
+        "name": "k",
+        "longname": "<anonymous>~k",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1458,
+                1481
+            ],
+            "filename": "Form.js",
+            "lineno": 69,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000152",
+                "name": "duplicateChecks[undefined]",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~duplicateChecks.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~duplicateChecks",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1594,
+                1637
+            ],
+            "filename": "Form.js",
+            "lineno": 74,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000167",
+                "name": "regexp",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "regexp",
+        "longname": "<anonymous>~regexp",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2021,
+                2048
+            ],
+            "filename": "Form.js",
+            "lineno": 86,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000221",
+                "name": "filteredEntry[undefined]",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "entry[undefined]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~filteredEntry.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~filteredEntry",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2160,
+                2198
+            ],
+            "filename": "Form.js",
+            "lineno": 90,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000229",
+                "name": "newEntries",
+                "type": "ArrayExpression",
+                "value": "[\"\"]"
+            }
+        },
+        "undocumented": true,
+        "name": "newEntries",
+        "longname": "<anonymous>~newEntries",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2234,
+                2279
+            ],
+            "filename": "Form.js",
+            "lineno": 93,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000239",
+                "name": "filteredEntry.time",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "time",
+        "longname": "<anonymous>~filteredEntry.time",
+        "kind": "member",
+        "memberof": "<anonymous>~filteredEntry",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2370,
+                2382
+            ],
+            "filename": "Form.js",
+            "lineno": 98,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000256",
+                "name": "duplicateKey"
+            }
+        },
+        "undocumented": true,
+        "name": "duplicateKey",
+        "longname": "<anonymous>~duplicateKey",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2425,
+                2430
+            ],
+            "filename": "Form.js",
+            "lineno": 99,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000262",
+                "name": "entry"
+            }
+        },
+        "undocumented": true,
+        "name": "entry",
+        "longname": "<anonymous>~entry",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2841,
+                2898
+            ],
+            "filename": "Form.js",
+            "lineno": 108,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000291",
+                "name": "duplicateChecks[undefined][undefined]",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined][undefined]",
+        "longname": "<anonymous>~duplicateChecks.undefined][undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~duplicateChecks",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2990,
+                3015
+            ],
+            "filename": "Form.js",
+            "lineno": 113,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000301",
+                "name": "this.entries",
+                "type": "Identifier",
+                "value": "newEntries",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "entries",
+        "longname": "HashBrown.Common.Models.Form#entries",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.Form",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3026,
+                3047
+            ],
+            "filename": "Form.js",
+            "lineno": 117,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000307",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "Form",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models/Form.js"
+        ]
+    }
+]

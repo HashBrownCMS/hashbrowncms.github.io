@@ -1,0 +1,691 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                19,
+                47
+            ],
+            "filename": "Project.js",
+            "lineno": 3,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000005",
+                "name": "Entity",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Entity",
+        "longname": "Entity",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                53,
+                89
+            ],
+            "filename": "Project.js",
+            "lineno": 4,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000011",
+                "name": "Connection",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Connection",
+        "longname": "Connection",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The Project class\n *\n * @memberof HashBrown.Common.Models\n */",
+        "meta": {
+            "range": [
+                161,
+                2362
+            ],
+            "filename": "Project.js",
+            "lineno": 11,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000016",
+                "name": "Project",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "The Project class",
+        "memberof": "HashBrown.Common.Models",
+        "name": "Project",
+        "longname": "HashBrown.Common.Models.Project",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                196,
+                267
+            ],
+            "filename": "Project.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000020",
+                "name": "Project",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "Project",
+        "longname": "HashBrown.Common.Models~Project",
+        "kind": "class",
+        "memberof": "HashBrown.Common.Models",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Performs a sanity check of the params\n     *\n     * @param {Object} params\n     *\n     * @returns {Object} Params\n     */",
+        "meta": {
+            "range": [
+                410,
+                1445
+            ],
+            "filename": "Project.js",
+            "lineno": 23,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000033",
+                "name": "Project.checkParams",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Performs a sanity check of the params",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "params"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "Params"
+            }
+        ],
+        "name": "checkParams",
+        "longname": "HashBrown.Common.Models.Project.checkParams",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Project",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                447,
+                468
+            ],
+            "filename": "Project.js",
+            "lineno": 24,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000039",
+                "name": "params",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "params",
+        "longname": "<anonymous>~params",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                597,
+                617
+            ],
+            "filename": "Project.js",
+            "lineno": 28,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000061",
+                "name": "params.settings",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "settings",
+        "longname": "<anonymous>~params.settings",
+        "kind": "member",
+        "memberof": "<anonymous>~params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                657,
+                682
+            ],
+            "filename": "Project.js",
+            "lineno": 29,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000075",
+                "name": "params.settings.info",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "settings.info",
+        "longname": "<anonymous>~params.settings.info",
+        "kind": "member",
+        "memberof": "<anonymous>~params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                727,
+                764
+            ],
+            "filename": "Project.js",
+            "lineno": 30,
+            "columnno": 41,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000093",
+                "name": "params.settings.info.name",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "params.id",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "settings.info.name",
+        "longname": "<anonymous>~params.settings.info.name",
+        "kind": "member",
+        "memberof": "<anonymous>~params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                809,
+                845
+            ],
+            "filename": "Project.js",
+            "lineno": 31,
+            "columnno": 41,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000113",
+                "name": "params.settings.languages",
+                "type": "ArrayExpression",
+                "funcscope": "<anonymous>",
+                "value": "[\"en\"]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "settings.languages",
+        "longname": "<anonymous>~params.settings.languages",
+        "kind": "member",
+        "memberof": "<anonymous>~params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                885,
+                910
+            ],
+            "filename": "Project.js",
+            "lineno": 32,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000130",
+                "name": "params.settings.sync",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "settings.sync",
+        "longname": "<anonymous>~params.settings.sync",
+        "kind": "member",
+        "memberof": "<anonymous>~params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1138,
+                1152
+            ],
+            "filename": "Project.js",
+            "lineno": 40,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000160",
+                "name": "languages",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "languages",
+        "longname": "<anonymous>~languages",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1187,
+                1190
+            ],
+            "filename": "Project.js",
+            "lineno": 42,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000165",
+                "name": "key"
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "longname": "<anonymous>~key",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1367,
+                1404
+            ],
+            "filename": "Project.js",
+            "lineno": 48,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000192",
+                "name": "params.settings.languages",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "languages",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "settings.languages",
+        "longname": "<anonymous>~params.settings.languages",
+        "kind": "member",
+        "memberof": "<anonymous>~params",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Defines the structure of this project\n     */",
+        "meta": {
+            "range": [
+                1512,
+                1728
+            ],
+            "filename": "Project.js",
+            "lineno": 57,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000201",
+                "name": "Project#structure",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Defines the structure of this project",
+        "name": "structure",
+        "longname": "HashBrown.Common.Models.Project#structure",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Project",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Creates a database safe name\n     *\n     * @param {String} name\n     *\n     * @returns {String} Safe name\n     */",
+        "meta": {
+            "range": [
+                1863,
+                1969
+            ],
+            "filename": "Project.js",
+            "lineno": 72,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000244",
+                "name": "Project.safeName",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "name"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Creates a database safe name",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "Safe name"
+            }
+        ],
+        "name": "safeName",
+        "longname": "HashBrown.Common.Models.Project.safeName",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Project",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Creates a new project\n     *\n     * @param {String} name\n     *\n     * @returns {Project} New Project\n     */",
+        "meta": {
+            "range": [
+                2104,
+                2360
+            ],
+            "filename": "Project.js",
+            "lineno": 83,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000264",
+                "name": "Project.create",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "name"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Creates a new project",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Project"
+                    ]
+                },
+                "description": "New Project"
+            }
+        ],
+        "name": "create",
+        "longname": "HashBrown.Common.Models.Project.create",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.Project",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2138,
+                2206
+            ],
+            "filename": "Project.js",
+            "lineno": 84,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000270",
+                "name": "project",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "project",
+        "longname": "<anonymous>~project",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2174,
+                2195
+            ],
+            "filename": "Project.js",
+            "lineno": 85,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000275",
+                "name": "id",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "id",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2225,
+                2260
+            ],
+            "filename": "Project.js",
+            "lineno": 88,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000281",
+                "name": "project.settings.usedBy",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "project",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "settings.usedBy",
+        "longname": "<anonymous>~project.settings.usedBy",
+        "kind": "member",
+        "memberof": "<anonymous>~project",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2270,
+                2328
+            ],
+            "filename": "Project.js",
+            "lineno": 89,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000289",
+                "name": "project.settings.info",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{\"name\":\"\"}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "settings.info",
+        "longname": "<anonymous>~project.settings.info",
+        "kind": "member",
+        "memberof": "<anonymous>~project",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2308,
+                2318
+            ],
+            "filename": "Project.js",
+            "lineno": 90,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000296",
+                "name": "name",
+                "type": "Identifier",
+                "value": "name"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "<anonymous>~project.settings.info.name",
+        "kind": "member",
+        "memberof": "<anonymous>~project.settings.info",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2364,
+                2388
+            ],
+            "filename": "Project.js",
+            "lineno": 97,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000301",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "Project",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models/Project.js"
+        ]
+    }
+]

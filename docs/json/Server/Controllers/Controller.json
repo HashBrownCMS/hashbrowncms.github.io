@@ -1,0 +1,673 @@
+[
+    {
+        "comment": "/**\n * The base class for all controllers\n *\n * @memberof HashBrown.Server.Controllers\n */",
+        "meta": {
+            "range": [
+                106,
+                4158
+            ],
+            "filename": "Controller.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000004",
+                "name": "Controller",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The base class for all controllers",
+        "memberof": "HashBrown.Server.Controllers",
+        "name": "Controller",
+        "longname": "HashBrown.Server.Controllers.Controller",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Initialises this controller\n     */",
+        "meta": {
+            "range": [
+                180,
+                700
+            ],
+            "filename": "Controller.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000007",
+                "name": "Controller.init",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "app"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Initialises this controller",
+        "name": "init",
+        "longname": "HashBrown.Server.Controllers.Controller.init",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.Controller",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                215,
+                221
+            ],
+            "filename": "Controller.js",
+            "lineno": 13,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000014",
+                "name": "method"
+            }
+        },
+        "undocumented": true,
+        "name": "method",
+        "longname": "<anonymous>~method",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                265,
+                377
+            ],
+            "filename": "Controller.js",
+            "lineno": 14,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000022",
+                "name": "path",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "path",
+        "longname": "<anonymous>~path",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                395,
+                454
+            ],
+            "filename": "Controller.js",
+            "lineno": 15,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000045",
+                "name": "isGet",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isGet",
+        "longname": "<anonymous>~isGet",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                472,
+                533
+            ],
+            "filename": "Controller.js",
+            "lineno": 16,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000061",
+                "name": "isPost",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isPost",
+        "longname": "<anonymous>~isPost",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets a list of all methods\n     *\n     * @returns {Array} methods\n     */",
+        "meta": {
+            "range": [
+                795,
+                1066
+            ],
+            "filename": "Controller.js",
+            "lineno": 31,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000096",
+                "name": "Controller.getAllMethods",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a list of all methods",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "methods"
+            }
+        ],
+        "name": "getAllMethods",
+        "longname": "HashBrown.Server.Controllers.Controller.getAllMethods",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.Controller",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                832,
+                844
+            ],
+            "filename": "Controller.js",
+            "lineno": 32,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000101",
+                "name": "methods",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "methods",
+        "longname": "<anonymous>~methods",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                863,
+                867
+            ],
+            "filename": "Controller.js",
+            "lineno": 34,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000106",
+                "name": "name"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "<anonymous>~name",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                974,
+                1010
+            ],
+            "filename": "Controller.js",
+            "lineno": 36,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000123",
+                "name": "methods[undefined]",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "this[undefined]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~methods.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~methods",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets the prefix for this controller\n     *\n     * @return {String} prefix\n     */",
+        "meta": {
+            "range": [
+                1169,
+                1316
+            ],
+            "filename": "Controller.js",
+            "lineno": 48,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000134",
+                "name": "Controller.getPrefix",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets the prefix for this controller",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "prefix"
+            }
+        ],
+        "name": "getPrefix",
+        "longname": "HashBrown.Server.Controllers.Controller.getPrefix",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.Controller",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1202,
+                1258
+            ],
+            "filename": "Controller.js",
+            "lineno": 49,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000139",
+                "name": "name",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "<anonymous>~name",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1272,
+                1285
+            ],
+            "filename": "Controller.js",
+            "lineno": 50,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000153",
+                "name": "prefix",
+                "type": "Identifier",
+                "value": "name"
+            }
+        },
+        "undocumented": true,
+        "name": "prefix",
+        "longname": "<anonymous>~prefix",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Authenticates a request\n     *\n     * @param {String} token\n     * @param {String} project\n     * @param {String} scope\n     * @param {Boolean} needsAdmin\n     *\n     * @returns {Promise} User object\n     */",
+        "meta": {
+            "range": [
+                1549,
+                2650
+            ],
+            "filename": "Controller.js",
+            "lineno": 65,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000158",
+                "name": "Controller.authenticate",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "token",
+                    "project",
+                    "scope",
+                    "needsAdmin"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Authenticates a request",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "token"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "scope"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "name": "needsAdmin"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "User object"
+            }
+        ],
+        "name": "authenticate",
+        "longname": "HashBrown.Server.Controllers.Controller.authenticate",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.Controller",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Sets project variables\n     * \n     * @param {Object} req\n     */",
+        "meta": {
+            "range": [
+                2737,
+                4147
+            ],
+            "filename": "Controller.js",
+            "lineno": 97,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000269",
+                "name": "Controller.setProjectVariables",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Sets project variables",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "req"
+            }
+        ],
+        "name": "setProjectVariables",
+        "longname": "HashBrown.Server.Controllers.Controller.setProjectVariables",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.Controller",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2783,
+                2818
+            ],
+            "filename": "Controller.js",
+            "lineno": 98,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000275",
+                "name": "values",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "values",
+        "longname": "<anonymous>~values",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2832,
+                2846
+            ],
+            "filename": "Controller.js",
+            "lineno": 99,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000285",
+                "name": "project",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "project",
+        "longname": "<anonymous>~project",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2860,
+                2878
+            ],
+            "filename": "Controller.js",
+            "lineno": 100,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000289",
+                "name": "environment",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "environment",
+        "longname": "<anonymous>~environment",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3076,
+                3099
+            ],
+            "filename": "Controller.js",
+            "lineno": 107,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000331",
+                "name": "req.project",
+                "type": "MemberExpression",
+                "value": "values[0]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "project",
+        "longname": "req.project",
+        "kind": "member",
+        "memberof": "req",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3113,
+                3140
+            ],
+            "filename": "Controller.js",
+            "lineno": 108,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000339",
+                "name": "req.environment",
+                "type": "MemberExpression",
+                "value": "values[1]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "environment",
+        "longname": "req.environment",
+        "kind": "member",
+        "memberof": "req",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3253,
+                3275
+            ],
+            "filename": "Controller.js",
+            "lineno": 113,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000354",
+                "name": "req.environment",
+                "type": "Literal",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "environment",
+        "longname": "req.environment",
+        "kind": "member",
+        "memberof": "req",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4160,
+                4187
+            ],
+            "filename": "Controller.js",
+            "lineno": 142,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000455",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "Controller",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers/Controller.js"
+        ]
+    }
+]

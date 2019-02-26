@@ -1,0 +1,1519 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                56
+            ],
+            "filename": "FormsController.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "BodyParser",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "BodyParser",
+        "longname": "BodyParser",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                65,
+                93
+            ],
+            "filename": "FormsController.js",
+            "lineno": 5,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000011",
+                "name": "SUBMISSION_TIMEOUT_MS",
+                "type": "Literal",
+                "value": 1000
+            }
+        },
+        "undocumented": true,
+        "name": "SUBMISSION_TIMEOUT_MS",
+        "longname": "SUBMISSION_TIMEOUT_MS",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                116,
+                143
+            ],
+            "filename": "FormsController.js",
+            "lineno": 8,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000015",
+                "name": "lastSubmission",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "lastSubmission",
+        "longname": "lastSubmission",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                149,
+                160
+            ],
+            "filename": "FormsController.js",
+            "lineno": 9,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000022",
+                "name": "lastIp",
+                "type": "Literal",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "lastIp",
+        "longname": "lastIp",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The controller for Forms\n *\n * @memberof HashBrown.Server.Controllers\n */",
+        "meta": {
+            "range": [
+                244,
+                9627
+            ],
+            "filename": "FormsController.js",
+            "lineno": 16,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000025",
+                "name": "FormsController",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The controller for Forms",
+        "memberof": "HashBrown.Server.Controllers",
+        "name": "FormsController",
+        "longname": "HashBrown.Server.Controllers.FormsController",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Initialises this controller\n     */",
+        "meta": {
+            "range": [
+                358,
+                1527
+            ],
+            "filename": "FormsController.js",
+            "lineno": 20,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000031",
+                "name": "FormsController.init",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "app"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Initialises this controller",
+        "name": "init",
+        "longname": "HashBrown.Server.Controllers.FormsController.init",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.FormsController",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                928,
+                947
+            ],
+            "filename": "FormsController.js",
+            "lineno": 27,
+            "columnno": 82,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000112",
+                "name": "authenticate",
+                "type": "Literal",
+                "value": false
+            }
+        },
+        "undocumented": true,
+        "name": "authenticate",
+        "longname": "authenticate",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                949,
+                974
+            ],
+            "filename": "FormsController.js",
+            "lineno": 27,
+            "columnno": 103,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000114",
+                "name": "allowCORS",
+                "type": "MemberExpression",
+                "value": "this.checkCORS"
+            }
+        },
+        "undocumented": true,
+        "name": "allowCORS",
+        "longname": "allowCORS",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1002,
+                1016
+            ],
+            "filename": "FormsController.js",
+            "lineno": 27,
+            "columnno": 156,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000123",
+                "name": "extended",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "extended",
+        "longname": "extended",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1493,
+                1520
+            ],
+            "filename": "FormsController.js",
+            "lineno": 35,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000181",
+                "name": "lastSubmission",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "lastSubmission",
+        "longname": "<anonymous>~lastSubmission",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Check CORS\n     *\n     * @returns {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                1613,
+                1859
+            ],
+            "filename": "FormsController.js",
+            "lineno": 43,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000187",
+                "name": "FormsController.checkCORS",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Check CORS",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "checkCORS",
+        "longname": "HashBrown.Server.Controllers.FormsController.checkCORS",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.FormsController",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/forms\n     *\n     * @apiGroup Forms\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Array} Forms\n     */",
+        "meta": {
+            "range": [
+                2074,
+                2369
+            ],
+            "filename": "FormsController.js",
+            "lineno": 60,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000233",
+                "name": "FormsController.getAllForms",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/forms"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Forms",
+                "value": "Forms"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "Forms"
+            }
+        ],
+        "name": "getAllForms",
+        "longname": "HashBrown.Server.Controllers.FormsController.getAllForms",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.FormsController",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * @example DELETE /api/:project/:environment/forms/:id\n     *\n     * @apiGroup Forms\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     */",
+        "meta": {
+            "range": [
+                2584,
+                2886
+            ],
+            "filename": "FormsController.js",
+            "lineno": 79,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000290",
+                "name": "FormsController.deleteForm",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "DELETE /api/:project/:environment/forms/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Forms",
+                "value": "Forms"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "name": "deleteForm",
+        "longname": "HashBrown.Server.Controllers.FormsController.deleteForm",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.FormsController",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/forms/pull/:id\n     *\n     * @apiGroup Forms\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {Form} The pulled Form\n     */",
+        "meta": {
+            "range": [
+                3150,
+                3805
+            ],
+            "filename": "FormsController.js",
+            "lineno": 100,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000351",
+                "name": "FormsController.pullForm",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/forms/pull/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Forms",
+                "value": "Forms"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Form"
+                    ]
+                },
+                "description": "The pulled Form"
+            }
+        ],
+        "name": "pullForm",
+        "longname": "HashBrown.Server.Controllers.FormsController.pullForm",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.FormsController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3190,
+                3208
+            ],
+            "filename": "FormsController.js",
+            "lineno": 101,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000358",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/forms/push/:id\n     *\n     * @apiGroup Forms\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {Form} The pushed Form id\n     */",
+        "meta": {
+            "range": [
+                4072,
+                4553
+            ],
+            "filename": "FormsController.js",
+            "lineno": 128,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000462",
+                "name": "FormsController.pushForm",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/forms/push/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Forms",
+                "value": "Forms"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Form"
+                    ]
+                },
+                "description": "The pushed Form id"
+            }
+        ],
+        "name": "pushForm",
+        "longname": "HashBrown.Server.Controllers.FormsController.pushForm",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.FormsController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4112,
+                4130
+            ],
+            "filename": "FormsController.js",
+            "lineno": 129,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000469",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/forms/:id\n     *\n     * @apiGroup Forms\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {Form} Form\n     */",
+        "meta": {
+            "range": [
+                4796,
+                5108
+            ],
+            "filename": "FormsController.js",
+            "lineno": 154,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000551",
+                "name": "FormsController.getForm",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/forms/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Forms",
+                "value": "Forms"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Form"
+                    ]
+                },
+                "description": "Form"
+            }
+        ],
+        "name": "getForm",
+        "longname": "HashBrown.Server.Controllers.FormsController.getForm",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.FormsController",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/forms/:id/entries\n     *\n     * @apiGroup Forms\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {String} CSV string\n     */",
+        "meta": {
+            "range": [
+                5371,
+                6301
+            ],
+            "filename": "FormsController.js",
+            "lineno": 175,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000616",
+                "name": "FormsController.getAllEntries",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/forms/:id/entries"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Forms",
+                "value": "Forms"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "CSV string"
+            }
+        ],
+        "name": "getAllEntries",
+        "longname": "HashBrown.Server.Controllers.FormsController.getAllEntries",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.FormsController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5536,
+                5544
+            ],
+            "filename": "FormsController.js",
+            "lineno": 178,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000651",
+                "name": "csv",
+                "type": "Literal",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "csv",
+        "longname": "<anonymous>~csv",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5567,
+                5575
+            ],
+            "filename": "FormsController.js",
+            "lineno": 180,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000656",
+                "name": "inputKey"
+            }
+        },
+        "undocumented": true,
+        "name": "inputKey",
+        "longname": "<anonymous>~inputKey",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5610,
+                5638
+            ],
+            "filename": "FormsController.js",
+            "lineno": 181,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000663",
+                "name": "csv",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "csv",
+        "longname": "<anonymous>~csv",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5667,
+                5682
+            ],
+            "filename": "FormsController.js",
+            "lineno": 184,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000671",
+                "name": "csv",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "\"time\"",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "csv",
+        "longname": "<anonymous>~csv",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5709,
+                5722
+            ],
+            "filename": "FormsController.js",
+            "lineno": 186,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000675",
+                "name": "csv",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "\r\n",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "csv",
+        "longname": "<anonymous>~csv",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5745,
+                5750
+            ],
+            "filename": "FormsController.js",
+            "lineno": 188,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000680",
+                "name": "entry"
+            }
+        },
+        "undocumented": true,
+        "name": "entry",
+        "longname": "<anonymous>~entry",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5794,
+                5802
+            ],
+            "filename": "FormsController.js",
+            "lineno": 189,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000688",
+                "name": "inputKey"
+            }
+        },
+        "undocumented": true,
+        "name": "inputKey",
+        "longname": "<anonymous>~inputKey",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5841,
+                5885
+            ],
+            "filename": "FormsController.js",
+            "lineno": 190,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000695",
+                "name": "csv",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "csv",
+        "longname": "<anonymous>~csv",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5938,
+                5964
+            ],
+            "filename": "FormsController.js",
+            "lineno": 193,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000707",
+                "name": "csv",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "csv",
+        "longname": "<anonymous>~csv",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5999,
+                6012
+            ],
+            "filename": "FormsController.js",
+            "lineno": 195,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000715",
+                "name": "csv",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "\r\n",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "csv",
+        "longname": "<anonymous>~csv",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/forms/:id\n     *\n     * @apiGroup Forms\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @param {Form} The Form model to update\n     *\n     * @returns {Form} Form\n     */",
+        "meta": {
+            "range": [
+                6602,
+                7058
+            ],
+            "filename": "FormsController.js",
+            "lineno": 220,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000772",
+                "name": "FormsController.postForm",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/forms/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Forms",
+                "value": "Forms"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Form"
+                    ]
+                },
+                "description": "Form model to update",
+                "name": "The"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Form"
+                    ]
+                },
+                "description": "Form"
+            }
+        ],
+        "name": "postForm",
+        "longname": "HashBrown.Server.Controllers.FormsController.postForm",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.FormsController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6642,
+                6711
+            ],
+            "filename": "FormsController.js",
+            "lineno": 221,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000779",
+                "name": "shouldCreate",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "shouldCreate",
+        "longname": "<anonymous>~shouldCreate",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/forms/new\n     *\n     * @apiGroup Forms\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {String} The created Form id\n     */",
+        "meta": {
+            "range": [
+                7293,
+                7584
+            ],
+            "filename": "FormsController.js",
+            "lineno": 242,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000865",
+                "name": "FormsController.postNew",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/forms/new"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Forms",
+                "value": "Forms"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "The created Form id"
+            }
+        ],
+        "name": "postNew",
+        "longname": "HashBrown.Server.Controllers.FormsController.postNew",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.FormsController",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/forms/:id/submit\n     *\n     * @apiGroup Forms\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @param {Object} entries The submitted entries\n     */",
+        "meta": {
+            "range": [
+                7860,
+                9101
+            ],
+            "filename": "FormsController.js",
+            "lineno": 263,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000924",
+                "name": "FormsController.postSubmit",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/forms/:id/submit"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Forms",
+                "value": "Forms"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "The submitted entries",
+                "name": "entries"
+            }
+        ],
+        "name": "postSubmit",
+        "longname": "HashBrown.Server.Controllers.FormsController.postSubmit",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.FormsController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8144,
+                8171
+            ],
+            "filename": "FormsController.js",
+            "lineno": 269,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000949",
+                "name": "lastSubmission",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "lastSubmission",
+        "longname": "<anonymous>~lastSubmission",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8185,
+                8222
+            ],
+            "filename": "FormsController.js",
+            "lineno": 270,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000956",
+                "name": "lastIp",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "req.connection.remoteAddress",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "lastIp",
+        "longname": "<anonymous>~lastIp",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8420,
+                8447
+            ],
+            "filename": "FormsController.js",
+            "lineno": 275,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001000",
+                "name": "redirectUrl",
+                "type": "MemberExpression",
+                "value": "form.redirect"
+            }
+        },
+        "undocumented": true,
+        "name": "redirectUrl",
+        "longname": "<anonymous>~redirectUrl",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8543,
+                8590
+            ],
+            "filename": "FormsController.js",
+            "lineno": 278,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001017",
+                "name": "redirectUrl",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "redirectUrl",
+        "longname": "<anonymous>~redirectUrl",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/forms/clear/:id\n     *\n     * @apiGroup Forms\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     */",
+        "meta": {
+            "range": [
+                9316,
+                9625
+            ],
+            "filename": "FormsController.js",
+            "lineno": 307,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001078",
+                "name": "FormsController.postClearAllEntries",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/forms/clear/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Forms",
+                "value": "Forms"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "name": "postClearAllEntries",
+        "longname": "HashBrown.Server.Controllers.FormsController.postClearAllEntries",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.FormsController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9629,
+                9661
+            ],
+            "filename": "FormsController.js",
+            "lineno": 318,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001136",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "FormsController",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers/FormsController.js"
+        ]
+    }
+]

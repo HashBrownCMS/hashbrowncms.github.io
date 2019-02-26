@@ -1,0 +1,521 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                19,
+                47
+            ],
+            "filename": "User.js",
+            "lineno": 3,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000005",
+                "name": "Entity",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Entity",
+        "longname": "Entity",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * A model for Users\n *\n * @memberof HashBrown.Common.Models\n */",
+        "meta": {
+            "range": [
+                119,
+                2433
+            ],
+            "filename": "User.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000010",
+                "name": "User",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A model for Users",
+        "memberof": "HashBrown.Common.Models",
+        "name": "User",
+        "longname": "HashBrown.Common.Models.User",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                151,
+                201
+            ],
+            "filename": "User.js",
+            "lineno": 11,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000014",
+                "name": "User",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "User",
+        "longname": "HashBrown.Common.Models~User",
+        "kind": "class",
+        "memberof": "HashBrown.Common.Models",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                207,
+                501
+            ],
+            "filename": "User.js",
+            "lineno": 15,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000023",
+                "name": "User#structure",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "structure",
+        "longname": "HashBrown.Common.Models.User#structure",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.User",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets all project scopes\n     *\n     * @param {String} project\n     * @param {Boolean} upsert\n     *\n     * @returns {Array} scopes\n     */",
+        "meta": {
+            "range": [
+                665,
+                901
+            ],
+            "filename": "User.js",
+            "lineno": 33,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000079",
+                "name": "User#getScopes",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "upsert"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets all project scopes",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "name": "upsert"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "scopes"
+            }
+        ],
+        "name": "getScopes",
+        "longname": "HashBrown.Common.Models.User#getScopes",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                734,
+                750
+            ],
+            "filename": "User.js",
+            "lineno": 35,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000092",
+                "name": "this.scopes",
+                "type": "ObjectExpression",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "scopes",
+        "longname": "HashBrown.Common.Models.User#scopes",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                821,
+                846
+            ],
+            "filename": "User.js",
+            "lineno": 39,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000108",
+                "name": "this.scopes[undefined]",
+                "type": "ArrayExpression",
+                "value": "[]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "scopes[undefined]",
+        "longname": "HashBrown.Common.Models.User#scopes[undefined]",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Checks if a user has a project scope\n     *\n     * @param {String} project\n     * @param {String} scope\n     *\n     * @returns {Boolean} hasScope\n     */",
+        "meta": {
+            "range": [
+                1076,
+                1468
+            ],
+            "filename": "User.js",
+            "lineno": 53,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000121",
+                "name": "User#hasScope",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "scope"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Checks if a user has a project scope",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "scope"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "description": "hasScope"
+            }
+        ],
+        "name": "hasScope",
+        "longname": "HashBrown.Common.Models.User#hasScope",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1311,
+                1336
+            ],
+            "filename": "User.js",
+            "lineno": 60,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000166",
+                "name": "this.scopes[undefined]",
+                "type": "ArrayExpression",
+                "value": "[]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "scopes[undefined]",
+        "longname": "HashBrown.Common.Models.User#scopes[undefined]",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Removes a scope\n     *\n     * @param {String} project\n     * @param {String|Boolean} scope\n     */",
+        "meta": {
+            "range": [
+                1588,
+                1953
+            ],
+            "filename": "User.js",
+            "lineno": 76,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000192",
+                "name": "User#removeScope",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "scope"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Removes a scope",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String",
+                        "Boolean"
+                    ]
+                },
+                "name": "scope"
+            }
+        ],
+        "name": "removeScope",
+        "longname": "HashBrown.Common.Models.User#removeScope",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1771,
+                1819
+            ],
+            "filename": "User.js",
+            "lineno": 82,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000223",
+                "name": "scopeIndex",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "scopeIndex",
+        "longname": "<anonymous>~scopeIndex",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Grants a user a scope\n     *\n     * @param {String} project\n     * @param {String} scope\n     */",
+        "meta": {
+            "range": [
+                2071,
+                2431
+            ],
+            "filename": "User.js",
+            "lineno": 98,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000253",
+                "name": "User#giveScope",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "scope"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Grants a user a scope",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "scope"
+            }
+        ],
+        "name": "giveScope",
+        "longname": "HashBrown.Common.Models.User#giveScope",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2172,
+                2188
+            ],
+            "filename": "User.js",
+            "lineno": 102,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000271",
+                "name": "this.scopes",
+                "type": "ObjectExpression",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "scopes",
+        "longname": "HashBrown.Common.Models.User#scopes",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2249,
+                2274
+            ],
+            "filename": "User.js",
+            "lineno": 106,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000285",
+                "name": "this.scopes[undefined]",
+                "type": "ArrayExpression",
+                "value": "[]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "scopes[undefined]",
+        "longname": "HashBrown.Common.Models.User#scopes[undefined]",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2435,
+                2456
+            ],
+            "filename": "User.js",
+            "lineno": 116,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000323",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "User",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models/User.js"
+        ]
+    }
+]

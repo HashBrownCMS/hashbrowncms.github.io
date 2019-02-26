@@ -1,0 +1,1152 @@
+[
+    {
+        "comment": "/**\n * The Controller for Connections\n *\n * @memberof HashBrown.Server.Controllers\n */",
+        "meta": {
+            "range": [
+                102,
+                7154
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000004",
+                "name": "ConnectionController",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The Controller for Connections",
+        "memberof": "HashBrown.Server.Controllers",
+        "name": "ConnectionController",
+        "longname": "HashBrown.Server.Controllers.ConnectionController",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Initialises this controller\n     */",
+        "meta": {
+            "range": [
+                221,
+                1326
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000010",
+                "name": "ConnectionController.init",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "app"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Initialises this controller",
+        "name": "init",
+        "longname": "HashBrown.Server.Controllers.ConnectionController.init",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ConnectionController",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                746,
+                766
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 18,
+            "columnno": 80,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000078",
+                "name": "scope",
+                "type": "Literal",
+                "value": "connections"
+            }
+        },
+        "undocumented": true,
+        "name": "scope",
+        "longname": "scope",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                879,
+                899
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 19,
+            "columnno": 85,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000094",
+                "name": "scope",
+                "type": "Literal",
+                "value": "connections"
+            }
+        },
+        "undocumented": true,
+        "name": "scope",
+        "longname": "scope",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1010,
+                1030
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 20,
+            "columnno": 85,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000110",
+                "name": "scope",
+                "type": "Literal",
+                "value": "connections"
+            }
+        },
+        "undocumented": true,
+        "name": "scope",
+        "longname": "scope",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1136,
+                1156
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 21,
+            "columnno": 80,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000126",
+                "name": "scope",
+                "type": "Literal",
+                "value": "connections"
+            }
+        },
+        "undocumented": true,
+        "name": "scope",
+        "longname": "scope",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1273,
+                1293
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 23,
+            "columnno": 82,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000142",
+                "name": "scope",
+                "type": "Literal",
+                "value": "connections"
+            }
+        },
+        "undocumented": true,
+        "name": "scope",
+        "longname": "scope",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/connections/deployers\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Array} Deployers\n     */",
+        "meta": {
+            "range": [
+                1543,
+                1845
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 34,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000147",
+                "name": "ConnectionController.getDeployers",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/connections/deployers"
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "Deployers"
+            }
+        ],
+        "name": "getDeployers",
+        "longname": "HashBrown.Server.Controllers.ConnectionController.getDeployers",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ConnectionController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1587,
+                1601
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 35,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000154",
+                "name": "deployers",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "deployers",
+        "longname": "<anonymous>~deployers",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1620,
+                1628
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 37,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000159",
+                "name": "deployer"
+            }
+        },
+        "undocumented": true,
+        "name": "deployer",
+        "longname": "<anonymous>~deployer",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1725,
+                1746
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 39,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000175",
+                "name": "alias",
+                "type": "MemberExpression",
+                "value": "deployer.alias"
+            }
+        },
+        "undocumented": true,
+        "name": "alias",
+        "longname": "alias",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1764,
+                1783
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 40,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000179",
+                "name": "name",
+                "type": "MemberExpression",
+                "value": "deployer.name"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/connections/processors\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Array} Processors\n     */",
+        "meta": {
+            "range": [
+                2056,
+                2366
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 55,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000189",
+                "name": "ConnectionController.getProcessors",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/connections/processors"
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "Processors"
+            }
+        ],
+        "name": "getProcessors",
+        "longname": "HashBrown.Server.Controllers.ConnectionController.getProcessors",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ConnectionController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2101,
+                2116
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 56,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000196",
+                "name": "processors",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "processors",
+        "longname": "<anonymous>~processors",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2135,
+                2144
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 58,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000201",
+                "name": "processor"
+            }
+        },
+        "undocumented": true,
+        "name": "processor",
+        "longname": "<anonymous>~processor",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2243,
+                2265
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 60,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000217",
+                "name": "alias",
+                "type": "MemberExpression",
+                "value": "processor.alias"
+            }
+        },
+        "undocumented": true,
+        "name": "alias",
+        "longname": "alias",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2283,
+                2303
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 61,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000221",
+                "name": "name",
+                "type": "MemberExpression",
+                "value": "processor.name"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/connections\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Array} Connections\n     */",
+        "meta": {
+            "range": [
+                2567,
+                2882
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 76,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000231",
+                "name": "ConnectionController.getConnections",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/connections"
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "Connections"
+            }
+        ],
+        "name": "getConnections",
+        "longname": "HashBrown.Server.Controllers.ConnectionController.getConnections",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ConnectionController",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/connections/:id\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {Connection} Connection\n     */",
+        "meta": {
+            "range": [
+                3114,
+                3546
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 95,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000284",
+                "name": "ConnectionController.postConnection",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/connections/:id"
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Connection"
+                    ]
+                },
+                "description": "Connection"
+            }
+        ],
+        "name": "postConnection",
+        "longname": "HashBrown.Server.Controllers.ConnectionController.postConnection",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ConnectionController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3160,
+                3178
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 96,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000291",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3192,
+                3213
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 97,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000299",
+                "name": "connection",
+                "type": "MemberExpression",
+                "value": "req.body"
+            }
+        },
+        "undocumented": true,
+        "name": "connection",
+        "longname": "<anonymous>~connection",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/connections/pull/:id\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {String} Connection id\n     */",
+        "meta": {
+            "range": [
+                3786,
+                4497
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 117,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000362",
+                "name": "ConnectionController.pullConnection",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/connections/pull/:id"
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "Connection id"
+            }
+        ],
+        "name": "pullConnection",
+        "longname": "HashBrown.Server.Controllers.ConnectionController.pullConnection",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ConnectionController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3832,
+                3850
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 118,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000369",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/connections/push/:id\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {String} Connection id\n     */",
+        "meta": {
+            "range": [
+                4737,
+                5264
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 143,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000475",
+                "name": "ConnectionController.pushConnection",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/connections/push/:id"
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "Connection id"
+            }
+        ],
+        "name": "pushConnection",
+        "longname": "HashBrown.Server.Controllers.ConnectionController.pushConnection",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ConnectionController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4783,
+                4801
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 144,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000482",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/connections/:id\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {Connection} Connection\n     */",
+        "meta": {
+            "range": [
+                5495,
+                6025
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 167,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000564",
+                "name": "ConnectionController.getConnection",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/connections/:id"
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Connection"
+                    ]
+                },
+                "description": "Connection"
+            }
+        ],
+        "name": "getConnection",
+        "longname": "HashBrown.Server.Controllers.ConnectionController.getConnection",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ConnectionController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5540,
+                5558
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 168,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000571",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/connections/new\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Connection} Connection\n     */",
+        "meta": {
+            "range": [
+                6235,
+                6561
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 193,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000644",
+                "name": "ConnectionController.createConnection",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/connections/new"
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Connection"
+                    ]
+                },
+                "description": "Connection"
+            }
+        ],
+        "name": "createConnection",
+        "longname": "HashBrown.Server.Controllers.ConnectionController.createConnection",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ConnectionController",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * @example DELETE /api/:project/:environment/connections/:id\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {Connection} Connection\n     */",
+        "meta": {
+            "range": [
+                6795,
+                7152
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 212,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000701",
+                "name": "ConnectionController.deleteConnection",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "DELETE /api/:project/:environment/connections/:id"
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Connection"
+                    ]
+                },
+                "description": "Connection"
+            }
+        ],
+        "name": "deleteConnection",
+        "longname": "HashBrown.Server.Controllers.ConnectionController.deleteConnection",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ConnectionController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6843,
+                6861
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 213,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000708",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7156,
+                7193
+            ],
+            "filename": "ConnectionController.js",
+            "lineno": 225,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000767",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "ConnectionController",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers/ConnectionController.js"
+        ]
+    }
+]

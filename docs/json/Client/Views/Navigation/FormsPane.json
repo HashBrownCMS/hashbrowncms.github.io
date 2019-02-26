@@ -1,0 +1,1173 @@
+[
+    {
+        "comment": "/**\n * The Forms navbar pane\n * \n * @memberof HashBrown.Client.Views.Navigation\n */",
+        "meta": {
+            "range": [
+                99,
+                5499
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000004",
+                "name": "FormsPane",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The Forms navbar pane",
+        "memberof": "HashBrown.Client.Views.Navigation",
+        "name": "FormsPane",
+        "longname": "HashBrown.Client.Views.Navigation.FormsPane",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Click create new form\n     */",
+        "meta": {
+            "range": [
+                219,
+                645
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000014",
+                "name": "FormsPane.onClickNewForm",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click create new form",
+        "name": "onClickNewForm",
+        "longname": "HashBrown.Client.Views.Navigation.FormsPane.onClickNewForm",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Navigation.FormsPane",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                543,
+                580
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 19,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000064",
+                "name": "location.hash",
+                "type": "BinaryExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "location.hash",
+        "kind": "member",
+        "memberof": "location",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: On click remove\n     */",
+        "meta": {
+            "range": [
+                701,
+                1684
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 28,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000075",
+                "name": "FormsPane.onClickRemoveForm",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: On click remove",
+        "name": "onClickRemoveForm",
+        "longname": "HashBrown.Client.Views.Navigation.FormsPane.onClickRemoveForm",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Navigation.FormsPane",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                742,
+                753
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 29,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000080",
+                "name": "view",
+                "type": "ThisExpression",
+                "value": "this"
+            }
+        },
+        "undocumented": true,
+        "name": "view",
+        "longname": "<anonymous>~view",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                767,
+                803
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 30,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000084",
+                "name": "$element",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "$element",
+        "longname": "<anonymous>~$element",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                818,
+                842
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 31,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000090",
+                "name": "id",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                856,
+                925
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 32,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000098",
+                "name": "form",
+                "type": "MemberExpression",
+                "value": "[0]"
+            }
+        },
+        "undocumented": true,
+        "name": "form",
+        "longname": "<anonymous>~form",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1569,
+                1594
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 49,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000195",
+                "name": "location.hash",
+                "type": "Literal",
+                "value": "/forms/",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "location.hash",
+        "kind": "member",
+        "memberof": "location",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Click pull Form\n     */",
+        "meta": {
+            "range": [
+                1740,
+                2477
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 59,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000204",
+                "name": "FormsPane.onClickPullForm",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click pull Form",
+        "name": "onClickPullForm",
+        "longname": "HashBrown.Client.Views.Navigation.FormsPane.onClickPullForm",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Navigation.FormsPane",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1779,
+                1824
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 60,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000209",
+                "name": "pullId",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "pullId",
+        "longname": "<anonymous>~pullId",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2236,
+                2270
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 74,
+            "columnno": 3,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000266",
+                "name": "location.hash",
+                "type": "BinaryExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "location.hash",
+        "kind": "member",
+        "memberof": "location",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2282,
+                2319
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 76,
+            "columnno": 7,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000274",
+                "name": "editor",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "editor",
+        "longname": "<anonymous>~editor",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2383,
+                2402
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 79,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000295",
+                "name": "editor.model",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "model",
+        "longname": "<anonymous>~editor.model",
+        "kind": "member",
+        "memberof": "<anonymous>~editor",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Click push Form\n     */",
+        "meta": {
+            "range": [
+                2533,
+                3008
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 89,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000309",
+                "name": "FormsPane.onClickPushForm",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click push Form",
+        "name": "onClickPushForm",
+        "longname": "HashBrown.Client.Views.Navigation.FormsPane.onClickPushForm",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Navigation.FormsPane",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2566,
+                2602
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 90,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000314",
+                "name": "$element",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "$element",
+        "longname": "<anonymous>~$element",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2616,
+                2644
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 91,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000320",
+                "name": "pushId",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "pushId",
+        "longname": "<anonymous>~pushId",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Init\n     */",
+        "meta": {
+            "range": [
+                3042,
+                5497
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 108,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000386",
+                "name": "FormsPane.init",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Init",
+        "name": "init",
+        "longname": "HashBrown.Client.Views.Navigation.FormsPane.init",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Navigation.FormsPane",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3160,
+                3175
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 110,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000405",
+                "name": "icon",
+                "type": "Literal",
+                "value": "wpforms"
+            }
+        },
+        "undocumented": true,
+        "name": "icon",
+        "longname": "icon",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3202,
+                3245
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 112,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000407",
+                "name": "getItems",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "getItems",
+        "longname": "getItems",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3291,
+                3607
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 115,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000414",
+                "name": "hierarchy",
+                "type": "FunctionExpression"
+            },
+            "vars": {
+                "queueItem.createDir": "queueItem.createDir",
+                "queueItem.parentDirAttr": "queueItem.parentDirAttr"
+            }
+        },
+        "undocumented": true,
+        "name": "hierarchy",
+        "longname": "hierarchy",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3466,
+                3492
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 119,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000436",
+                "name": "queueItem.createDir",
+                "type": "Literal",
+                "value": true,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "createDir",
+        "longname": "queueItem.createDir",
+        "kind": "member",
+        "memberof": "queueItem",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3514,
+                3574
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 120,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000442",
+                "name": "queueItem.parentDirAttr",
+                "type": "ObjectExpression",
+                "value": "{\"undefined\":\"\"}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "parentDirAttr",
+        "longname": "queueItem.parentDirAttr",
+        "kind": "member",
+        "memberof": "queueItem",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3541,
+                3572
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 120,
+            "columnno": 47,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000447",
+                "name": "\"data-form-folder\"",
+                "type": "MemberExpression",
+                "value": "item.folder"
+            }
+        },
+        "undocumented": true,
+        "name": "\"data-form-folder\"",
+        "longname": "queueItem.parentDirAttr.\"data-form-folder\"",
+        "kind": "member",
+        "memberof": "queueItem.parentDirAttr",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3667,
+                5215
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 125,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000451",
+                "name": "getItemContextMenu",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "menu": "getItemContextMenu~menu",
+                "isSyncEnabled": "getItemContextMenu~isSyncEnabled",
+                "menu['This form']": "getItemContextMenu~menu.'This form']",
+                "menu['Open in new tab']": "getItemContextMenu~menu.'Open in new tab']",
+                "": null,
+                "menu['Remove']": "getItemContextMenu~menu.'Remove']",
+                "menu['Copy id']": "getItemContextMenu~menu.'Copy id']",
+                "menu['Sync']": "getItemContextMenu~menu.'Sync']",
+                "menu['Push to remote']": "getItemContextMenu~menu.'Push to remote']",
+                "menu['Remove local copy']": "getItemContextMenu~menu.'Remove local copy']",
+                "menu['Pull from remote']": "getItemContextMenu~menu.'Pull from remote']",
+                "menu['General']": "getItemContextMenu~menu.'General']",
+                "menu['New form']": "getItemContextMenu~menu.'New form']",
+                "menu['Refresh']": "getItemContextMenu~menu.'Refresh']"
+            }
+        },
+        "undocumented": true,
+        "name": "getItemContextMenu",
+        "longname": "getItemContextMenu",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3719,
+                3728
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 126,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000456",
+                "name": "menu",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "menu",
+        "longname": "getItemContextMenu~menu",
+        "kind": "member",
+        "memberof": "getItemContextMenu",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3750,
+                3886
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 127,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000460",
+                "name": "isSyncEnabled",
+                "type": "MemberExpression",
+                "value": ".enabled"
+            }
+        },
+        "undocumented": true,
+        "name": "isSyncEnabled",
+        "longname": "getItemContextMenu~isSyncEnabled",
+        "kind": "member",
+        "memberof": "getItemContextMenu",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3921,
+                3946
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 129,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000482",
+                "name": "menu['This form']",
+                "type": "Literal",
+                "funcscope": "getItemContextMenu",
+                "value": "---",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'This form']",
+        "longname": "getItemContextMenu~menu.'This form']",
+        "kind": "member",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3965,
+                4028
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 131,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000488",
+                "name": "menu['Open in new tab']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Open in new tab']",
+        "longname": "getItemContextMenu~menu.'Open in new tab']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4135,
+                4187
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 134,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000520",
+                "name": "menu['Remove']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Remove']",
+        "longname": "getItemContextMenu~menu.'Remove']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4240,
+                4293
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 137,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000532",
+                "name": "menu['Copy id']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Copy id']",
+        "longname": "getItemContextMenu~menu.'Copy id']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4355,
+                4376
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 139,
+            "columnno": 59,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000556",
+                "name": "isSyncEnabled",
+                "type": "Literal",
+                "funcscope": "getItemContextMenu",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isSyncEnabled",
+        "longname": "getItemContextMenu~isSyncEnabled",
+        "kind": "member",
+        "memberof": "getItemContextMenu",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4437,
+                4457
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 142,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000563",
+                "name": "menu['Sync']",
+                "type": "Literal",
+                "funcscope": "getItemContextMenu",
+                "value": "---",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Sync']",
+        "longname": "getItemContextMenu~menu.'Sync']",
+        "kind": "member",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4530,
+                4588
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 145,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000577",
+                "name": "menu['Push to remote']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Push to remote']",
+        "longname": "getItemContextMenu~menu.'Push to remote']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4683,
+                4746
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 149,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000596",
+                "name": "menu['Remove local copy']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Remove local copy']",
+        "longname": "getItemContextMenu~menu.'Remove local copy']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4860,
+                4920
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 153,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000615",
+                "name": "menu['Pull from remote']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Pull from remote']",
+        "longname": "getItemContextMenu~menu.'Pull from remote']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4995,
+                5018
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 157,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000627",
+                "name": "menu['General']",
+                "type": "Literal",
+                "funcscope": "getItemContextMenu",
+                "value": "---",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'General']",
+        "longname": "getItemContextMenu~menu.'General']",
+        "kind": "member",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5036,
+                5087
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 158,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000633",
+                "name": "menu['New form']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'New form']",
+        "longname": "getItemContextMenu~menu.'New form']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5105,
+                5170
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 159,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000645",
+                "name": "menu['Refresh']",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "getItemContextMenu",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "'Refresh']",
+        "longname": "getItemContextMenu~menu.'Refresh']",
+        "kind": "function",
+        "memberof": "getItemContextMenu~menu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5278,
+                5479
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 165,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000659",
+                "name": "paneContextMenu",
+                "type": "ObjectExpression",
+                "value": "{\"undefined\":\"\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "paneContextMenu",
+        "longname": "paneContextMenu",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5313,
+                5327
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 166,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000661",
+                "name": "Forms",
+                "type": "Literal",
+                "value": "---"
+            }
+        },
+        "undocumented": true,
+        "name": "Forms",
+        "longname": "paneContextMenu.Forms",
+        "kind": "member",
+        "memberof": "paneContextMenu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5345,
+                5389
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 167,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000663",
+                "name": "\"New form\"",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "\"New form\"",
+        "longname": "paneContextMenu.\"New form\"",
+        "kind": "function",
+        "memberof": "paneContextMenu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5407,
+                5465
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 168,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000671",
+                "name": "Refresh",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "Refresh",
+        "longname": "paneContextMenu.Refresh",
+        "kind": "function",
+        "memberof": "paneContextMenu",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5501,
+                5527
+            ],
+            "filename": "FormsPane.js",
+            "lineno": 174,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation",
+            "code": {
+                "id": "astnode100000681",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "FormsPane",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Navigation/FormsPane.js"
+        ]
+    }
+]

@@ -1,0 +1,826 @@
+[
+    {
+        "comment": "/**\n * A simple string editor\n *\n * @memberof HashBrown.Client.Views.Editors.FieldEditors\n */",
+        "meta": {
+            "range": [
+                109,
+                2838
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000004",
+                "name": "ResourceReferenceEditor",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A simple string editor",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors",
+        "name": "ResourceReferenceEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.ResourceReferenceEditor",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                202,
+                275
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 9,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000016",
+                "name": "ResourceReferenceEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "ResourceReferenceEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors~ResourceReferenceEditor",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Renders the config editor\n     *\n     * @param {Object} config\n     *\n     * @returns {HTMLElement} Element\n     */",
+        "meta": {
+            "range": [
+                412,
+                1590
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 22,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000030",
+                "name": "ResourceReferenceEditor.renderConfigEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "config"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the config editor",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "config"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Element"
+            }
+        ],
+        "name": "renderConfigEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.ResourceReferenceEditor.renderConfigEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.ResourceReferenceEditor",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                456,
+                503
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 23,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000036",
+                "name": "config.resourceKeys",
+                "type": "LogicalExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "resourceKeys",
+        "longname": "config.resourceKeys",
+        "kind": "member",
+        "memberof": "config",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                542,
+                564
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 26,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000052",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                590,
+                617
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 27,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000059",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                656,
+                685
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 28,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000067",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                771,
+                793
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 30,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000079",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "config.resource"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                819,
+                850
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 31,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000083",
+                "name": "options",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "options",
+        "longname": "options",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                876,
+                982
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 32,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000089",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "config.resource": "config.resource"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                930,
+                956
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 33,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000094",
+                "name": "config.resource",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "resource",
+        "longname": "config.resource",
+        "kind": "member",
+        "memberof": "config",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1067,
+                1089
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 38,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000105",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1115,
+                1142
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 39,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000112",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1186,
+                1215
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 40,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000120",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1298,
+                1324
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 42,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000132",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "config.resourceKeys"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1350,
+                1372
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 43,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000136",
+                "name": "placeholder",
+                "type": "Literal",
+                "value": "keyName"
+            }
+        },
+        "undocumented": true,
+        "name": "placeholder",
+        "longname": "placeholder",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1398,
+                1509
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 44,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000138",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "config.resourceKeys": "config.resourceKeys"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1452,
+                1482
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 45,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000143",
+                "name": "config.resourceKeys",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "resourceKeys",
+        "longname": "config.resourceKeys",
+        "kind": "member",
+        "memberof": "config",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders this editor\n     */",
+        "meta": {
+            "range": [
+                1639,
+                2836
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 56,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000149",
+                "name": "ResourceReferenceEditor#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders this editor",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.ResourceReferenceEditor#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.ResourceReferenceEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1664,
+                1706
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 57,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000154",
+                "name": "resource",
+                "type": "MemberExpression",
+                "value": "resources[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "resource",
+        "longname": "<anonymous>~resource",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1720,
+                1725
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 58,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000164",
+                "name": "value"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1763,
+                1791
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 61,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000170",
+                "name": "value",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "resource[undefined]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1843,
+                1844
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 64,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000183",
+                "name": "i"
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1939,
+                1958
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 66,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000199",
+                "name": "value",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "resource[undefined]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2094,
+                2097
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 73,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000210",
+                "name": "key"
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "longname": "<anonymous>~key",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2198,
+                2216
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 75,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000226",
+                "name": "value",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "value[undefined]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2350,
+                2393
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 81,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000238",
+                "name": "singularResourceName",
+                "type": "MemberExpression",
+                "value": "this.config.resource"
+            }
+        },
+        "undocumented": true,
+        "name": "singularResourceName",
+        "longname": "<anonymous>~singularResourceName",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2499,
+                2588
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 84,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000257",
+                "name": "singularResourceName",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "singularResourceName",
+        "longname": "<anonymous>~singularResourceName",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2625,
+                2675
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 87,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000270",
+                "name": "value",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2733,
+                2787
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 92,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000283",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor field-editor--resource-reference"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2840,
+                2880
+            ],
+            "filename": "ResourceReferenceEditor.js",
+            "lineno": 98,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000289",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "ResourceReferenceEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors/ResourceReferenceEditor.js"
+        ]
+    }
+]

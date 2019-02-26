@@ -1,0 +1,114 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                75
+            ],
+            "filename": "Connection.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Models",
+            "code": {
+                "id": "astnode100000005",
+                "name": "ConnectionCommon",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "ConnectionCommon",
+        "longname": "ConnectionCommon",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The client side Connection class\n *\n * @memberof HashBrown.Client.Models\n */",
+        "meta": {
+            "range": [
+                162,
+                377
+            ],
+            "filename": "Connection.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Models",
+            "code": {
+                "id": "astnode100000010",
+                "name": "Connection",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The client side Connection class",
+        "memberof": "HashBrown.Client.Models",
+        "name": "Connection",
+        "longname": "HashBrown.Client.Models.Connection",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Structure\n     */",
+        "meta": {
+            "range": [
+                243,
+                375
+            ],
+            "filename": "Connection.js",
+            "lineno": 14,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Models",
+            "code": {
+                "id": "astnode100000014",
+                "name": "Connection#structure",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Structure",
+        "name": "structure",
+        "longname": "HashBrown.Client.Models.Connection#structure",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Models.Connection",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                379,
+                406
+            ],
+            "filename": "Connection.js",
+            "lineno": 22,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Models",
+            "code": {
+                "id": "astnode100000040",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "Connection",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Models/Connection.js"
+        ]
+    }
+]

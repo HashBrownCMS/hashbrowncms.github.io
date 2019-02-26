@@ -1,0 +1,3641 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                47
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "FileSystem",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "FileSystem",
+        "longname": "FileSystem",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                55,
+                93
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 4,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000011",
+                "name": "Spawn",
+                "type": "MemberExpression",
+                "value": ".spawn"
+            }
+        },
+        "undocumented": true,
+        "name": "Spawn",
+        "longname": "Spawn",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                101,
+                137
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 5,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000019",
+                "name": "QueryString",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "QueryString",
+        "longname": "QueryString",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                145,
+                167
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 6,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000025",
+                "name": "Path",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Path",
+        "longname": "Path",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                176,
+                204
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 8,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000031",
+                "name": "MongoDB",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "MongoDB",
+        "longname": "MongoDB",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                212,
+                245
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 9,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000037",
+                "name": "MongoClient",
+                "type": "MemberExpression",
+                "value": "MongoDB.MongoClient"
+            }
+        },
+        "undocumented": true,
+        "name": "MongoClient",
+        "longname": "MongoClient",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The helper class for database operations\n *\n * @memberof HashBrown.Server.Helpers\n */",
+        "meta": {
+            "range": [
+                341,
+                16017
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 16,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000042",
+                "name": "DatabaseHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The helper class for database operations",
+        "memberof": "HashBrown.Server.Helpers",
+        "name": "DatabaseHelper",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets a database config parameter\n     *\n     * @param {String} key\n     *\n     * @return {String} Value\n     */",
+        "meta": {
+            "range": [
+                495,
+                716
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 24,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000045",
+                "name": "DatabaseHelper.getConfig",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "key"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a database config parameter",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "key"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "Value"
+            }
+        ],
+        "name": "getConfig",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.getConfig",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                531,
+                596
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 25,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000051",
+                "name": "config",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "config",
+        "longname": "<anonymous>~config",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets the connection string\n     *\n     * @param {String} databaseName\n     *\n     * @returns {String} Connection string\n     */",
+        "meta": {
+            "range": [
+                865,
+                2052
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 41,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000080",
+                "name": "DatabaseHelper.getConnectionString",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets the connection string",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "Connection string"
+            }
+        ],
+        "name": "getConnectionString",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.getConnectionString",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                920,
+                951
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 42,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000086",
+                "name": "connectionString",
+                "type": "Literal",
+                "value": "mongodb://"
+            }
+        },
+        "undocumented": true,
+        "name": "connectionString",
+        "longname": "<anonymous>~connectionString",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                972,
+                1041
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 44,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000090",
+                "name": "username",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "username",
+        "longname": "<anonymous>~username",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1055,
+                1124
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 45,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000104",
+                "name": "password",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "password",
+        "longname": "<anonymous>~password",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1138,
+                1235
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 46,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000118",
+                "name": "host",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "host",
+        "longname": "<anonymous>~host",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1249,
+                1306
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 47,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000140",
+                "name": "port",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "port",
+        "longname": "<anonymous>~port",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1344,
+                1372
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 50,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000157",
+                "name": "connectionString",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "username",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "connectionString",
+        "longname": "<anonymous>~connectionString",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1418,
+                1452
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 53,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000164",
+                "name": "connectionString",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "connectionString",
+        "longname": "<anonymous>~connectionString",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1481,
+                1504
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 56,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000170",
+                "name": "connectionString",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "@",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "connectionString",
+        "longname": "<anonymous>~connectionString",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1525,
+                1549
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 59,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000174",
+                "name": "connectionString",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "host",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "connectionString",
+        "longname": "<anonymous>~connectionString",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1591,
+                1621
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 62,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000181",
+                "name": "connectionString",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "connectionString",
+        "longname": "<anonymous>~connectionString",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1681,
+                1746
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 66,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000190",
+                "name": "connectionString",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "connectionString",
+        "longname": "<anonymous>~connectionString",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1778,
+                1801
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 69,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000203",
+                "name": "connectionString",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "/",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "connectionString",
+        "longname": "<anonymous>~connectionString",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1927,
+                2001
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 73,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000228",
+                "name": "connectionString",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "connectionString",
+        "longname": "<anonymous>~connectionString",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Connects to the database\n     *\n     * @param {String} databaseName\n     *\n     * @return {Promise} Client\n     */",
+        "meta": {
+            "range": [
+                2188,
+                2339
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 86,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000243",
+                "name": "DatabaseHelper.connect",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Connects to the database",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Client"
+            }
+        ],
+        "name": "connect",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.connect",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2308,
+                2329
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 87,
+            "columnno": 83,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000260",
+                "name": "useNewUrlParser",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "useNewUrlParser",
+        "longname": "useNewUrlParser",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Restores a database\n     *\n     * @param {String} databaseName\n     * @param {String} timestamp\n     *\n     * @returns {Promise} Data string\n     */",
+        "meta": {
+            "range": [
+                2509,
+                3803
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 98,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000262",
+                "name": "DatabaseHelper.restore",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName",
+                    "timestamp"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Restores a database",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "timestamp"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Data string"
+            }
+        ],
+        "name": "restore",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.restore",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2569,
+                2655
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 99,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000269",
+                "name": "archivePath",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "archivePath",
+        "longname": "<anonymous>~archivePath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2695,
+                2772
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 102,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000285",
+                "name": "archiveContent",
+                "type": "AwaitExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "archiveContent",
+        "longname": "<anonymous>~archiveContent",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2791,
+                2831
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 103,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000299",
+                "name": "collections",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "collections",
+        "longname": "<anonymous>~collections",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2902,
+                2944
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 107,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000314",
+                "name": "collectionNames",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "collectionNames",
+        "longname": "<anonymous>~collectionNames",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2974,
+                3618
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 109,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000322",
+                "name": "insertCollection",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "collectionName": "<anonymous>~insertCollection~collectionName",
+                "documents": "<anonymous>~insertCollection~documents",
+                "insertDocument": "<anonymous>~insertCollection~insertDocument",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "insertCollection",
+        "longname": "<anonymous>~insertCollection",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": [],
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3109,
+                3148
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 112,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000336",
+                "name": "collectionName",
+                "type": "MemberExpression",
+                "value": "collectionNames[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "collectionName",
+        "longname": "<anonymous>~insertCollection~collectionName",
+        "kind": "member",
+        "memberof": "<anonymous>~insertCollection",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3170,
+                3209
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 113,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000342",
+                "name": "documents",
+                "type": "MemberExpression",
+                "value": "collections[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "documents",
+        "longname": "<anonymous>~insertCollection~documents",
+        "kind": "member",
+        "memberof": "<anonymous>~insertCollection",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3232,
+                3506
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 115,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000348",
+                "name": "insertDocument",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "insertDocument",
+        "longname": "<anonymous>~insertCollection~insertDocument",
+        "kind": "function",
+        "memberof": "<anonymous>~insertCollection",
+        "scope": "inner",
+        "params": [],
+        "async": true
+    },
+    {
+        "comment": "/**\n     * Dumps a database\n     *\n     * @param {String} databaseName\n     *\n     * @returns {Promise} Timestamp\n     */",
+        "meta": {
+            "range": [
+                3938,
+                5122
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 142,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000411",
+                "name": "DatabaseHelper.dump",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Dumps a database",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Timestamp"
+            }
+        ],
+        "name": "dump",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.dump",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4043,
+                4106
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 145,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000423",
+                "name": "dumpPath",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "dumpPath",
+        "longname": "<anonymous>~dumpPath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4209,
+                4231
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 150,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000445",
+                "name": "timestamp",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "timestamp",
+        "longname": "<anonymous>~timestamp",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4245,
+                4298
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 151,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000452",
+                "name": "archivePath",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "archivePath",
+        "longname": "<anonymous>~archivePath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4417,
+                4475
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 155,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000478",
+                "name": "collectionNames",
+                "type": "AwaitExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "collectionNames",
+        "longname": "<anonymous>~collectionNames",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4494,
+                4861
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 157,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000487",
+                "name": "getDocuments",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "collectionName": "<anonymous>~getDocuments~collectionName",
+                "documents": "<anonymous>~getDocuments~documents",
+                "collections[undefined]": null
+            }
+        },
+        "undocumented": true,
+        "name": "getDocuments",
+        "longname": "<anonymous>~getDocuments",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": [],
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4605,
+                4649
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 160,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000501",
+                "name": "collectionName",
+                "type": "MemberExpression",
+                "value": "collectionNames[undefined].name"
+            }
+        },
+        "undocumented": true,
+        "name": "collectionName",
+        "longname": "<anonymous>~getDocuments~collectionName",
+        "kind": "member",
+        "memberof": "<anonymous>~getDocuments",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4667,
+                4728
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 161,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000509",
+                "name": "documents",
+                "type": "AwaitExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "documents",
+        "longname": "<anonymous>~getDocuments~documents",
+        "kind": "member",
+        "memberof": "<anonymous>~getDocuments",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4755,
+                4794
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 163,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000520",
+                "name": "collections[undefined]",
+                "type": "Identifier",
+                "value": "documents",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "collections[undefined]",
+        "longname": "collections[undefined]",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4876,
+                4892
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 168,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000533",
+                "name": "collections",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "collections",
+        "longname": "<anonymous>~collections",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Lists all collections in a database\n     *\n     * @param {String} databaseName\n     *\n     * @return {Promise} Array of collections\n     */",
+        "meta": {
+            "range": [
+                5283,
+                5802
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 186,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000562",
+                "name": "DatabaseHelper.listCollections",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Lists all collections in a database",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Array of collections"
+            }
+        ],
+        "name": "listCollections",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.listCollections",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5467,
+                5483
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 191,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000584",
+                "name": "collections",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "collections",
+        "longname": "<anonymous>~collections",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5497,
+                5510
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 192,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000588",
+                "name": "client",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5539,
+                5580
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 195,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000594",
+                "name": "client",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5594,
+                5653
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 196,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000603",
+                "name": "collections",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "collections",
+        "longname": "<anonymous>~collections",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Lists all databases\n     *\n     * @returns {Promise} Array of databases\n     */",
+        "meta": {
+            "range": [
+                5903,
+                7037
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 211,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000632",
+                "name": "DatabaseHelper.listDatabases",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Lists all databases",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Array of databases"
+            }
+        ],
+        "name": "listDatabases",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.listDatabases",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "params": [],
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6003,
+                6016
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 214,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000645",
+                "name": "result",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "result",
+        "longname": "<anonymous>~result",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6030,
+                6043
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 215,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000649",
+                "name": "client",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6073,
+                6102
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 218,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000655",
+                "name": "client",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6116,
+                6173
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 219,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000663",
+                "name": "result",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "result",
+        "longname": "<anonymous>~result",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6337,
+                6351
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 228,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000698",
+                "name": "databases",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "databases",
+        "longname": "<anonymous>~databases",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6370,
+                6375
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 230,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000703",
+                "name": "i",
+                "type": "Literal",
+                "value": 0
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6429,
+                6459
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 231,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000717",
+                "name": "database",
+                "type": "MemberExpression",
+                "value": "result.databases[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "database",
+        "longname": "<anonymous>~database",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6898,
+                6979
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 242,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000787",
+                "name": "databases[undefined]",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~databases.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~databases",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Check if a database exists\n     *\n     * @param {String} databaseName\n     *\n     * @returns {Promise} Whether or not database exists\n     */",
+        "meta": {
+            "range": [
+                7200,
+                7355
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 256,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000807",
+                "name": "DatabaseHelper.databaseExists",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Check if a database exists",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Whether or not database exists"
+            }
+        ],
+        "name": "databaseExists",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.databaseExists",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7256,
+                7294
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 257,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000813",
+                "name": "databases",
+                "type": "AwaitExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "databases",
+        "longname": "<anonymous>~databases",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Check if a collection exists\n     *\n     * @param {String} databaseName\n     * @param {String} collectionName\n     *\n     * @returns {Promise} Whether or not collection exists\n     */",
+        "meta": {
+            "range": [
+                7564,
+                7884
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 270,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000829",
+                "name": "DatabaseHelper.collectionExists",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName",
+                    "collectionName"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Check if a collection exists",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "collectionName"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Whether or not collection exists"
+            }
+        ],
+        "name": "collectionExists",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.collectionExists",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7638,
+                7692
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 271,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000836",
+                "name": "collections",
+                "type": "AwaitExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "collections",
+        "longname": "<anonymous>~collections",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7711,
+                7721
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 273,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000846",
+                "name": "collection"
+            }
+        },
+        "undocumented": true,
+        "name": "collection",
+        "longname": "<anonymous>~collection",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Finds a single Mongo document\n     *\n     * @param {String} databaseName\n     * @param {String} collectionName\n     * @param {Object} query\n     * @param {Object} projection\n     *\n     * @return {Promise} Document\n     */",
+        "meta": {
+            "range": [
+                8128,
+                8698
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 292,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000863",
+                "name": "DatabaseHelper.findOne",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName",
+                    "collectionName",
+                    "query",
+                    "projection"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Finds a single Mongo document",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "collectionName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "query"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "projection"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Document"
+            }
+        ],
+        "name": "findOne",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.findOne",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8326,
+                8344
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 295,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000896",
+                "name": "projection._id",
+                "type": "Literal",
+                "value": 0,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "_id",
+        "longname": "projection._id",
+        "kind": "member",
+        "memberof": "projection",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8359,
+                8369
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 297,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000902",
+                "name": "doc",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "doc",
+        "longname": "<anonymous>~doc",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8383,
+                8396
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 298,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000906",
+                "name": "client",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8425,
+                8466
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 301,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000912",
+                "name": "client",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8480,
+                8557
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 302,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000921",
+                "name": "doc",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "doc",
+        "longname": "<anonymous>~doc",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Finds Mongo documents\n     *\n     * @param {String} databaseName\n     * @param {String} collectionName\n     * @param {Object} query\n     * @param {Object} projection\n     * @param {Object} sort\n     *\n     * @return {Promise} Documents\n     */",
+        "meta": {
+            "range": [
+                8967,
+                9581
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 323,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000953",
+                "name": "DatabaseHelper.find",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName",
+                    "collectionName",
+                    "query",
+                    "projection",
+                    "sort"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Finds Mongo documents",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "collectionName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "query"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "projection"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "sort",
+                "defaultvalue": null
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Documents"
+            }
+        ],
+        "name": "find",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.find",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9172,
+                9190
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 326,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000989",
+                "name": "projection._id",
+                "type": "Literal",
+                "value": 0,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "_id",
+        "longname": "projection._id",
+        "kind": "member",
+        "memberof": "projection",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9205,
+                9214
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 328,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000995",
+                "name": "docs",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "docs",
+        "longname": "<anonymous>~docs",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9228,
+                9241
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 329,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000999",
+                "name": "client",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9270,
+                9311
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 332,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001005",
+                "name": "client",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9325,
+                9438
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 333,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001014",
+                "name": "docs",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "docs",
+        "longname": "<anonymous>~docs",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9391,
+                9401
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 333,
+            "columnno": 78,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001032",
+                "name": "sort",
+                "type": "Identifier",
+                "value": "sort"
+            }
+        },
+        "undocumented": true,
+        "name": "sort",
+        "longname": "sort",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9403,
+                9425
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 333,
+            "columnno": 90,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001034",
+                "name": "projection",
+                "type": "Identifier",
+                "value": "projection"
+            }
+        },
+        "undocumented": true,
+        "name": "projection",
+        "longname": "projection",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Counts Mongo documents\n     *\n     * @param {String} databaseName\n     * @param {String} collectionName\n     * @param {Object} query\n     *\n     * @return {Promise} Number of matching documents\n     */",
+        "meta": {
+            "range": [
+                9808,
+                10328
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 353,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001053",
+                "name": "DatabaseHelper.count",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName",
+                    "collectionName",
+                    "query"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Counts Mongo documents",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "collectionName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "query"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Number of matching documents"
+            }
+        ],
+        "name": "count",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.count",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9997,
+                10010
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 356,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001083",
+                "name": "client",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10024,
+                10034
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 357,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001087",
+                "name": "result",
+                "type": "Literal",
+                "value": 0
+            }
+        },
+        "undocumented": true,
+        "name": "result",
+        "longname": "<anonymous>~result",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10063,
+                10104
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 360,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001093",
+                "name": "client",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10118,
+                10184
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 361,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001102",
+                "name": "result",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "result",
+        "longname": "<anonymous>~result",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Merges a single Mongo document\n     *\n     * @param {String} databaseName\n     * @param {String} collectionName\n     * @param {Object} query\n     * @param {Object} doc\n     * @param {Object} options\n     *\n     * @return {Promise}\n     */",
+        "meta": {
+            "range": [
+                10592,
+                10919
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 382,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001133",
+                "name": "DatabaseHelper.mergeOne",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName",
+                    "collectionName",
+                    "query",
+                    "doc",
+                    "options"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Merges a single Mongo document",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "collectionName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "query"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "doc"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "options"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                }
+            }
+        ],
+        "name": "mergeOne",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.mergeOne",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10679,
+                10751
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 383,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001143",
+                "name": "foundDoc",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "foundDoc",
+        "longname": "<anonymous>~foundDoc",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10770,
+                10771
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 385,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001157",
+                "name": "k"
+            }
+        },
+        "undocumented": true,
+        "name": "k",
+        "longname": "<anonymous>~k",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10794,
+                10814
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 386,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001162",
+                "name": "foundDoc[undefined]",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "doc[undefined]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~foundDoc.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~foundDoc",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Updates a single Mongo document\n     *\n     * @param {String} databaseName\n     * @param {String} collectionName\n     * @param {Object} query\n     * @param {Object} doc\n     * @param {Object} options\n     *\n     * @return {Promise} promise\n     */",
+        "meta": {
+            "range": [
+                11192,
+                11833
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 403,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001179",
+                "name": "DatabaseHelper.updateOne",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName",
+                    "collectionName",
+                    "query",
+                    "doc",
+                    "options"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Updates a single Mongo document",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "collectionName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "query"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "doc"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "options"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "promise"
+            }
+        ],
+        "name": "updateOne",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.updateOne",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11525,
+                11538
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 409,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001226",
+                "name": "client",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11567,
+                11608
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 412,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001232",
+                "name": "client",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11686,
+                11695
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 413,
+            "columnno": 76,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001255",
+                "name": "$set",
+                "type": "Identifier",
+                "value": "doc"
+            }
+        },
+        "undocumented": true,
+        "name": "$set",
+        "longname": "$set",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Updates Mongo documents\n     *\n     * @param {String} databaseName\n     * @param {String} collectionName\n     * @param {Object} query\n     * @param {Object} doc\n     * @param {Object} options\n     *\n     * @return {Promise} promise\n     */",
+        "meta": {
+            "range": [
+                12098,
+                12749
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 432,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001274",
+                "name": "DatabaseHelper.update",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName",
+                    "collectionName",
+                    "query",
+                    "doc",
+                    "options"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Updates Mongo documents",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "collectionName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "query"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "doc"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "options"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "promise"
+            }
+        ],
+        "name": "update",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.update",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12433,
+                12446
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 438,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001321",
+                "name": "client",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12482,
+                12523
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 441,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001327",
+                "name": "client",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12602,
+                12611
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 442,
+            "columnno": 77,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001350",
+                "name": "$set",
+                "type": "Identifier",
+                "value": "doc"
+            }
+        },
+        "undocumented": true,
+        "name": "$set",
+        "longname": "$set",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Inserts a single Mongo document\n     *\n     * @param {String} databaseName\n     * @param {String} collectionName\n     * @param {Object} doc\n     *\n     * @return {Promise} promise\n     */",
+        "meta": {
+            "range": [
+                12962,
+                13514
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 459,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001369",
+                "name": "DatabaseHelper.insertOne",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName",
+                    "collectionName",
+                    "doc"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Inserts a single Mongo document",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "collectionName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "doc"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "promise"
+            }
+        ],
+        "name": "insertOne",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.insertOne",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13231,
+                13244
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 465,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001404",
+                "name": "client",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13280,
+                13321
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 468,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001410",
+                "name": "client",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Removes a Mongo document\n     *\n     * @param {String} databaseName\n     * @param {String} collectionName\n     * @param {Object} query\n     *\n     * @return {Promise} promise\n     */",
+        "meta": {
+            "range": [
+                13722,
+                14205
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 486,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001446",
+                "name": "DatabaseHelper.remove",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName",
+                    "collectionName",
+                    "query"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Removes a Mongo document",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "collectionName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "query"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "promise"
+            }
+        ],
+        "name": "remove",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.remove",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13913,
+                13926
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 489,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001476",
+                "name": "client",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                13962,
+                14003
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 492,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001482",
+                "name": "client",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Removes a single Mongo document\n     *\n     * @param {String} databaseName\n     * @param {String} collectionName\n     * @param {Object} query\n     *\n     * @return {Promise} promise\n     */",
+        "meta": {
+            "range": [
+                14424,
+                14912
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 510,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001519",
+                "name": "DatabaseHelper.removeOne",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName",
+                    "collectionName",
+                    "query"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Removes a single Mongo document",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "collectionName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "query"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "promise"
+            }
+        ],
+        "name": "removeOne",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.removeOne",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                14620,
+                14633
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 513,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001549",
+                "name": "client",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                14670,
+                14711
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 516,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001555",
+                "name": "client",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Drops an entire collection\n     *\n     * @param {String} databaseName\n     * @param {String} collectionName\n     *\n     * @return {Promise} promise\n     */",
+        "meta": {
+            "range": [
+                15097,
+                15509
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 533,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001592",
+                "name": "DatabaseHelper.dropCollection",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName",
+                    "collectionName"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Drops an entire collection",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "collectionName"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "promise"
+            }
+        ],
+        "name": "dropCollection",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.dropCollection",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                15236,
+                15249
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 536,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001609",
+                "name": "client",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                15286,
+                15327
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 539,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001615",
+                "name": "client",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Drops an entire database\n     *\n     * @param {String} databaseName\n     *\n     * @returns {Promise}\n     */",
+        "meta": {
+            "range": [
+                15639,
+                16015
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 555,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001647",
+                "name": "DatabaseHelper.dropDatabase",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "databaseName"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Drops an entire database",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "databaseName"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                }
+            }
+        ],
+        "name": "dropDatabase",
+        "longname": "HashBrown.Server.Helpers.DatabaseHelper.dropDatabase",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DatabaseHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                15758,
+                15771
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 558,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001663",
+                "name": "client",
+                "type": "Literal",
+                "value": null
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                15808,
+                15849
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 561,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001669",
+                "name": "client",
+                "type": "AwaitExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "client",
+        "longname": "<anonymous>~client",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                16019,
+                16050
+            ],
+            "filename": "DatabaseHelper.js",
+            "lineno": 571,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001701",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "DatabaseHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers/DatabaseHelper.js"
+        ]
+    }
+]

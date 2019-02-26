@@ -1,0 +1,795 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                47
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "FileSystem",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "FileSystem",
+        "longname": "FileSystem",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                55,
+                77
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 4,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000011",
+                "name": "Path",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Path",
+        "longname": "Path",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                121,
+                147
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 7,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000017",
+                "name": "RimRaf",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "RimRaf",
+        "longname": "RimRaf",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                155,
+                177
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 8,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000023",
+                "name": "Glob",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Glob",
+        "longname": "Glob",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * A helper class for handling file system operations\n *\n * @memberof HashBrown.Server.Helpers\n */",
+        "meta": {
+            "range": [
+                283,
+                5937
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 15,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000028",
+                "name": "FileHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "A helper class for handling file system operations",
+        "memberof": "HashBrown.Server.Helpers",
+        "name": "FileHelper",
+        "longname": "HashBrown.Server.Helpers.FileHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Makes a directory (recursively) if it doesn't exist\n     *\n     * @param {String} path\n     * @param {Number} position\n     *\n     * @return {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                487,
+                1282
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 24,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000031",
+                "name": "FileHelper.makeDirectory",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path",
+                    "position"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Makes a directory (recursively) if it doesn't exist",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "position",
+                "defaultvalue": 0
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "makeDirectory",
+        "longname": "HashBrown.Server.Helpers.FileHelper.makeDirectory",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.FileHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                635,
+                679
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 28,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000052",
+                "name": "parts",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "parts",
+        "longname": "<anonymous>~parts",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                801,
+                861
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 34,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000078",
+                "name": "currentDirPath",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "currentDirPath",
+        "longname": "<anonymous>~currentDirPath",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Checks if a file or folder exists\n     *\n     * @param {String} path\n     *\n     * @return {Promise} Whether or not the file/folder exists\n     */",
+        "meta": {
+            "range": [
+                1450,
+                1570
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 57,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000147",
+                "name": "FileHelper.exists",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Checks if a file or folder exists",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Whether or not the file/folder exists"
+            }
+        ],
+        "name": "exists",
+        "longname": "HashBrown.Server.Helpers.FileHelper.exists",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.FileHelper",
+        "scope": "static",
+        "async": true
+    },
+    {
+        "comment": "/**\n     * Lists a file or files in a folder\n     *\n     * @param {String} path\n     *\n     * @return {Promise} Array of file paths\n     */",
+        "meta": {
+            "range": [
+                1720,
+                2679
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 70,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000164",
+                "name": "FileHelper.list",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Lists a file or files in a folder",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Array of file paths"
+            }
+        ],
+        "name": "list",
+        "longname": "HashBrown.Server.Helpers.FileHelper.list",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.FileHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Reads a file or files in a folder\n     *\n     * @param {String} path\n     * @param {String} encoding\n     *\n     * @return {Promise} Buffer or array of buffers\n     */",
+        "meta": {
+            "range": [
+                2868,
+                4012
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 108,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000278",
+                "name": "FileHelper.read",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path",
+                    "encoding"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Reads a file or files in a folder",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "encoding"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Buffer or array of buffers"
+            }
+        ],
+        "name": "read",
+        "longname": "HashBrown.Server.Helpers.FileHelper.read",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.FileHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3015,
+                3027
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 113,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000305",
+                "name": "buffers",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "buffers",
+        "longname": "<anonymous>~buffers",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3046,
+                3703
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 115,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000309",
+                "name": "readNext",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "file": "<anonymous>~readNext~file",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "readNext",
+        "longname": "<anonymous>~readNext",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3085,
+                3103
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 116,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000314",
+                "name": "file",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "file",
+        "longname": "<anonymous>~readNext~file",
+        "kind": "member",
+        "memberof": "<anonymous>~readNext",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3529,
+                3563
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 129,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000368",
+                "name": "buffer",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "buffer",
+        "longname": "<anonymous>~buffer",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Removes a file or folder\n     *\n     * @param {String} path\n     *\n     * @return {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                4140,
+                4408
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 158,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000422",
+                "name": "FileHelper.remove",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Removes a file or folder",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "remove",
+        "longname": "HashBrown.Server.Helpers.FileHelper.remove",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.FileHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Writes a file\n     *\n     * @param {String|Object} content\n     * @param {String} path\n     *\n     * @return {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                4563,
+                5018
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 178,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000457",
+                "name": "FileHelper.write",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "content",
+                    "path"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Writes a file",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String",
+                        "Object"
+                    ]
+                },
+                "name": "content"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "write",
+        "longname": "HashBrown.Server.Helpers.FileHelper.write",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.FileHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4800,
+                4833
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 185,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000492",
+                "name": "content",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "content",
+        "longname": "<anonymous>~content",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Moves a file\n     *\n     * @param {String} from\n     * @param {String} to\n     *\n     * @return {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                5160,
+                5475
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 204,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000519",
+                "name": "FileHelper.move",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "from",
+                    "to"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Moves a file",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "from"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "to"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "move",
+        "longname": "HashBrown.Server.Helpers.FileHelper.move",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.FileHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Copies a file\n     *\n     * @param {String} from\n     * @param {String} to\n     *\n     * @return {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                5618,
+                5935
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 225,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000564",
+                "name": "FileHelper.copy",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "from",
+                    "to"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Copies a file",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "from"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "to"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "copy",
+        "longname": "HashBrown.Server.Helpers.FileHelper.copy",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.FileHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5939,
+                5966
+            ],
+            "filename": "FileHelper.js",
+            "lineno": 239,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000610",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "FileHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers/FileHelper.js"
+        ]
+    }
+]

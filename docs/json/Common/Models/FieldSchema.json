@@ -1,0 +1,391 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                19,
+                47
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 3,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000005",
+                "name": "Schema",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Schema",
+        "longname": "Schema",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * Schema for content fields\n *\n * @memberof HashBrown.Common.Models\n */",
+        "meta": {
+            "range": [
+                127,
+                1578
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000010",
+                "name": "FieldSchema",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "Schema for content fields",
+        "memberof": "HashBrown.Common.Models",
+        "name": "FieldSchema",
+        "longname": "HashBrown.Common.Models.FieldSchema",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Structure\n     */",
+        "meta": {
+            "range": [
+                199,
+                402
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 14,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000014",
+                "name": "FieldSchema#structure",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Structure",
+        "name": "structure",
+        "longname": "HashBrown.Common.Models.FieldSchema#structure",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.FieldSchema",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                328,
+                358
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 20,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000039",
+                "name": "this.name",
+                "type": "Literal",
+                "value": "New field schema",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "HashBrown.Common.Models.FieldSchema#name",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.FieldSchema",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                376,
+                395
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 21,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000045",
+                "name": "this.type",
+                "type": "Literal",
+                "value": "field",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "HashBrown.Common.Models.FieldSchema#type",
+        "kind": "member",
+        "memberof": "HashBrown.Common.Models.FieldSchema",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Checks the format of the params\n     *\n     * @params {Object} params\n     *\n     * @returns {Object} Params\n     */",
+        "meta": {
+            "range": [
+                540,
+                875
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 31,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000050",
+                "name": "FieldSchema.paramsCheck",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Checks the format of the params",
+        "tags": [
+            {
+                "originalTitle": "params",
+                "title": "params",
+                "text": "{Object} params",
+                "value": "{Object} params"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "Params"
+            }
+        ],
+        "name": "paramsCheck",
+        "longname": "HashBrown.Common.Models.FieldSchema.paramsCheck",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.FieldSchema",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                577,
+                611
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 32,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000056",
+                "name": "params",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "params",
+        "longname": "<anonymous>~params",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                742,
+                834
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 36,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000079",
+                "name": "params.editorId",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "editorId",
+        "longname": "<anonymous>~params.editorId",
+        "kind": "member",
+        "memberof": "<anonymous>~params",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Appends properties to this config\n     *\n     * @param {Object} config\n     */",
+        "meta": {
+            "range": [
+                975,
+                1576
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 47,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000103",
+                "name": "FieldSchema#appendConfig",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "config"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Appends properties to this config",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "config"
+            }
+        ],
+        "name": "appendConfig",
+        "longname": "HashBrown.Common.Models.FieldSchema#appendConfig",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Models.FieldSchema",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1006,
+                1531
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 48,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000108",
+                "name": "recurse",
+                "type": "FunctionDeclaration",
+                "paramnames": [
+                    "source",
+                    "target"
+                ]
+            },
+            "vars": {
+                "k": "<anonymous>~recurse~k",
+                "target[undefined]": null
+            }
+        },
+        "undocumented": true,
+        "name": "recurse",
+        "longname": "<anonymous>~recurse",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1061,
+                1062
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 49,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000115",
+                "name": "k"
+            }
+        },
+        "undocumented": true,
+        "name": "k",
+        "longname": "<anonymous>~recurse~k",
+        "kind": "member",
+        "memberof": "<anonymous>~recurse",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1189,
+                1210
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 52,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000126",
+                "name": "target[undefined]",
+                "type": "MemberExpression",
+                "value": "source[undefined]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "target[undefined]",
+        "longname": "target[undefined]",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1580,
+                1608
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 67,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models",
+            "code": {
+                "id": "astnode100000175",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "FieldSchema",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Models/FieldSchema.js"
+        ]
+    }
+]

@@ -1,0 +1,519 @@
+[
+    {
+        "comment": "/**\n * A simple string editor\n *\n * @description Example:\n * <pre>\n * {\n *     \"myString\": {\n *         \"label\": \"My string\",\n *         \"tabId\": \"content\",\n *         \"schemaId\": \"string\",\n *         \"config\": {\n *             \"isMultiLine\": false\n *         }\n *     }\n * }\n * </pre>\n *\n * @memberof HashBrown.Client.Views.Editors.FieldEditors\n */",
+        "meta": {
+            "range": [
+                365,
+                1846
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 22,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000004",
+                "name": "StringEditor",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A simple string editor",
+        "description": "Example:\n<pre>\n{\n    \"myString\": {\n        \"label\": \"My string\",\n        \"tabId\": \"content\",\n        \"schemaId\": \"string\",\n        \"config\": {\n            \"isMultiLine\": false\n        }\n    }\n}\n</pre>",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors",
+        "name": "StringEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.StringEditor",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Constructor\n     */",
+        "meta": {
+            "range": [
+                482,
+                555
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 26,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000016",
+                "name": "StringEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Constructor",
+        "name": "StringEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors~StringEditor",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors",
+        "scope": "inner",
+        "params": [],
+        "undocumented": true
+    },
+    {
+        "comment": "/**\n     * Renders the config editor\n     *\n     * @param {Object} config\n     *\n     * @returns {HTMLElement} Element\n     */",
+        "meta": {
+            "range": [
+                696,
+                1320
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 39,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000030",
+                "name": "StringEditor.renderConfigEditor",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "config"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the config editor",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "config"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Element"
+            }
+        ],
+        "name": "renderConfigEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.StringEditor.renderConfigEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.StringEditor",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                768,
+                790
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 41,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000042",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                816,
+                843
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 42,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000049",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__key"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                887,
+                916
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 43,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000057",
+                "name": "class",
+                "type": "Literal",
+                "value": "editor__field__value"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                999,
+                1015
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 45,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000069",
+                "name": "type",
+                "type": "Literal",
+                "value": "checkbox"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1041,
+                1095
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 46,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000071",
+                "name": "tooltip",
+                "type": "Literal",
+                "value": "Whether or not this string uses line breaks"
+            }
+        },
+        "undocumented": true,
+        "name": "tooltip",
+        "longname": "tooltip",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1121,
+                1155
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 47,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000073",
+                "name": "value",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1181,
+                1239
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 48,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000079",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "config.isMultiLine": "config.isMultiLine"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1207,
+                1236
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 48,
+            "columnno": 50,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000084",
+                "name": "config.isMultiLine",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isMultiLine",
+        "longname": "config.isMultiLine",
+        "kind": "member",
+        "memberof": "config",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Render this editor\n     */",
+        "meta": {
+            "range": [
+                1372,
+                1844
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 58,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000090",
+                "name": "StringEditor#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Render this editor",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.StringEditor#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.StringEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1407,
+                1449
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 59,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000100",
+                "name": "class",
+                "type": "Literal",
+                "value": "field-editor field-editor--string"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1516,
+                1567
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 61,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000111",
+                "name": "type",
+                "type": "ConditionalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1585,
+                1602
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 62,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000120",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.value"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1620,
+                1651
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 63,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000124",
+                "name": "tooltip",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "tooltip",
+        "longname": "tooltip",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1669,
+                1812
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 64,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000130",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.value": "HashBrown.Client.Views.Editors.FieldEditors.StringEditor#value"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1715,
+                1736
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 65,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000135",
+                "name": "this.value",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Editors.FieldEditors.StringEditor#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldEditors.StringEditor",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1848,
+                1877
+            ],
+            "filename": "StringEditor.js",
+            "lineno": 74,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors",
+            "code": {
+                "id": "astnode100000150",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "StringEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldEditors/StringEditor.js"
+        ]
+    }
+]

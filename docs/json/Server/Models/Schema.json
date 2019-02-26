@@ -1,0 +1,119 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                67
+            ],
+            "filename": "Schema.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000005",
+                "name": "SchemaCommon",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "SchemaCommon",
+        "longname": "SchemaCommon",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * A model for Schemas\n *\n * @memberof HashBrown.Server.Models\n */",
+        "meta": {
+            "range": [
+                141,
+                241
+            ],
+            "filename": "Schema.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000010",
+                "name": "Schema",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "properties"
+                ]
+            }
+        },
+        "classdesc": "A model for Schemas",
+        "memberof": "HashBrown.Server.Models",
+        "name": "Schema",
+        "longname": "HashBrown.Server.Models.Schema",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                181,
+                239
+            ],
+            "filename": "Schema.js",
+            "lineno": 11,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000014",
+                "name": "Schema",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "properties"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "Schema",
+        "longname": "HashBrown.Server.Models~Schema",
+        "kind": "class",
+        "memberof": "HashBrown.Server.Models",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                243,
+                266
+            ],
+            "filename": "Schema.js",
+            "lineno": 16,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000024",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "Schema",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models/Schema.js"
+        ]
+    }
+]

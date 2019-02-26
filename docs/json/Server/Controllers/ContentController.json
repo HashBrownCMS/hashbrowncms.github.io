@@ -1,0 +1,1378 @@
+[
+    {
+        "comment": "/**\n * Controller for Content\n *\n * @memberof HashBrown.Server.Controllers\n */",
+        "meta": {
+            "range": [
+                94,
+                9886
+            ],
+            "filename": "ContentController.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000004",
+                "name": "ContentController",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "Controller for Content",
+        "memberof": "HashBrown.Server.Controllers",
+        "name": "ContentController",
+        "longname": "HashBrown.Server.Controllers.ContentController",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Initialises this controller\n     */",
+        "meta": {
+            "range": [
+                210,
+                1363
+            ],
+            "filename": "ContentController.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000010",
+                "name": "ContentController.init",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "app"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Initialises this controller",
+        "name": "init",
+        "longname": "HashBrown.Server.Controllers.ContentController.init",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ContentController",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/content/example\n     *\n     * @apiGroup Content\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {String} OK\n     */",
+        "meta": {
+            "range": [
+                1592,
+                1914
+            ],
+            "filename": "ContentController.js",
+            "lineno": 38,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000158",
+                "name": "ContentController.createExampleContent",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/content/example"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Content",
+                "value": "Content"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "OK"
+            }
+        ],
+        "name": "createExampleContent",
+        "longname": "HashBrown.Server.Controllers.ContentController.createExampleContent",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ContentController",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/content\n     *\n     * @apiGroup Content\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Array} Content nodes\n     */",
+        "meta": {
+            "range": [
+                2141,
+                2447
+            ],
+            "filename": "ContentController.js",
+            "lineno": 58,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000217",
+                "name": "ContentController.getAllContents",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/content"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Content",
+                "value": "Content"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "Content nodes"
+            }
+        ],
+        "name": "getAllContents",
+        "longname": "HashBrown.Server.Controllers.ContentController.getAllContents",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ContentController",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/content/:id\n     *\n     * @apiGroup Content\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {Content} Content\n     */",
+        "meta": {
+            "range": [
+                2700,
+                3245
+            ],
+            "filename": "ContentController.js",
+            "lineno": 79,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000274",
+                "name": "ContentController.getContent",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/content/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Content",
+                "value": "Content"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Content"
+                    ]
+                },
+                "description": "Content"
+            }
+        ],
+        "name": "getContent",
+        "longname": "HashBrown.Server.Controllers.ContentController.getContent",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ContentController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2742,
+                2760
+            ],
+            "filename": "ContentController.js",
+            "lineno": 80,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000281",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/content/preview\n     *\n     * @apiGroup Content\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @param {Content} content The Content model to preview\n     *\n     * @returns {String} Preview URL\n     */",
+        "meta": {
+            "range": [
+                3552,
+                3984
+            ],
+            "filename": "ContentController.js",
+            "lineno": 109,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000364",
+                "name": "ContentController.previewContent",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/content/preview"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Content",
+                "value": "Content"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Content"
+                    ]
+                },
+                "description": "The Content model to preview",
+                "name": "content"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "Preview URL"
+            }
+        ],
+        "name": "previewContent",
+        "longname": "HashBrown.Server.Controllers.ContentController.previewContent",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ContentController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3598,
+                3646
+            ],
+            "filename": "ContentController.js",
+            "lineno": 110,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000371",
+                "name": "content",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "content",
+        "longname": "<anonymous>~content",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/content/new/:schemaId\n     *\n     * @apiGroup Content\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} schemaId\n     *\n     * @param {String} sort A sorting index (optional)\n     * @param {String} parent A parent id (optional)\n     * @param {Content} content The Content model to create (optional)\n     *\n     * @returns {Content} The created Content node\n     */",
+        "meta": {
+            "range": [
+                4457,
+                5115
+            ],
+            "filename": "ContentController.js",
+            "lineno": 136,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000444",
+                "name": "ContentController.createContent",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/content/new/:schemaId"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Content",
+                "value": "Content"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "schemaId"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "A sorting index (optional)",
+                "name": "sort"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "A parent id (optional)",
+                "name": "parent"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Content"
+                    ]
+                },
+                "description": "The Content model to create (optional)",
+                "name": "content"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Content"
+                    ]
+                },
+                "description": "The created Content node"
+            }
+        ],
+        "name": "createContent",
+        "longname": "HashBrown.Server.Controllers.ContentController.createContent",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ContentController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4502,
+                4529
+            ],
+            "filename": "ContentController.js",
+            "lineno": 137,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000451",
+                "name": "parentId",
+                "type": "MemberExpression",
+                "value": "req.query.parent"
+            }
+        },
+        "undocumented": true,
+        "name": "parentId",
+        "longname": "<anonymous>~parentId",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4543,
+                4569
+            ],
+            "filename": "ContentController.js",
+            "lineno": 138,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000459",
+                "name": "sortIndex",
+                "type": "MemberExpression",
+                "value": "req.query.sort"
+            }
+        },
+        "undocumented": true,
+        "name": "sortIndex",
+        "longname": "<anonymous>~sortIndex",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4583,
+                4613
+            ],
+            "filename": "ContentController.js",
+            "lineno": 139,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000467",
+                "name": "schemaId",
+                "type": "MemberExpression",
+                "value": "req.params.schemaId"
+            }
+        },
+        "undocumented": true,
+        "name": "schemaId",
+        "longname": "<anonymous>~schemaId",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4627,
+                4648
+            ],
+            "filename": "ContentController.js",
+            "lineno": 140,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000475",
+                "name": "properties",
+                "type": "MemberExpression",
+                "value": "req.body"
+            }
+        },
+        "undocumented": true,
+        "name": "properties",
+        "longname": "<anonymous>~properties",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4738,
+                4772
+            ],
+            "filename": "ContentController.js",
+            "lineno": 144,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000486",
+                "name": "properties",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "properties.properties",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "properties",
+        "longname": "<anonymous>~properties",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/content/:id\n     *\n     * @apiGroup Content\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @param {Content} content The Content model to update\n     *\n     * @returns {Content} The created Content node\n     */",
+        "meta": {
+            "range": [
+                5453,
+                5979
+            ],
+            "filename": "ContentController.js",
+            "lineno": 169,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000549",
+                "name": "ContentController.postContent",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/content/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Content",
+                "value": "Content"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Content"
+                    ]
+                },
+                "description": "The Content model to update",
+                "name": "content"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Content"
+                    ]
+                },
+                "description": "The created Content node"
+            }
+        ],
+        "name": "postContent",
+        "longname": "HashBrown.Server.Controllers.ContentController.postContent",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ContentController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5496,
+                5514
+            ],
+            "filename": "ContentController.js",
+            "lineno": 170,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000556",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5528,
+                5576
+            ],
+            "filename": "ContentController.js",
+            "lineno": 171,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000564",
+                "name": "content",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "content",
+        "longname": "<anonymous>~content",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5590,
+                5659
+            ],
+            "filename": "ContentController.js",
+            "lineno": 172,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000576",
+                "name": "shouldCreate",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "shouldCreate",
+        "longname": "<anonymous>~shouldCreate",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/content/pull/:id\n     *\n     * @apiGroup Content\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {Content} The pulled Content node\n     */",
+        "meta": {
+            "range": [
+                6257,
+                6953
+            ],
+            "filename": "ContentController.js",
+            "lineno": 194,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000649",
+                "name": "ContentController.pullContent",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/content/pull/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Content",
+                "value": "Content"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Content"
+                    ]
+                },
+                "description": "The pulled Content node"
+            }
+        ],
+        "name": "pullContent",
+        "longname": "HashBrown.Server.Controllers.ContentController.pullContent",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ContentController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6300,
+                6318
+            ],
+            "filename": "ContentController.js",
+            "lineno": 195,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000656",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/content/push/:id\n     *\n     * @apiGroup Content\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {String} The pushed Content id\n     */",
+        "meta": {
+            "range": [
+                7229,
+                7740
+            ],
+            "filename": "ContentController.js",
+            "lineno": 222,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000764",
+                "name": "ContentController.pushContent",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/content/push/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Content",
+                "value": "Content"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "The pushed Content id"
+            }
+        ],
+        "name": "pushContent",
+        "longname": "HashBrown.Server.Controllers.ContentController.pushContent",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ContentController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7272,
+                7290
+            ],
+            "filename": "ContentController.js",
+            "lineno": 223,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000771",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/content/publish\n     *\n     * @apiGroup Content\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @param {Content} content the Content model to publish\n     *\n     * @returns {String} The published Content\n     */",
+        "meta": {
+            "range": [
+                8053,
+                8445
+            ],
+            "filename": "ContentController.js",
+            "lineno": 249,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000854",
+                "name": "ContentController.publishContent",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/content/publish"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Content",
+                "value": "Content"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Content"
+                    ]
+                },
+                "description": "the Content model to publish",
+                "name": "content"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "The published Content"
+            }
+        ],
+        "name": "publishContent",
+        "longname": "HashBrown.Server.Controllers.ContentController.publishContent",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ContentController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8099,
+                8147
+            ],
+            "filename": "ContentController.js",
+            "lineno": 250,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000861",
+                "name": "content",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "content",
+        "longname": "<anonymous>~content",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/content/unpublish\n     *\n     * @apiGroup Content\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @param {Content} content the Content model to unpublish\n     *\n     * @returns {String} The unpublished Content\n     */",
+        "meta": {
+            "range": [
+                8768,
+                9160
+            ],
+            "filename": "ContentController.js",
+            "lineno": 273,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000928",
+                "name": "ContentController.unpublishContent",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/content/unpublish"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Content",
+                "value": "Content"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Content"
+                    ]
+                },
+                "description": "the Content model to unpublish",
+                "name": "content"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "The unpublished Content"
+            }
+        ],
+        "name": "unpublishContent",
+        "longname": "HashBrown.Server.Controllers.ContentController.unpublishContent",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ContentController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8816,
+                8864
+            ],
+            "filename": "ContentController.js",
+            "lineno": 274,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000935",
+                "name": "content",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "content",
+        "longname": "<anonymous>~content",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example DELETE /api/:project/:environment/content/:id\n     *\n     * @apiGroup Content\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @returns {String} The deleted Content id\n     */",
+        "meta": {
+            "range": [
+                9430,
+                9884
+            ],
+            "filename": "ContentController.js",
+            "lineno": 296,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001000",
+                "name": "ContentController.deleteContent",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "DELETE /api/:project/:environment/content/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Content",
+                "value": "Content"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "The deleted Content id"
+            }
+        ],
+        "name": "deleteContent",
+        "longname": "HashBrown.Server.Controllers.ContentController.deleteContent",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.ContentController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9475,
+                9493
+            ],
+            "filename": "ContentController.js",
+            "lineno": 297,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001007",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9507,
+                9594
+            ],
+            "filename": "ContentController.js",
+            "lineno": 298,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001015",
+                "name": "removeChildren",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "removeChildren",
+        "longname": "<anonymous>~removeChildren",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9888,
+                9922
+            ],
+            "filename": "ContentController.js",
+            "lineno": 310,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001085",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "ContentController",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers/ContentController.js"
+        ]
+    }
+]

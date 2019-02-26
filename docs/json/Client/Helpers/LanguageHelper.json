@@ -1,0 +1,375 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                84
+            ],
+            "filename": "LanguageHelper.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Helpers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "LanguageHelperCommon",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "LanguageHelperCommon",
+        "longname": "LanguageHelperCommon",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                91,
+                113
+            ],
+            "filename": "LanguageHelper.js",
+            "lineno": 5,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Helpers",
+            "code": {
+                "id": "astnode100000011",
+                "name": "selectedLanguages",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "selectedLanguages",
+        "longname": "selectedLanguages",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The client side language helper\n *\n * @memberof HashBrown.Client.Helpers\n */",
+        "meta": {
+            "range": [
+                200,
+                1775
+            ],
+            "filename": "LanguageHelper.js",
+            "lineno": 12,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Helpers",
+            "code": {
+                "id": "astnode100000014",
+                "name": "LanguageHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The client side language helper",
+        "memberof": "HashBrown.Client.Helpers",
+        "name": "LanguageHelper",
+        "longname": "HashBrown.Client.Helpers.LanguageHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets all selected languages\n     *\n     * @param {String} project\n     *\n     * @returns {Array} List of language names\n     */",
+        "meta": {
+            "range": [
+                399,
+                877
+            ],
+            "filename": "LanguageHelper.js",
+            "lineno": 20,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Helpers",
+            "code": {
+                "id": "astnode100000018",
+                "name": "LanguageHelper.getLanguages",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets all selected languages",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "List of language names"
+            }
+        ],
+        "name": "getLanguages",
+        "longname": "HashBrown.Client.Helpers.LanguageHelper.getLanguages",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Helpers.LanguageHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                438,
+                505
+            ],
+            "filename": "LanguageHelper.js",
+            "lineno": 21,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Helpers",
+            "code": {
+                "id": "astnode100000024",
+                "name": "project",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "project",
+        "longname": "<anonymous>~project",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                698,
+                715
+            ],
+            "filename": "LanguageHelper.js",
+            "lineno": 26,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Helpers",
+            "code": {
+                "id": "astnode100000065",
+                "name": "selected",
+                "type": "ArrayExpression",
+                "funcscope": "<anonymous>",
+                "value": "[\"en\"]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "selected",
+        "longname": "<anonymous>~selected",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                774,
+                811
+            ],
+            "filename": "LanguageHelper.js",
+            "lineno": 31,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Helpers",
+            "code": {
+                "id": "astnode100000075",
+                "name": "selectedLanguages[undefined]",
+                "type": "Identifier",
+                "value": "selected",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "selectedLanguages[undefined]",
+        "longname": "selectedLanguages[undefined]",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Gets all selected languages (sync)\n     *\n     * @param {String} project\n     *\n     * @returns {Array} List of language names\n     */",
+        "meta": {
+            "range": [
+                1036,
+                1207
+            ],
+            "filename": "LanguageHelper.js",
+            "lineno": 44,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Helpers",
+            "code": {
+                "id": "astnode100000086",
+                "name": "LanguageHelper.getLanguagesSync",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets all selected languages (sync)",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "List of language names"
+            }
+        ],
+        "name": "getLanguagesSync",
+        "longname": "HashBrown.Client.Helpers.LanguageHelper.getLanguagesSync",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Helpers.LanguageHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1079,
+                1146
+            ],
+            "filename": "LanguageHelper.js",
+            "lineno": 45,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Helpers",
+            "code": {
+                "id": "astnode100000092",
+                "name": "project",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "project",
+        "longname": "<anonymous>~project",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Sets all languages\n     *\n     * @param {String} project\n     * @param {Array} languages\n     *\n     * @returns {Promise} promise\n     */",
+        "meta": {
+            "range": [
+                1366,
+                1773
+            ],
+            "filename": "LanguageHelper.js",
+            "lineno": 58,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Helpers",
+            "code": {
+                "id": "astnode100000110",
+                "name": "LanguageHelper.setLanguages",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "languages"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Sets all languages",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "name": "languages"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "promise"
+            }
+        ],
+        "name": "setLanguages",
+        "longname": "HashBrown.Client.Helpers.LanguageHelper.setLanguages",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Helpers.LanguageHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1777,
+                1808
+            ],
+            "filename": "LanguageHelper.js",
+            "lineno": 70,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Helpers",
+            "code": {
+                "id": "astnode100000163",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "LanguageHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Helpers/LanguageHelper.js"
+        ]
+    }
+]

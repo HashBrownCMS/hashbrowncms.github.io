@@ -1,0 +1,357 @@
+[
+    {
+        "comment": "/**\n * The controller for settings\n *\n * @memberof HashBrown.Server.Controllers\n */",
+        "meta": {
+            "range": [
+                99,
+                2372
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000004",
+                "name": "SettingsController",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The controller for settings",
+        "memberof": "HashBrown.Server.Controllers",
+        "name": "SettingsController",
+        "longname": "HashBrown.Server.Controllers.SettingsController",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Initialises this controller\n     */",
+        "meta": {
+            "range": [
+                216,
+                1182
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000010",
+                "name": "SettingsController.init",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "app"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Initialises this controller",
+        "name": "init",
+        "longname": "HashBrown.Server.Controllers.SettingsController.init",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.SettingsController",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                298,
+                315
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 13,
+            "columnno": 63,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000026",
+                "name": "setProject",
+                "type": "Literal",
+                "value": false
+            }
+        },
+        "undocumented": true,
+        "name": "setProject",
+        "longname": "setProject",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                402,
+                419
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 15,
+            "columnno": 59,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000042",
+                "name": "setProject",
+                "type": "Literal",
+                "value": false
+            }
+        },
+        "undocumented": true,
+        "name": "setProject",
+        "longname": "setProject",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                795,
+                811
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 20,
+            "columnno": 60,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000097",
+                "name": "needsAdmin",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "needsAdmin",
+        "longname": "needsAdmin",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                903,
+                919
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 21,
+            "columnno": 69,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000113",
+                "name": "needsAdmin",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "needsAdmin",
+        "longname": "needsAdmin",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1015,
+                1032
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 22,
+            "columnno": 73,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000129",
+                "name": "scope",
+                "type": "Literal",
+                "value": "settings"
+            }
+        },
+        "undocumented": true,
+        "name": "scope",
+        "longname": "scope",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1137,
+                1154
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 23,
+            "columnno": 82,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000145",
+                "name": "scope",
+                "type": "Literal",
+                "value": "settings"
+            }
+        },
+        "undocumented": true,
+        "name": "scope",
+        "longname": "scope",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Get environments\n     */",
+        "meta": {
+            "range": [
+                1232,
+                1548
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 29,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000150",
+                "name": "SettingsController.getEnvironments",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Get environments",
+        "name": "getEnvironments",
+        "longname": "HashBrown.Server.Controllers.SettingsController.getEnvironments",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.SettingsController",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Get settings object\n     */",
+        "meta": {
+            "range": [
+                1597,
+                1939
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 42,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000206",
+                "name": "SettingsController.getSettings",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Get settings object",
+        "name": "getSettings",
+        "longname": "HashBrown.Server.Controllers.SettingsController.getSettings",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.SettingsController",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Set settings object\n     */",
+        "meta": {
+            "range": [
+                1992,
+                2370
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 55,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000272",
+                "name": "SettingsController.setSettings",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Set settings object",
+        "name": "setSettings",
+        "longname": "HashBrown.Server.Controllers.SettingsController.setSettings",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.SettingsController",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2035,
+                2054
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 56,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000279",
+                "name": "settings",
+                "type": "MemberExpression",
+                "value": "req.body"
+            }
+        },
+        "undocumented": true,
+        "name": "settings",
+        "longname": "<anonymous>~settings",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2374,
+                2409
+            ],
+            "filename": "SettingsController.js",
+            "lineno": 68,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000345",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "SettingsController",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers/SettingsController.js"
+        ]
+    }
+]

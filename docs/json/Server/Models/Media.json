@@ -1,0 +1,85 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                65
+            ],
+            "filename": "Media.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000005",
+                "name": "MediaCommon",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "MediaCommon",
+        "longname": "MediaCommon",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * A model for Media objects\n *\n * @memberof HashBrown.Server.Models\n */",
+        "meta": {
+            "range": [
+                145,
+                185
+            ],
+            "filename": "Media.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000010",
+                "name": "Media",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "A model for Media objects",
+        "memberof": "HashBrown.Server.Models",
+        "name": "Media",
+        "longname": "HashBrown.Server.Models.Media",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                187,
+                209
+            ],
+            "filename": "Media.js",
+            "lineno": 14,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000015",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "Media",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models/Media.js"
+        ]
+    }
+]

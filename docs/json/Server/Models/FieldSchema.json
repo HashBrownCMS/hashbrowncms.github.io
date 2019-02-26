@@ -1,0 +1,85 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                77
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000005",
+                "name": "FieldSchemaCommon",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "FieldSchemaCommon",
+        "longname": "FieldSchemaCommon",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * Schema for content fields\n *\n * @memberof HashBrown.Server.Models\n */",
+        "meta": {
+            "range": [
+                157,
+                204
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000010",
+                "name": "FieldSchema",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "Schema for content fields",
+        "memberof": "HashBrown.Server.Models",
+        "name": "FieldSchema",
+        "longname": "HashBrown.Server.Models.FieldSchema",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                206,
+                234
+            ],
+            "filename": "FieldSchema.js",
+            "lineno": 13,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000015",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "FieldSchema",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models/FieldSchema.js"
+        ]
+    }
+]

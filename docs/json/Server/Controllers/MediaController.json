@@ -1,0 +1,1444 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                47
+            ],
+            "filename": "MediaController.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "FileSystem",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "FileSystem",
+        "longname": "FileSystem",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The Media controller\n *\n * @memberof HashBrown.Server.Controllers\n */",
+        "meta": {
+            "range": [
+                127,
+                9367
+            ],
+            "filename": "MediaController.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000010",
+                "name": "MediaController",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The Media controller",
+        "memberof": "HashBrown.Server.Controllers",
+        "name": "MediaController",
+        "longname": "HashBrown.Server.Controllers.MediaController",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Initiates this controller\n     */",
+        "meta": {
+            "range": [
+                239,
+                1427
+            ],
+            "filename": "MediaController.js",
+            "lineno": 14,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000016",
+                "name": "MediaController.init",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "app"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Initiates this controller",
+        "name": "init",
+        "longname": "HashBrown.Server.Controllers.MediaController.init",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.MediaController",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                328,
+                347
+            ],
+            "filename": "MediaController.js",
+            "lineno": 15,
+            "columnno": 70,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000032",
+                "name": "authenticate",
+                "type": "Literal",
+                "value": false
+            }
+        },
+        "undocumented": true,
+        "name": "authenticate",
+        "longname": "authenticate",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Serves Media content\n     */",
+        "meta": {
+            "range": [
+                1477,
+                2351
+            ],
+            "filename": "MediaController.js",
+            "lineno": 33,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000179",
+                "name": "MediaController.serveMedia",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Serves Media content",
+        "name": "serveMedia",
+        "longname": "HashBrown.Server.Controllers.MediaController.serveMedia",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.MediaController",
+        "scope": "static",
+        "params": [],
+        "async": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1525,
+                1543
+            ],
+            "filename": "MediaController.js",
+            "lineno": 34,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000186",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1593,
+                1630
+            ],
+            "filename": "MediaController.js",
+            "lineno": 37,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000204",
+                "name": "id",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1673,
+                1773
+            ],
+            "filename": "MediaController.js",
+            "lineno": 41,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000219",
+                "name": "connection",
+                "type": "AwaitExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "connection",
+        "longname": "<anonymous>~connection",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1791,
+                1828
+            ],
+            "filename": "MediaController.js",
+            "lineno": 42,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000237",
+                "name": "media",
+                "type": "AwaitExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "media",
+        "longname": "<anonymous>~media",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1988,
+                2120
+            ],
+            "filename": "MediaController.js",
+            "lineno": 48,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000270",
+                "name": "data",
+                "type": "AwaitExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "data",
+        "longname": "<anonymous>~data",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2167,
+                2211
+            ],
+            "filename": "MediaController.js",
+            "lineno": 50,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000306",
+                "name": "\"Content-Type\"",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "\"Content-Type\"",
+        "longname": "\"Content-Type\"",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/media/tree\n     *\n     * @apiGroup Media\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Object} Media tree\n     */",
+        "meta": {
+            "range": [
+                2581,
+                2884
+            ],
+            "filename": "MediaController.js",
+            "lineno": 68,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000333",
+                "name": "MediaController.getMediaTree",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/media/tree"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Media",
+                "value": "Media"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "Media tree"
+            }
+        ],
+        "name": "getMediaTree",
+        "longname": "HashBrown.Server.Controllers.MediaController.getMediaTree",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.MediaController",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/media/tree/:id\n     *\n     * @apiGroup Media\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     \n     * @param {Object} item\n     *\n     * @returns {Object} Media tree item\n     */",
+        "meta": {
+            "range": [
+                3184,
+                3563
+            ],
+            "filename": "MediaController.js",
+            "lineno": 91,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000390",
+                "name": "MediaController.setMediaTreeItem",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/media/tree/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Media",
+                "value": "Media"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "item"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "Media tree item"
+            }
+        ],
+        "name": "setMediaTreeItem",
+        "longname": "HashBrown.Server.Controllers.MediaController.setMediaTreeItem",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.MediaController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3232,
+                3250
+            ],
+            "filename": "MediaController.js",
+            "lineno": 92,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000397",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3264,
+                3279
+            ],
+            "filename": "MediaController.js",
+            "lineno": 93,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000405",
+                "name": "item",
+                "type": "MemberExpression",
+                "value": "req.body"
+            }
+        },
+        "undocumented": true,
+        "name": "item",
+        "longname": "<anonymous>~item",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/media\n     *\n     * @apiGroup Media\n     *\n     * @param {String} project\n     * @param {String} environment\n     \n     * @returns {Array} All Media nodes\n     */",
+        "meta": {
+            "range": [
+                3791,
+                4547
+            ],
+            "filename": "MediaController.js",
+            "lineno": 114,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000462",
+                "name": "MediaController.getMedia",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/media"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Media",
+                "value": "Media"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "All Media nodes"
+            }
+        ],
+        "name": "getMedia",
+        "longname": "HashBrown.Server.Controllers.MediaController.getMedia",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.MediaController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3831,
+                3836
+            ],
+            "filename": "MediaController.js",
+            "lineno": 115,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000469",
+                "name": "media"
+            }
+        },
+        "undocumented": true,
+        "name": "media",
+        "longname": "<anonymous>~media",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3850,
+                3854
+            ],
+            "filename": "MediaController.js",
+            "lineno": 116,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000472",
+                "name": "tree"
+            }
+        },
+        "undocumented": true,
+        "name": "tree",
+        "longname": "<anonymous>~tree",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4075,
+                4089
+            ],
+            "filename": "MediaController.js",
+            "lineno": 123,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000511",
+                "name": "media",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "result",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "media",
+        "longname": "<anonymous>~media",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4247,
+                4260
+            ],
+            "filename": "MediaController.js",
+            "lineno": 128,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000534",
+                "name": "tree",
+                "type": "Identifier",
+                "value": "result"
+            }
+        },
+        "undocumented": true,
+        "name": "tree",
+        "longname": "<anonymous>~tree",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4283,
+                4284
+            ],
+            "filename": "MediaController.js",
+            "lineno": 130,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000539",
+                "name": "i"
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/media/:id\n     *\n     * @apiGroup Media\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     \n     * @returns {Media} Media\n     */",
+        "meta": {
+            "range": [
+                4795,
+                5628
+            ],
+            "filename": "MediaController.js",
+            "lineno": 152,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000580",
+                "name": "MediaController.getSingleMedia",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/media/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Media",
+                "value": "Media"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Media"
+                    ]
+                },
+                "description": "Media"
+            }
+        ],
+        "name": "getSingleMedia",
+        "longname": "HashBrown.Server.Controllers.MediaController.getSingleMedia",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.MediaController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4841,
+                4859
+            ],
+            "filename": "MediaController.js",
+            "lineno": 153,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000587",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example DELETE /api/:project/:environment/media/:id\n     *\n     * @apiGroup Media\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     */",
+        "meta": {
+            "range": [
+                5843,
+                6388
+            ],
+            "filename": "MediaController.js",
+            "lineno": 185,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000706",
+                "name": "MediaController.deleteMedia",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "DELETE /api/:project/:environment/media/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Media",
+                "value": "Media"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "name": "deleteMedia",
+        "longname": "HashBrown.Server.Controllers.MediaController.deleteMedia",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.MediaController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5886,
+                5904
+            ],
+            "filename": "MediaController.js",
+            "lineno": 186,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000713",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/media/rename/:id\n     *\n     * @apiGroup Media\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     * @param {String} name\n     */",
+        "meta": {
+            "range": [
+                6636,
+                7026
+            ],
+            "filename": "MediaController.js",
+            "lineno": 213,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000796",
+                "name": "MediaController.renameMedia",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/media/rename/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Media",
+                "value": "Media"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            }
+        ],
+        "name": "renameMedia",
+        "longname": "HashBrown.Server.Controllers.MediaController.renameMedia",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.MediaController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6679,
+                6697
+            ],
+            "filename": "MediaController.js",
+            "lineno": 214,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000803",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6711,
+                6732
+            ],
+            "filename": "MediaController.js",
+            "lineno": 215,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000811",
+                "name": "name",
+                "type": "MemberExpression",
+                "value": "req.query.name"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "<anonymous>~name",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * @example POST /api/:project/:environment/media/:id\n     *\n     * @apiGroup Media\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} id\n     *\n     * @param {FileData} Binary Media data\n     */",
+        "meta": {
+            "range": [
+                7289,
+                8092
+            ],
+            "filename": "MediaController.js",
+            "lineno": 237,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000870",
+                "name": "MediaController.setMedia",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "POST /api/:project/:environment/media/:id"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Media",
+                "value": "Media"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "FileData"
+                    ]
+                },
+                "description": "Media data",
+                "name": "Binary"
+            }
+        ],
+        "name": "setMedia",
+        "longname": "HashBrown.Server.Controllers.MediaController.setMedia",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.MediaController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7329,
+                7344
+            ],
+            "filename": "MediaController.js",
+            "lineno": 238,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000877",
+                "name": "file",
+                "type": "MemberExpression",
+                "value": "req.file"
+            }
+        },
+        "undocumented": true,
+        "name": "file",
+        "longname": "<anonymous>~file",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7358,
+                7375
+            ],
+            "filename": "MediaController.js",
+            "lineno": 239,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000883",
+                "name": "files",
+                "type": "MemberExpression",
+                "value": "req.files"
+            }
+        },
+        "undocumented": true,
+        "name": "files",
+        "longname": "<anonymous>~files",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7389,
+                7407
+            ],
+            "filename": "MediaController.js",
+            "lineno": 240,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000889",
+                "name": "id",
+                "type": "MemberExpression",
+                "value": "req.params.id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~id",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7471,
+                7486
+            ],
+            "filename": "MediaController.js",
+            "lineno": 243,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100000909",
+                "name": "file",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "files[0]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "file",
+        "longname": "<anonymous>~file",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * @example GET /api/:project/:environment/media/new\n     *\n     * @apiGroup Media\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @param {FileData} files Binary Media data\n     *\n     * @returns {String} Created Media id\n     */",
+        "meta": {
+            "range": [
+                8379,
+                9365
+            ],
+            "filename": "MediaController.js",
+            "lineno": 275,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001006",
+                "name": "MediaController.createMedia",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "req",
+                    "res"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "examples": [
+            "GET /api/:project/:environment/media/new"
+        ],
+        "tags": [
+            {
+                "originalTitle": "apiGroup",
+                "title": "apigroup",
+                "text": "Media",
+                "value": "Media"
+            }
+        ],
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "FileData"
+                    ]
+                },
+                "description": "Binary Media data",
+                "name": "files"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "Created Media id"
+            }
+        ],
+        "name": "createMedia",
+        "longname": "HashBrown.Server.Controllers.MediaController.createMedia",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Controllers.MediaController",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8422,
+                8455
+            ],
+            "filename": "MediaController.js",
+            "lineno": 276,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001013",
+                "name": "files",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "files",
+        "longname": "<anonymous>~files",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8514,
+                8522
+            ],
+            "filename": "MediaController.js",
+            "lineno": 279,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001033",
+                "name": "ids",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "ids",
+        "longname": "<anonymous>~ids",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8541,
+                9046
+            ],
+            "filename": "MediaController.js",
+            "lineno": 281,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001037",
+                "name": "next",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "file": "<anonymous>~next~file",
+                "media": "<anonymous>~next~media",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "next",
+        "longname": "<anonymous>~next",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8576,
+                8594
+            ],
+            "filename": "MediaController.js",
+            "lineno": 282,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001042",
+                "name": "file",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "file",
+        "longname": "<anonymous>~next~file",
+        "kind": "member",
+        "memberof": "<anonymous>~next",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                8726,
+                8765
+            ],
+            "filename": "MediaController.js",
+            "lineno": 288,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001058",
+                "name": "media",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "media",
+        "longname": "<anonymous>~next~media",
+        "kind": "member",
+        "memberof": "<anonymous>~next",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                9369,
+                9401
+            ],
+            "filename": "MediaController.js",
+            "lineno": 312,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers",
+            "code": {
+                "id": "astnode100001155",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "MediaController",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Controllers/MediaController.js"
+        ]
+    }
+]

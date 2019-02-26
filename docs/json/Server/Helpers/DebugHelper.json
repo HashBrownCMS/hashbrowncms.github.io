@@ -1,0 +1,275 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                19,
+                76
+            ],
+            "filename": "DebugHelper.js",
+            "lineno": 3,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "DebugHelperCommon",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "DebugHelperCommon",
+        "longname": "DebugHelperCommon",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                83,
+                99
+            ],
+            "filename": "DebugHelper.js",
+            "lineno": 5,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000011",
+                "name": "logHandlers",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "logHandlers",
+        "longname": "logHandlers",
+        "kind": "member",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * The helper class for debugging\n *\n * @memberof HashBrown.Server.Helpers\n */",
+        "meta": {
+            "range": [
+                185,
+                908
+            ],
+            "filename": "DebugHelper.js",
+            "lineno": 12,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000014",
+                "name": "DebugHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The helper class for debugging",
+        "memberof": "HashBrown.Server.Helpers",
+        "name": "DebugHelper",
+        "longname": "HashBrown.Server.Helpers.DebugHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Log\n     *\n     * @param {String} dateString\n     * @param {String} senderString\n     * @param {String} message\n     * @param {String} type\n     */",
+        "meta": {
+            "range": [
+                405,
+                700
+            ],
+            "filename": "DebugHelper.js",
+            "lineno": 21,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000018",
+                "name": "DebugHelper.onLog",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "dateString",
+                    "senderString",
+                    "message",
+                    "type"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Log",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "dateString"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "senderString"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "message"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "type"
+            }
+        ],
+        "name": "onLog",
+        "longname": "HashBrown.Server.Helpers.DebugHelper.onLog",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DebugHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                527,
+                531
+            ],
+            "filename": "DebugHelper.js",
+            "lineno": 24,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000028",
+                "name": "name"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "<anonymous>~name",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Sets a handler to log output\n     *\n     * @param {String} name\n     * @param {Function} handler\n     */",
+        "meta": {
+            "range": [
+                826,
+                906
+            ],
+            "filename": "DebugHelper.js",
+            "lineno": 37,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000050",
+                "name": "DebugHelper.setLogHandler",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "name",
+                    "handler"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Sets a handler to log output",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "function"
+                    ]
+                },
+                "name": "handler"
+            }
+        ],
+        "name": "setLogHandler",
+        "longname": "HashBrown.Server.Helpers.DebugHelper.setLogHandler",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.DebugHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                872,
+                899
+            ],
+            "filename": "DebugHelper.js",
+            "lineno": 38,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000057",
+                "name": "logHandlers[undefined]",
+                "type": "Identifier",
+                "value": "handler",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "logHandlers[undefined]",
+        "longname": "logHandlers[undefined]",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                910,
+                938
+            ],
+            "filename": "DebugHelper.js",
+            "lineno": 42,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000063",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "DebugHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers/DebugHelper.js"
+        ]
+    }
+]

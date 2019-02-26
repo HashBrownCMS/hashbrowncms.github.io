@@ -1,0 +1,21 @@
+.widget {
+    &--notice {
+        background-color: $color-primary-bg;
+        color: $color-primary-txt;
+        margin: 1rem 0;
+
+        @include box;
+
+        &__heading {
+            margin: 0 0 0.5rem 0;
+        }
+    }
+
+    &--code {
+        background-color: $color-secondary-bg;
+        color: $color-secondary-txt;
+        margin: 0;
+
+        @include box(false, 'small');    
+    }
+}

@@ -1,0 +1,1586 @@
+[
+    {
+        "comment": "/**\n * A helper class for managing projects\n *\n * @memberof HashBrown.Server.Helpers\n */",
+        "meta": {
+            "range": [
+                104,
+                12775
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000004",
+                "name": "ProjectHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "A helper class for managing projects",
+        "memberof": "HashBrown.Server.Helpers",
+        "name": "ProjectHelper",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets a list of all available project ids\n     *\n     * @returns {Promise} Array of Project names\n     */",
+        "meta": {
+            "range": [
+                250,
+                951
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 14,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000007",
+                "name": "ProjectHelper.getAllProjectIds",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a list of all available project ids",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Array of Project names"
+            }
+        ],
+        "name": "getAllProjectIds",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper.getAllProjectIds",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ProjectHelper",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                388,
+                421
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 17,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000027",
+                "name": "allDatabases",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "allDatabases",
+        "longname": "<anonymous>~allDatabases",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                440,
+                456
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 19,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000033",
+                "name": "allProjects",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "allProjects",
+        "longname": "<anonymous>~allProjects",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                475,
+                892
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 21,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000037",
+                "name": "checkNextProject",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "db": "<anonymous>~checkNextProject~db",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "checkNextProject",
+        "longname": "<anonymous>~checkNextProject",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                522,
+                545
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 22,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000042",
+                "name": "db",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "db",
+        "longname": "<anonymous>~checkNextProject~db",
+        "kind": "member",
+        "memberof": "<anonymous>~checkNextProject",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Gets a list of all available projects\n     *\n     * @returns {Promise} Array of Projects\n     */",
+        "meta": {
+            "range": [
+                1073,
+                2149
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 45,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000085",
+                "name": "ProjectHelper.getAllProjects",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a list of all available projects",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Array of Projects"
+            }
+        ],
+        "name": "getAllProjects",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper.getAllProjects",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ProjectHelper",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1209,
+                1242
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 48,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000105",
+                "name": "allDatabases",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "allDatabases",
+        "longname": "<anonymous>~allDatabases",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1261,
+                1277
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 50,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000111",
+                "name": "allProjects",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "allProjects",
+        "longname": "<anonymous>~allProjects",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1296,
+                2090
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 52,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000115",
+                "name": "checkNextProject",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "db": "<anonymous>~checkNextProject~db",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "checkNextProject",
+        "longname": "<anonymous>~checkNextProject",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1343,
+                1366
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 53,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000120",
+                "name": "db",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "db",
+        "longname": "<anonymous>~checkNextProject~db",
+        "kind": "member",
+        "memberof": "<anonymous>~checkNextProject",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Checks if a project exists\n     *\n     * @param {String} project\n     *\n     * @returns {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                2284,
+                2465
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 90,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000210",
+                "name": "ProjectHelper.projectExists",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Checks if a project exists",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "projectExists",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper.projectExists",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ProjectHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Checks if an environment exists\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                2644,
+                2957
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 104,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000236",
+                "name": "ProjectHelper.environmentExists",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Checks if an environment exists",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "environmentExists",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper.environmentExists",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ProjectHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Performs a check of the requested project\n     *\n     * @param {String} project\n     *\n     * @returns {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                3106,
+                3465
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 122,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000277",
+                "name": "ProjectHelper.checkProject",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Performs a check of the requested project",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "checkProject",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper.checkProject",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ProjectHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Toggles a Project settings \"sync\" section on/off\n     *\n     * @param {String} id\n     * @param {Boolean} isEnabled\n     *\n     * @returns {Promise} Result\n     */",
+        "meta": {
+            "range": [
+                3650,
+                4449
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 143,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000321",
+                "name": "ProjectHelper.toggleProjectSync",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id",
+                    "isEnabled"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Toggles a Project settings \"sync\" section on/off",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "name": "isEnabled"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Result"
+            }
+        ],
+        "name": "toggleProjectSync",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper.toggleProjectSync",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ProjectHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3805,
+                3822
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 146,
+            "columnno": 74,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000349",
+                "name": "usedBy",
+                "type": "Literal",
+                "value": "project"
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "usedBy",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3919,
+                3936
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 148,
+            "columnno": 56,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000363",
+                "name": "usedBy",
+                "type": "Literal",
+                "value": "project"
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "usedBy",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3994,
+                4029
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 151,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000370",
+                "name": "settings.sync",
+                "type": "LogicalExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "sync",
+        "longname": "settings.sync",
+        "kind": "member",
+        "memberof": "settings",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4097,
+                4131
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 154,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000386",
+                "name": "isEnabled",
+                "type": "UnaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "!settings.sync.enabled",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "isEnabled",
+        "longname": "<anonymous>~isEnabled",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4160,
+                4193
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 157,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000395",
+                "name": "settings.sync.enabled",
+                "type": "Identifier",
+                "value": "isEnabled",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "enabled",
+        "longname": "settings.sync.enabled",
+        "kind": "member",
+        "memberof": "settings.sync",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4337,
+                4354
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 162,
+            "columnno": 18,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000414",
+                "name": "usedBy",
+                "type": "Literal",
+                "value": "project"
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "usedBy",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4402,
+                4414
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 164,
+            "columnno": 18,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000418",
+                "name": "upsert",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "upsert",
+        "longname": "upsert",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Gets a Project object\n     *\n     * @param {String} id\n     *\n     * @returns {Promise} Project object\n     */",
+        "meta": {
+            "range": [
+                4581,
+                5592
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 176,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000420",
+                "name": "ProjectHelper.getProject",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a Project object",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Project object"
+            }
+        ],
+        "name": "getProject",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper.getProject",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ProjectHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4617,
+                4625
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 177,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000426",
+                "name": "settings"
+            }
+        },
+        "undocumented": true,
+        "name": "settings",
+        "longname": "<anonymous>~settings",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4639,
+                4644
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 178,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000429",
+                "name": "users"
+            }
+        },
+        "undocumented": true,
+        "name": "users",
+        "longname": "<anonymous>~users",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4658,
+                4665
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 179,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000432",
+                "name": "backups"
+            }
+        },
+        "undocumented": true,
+        "name": "backups",
+        "longname": "<anonymous>~backups",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4854,
+                4884
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 186,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000468",
+                "name": "settings",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "settings",
+        "longname": "<anonymous>~settings",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5007,
+                5025
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 191,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000488",
+                "name": "users",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "foundUsers",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "users",
+        "longname": "<anonymous>~users",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5161,
+                5183
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 196,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000506",
+                "name": "backups",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "foundBackups",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "backups",
+        "longname": "<anonymous>~backups",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5300,
+                5527
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 201,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000520",
+                "name": "project",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "project",
+        "longname": "<anonymous>~project",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5357,
+                5363
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 202,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000529",
+                "name": "id",
+                "type": "Identifier",
+                "value": "id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "id",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5381,
+                5397
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 203,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000531",
+                "name": "backups",
+                "type": "Identifier",
+                "value": "backups"
+            }
+        },
+        "undocumented": true,
+        "name": "backups",
+        "longname": "backups",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5415,
+                5433
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 204,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000533",
+                "name": "settings",
+                "type": "Identifier",
+                "value": "settings"
+            }
+        },
+        "undocumented": true,
+        "name": "settings",
+        "longname": "settings",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5451,
+                5482
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 205,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000535",
+                "name": "environments",
+                "type": "Identifier",
+                "value": "foundEnvironments"
+            }
+        },
+        "undocumented": true,
+        "name": "environments",
+        "longname": "environments",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5500,
+                5512
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 206,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000537",
+                "name": "users",
+                "type": "Identifier",
+                "value": "users"
+            }
+        },
+        "undocumented": true,
+        "name": "users",
+        "longname": "users",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Gets a list of all available environments\n     *\n     * @param {String} project\n     *\n     * @returns {Promise(Array)} environments\n     */",
+        "meta": {
+            "range": [
+                5754,
+                7443
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 220,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000545",
+                "name": "ProjectHelper.getAllEnvironments",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a list of all available environments",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise(Array)"
+                    ]
+                },
+                "description": "environments"
+            }
+        ],
+        "name": "getAllEnvironments",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper.getAllEnvironments",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ProjectHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6459,
+                6469
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 235,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000613",
+                "name": "names",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "names",
+        "longname": "<anonymous>~names",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6496,
+                6503
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 237,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000618",
+                "name": "setting"
+            }
+        },
+        "undocumented": true,
+        "name": "setting",
+        "longname": "<anonymous>~setting",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7231,
+                7245
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 253,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000670",
+                "name": "usedBy",
+                "type": "Literal",
+                "value": "live"
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "usedBy",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                7271,
+                7283
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 254,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000673",
+                "name": "upsert",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "upsert",
+        "longname": "upsert",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Deletes a project\n     *\n     * @param {String} id\n     * @param {Boolean} makeBackup\n     *\n     * @returns {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                7599,
+                8191
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 271,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000685",
+                "name": "ProjectHelper.deleteProject",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id",
+                    "makeBackup"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Deletes a project",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "name": "makeBackup",
+                "defaultvalue": true
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "deleteProject",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper.deleteProject",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ProjectHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Adds an environment\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Promise} New environment\n     */",
+        "meta": {
+            "range": [
+                8362,
+                9221
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 298,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000749",
+                "name": "ProjectHelper.addEnvironment",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Adds an environment",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "New environment"
+            }
+        ],
+        "name": "addEnvironment",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper.addEnvironment",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ProjectHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Deletes an environment\n     *\n     * @param {String} project\n     * @param {String} environment\n     *\n     * @returns {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                9387,
+                11532
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 329,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000849",
+                "name": "ProjectHelper.deleteEnvironment",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Deletes an environment",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "deleteEnvironment",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper.deleteEnvironment",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ProjectHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10458,
+                11290
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 356,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000958",
+                "name": "next",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "collection": "<anonymous>~next~collection",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "next",
+        "longname": "<anonymous>~next",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                10493,
+                10523
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 357,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000963",
+                "name": "collection",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "collection",
+        "longname": "<anonymous>~next~collection",
+        "kind": "member",
+        "memberof": "<anonymous>~next",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                11491,
+                11510
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 382,
+            "columnno": 82,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001048",
+                "name": "usedBy",
+                "type": "Identifier",
+                "value": "environment"
+            }
+        },
+        "undocumented": true,
+        "name": "usedBy",
+        "longname": "usedBy",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Creates a new Project\n     *\n     * @param {String} name\n     * @param {String} userId\n     *\n     * @returns {Promise} The new Project\n     */",
+        "meta": {
+            "range": [
+                11701,
+                12773
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 394,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001050",
+                "name": "ProjectHelper.createProject",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "name",
+                    "userId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Creates a new Project",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "userId"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "The new Project"
+            }
+        ],
+        "name": "createProject",
+        "longname": "HashBrown.Server.Helpers.ProjectHelper.createProject",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ProjectHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12060,
+                12107
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 402,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001092",
+                "name": "project",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "project",
+        "longname": "<anonymous>~project",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                12777,
+                12807
+            ],
+            "filename": "ProjectHelper.js",
+            "lineno": 425,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100001190",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "ProjectHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers/ProjectHelper.js"
+        ]
+    }
+]

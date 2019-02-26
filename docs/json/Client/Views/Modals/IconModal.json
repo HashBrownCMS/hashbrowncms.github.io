@@ -1,0 +1,560 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                62
+            ],
+            "filename": "IconModal.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000005",
+                "name": "icons",
+                "type": "MemberExpression",
+                "value": ".icons"
+            }
+        },
+        "undocumented": true,
+        "name": "icons",
+        "longname": "icons",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * A modal for picking icons\n *\n * @memberof HashBrown.Client.Views.Modals\n */",
+        "meta": {
+            "range": [
+                148,
+                1785
+            ],
+            "filename": "IconModal.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000012",
+                "name": "IconModal",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A modal for picking icons",
+        "memberof": "HashBrown.Client.Views.Modals",
+        "name": "IconModal",
+        "longname": "HashBrown.Client.Views.Modals.IconModal",
+        "kind": "class",
+        "scope": "static",
+        "description": "Constructor",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Constructor\n     */",
+        "meta": {
+            "range": [
+                242,
+                411
+            ],
+            "filename": "IconModal.js",
+            "lineno": 14,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000022",
+                "name": "IconModal",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Constructor",
+        "name": "IconModal",
+        "longname": "HashBrown.Client.Views.Modals~IconModal",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Modals",
+        "scope": "inner",
+        "params": [],
+        "undocumented": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                272,
+                293
+            ],
+            "filename": "IconModal.js",
+            "lineno": 15,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000028",
+                "name": "params",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "params",
+        "longname": "<anonymous>~params",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                303,
+                348
+            ],
+            "filename": "IconModal.js",
+            "lineno": 16,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000034",
+                "name": "params.title",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "<anonymous>~params.title",
+        "kind": "member",
+        "memberof": "<anonymous>~params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                358,
+                380
+            ],
+            "filename": "IconModal.js",
+            "lineno": 17,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000044",
+                "name": "params.actions",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": false,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "actions",
+        "longname": "<anonymous>~params.actions",
+        "kind": "member",
+        "memberof": "<anonymous>~params",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Post render\n     */",
+        "meta": {
+            "range": [
+                452,
+                532
+            ],
+            "filename": "IconModal.js",
+            "lineno": 25,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000053",
+                "name": "IconModal#postrender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Post render",
+        "name": "postrender",
+        "longname": "HashBrown.Client.Views.Modals.IconModal#postrender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.IconModal",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Event: Search\n     *\n     * @param {String} query\n     */",
+        "meta": {
+            "range": [
+                611,
+                1005
+            ],
+            "filename": "IconModal.js",
+            "lineno": 34,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000068",
+                "name": "IconModal#onSearch",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "query"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Search",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "query"
+            }
+        ],
+        "name": "onSearch",
+        "longname": "HashBrown.Client.Views.Modals.IconModal#onSearch",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.IconModal",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                641,
+                700
+            ],
+            "filename": "IconModal.js",
+            "lineno": 35,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000074",
+                "name": "icons",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "icons",
+        "longname": "<anonymous>~icons",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                751,
+                756
+            ],
+            "filename": "IconModal.js",
+            "lineno": 39,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000090",
+                "name": "i",
+                "type": "Literal",
+                "value": 0
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                872,
+                904
+            ],
+            "filename": "IconModal.js",
+            "lineno": 41,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000122",
+                "name": "icons[undefined].style.display",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "block",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "display",
+        "longname": "<anonymous>~icons[undefined].style.display",
+        "kind": "member",
+        "memberof": "<anonymous>~icons[undefined].style",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                943,
+                974
+            ],
+            "filename": "IconModal.js",
+            "lineno": 43,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000133",
+                "name": "icons[undefined].style.display",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "none",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "display",
+        "longname": "<anonymous>~icons[undefined].style.display",
+        "kind": "member",
+        "memberof": "<anonymous>~icons[undefined].style",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the modal body\n     *\n     * @returns {HTMLElement} Body\n     */",
+        "meta": {
+            "range": [
+                1099,
+                1783
+            ],
+            "filename": "IconModal.js",
+            "lineno": 53,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000142",
+                "name": "IconModal#renderBody",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the modal body",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Body"
+            }
+        ],
+        "name": "renderBody",
+        "longname": "HashBrown.Client.Views.Modals.IconModal#renderBody",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.IconModal",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1152,
+                1164
+            ],
+            "filename": "IconModal.js",
+            "lineno": 55,
+            "columnno": 21,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000155",
+                "name": "type",
+                "type": "Literal",
+                "value": "text"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1166,
+                1220
+            ],
+            "filename": "IconModal.js",
+            "lineno": 55,
+            "columnno": 35,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000157",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--input text modal--icon__search"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1222,
+                1253
+            ],
+            "filename": "IconModal.js",
+            "lineno": 55,
+            "columnno": 91,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000159",
+                "name": "placeholder",
+                "type": "Literal",
+                "value": "Search for icons"
+            }
+        },
+        "undocumented": true,
+        "name": "placeholder",
+        "longname": "placeholder",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1391,
+                1418
+            ],
+            "filename": "IconModal.js",
+            "lineno": 59,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000181",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--icon__icons"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1503,
+                1565
+            ],
+            "filename": "IconModal.js",
+            "lineno": 61,
+            "columnno": 37,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000200",
+                "name": "class",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1567,
+                1578
+            ],
+            "filename": "IconModal.js",
+            "lineno": 61,
+            "columnno": 101,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000204",
+                "name": "title",
+                "type": "Identifier",
+                "value": "icon"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1787,
+                1813
+            ],
+            "filename": "IconModal.js",
+            "lineno": 73,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000222",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "IconModal",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals/IconModal.js"
+        ]
+    }
+]

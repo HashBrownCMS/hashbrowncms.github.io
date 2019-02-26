@@ -1,0 +1,778 @@
+[
+    {
+        "comment": "/**\n * The common base for SchemaHelper\n *\n * @memberof HashBrown.Common.Helpers\n */",
+        "meta": {
+            "range": [
+                100,
+                3974
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000004",
+                "name": "SchemaHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The common base for SchemaHelper",
+        "memberof": "HashBrown.Common.Helpers",
+        "name": "SchemaHelper",
+        "longname": "HashBrown.Common.Helpers.SchemaHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets all parent fields\n     *\n     * @param {String} id\n     *\n     * @returns {Promise(Schema)} schema\n     */",
+        "meta": {
+            "range": [
+                252,
+                375
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 16,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000007",
+                "name": "SchemaHelper.getSchemaWithParentFields",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets all parent fields",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise(Schema)"
+                    ]
+                },
+                "description": "schema"
+            }
+        ],
+        "name": "getSchemaWithParentFields",
+        "longname": "HashBrown.Common.Helpers.SchemaHelper.getSchemaWithParentFields",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Gets the appropriate model\n     *\n     * @param {Object} properties\n     *\n     * @return {Schema} Schema\n     */",
+        "meta": {
+            "range": [
+                510,
+                1357
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 29,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000021",
+                "name": "SchemaHelper.getModel",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "properties"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets the appropriate model",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "properties"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Schema"
+                    ]
+                },
+                "description": "Schema"
+            }
+        ],
+        "name": "getModel",
+        "longname": "HashBrown.Common.Helpers.SchemaHelper.getModel",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                972,
+                1007
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 39,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000060",
+                "name": "properties",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "properties",
+        "longname": "<anonymous>~properties",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Merges two Schemas\n     *\n     * @param Schema childSchema\n     * @param Schema parentSchema\n     *\n     * @returns {Schema} Merged Schema\n     */",
+        "meta": {
+            "range": [
+                1529,
+                3972
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 59,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000106",
+                "name": "SchemaHelper.mergeSchemas",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "childSchema",
+                    "parentSchema"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Merges two Schemas",
+        "params": [
+            {
+                "description": "childSchema",
+                "name": "Schema"
+            },
+            {
+                "description": "parentSchema",
+                "name": "Schema"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Schema"
+                    ]
+                },
+                "description": "Merged Schema"
+            }
+        ],
+        "name": "mergeSchemas",
+        "longname": "HashBrown.Common.Helpers.SchemaHelper.mergeSchemas",
+        "kind": "function",
+        "memberof": "HashBrown.Common.Helpers.SchemaHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1735,
+                1772
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 63,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000133",
+                "name": "childSchema",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "childSchema",
+        "longname": "<anonymous>~childSchema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1782,
+                1821
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 64,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000140",
+                "name": "parentSchema",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "parentSchema",
+        "longname": "<anonymous>~parentSchema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1836,
+                1863
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 66,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000147",
+                "name": "mergedSchema",
+                "type": "Identifier",
+                "value": "parentSchema"
+            }
+        },
+        "undocumented": true,
+        "name": "mergedSchema",
+        "longname": "<anonymous>~mergedSchema",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1901,
+                2314
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 69,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000150",
+                "name": "merge",
+                "type": "FunctionDeclaration",
+                "paramnames": [
+                    "parentValues",
+                    "childValues"
+                ]
+            },
+            "vars": {
+                "k": "<anonymous>~merge~k",
+                "parentValues[undefined]": null
+            }
+        },
+        "undocumented": true,
+        "name": "merge",
+        "longname": "<anonymous>~merge",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1965,
+                1966
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 70,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000157",
+                "name": "k"
+            }
+        },
+        "undocumented": true,
+        "name": "k",
+        "longname": "<anonymous>~merge~k",
+        "kind": "member",
+        "memberof": "<anonymous>~merge",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2222,
+                2254
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 75,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000191",
+                "name": "parentValues[undefined]",
+                "type": "MemberExpression",
+                "value": "childValues[undefined]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "parentValues[undefined]",
+        "longname": "parentValues[undefined]",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2360,
+                2392
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 82,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000199",
+                "name": "mergedSchema.id",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "childSchema.id",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "<anonymous>~mergedSchema.id",
+        "kind": "member",
+        "memberof": "<anonymous>~mergedSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2402,
+                2438
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 83,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000207",
+                "name": "mergedSchema.name",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "childSchema.name",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "<anonymous>~mergedSchema.name",
+        "kind": "member",
+        "memberof": "<anonymous>~mergedSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2448,
+                2504
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 84,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000215",
+                "name": "mergedSchema.parentSchemaId",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "childSchema.parentSchemaId",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "parentSchemaId",
+        "longname": "<anonymous>~mergedSchema.parentSchemaId",
+        "kind": "member",
+        "memberof": "<anonymous>~mergedSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2514,
+                2571
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 85,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000223",
+                "name": "mergedSchema.icon",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "icon",
+        "longname": "<anonymous>~mergedSchema.icon",
+        "kind": "member",
+        "memberof": "<anonymous>~mergedSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2704,
+                2774
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 90,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000241",
+                "name": "mergedSchema.editorId",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "editorId",
+        "longname": "<anonymous>~mergedSchema.editorId",
+        "kind": "member",
+        "memberof": "<anonymous>~mergedSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2868,
+                2892
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 93,
+            "columnno": 43,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000259",
+                "name": "mergedSchema.config",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "config",
+        "longname": "<anonymous>~mergedSchema.config",
+        "kind": "member",
+        "memberof": "<anonymous>~mergedSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2939,
+                2963
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 94,
+            "columnno": 43,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000271",
+                "name": "parentSchema.config",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "config",
+        "longname": "<anonymous>~parentSchema.config",
+        "kind": "member",
+        "memberof": "<anonymous>~parentSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3155,
+                3177
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 101,
+            "columnno": 41,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000295",
+                "name": "mergedSchema.tabs",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "tabs",
+        "longname": "<anonymous>~mergedSchema.tabs",
+        "kind": "member",
+        "memberof": "<anonymous>~mergedSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3221,
+                3242
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 102,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000307",
+                "name": "childSchema.tabs",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "tabs",
+        "longname": "<anonymous>~childSchema.tabs",
+        "kind": "member",
+        "memberof": "<anonymous>~childSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3398,
+                3422
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 107,
+            "columnno": 43,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000328",
+                "name": "mergedSchema.fields",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "fields",
+        "longname": "<anonymous>~mergedSchema.fields",
+        "kind": "member",
+        "memberof": "<anonymous>~mergedSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3480,
+                3515
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 108,
+            "columnno": 54,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000342",
+                "name": "mergedSchema.fields.properties",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "fields.properties",
+        "longname": "<anonymous>~mergedSchema.fields.properties",
+        "kind": "member",
+        "memberof": "<anonymous>~mergedSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3561,
+                3584
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 109,
+            "columnno": 42,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000356",
+                "name": "childSchema.fields",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "fields",
+        "longname": "<anonymous>~childSchema.fields",
+        "kind": "member",
+        "memberof": "<anonymous>~childSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3641,
+                3675
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 110,
+            "columnno": 53,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000370",
+                "name": "childSchema.fields.properties",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "fields.properties",
+        "longname": "<anonymous>~childSchema.fields.properties",
+        "kind": "member",
+        "memberof": "<anonymous>~childSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3806,
+                3887
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 115,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000387",
+                "name": "mergedSchema.defaultTabId",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "defaultTabId",
+        "longname": "<anonymous>~mergedSchema.defaultTabId",
+        "kind": "member",
+        "memberof": "<anonymous>~mergedSchema",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3976,
+                4005
+            ],
+            "filename": "SchemaHelper.js",
+            "lineno": 123,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers",
+            "code": {
+                "id": "astnode100000406",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "SchemaHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Common/Helpers/SchemaHelper.js"
+        ]
+    }
+]

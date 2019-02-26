@@ -1,0 +1,1366 @@
+[
+    {
+        "comment": "/**\n * A modal for picking dates\n *\n * @memberof HashBrown.Client.Views.Modals\n */",
+        "meta": {
+            "range": [
+                98,
+                5201
+            ],
+            "filename": "DateModal.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000004",
+                "name": "DateModal",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A modal for picking dates",
+        "memberof": "HashBrown.Client.Views.Modals",
+        "name": "DateModal",
+        "longname": "HashBrown.Client.Views.Modals.DateModal",
+        "kind": "class",
+        "scope": "static",
+        "description": "Constructor",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Constructor\n     */",
+        "meta": {
+            "range": [
+                192,
+                278
+            ],
+            "filename": "DateModal.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000014",
+                "name": "DateModal",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Constructor",
+        "name": "DateModal",
+        "longname": "HashBrown.Client.Views.Modals~DateModal",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Modals",
+        "scope": "inner",
+        "params": [],
+        "undocumented": true
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                222,
+                247
+            ],
+            "filename": "DateModal.js",
+            "lineno": 13,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000020",
+                "name": "params.className",
+                "type": "Literal",
+                "value": "date",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "className",
+        "longname": "params.className",
+        "kind": "member",
+        "memberof": "params",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Pre render\n     */",
+        "meta": {
+            "range": [
+                322,
+                976
+            ],
+            "filename": "DateModal.js",
+            "lineno": 21,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000029",
+                "name": "DateModal#prerender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Pre render",
+        "name": "prerender",
+        "longname": "HashBrown.Client.Views.Modals.DateModal#prerender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.DateModal",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                344,
+                407
+            ],
+            "filename": "DateModal.js",
+            "lineno": 22,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000034",
+                "name": "this.days",
+                "type": "ArrayExpression",
+                "value": "[\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\",\"Sun\"]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "days",
+        "longname": "HashBrown.Client.Views.Modals.DateModal#days",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Modals.DateModal",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                417,
+                517
+            ],
+            "filename": "DateModal.js",
+            "lineno": 23,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000047",
+                "name": "this.months",
+                "type": "ArrayExpression",
+                "value": "[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "months",
+        "longname": "HashBrown.Client.Views.Modals.DateModal#months",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Modals.DateModal",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                527,
+                686
+            ],
+            "filename": "DateModal.js",
+            "lineno": 24,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000065",
+                "name": "this.hours",
+                "type": "ArrayExpression",
+                "value": "[\"00\",\"01\",\"02\",\"03\",\"04\",\"05\",\"06\",\"07\",\"08\",\"09\",\"10\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\",\"17\",\"18\",\"19\",\"20\",\"21\",\"22\",\"23\"]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "hours",
+        "longname": "HashBrown.Client.Views.Modals.DateModal#hours",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Modals.DateModal",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                696,
+                785
+            ],
+            "filename": "DateModal.js",
+            "lineno": 25,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000095",
+                "name": "this.minutes",
+                "type": "ArrayExpression",
+                "value": "[\"00\",\"05\",\"10\",\"15\",\"20\",\"25\",\"30\",\"35\",\"40\",\"45\",\"50\",\"55\"]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "minutes",
+        "longname": "HashBrown.Client.Views.Modals.DateModal#minutes",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Modals.DateModal",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                820,
+                879
+            ],
+            "filename": "DateModal.js",
+            "lineno": 28,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000113",
+                "name": "this.value",
+                "type": "ConditionalExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Modals.DateModal#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Modals.DateModal",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                936,
+                959
+            ],
+            "filename": "DateModal.js",
+            "lineno": 31,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000139",
+                "name": "this.value",
+                "type": "NewExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Modals.DateModal#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Modals.DateModal",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Gets days in current month and year\n     *\n     * @param {Number} year\n     * @param {Number} month\n     *\n     * @returns {Array} Days\n     */",
+        "meta": {
+            "range": [
+                1141,
+                1363
+            ],
+            "filename": "DateModal.js",
+            "lineno": 43,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000145",
+                "name": "DateModal#getDays",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "year",
+                    "month"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets days in current month and year",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "year"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "month"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "description": "Days"
+            }
+        ],
+        "name": "getDays",
+        "longname": "HashBrown.Client.Views.Modals.DateModal#getDays",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.DateModal",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1176,
+                1216
+            ],
+            "filename": "DateModal.js",
+            "lineno": 44,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000152",
+                "name": "max",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "max",
+        "longname": "<anonymous>~max",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1230,
+                1239
+            ],
+            "filename": "DateModal.js",
+            "lineno": 45,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000163",
+                "name": "days",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "days",
+        "longname": "<anonymous>~days",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1289,
+                1324
+            ],
+            "filename": "DateModal.js",
+            "lineno": 48,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000174",
+                "name": "days[undefined]",
+                "type": "BinaryExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~days.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~days",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Render header\n     */",
+        "meta": {
+            "range": [
+                1406,
+                1817
+            ],
+            "filename": "DateModal.js",
+            "lineno": 57,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000187",
+                "name": "DateModal#renderHeader",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Render header",
+        "name": "renderHeader",
+        "longname": "HashBrown.Client.Views.Modals.DateModal#renderHeader",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.DateModal",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1459,
+                1493
+            ],
+            "filename": "DateModal.js",
+            "lineno": 59,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000198",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__header__year"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1553,
+                1586
+            ],
+            "filename": "DateModal.js",
+            "lineno": 60,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000214",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__header__day"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1717,
+                1750
+            ],
+            "filename": "DateModal.js",
+            "lineno": 61,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000255",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal__close fa fa-close"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Renders the modal footer\n     *\n     * @returns {HTMLElement} Footer\n     */",
+        "meta": {
+            "range": [
+                1919,
+                2131
+            ],
+            "filename": "DateModal.js",
+            "lineno": 71,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000265",
+                "name": "DateModal#renderFooter",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the modal footer",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Footer"
+            }
+        ],
+        "name": "renderFooter",
+        "longname": "HashBrown.Client.Views.Modals.DateModal#renderFooter",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.DateModal",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1961,
+                1991
+            ],
+            "filename": "DateModal.js",
+            "lineno": 72,
+            "columnno": 25,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000277",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Render body\n     */",
+        "meta": {
+            "range": [
+                2172,
+                5199
+            ],
+            "filename": "DateModal.js",
+            "lineno": 83,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000297",
+                "name": "DateModal#renderBody",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Render body",
+        "name": "renderBody",
+        "longname": "HashBrown.Client.Views.Modals.DateModal#renderBody",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.DateModal",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2223,
+                2254
+            ],
+            "filename": "DateModal.js",
+            "lineno": 85,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000308",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__nav"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2283,
+                2337
+            ],
+            "filename": "DateModal.js",
+            "lineno": 86,
+            "columnno": 26,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000317",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__nav__left fa fa-arrow-left"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2557,
+                2600
+            ],
+            "filename": "DateModal.js",
+            "lineno": 92,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000347",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__nav__month-year"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2736,
+                2791
+            ],
+            "filename": "DateModal.js",
+            "lineno": 95,
+            "columnno": 26,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000375",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__nav__left fa fa-arrow-right"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3021,
+                3057
+            ],
+            "filename": "DateModal.js",
+            "lineno": 102,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000405",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__weekdays"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3084,
+                3119
+            ],
+            "filename": "DateModal.js",
+            "lineno": 103,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000412",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__weekday"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3152,
+                3187
+            ],
+            "filename": "DateModal.js",
+            "lineno": 104,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000420",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__weekday"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3220,
+                3255
+            ],
+            "filename": "DateModal.js",
+            "lineno": 105,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000428",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__weekday"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3288,
+                3323
+            ],
+            "filename": "DateModal.js",
+            "lineno": 106,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000436",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__weekday"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3356,
+                3391
+            ],
+            "filename": "DateModal.js",
+            "lineno": 107,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000444",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__weekday"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3424,
+                3459
+            ],
+            "filename": "DateModal.js",
+            "lineno": 108,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000452",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__weekday"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3492,
+                3527
+            ],
+            "filename": "DateModal.js",
+            "lineno": 109,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000460",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__weekday"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3569,
+                3601
+            ],
+            "filename": "DateModal.js",
+            "lineno": 111,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000468",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__days"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3732,
+                3773
+            ],
+            "filename": "DateModal.js",
+            "lineno": 113,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000497",
+                "name": "thisDate",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "thisDate",
+        "longname": "<anonymous>~thisDate",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3799,
+                3815
+            ],
+            "filename": "DateModal.js",
+            "lineno": 114,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000508",
+                "name": "now",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "now",
+        "longname": "<anonymous>~now",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3842,
+                4038
+            ],
+            "filename": "DateModal.js",
+            "lineno": 116,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000513",
+                "name": "isCurrent",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isCurrent",
+        "longname": "<anonymous>~isCurrent",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4085,
+                4123
+            ],
+            "filename": "DateModal.js",
+            "lineno": 121,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000546",
+                "name": "isActive",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isActive",
+        "longname": "<anonymous>~isActive",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4207,
+                4300
+            ],
+            "filename": "DateModal.js",
+            "lineno": 125,
+            "columnno": 37,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000570",
+                "name": "class",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4524,
+                4556
+            ],
+            "filename": "DateModal.js",
+            "lineno": 133,
+            "columnno": 19,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000604",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__time"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4584,
+                4624
+            ],
+            "filename": "DateModal.js",
+            "lineno": 134,
+            "columnno": 25,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000613",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__time__number"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4626,
+                4640
+            ],
+            "filename": "DateModal.js",
+            "lineno": 134,
+            "columnno": 67,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000615",
+                "name": "type",
+                "type": "Literal",
+                "value": "number"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4642,
+                4648
+            ],
+            "filename": "DateModal.js",
+            "lineno": 134,
+            "columnno": 83,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000617",
+                "name": "min",
+                "type": "Literal",
+                "value": 0
+            }
+        },
+        "undocumented": true,
+        "name": "min",
+        "longname": "min",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4650,
+                4657
+            ],
+            "filename": "DateModal.js",
+            "lineno": 134,
+            "columnno": 91,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000619",
+                "name": "max",
+                "type": "Literal",
+                "value": 23
+            }
+        },
+        "undocumented": true,
+        "name": "max",
+        "longname": "max",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4659,
+                4687
+            ],
+            "filename": "DateModal.js",
+            "lineno": 134,
+            "columnno": 100,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000621",
+                "name": "value",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4848,
+                4891
+            ],
+            "filename": "DateModal.js",
+            "lineno": 138,
+            "columnno": 23,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000650",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__time__separator"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4925,
+                4965
+            ],
+            "filename": "DateModal.js",
+            "lineno": 139,
+            "columnno": 25,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000660",
+                "name": "class",
+                "type": "Literal",
+                "value": "modal--date__body__time__number"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4967,
+                4981
+            ],
+            "filename": "DateModal.js",
+            "lineno": 139,
+            "columnno": 67,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000662",
+                "name": "type",
+                "type": "Literal",
+                "value": "number"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4983,
+                4989
+            ],
+            "filename": "DateModal.js",
+            "lineno": 139,
+            "columnno": 83,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000664",
+                "name": "min",
+                "type": "Literal",
+                "value": 0
+            }
+        },
+        "undocumented": true,
+        "name": "min",
+        "longname": "min",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4991,
+                4998
+            ],
+            "filename": "DateModal.js",
+            "lineno": 139,
+            "columnno": 91,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000666",
+                "name": "max",
+                "type": "Literal",
+                "value": 59
+            }
+        },
+        "undocumented": true,
+        "name": "max",
+        "longname": "max",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5000,
+                5030
+            ],
+            "filename": "DateModal.js",
+            "lineno": 139,
+            "columnno": 100,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000668",
+                "name": "value",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5203,
+                5229
+            ],
+            "filename": "DateModal.js",
+            "lineno": 148,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000693",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "DateModal",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals/DateModal.js"
+        ]
+    }
+]

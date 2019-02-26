@@ -1,0 +1,1820 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                47
+            ],
+            "filename": "User.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000005",
+                "name": "Crypto",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Crypto",
+        "longname": "Crypto",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                56,
+                96
+            ],
+            "filename": "User.js",
+            "lineno": 5,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000011",
+                "name": "Entity",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "Entity",
+        "longname": "Entity",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                104,
+                146
+            ],
+            "filename": "User.js",
+            "lineno": 6,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000017",
+                "name": "UserCommon",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "UserCommon",
+        "longname": "UserCommon",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * A stored password\n *\n * @memberof HashBrown.Server.Models\n */",
+        "meta": {
+            "range": [
+                218,
+                343
+            ],
+            "filename": "User.js",
+            "lineno": 13,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000022",
+                "name": "Password",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "A stored password",
+        "memberof": "HashBrown.Server.Models",
+        "name": "Password",
+        "longname": "HashBrown.Server.Models.Password",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                254,
+                341
+            ],
+            "filename": "User.js",
+            "lineno": 14,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000026",
+                "name": "Password#structure",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "structure",
+        "longname": "HashBrown.Server.Models.Password#structure",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.Password",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n * A model for Users\n *\n * @memberof HashBrown.Server.Models\n */",
+        "meta": {
+            "range": [
+                414,
+                5149
+            ],
+            "filename": "User.js",
+            "lineno": 25,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000044",
+                "name": "User",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A model for Users",
+        "memberof": "HashBrown.Server.Models",
+        "name": "User",
+        "longname": "HashBrown.Server.Models.User",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                450,
+                741
+            ],
+            "filename": "User.js",
+            "lineno": 26,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000048",
+                "name": "User",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "User",
+        "longname": "HashBrown.Server.Models~User",
+        "kind": "class",
+        "memberof": "HashBrown.Server.Models",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                566,
+                700
+            ],
+            "filename": "User.js",
+            "lineno": 29,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000061",
+                "name": "params.password",
+                "type": "NewExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "password",
+        "longname": "params.password",
+        "kind": "member",
+        "memberof": "params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                615,
+                641
+            ],
+            "filename": "User.js",
+            "lineno": 30,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000068",
+                "name": "hash",
+                "type": "MemberExpression",
+                "value": "params.password.hash"
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "hash",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                659,
+                685
+            ],
+            "filename": "User.js",
+            "lineno": 31,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000074",
+                "name": "salt",
+                "type": "MemberExpression",
+                "value": "params.password.salt"
+            }
+        },
+        "undocumented": true,
+        "name": "salt",
+        "longname": "salt",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                751,
+                934
+            ],
+            "filename": "User.js",
+            "lineno": 38,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000084",
+                "name": "User#structure",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "structure",
+        "longname": "HashBrown.Server.Models.User#structure",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Removes a token\n     *\n     * @param {String} token\n     */",
+        "meta": {
+            "range": [
+                1015,
+                1213
+            ],
+            "filename": "User.js",
+            "lineno": 51,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000117",
+                "name": "User#removeToken",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "token"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Removes a token",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "token"
+            }
+        ],
+        "name": "removeToken",
+        "longname": "HashBrown.Server.Models.User#removeToken",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1052,
+                1053
+            ],
+            "filename": "User.js",
+            "lineno": 52,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000124",
+                "name": "i"
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Clears all sensitive data\n     */",
+        "meta": {
+            "range": [
+                1268,
+                1387
+            ],
+            "filename": "User.js",
+            "lineno": 63,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000151",
+                "name": "User#clearSensitiveData",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Clears all sensitive data",
+        "name": "clearSensitiveData",
+        "longname": "HashBrown.Server.Models.User#clearSensitiveData",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1299,
+                1319
+            ],
+            "filename": "User.js",
+            "lineno": 64,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000156",
+                "name": "this.password",
+                "type": "Literal",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "password",
+        "longname": "HashBrown.Server.Models.User#password",
+        "kind": "member",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1329,
+                1347
+            ],
+            "filename": "User.js",
+            "lineno": 65,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000162",
+                "name": "this.tokens",
+                "type": "Literal",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "tokens",
+        "longname": "HashBrown.Server.Models.User#tokens",
+        "kind": "member",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1357,
+                1380
+            ],
+            "filename": "User.js",
+            "lineno": 66,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000168",
+                "name": "this.inviteToken",
+                "type": "Literal",
+                "value": null,
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "inviteToken",
+        "longname": "HashBrown.Server.Models.User#inviteToken",
+        "kind": "member",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Sets all project scopes\n     *\n     * @param {String} project\n     * @param {Array} scopes\n     */",
+        "meta": {
+            "range": [
+                1507,
+                1666
+            ],
+            "filename": "User.js",
+            "lineno": 75,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000173",
+                "name": "User#setScopes",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "scopes"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Sets all project scopes",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "name": "scopes"
+            }
+        ],
+        "name": "setScopes",
+        "longname": "HashBrown.Server.Models.User#setScopes",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1584,
+                1609
+            ],
+            "filename": "User.js",
+            "lineno": 77,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000188",
+                "name": "this.scopes[undefined]",
+                "type": "ArrayExpression",
+                "value": "[]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "scopes[undefined]",
+        "longname": "HashBrown.Server.Models.User#scopes[undefined]",
+        "kind": "member",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1630,
+                1659
+            ],
+            "filename": "User.js",
+            "lineno": 80,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000196",
+                "name": "this.scopes[undefined]",
+                "type": "Identifier",
+                "value": "scopes",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "scopes[undefined]",
+        "longname": "HashBrown.Server.Models.User#scopes[undefined]",
+        "kind": "member",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Creates a new access token\n     *\n     * @param {Boolean} persist\n     */",
+        "meta": {
+            "range": [
+                1765,
+                2213
+            ],
+            "filename": "User.js",
+            "lineno": 88,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000203",
+                "name": "User#generateToken",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "persist"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Creates a new access token",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "name": "persist"
+            }
+        ],
+        "name": "generateToken",
+        "longname": "HashBrown.Server.Models.User#generateToken",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1802,
+                1846
+            ],
+            "filename": "User.js",
+            "lineno": 89,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000209",
+                "name": "key",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "longname": "<anonymous>~key",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1860,
+                1973
+            ],
+            "filename": "User.js",
+            "lineno": 90,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000221",
+                "name": "validDuration",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "validDuration",
+        "longname": "<anonymous>~validDuration",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2004,
+                2058
+            ],
+            "filename": "User.js",
+            "lineno": 96,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000231",
+                "name": "expires",
+                "type": "ConditionalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "expires",
+        "longname": "<anonymous>~expires",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2081,
+                2151
+            ],
+            "filename": "User.js",
+            "lineno": 98,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000243",
+                "name": "token",
+                "type": "ObjectExpression",
+                "value": "{\"key\":\"\",\"expires\":\"\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "token",
+        "longname": "<anonymous>~token",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2103,
+                2111
+            ],
+            "filename": "User.js",
+            "lineno": 99,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000246",
+                "name": "key",
+                "type": "Identifier",
+                "value": "key"
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "longname": "<anonymous>~token.key",
+        "kind": "member",
+        "memberof": "<anonymous>~token",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2125,
+                2141
+            ],
+            "filename": "User.js",
+            "lineno": 100,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000248",
+                "name": "expires",
+                "type": "Identifier",
+                "value": "expires"
+            }
+        },
+        "undocumented": true,
+        "name": "expires",
+        "longname": "<anonymous>~token.expires",
+        "kind": "member",
+        "memberof": "<anonymous>~token",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Validate token\n     *\n     * @param {String} token\n     *\n     * @returns {Boolean} valid\n     */",
+        "meta": {
+            "range": [
+                2332,
+                2764
+            ],
+            "filename": "User.js",
+            "lineno": 115,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000260",
+                "name": "User#validateToken",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "token"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Validate token",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "token"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "description": "valid"
+            }
+        ],
+        "name": "validateToken",
+        "longname": "HashBrown.Server.Models.User#validateToken",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2371,
+                2397
+            ],
+            "filename": "User.js",
+            "lineno": 116,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000267",
+                "name": "i",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2430,
+                2460
+            ],
+            "filename": "User.js",
+            "lineno": 117,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000283",
+                "name": "existingToken",
+                "type": "MemberExpression",
+                "value": "this.tokens[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "existingToken",
+        "longname": "<anonymous>~existingToken",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2478,
+                2558
+            ],
+            "filename": "User.js",
+            "lineno": 118,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000291",
+                "name": "isExpired",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isExpired",
+        "longname": "<anonymous>~isExpired",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Cleans up expired tokens\n     */",
+        "meta": {
+            "range": [
+                2818,
+                3153
+            ],
+            "filename": "User.js",
+            "lineno": 133,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000330",
+                "name": "User#cleanUpTokens",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Cleans up expired tokens",
+        "name": "cleanUpTokens",
+        "longname": "HashBrown.Server.Models.User#cleanUpTokens",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2852,
+                2878
+            ],
+            "filename": "User.js",
+            "lineno": 134,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000336",
+                "name": "i",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2911,
+                2941
+            ],
+            "filename": "User.js",
+            "lineno": 135,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000352",
+                "name": "existingToken",
+                "type": "MemberExpression",
+                "value": "this.tokens[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "existingToken",
+        "longname": "<anonymous>~existingToken",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2959,
+                3039
+            ],
+            "filename": "User.js",
+            "lineno": 136,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000360",
+                "name": "isExpired",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "isExpired",
+        "longname": "<anonymous>~isExpired",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Validate password\n     *\n     * @param {String} password\n     *\n     * @returns {Boolean} valid\n     */",
+        "meta": {
+            "range": [
+                3278,
+                3438
+            ],
+            "filename": "User.js",
+            "lineno": 151,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000388",
+                "name": "User#validatePassword",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "password"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Validate password",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "password"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Boolean"
+                    ]
+                },
+                "description": "valid"
+            }
+        ],
+        "name": "validatePassword",
+        "longname": "HashBrown.Server.Models.User#validatePassword",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3319,
+                3377
+            ],
+            "filename": "User.js",
+            "lineno": 152,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000394",
+                "name": "hashedPassword",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "hashedPassword",
+        "longname": "<anonymous>~hashedPassword",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Set new password\n     *\n     * @param {String} password\n     */",
+        "meta": {
+            "range": [
+                3523,
+                3751
+            ],
+            "filename": "User.js",
+            "lineno": 162,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000414",
+                "name": "User#setPassword",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "password"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Set new password",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "password"
+            }
+        ],
+        "name": "setPassword",
+        "longname": "HashBrown.Server.Models.User#setPassword",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3559,
+                3605
+            ],
+            "filename": "User.js",
+            "lineno": 163,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000420",
+                "name": "salt",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "salt",
+        "longname": "<anonymous>~salt",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3619,
+                3663
+            ],
+            "filename": "User.js",
+            "lineno": 164,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000432",
+                "name": "hashedPassword",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "hashedPassword",
+        "longname": "<anonymous>~hashedPassword",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3674,
+                3699
+            ],
+            "filename": "User.js",
+            "lineno": 166,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000441",
+                "name": "this.password.salt",
+                "type": "Identifier",
+                "value": "salt",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "salt",
+        "longname": "HashBrown.Server.Models.User#password.salt",
+        "kind": "member",
+        "memberof": "HashBrown.Server.Models.User#password",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3709,
+                3744
+            ],
+            "filename": "User.js",
+            "lineno": 167,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000449",
+                "name": "this.password.hash",
+                "type": "Identifier",
+                "value": "hashedPassword",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "HashBrown.Server.Models.User#password.hash",
+        "kind": "member",
+        "memberof": "HashBrown.Server.Models.User#password",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Creates a password hash and salt\n     *\n     * @param {String} password\n     *\n     * @returns {Object} Hash and salt\n     */",
+        "meta": {
+            "range": [
+                3898,
+                4149
+            ],
+            "filename": "User.js",
+            "lineno": 177,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000456",
+                "name": "User.createPasswordHashSalt",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "password"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Creates a password hash and salt",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "password"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "Hash and salt"
+            }
+        ],
+        "name": "createPasswordHashSalt",
+        "longname": "HashBrown.Server.Models.User.createPasswordHashSalt",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3952,
+                3998
+            ],
+            "filename": "User.js",
+            "lineno": 178,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000462",
+                "name": "salt",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "salt",
+        "longname": "<anonymous>~salt",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4012,
+                4056
+            ],
+            "filename": "User.js",
+            "lineno": 179,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000474",
+                "name": "hashedPassword",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "hashedPassword",
+        "longname": "<anonymous>~hashedPassword",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4088,
+                4098
+            ],
+            "filename": "User.js",
+            "lineno": 182,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000484",
+                "name": "salt",
+                "type": "Identifier",
+                "value": "salt"
+            }
+        },
+        "undocumented": true,
+        "name": "salt",
+        "longname": "salt",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4112,
+                4132
+            ],
+            "filename": "User.js",
+            "lineno": 183,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000486",
+                "name": "hash",
+                "type": "Identifier",
+                "value": "hashedPassword"
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "hash",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Creates a sha512 hash\n     *\n     * @param {String} string\n     * @param {String} salt\n     *\n     * @returns {String} hash\n     */",
+        "meta": {
+            "range": [
+                4302,
+                4485
+            ],
+            "filename": "User.js",
+            "lineno": 195,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000488",
+                "name": "User.sha512",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "string",
+                    "salt"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Creates a sha512 hash",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "string"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "salt"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "hash"
+            }
+        ],
+        "name": "sha512",
+        "longname": "HashBrown.Server.Models.User.sha512",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4344,
+                4384
+            ],
+            "filename": "User.js",
+            "lineno": 196,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000495",
+                "name": "hash",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "<anonymous>~hash",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4429,
+                4455
+            ],
+            "filename": "User.js",
+            "lineno": 200,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000510",
+                "name": "value",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~value",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Creates a new user object\n     *\n     * @param {String} username\n     * @param {String} password\n     *\n     * @returns {User} user\n     */",
+        "meta": {
+            "range": [
+                4646,
+                5147
+            ],
+            "filename": "User.js",
+            "lineno": 213,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000519",
+                "name": "User.create",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "username",
+                    "password"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Creates a new user object",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "username"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "password"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "User"
+                    ]
+                },
+                "description": "user"
+            }
+        ],
+        "name": "create",
+        "longname": "HashBrown.Server.Models.User.create",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Models.User",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4694,
+                4710
+            ],
+            "filename": "User.js",
+            "lineno": 214,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000526",
+                "name": "passwordObj",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "passwordObj",
+        "longname": "<anonymous>~passwordObj",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4760,
+                4806
+            ],
+            "filename": "User.js",
+            "lineno": 217,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000533",
+                "name": "salt",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "salt",
+        "longname": "<anonymous>~salt",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4824,
+                4858
+            ],
+            "filename": "User.js",
+            "lineno": 218,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000545",
+                "name": "hash",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "<anonymous>~hash",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4873,
+                4957
+            ],
+            "filename": "User.js",
+            "lineno": 220,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000554",
+                "name": "passwordObj",
+                "type": "ObjectExpression",
+                "funcscope": "<anonymous>",
+                "value": "{\"hash\":\"\",\"salt\":\"\"}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "passwordObj",
+        "longname": "<anonymous>~passwordObj",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4905,
+                4915
+            ],
+            "filename": "User.js",
+            "lineno": 221,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000557",
+                "name": "hash",
+                "type": "Identifier",
+                "value": "hash"
+            }
+        },
+        "undocumented": true,
+        "name": "hash",
+        "longname": "<anonymous>~passwordObj.hash",
+        "kind": "member",
+        "memberof": "<anonymous>~passwordObj",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4933,
+                4943
+            ],
+            "filename": "User.js",
+            "lineno": 222,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000559",
+                "name": "salt",
+                "type": "Identifier",
+                "value": "salt"
+            }
+        },
+        "undocumented": true,
+        "name": "salt",
+        "longname": "<anonymous>~passwordObj.salt",
+        "kind": "member",
+        "memberof": "<anonymous>~passwordObj",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4989,
+                5118
+            ],
+            "filename": "User.js",
+            "lineno": 226,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000562",
+                "name": "user",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "user",
+        "longname": "<anonymous>~user",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5019,
+                5040
+            ],
+            "filename": "User.js",
+            "lineno": 227,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000567",
+                "name": "id",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "id",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5054,
+                5072
+            ],
+            "filename": "User.js",
+            "lineno": 228,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000572",
+                "name": "username",
+                "type": "Identifier",
+                "value": "username"
+            }
+        },
+        "undocumented": true,
+        "name": "username",
+        "longname": "username",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5086,
+                5107
+            ],
+            "filename": "User.js",
+            "lineno": 229,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000574",
+                "name": "password",
+                "type": "Identifier",
+                "value": "passwordObj"
+            }
+        },
+        "undocumented": true,
+        "name": "password",
+        "longname": "password",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5151,
+                5172
+            ],
+            "filename": "User.js",
+            "lineno": 236,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models",
+            "code": {
+                "id": "astnode100000579",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "User",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Models/User.js"
+        ]
+    }
+]

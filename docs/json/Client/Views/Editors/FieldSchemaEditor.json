@@ -1,0 +1,431 @@
+[
+    {
+        "comment": "/**\n * The editor for field Schemas\n *\n * @memberof HashBrown.Client.Views.Editors\n */",
+        "meta": {
+            "range": [
+                102,
+                1444
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000004",
+                "name": "FieldSchemaEditor",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "The editor for field Schemas",
+        "memberof": "HashBrown.Client.Views.Editors",
+        "name": "FieldSchemaEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldSchemaEditor",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Pre render\n     */",
+        "meta": {
+            "range": [
+                211,
+                359
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000014",
+                "name": "FieldSchemaEditor#prerender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Pre render",
+        "name": "prerender",
+        "longname": "HashBrown.Client.Views.Editors.FieldSchemaEditor#prerender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldSchemaEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                294,
+                342
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 14,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000031",
+                "name": "this.model.editorId",
+                "type": "MemberExpression",
+                "value": "this.parentSchema.editorId",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "editorId",
+        "longname": "HashBrown.Client.Views.Editors.FieldSchemaEditor#model.editorId",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldSchemaEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Renders the field config editor\n     *\n     * @returns {HTMLElement} Editor element\n     */",
+        "meta": {
+            "range": [
+                472,
+                742
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 23,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000042",
+                "name": "FieldSchemaEditor#renderFieldConfigEditor",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the field config editor",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Editor element"
+            }
+        ],
+        "name": "renderFieldConfigEditor",
+        "longname": "HashBrown.Client.Views.Editors.FieldSchemaEditor#renderFieldConfigEditor",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldSchemaEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                512,
+                578
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 24,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000047",
+                "name": "editor",
+                "type": "MemberExpression",
+                "value": "HashBrown.Views.Editors.FieldEditors[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "editor",
+        "longname": "<anonymous>~editor",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                636,
+                651
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 28,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000073",
+                "name": "class",
+                "type": "Literal",
+                "value": "config"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Renders the editor fields\n     */",
+        "meta": {
+            "range": [
+                797,
+                1442
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 36,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000089",
+                "name": "FieldSchemaEditor#renderFields",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Renders the editor fields",
+        "name": "renderFields",
+        "longname": "HashBrown.Client.Views.Editors.FieldSchemaEditor#renderFields",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Editors.FieldSchemaEditor",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                826,
+                857
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 37,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000094",
+                "name": "$element",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "$element",
+        "longname": "<anonymous>~$element",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                976,
+                994
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 40,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000120",
+                "name": "useTypeahead",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "useTypeahead",
+        "longname": "useTypeahead",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1008,
+                1034
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 41,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000122",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.model.editorId"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1048,
+                1093
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 42,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000128",
+                "name": "options",
+                "type": "MemberExpression",
+                "value": "HashBrown.Views.Editors.FieldEditors"
+            }
+        },
+        "undocumented": true,
+        "name": "options",
+        "longname": "options",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1107,
+                1123
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 43,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000136",
+                "name": "valueKey",
+                "type": "Literal",
+                "value": "name"
+            }
+        },
+        "undocumented": true,
+        "name": "valueKey",
+        "longname": "valueKey",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1137,
+                1153
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 44,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000138",
+                "name": "labelKey",
+                "type": "Literal",
+                "value": "name"
+            }
+        },
+        "undocumented": true,
+        "name": "labelKey",
+        "longname": "labelKey",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1167,
+                1287
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 45,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000140",
+                "name": "onChange",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "this.model.editorId": "HashBrown.Client.Views.Editors.FieldSchemaEditor#model.editorId"
+            }
+        },
+        "undocumented": true,
+        "name": "onChange",
+        "longname": "onChange",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1210,
+                1241
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 46,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000145",
+                "name": "this.model.editorId",
+                "type": "Identifier",
+                "value": "newEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "editorId",
+        "longname": "HashBrown.Client.Views.Editors.FieldSchemaEditor#model.editorId",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Editors.FieldSchemaEditor#model",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1446,
+                1480
+            ],
+            "filename": "FieldSchemaEditor.js",
+            "lineno": 58,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors",
+            "code": {
+                "id": "astnode100000176",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "FieldSchemaEditor",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Editors/FieldSchemaEditor.js"
+        ]
+    }
+]

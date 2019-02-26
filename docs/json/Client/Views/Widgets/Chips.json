@@ -1,0 +1,1118 @@
+[
+    {
+        "comment": "/**\n * A group of chips\n *\n * @memberof HashBrown.Client.Views.Widgets\n */",
+        "meta": {
+            "range": [
+                90,
+                5465
+            ],
+            "filename": "Chips.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000004",
+                "name": "Chips",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "A group of chips",
+        "memberof": "HashBrown.Client.Views.Widgets",
+        "name": "Chips",
+        "longname": "HashBrown.Client.Views.Widgets.Chips",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Change\n     */",
+        "meta": {
+            "range": [
+                184,
+                306
+            ],
+            "filename": "Chips.js",
+            "lineno": 12,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000014",
+                "name": "Chips#onChangeInternal",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Change",
+        "name": "onChangeInternal",
+        "longname": "HashBrown.Client.Views.Widgets.Chips#onChangeInternal",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Chips",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Pre render\n     */",
+        "meta": {
+            "range": [
+                350,
+                2262
+            ],
+            "filename": "Chips.js",
+            "lineno": 21,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000035",
+                "name": "Chips#prerender",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Pre render",
+        "name": "prerender",
+        "longname": "HashBrown.Client.Views.Widgets.Chips#prerender",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Chips",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                627,
+                642
+            ],
+            "filename": "Chips.js",
+            "lineno": 27,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000069",
+                "name": "this.value",
+                "type": "ArrayExpression",
+                "value": "[]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Widgets.Chips#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Chips",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                763,
+                786
+            ],
+            "filename": "Chips.js",
+            "lineno": 31,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000090",
+                "name": "this.disabledValue",
+                "type": "ArrayExpression",
+                "value": "[]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "disabledValue",
+        "longname": "HashBrown.Client.Views.Widgets.Chips#disabledValue",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Chips",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                857,
+                882
+            ],
+            "filename": "Chips.js",
+            "lineno": 35,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000097",
+                "name": "i",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1116,
+                1149
+            ],
+            "filename": "Chips.js",
+            "lineno": 42,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000131",
+                "name": "i",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1580,
+                1595
+            ],
+            "filename": "Chips.js",
+            "lineno": 52,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000213",
+                "name": "this.value",
+                "type": "ObjectExpression",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Widgets.Chips#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Chips",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1745,
+                1768
+            ],
+            "filename": "Chips.js",
+            "lineno": 56,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000240",
+                "name": "this.disabledValue",
+                "type": "ObjectExpression",
+                "value": "{}",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "disabledValue",
+        "longname": "HashBrown.Client.Views.Widgets.Chips#disabledValue",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Chips",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1839,
+                1840
+            ],
+            "filename": "Chips.js",
+            "lineno": 60,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000247",
+                "name": "k"
+            }
+        },
+        "undocumented": true,
+        "name": "k",
+        "longname": "<anonymous>~k",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2078,
+                2079
+            ],
+            "filename": "Chips.js",
+            "lineno": 67,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000273",
+                "name": "k"
+            }
+        },
+        "undocumented": true,
+        "name": "k",
+        "longname": "<anonymous>~k",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Template\n     */",
+        "meta": {
+            "range": [
+                2304,
+                5463
+            ],
+            "filename": "Chips.js",
+            "lineno": 78,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000303",
+                "name": "Chips#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Template",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Widgets.Chips#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Chips",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2339,
+                2368
+            ],
+            "filename": "Chips.js",
+            "lineno": 79,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000313",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--chips"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2455,
+                2483
+            ],
+            "filename": "Chips.js",
+            "lineno": 81,
+            "columnno": 30,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000332",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--chips__chip"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2515,
+                2550
+            ],
+            "filename": "Chips.js",
+            "lineno": 82,
+            "columnno": 29,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000339",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--chips__chip__input"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2552,
+                2566
+            ],
+            "filename": "Chips.js",
+            "lineno": 82,
+            "columnno": 66,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000341",
+                "name": "disabled",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "disabled",
+        "longname": "disabled",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2568,
+                2579
+            ],
+            "filename": "Chips.js",
+            "lineno": 82,
+            "columnno": 82,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000343",
+                "name": "value",
+                "type": "Identifier",
+                "value": "item"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2693,
+                2721
+            ],
+            "filename": "Chips.js",
+            "lineno": 86,
+            "columnno": 30,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000362",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--chips__chip"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2851,
+                2886
+            ],
+            "filename": "Chips.js",
+            "lineno": 88,
+            "columnno": 33,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000390",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--chips__chip__input"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2888,
+                2904
+            ],
+            "filename": "Chips.js",
+            "lineno": 88,
+            "columnno": 70,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000392",
+                "name": "title",
+                "type": "Literal",
+                "value": "The key"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2906,
+                2918
+            ],
+            "filename": "Chips.js",
+            "lineno": 88,
+            "columnno": 88,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000394",
+                "name": "type",
+                "type": "Literal",
+                "value": "text"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2920,
+                2951
+            ],
+            "filename": "Chips.js",
+            "lineno": 88,
+            "columnno": 102,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000396",
+                "name": "value",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2953,
+                2969
+            ],
+            "filename": "Chips.js",
+            "lineno": 88,
+            "columnno": 135,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000404",
+                "name": "pattern",
+                "type": "Literal",
+                "value": ".{1,}"
+            }
+        },
+        "undocumented": true,
+        "name": "pattern",
+        "longname": "pattern",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3111,
+                3160
+            ],
+            "filename": "Chips.js",
+            "lineno": 91,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000417",
+                "name": "item[undefined]",
+                "type": "LogicalExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "item[undefined]",
+        "longname": "item[undefined]",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3240,
+                3271
+            ],
+            "filename": "Chips.js",
+            "lineno": 94,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000432",
+                "name": "i",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3310,
+                3330
+            ],
+            "filename": "Chips.js",
+            "lineno": 96,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000442",
+                "name": "this.value[undefined]",
+                "type": "Identifier",
+                "value": "item",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value[undefined]",
+        "longname": "HashBrown.Client.Views.Widgets.Chips#value[undefined]",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Chips",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3531,
+                3566
+            ],
+            "filename": "Chips.js",
+            "lineno": 102,
+            "columnno": 29,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000461",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--chips__chip__input"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3568,
+                3586
+            ],
+            "filename": "Chips.js",
+            "lineno": 102,
+            "columnno": 66,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000463",
+                "name": "title",
+                "type": "Literal",
+                "value": "The label"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3588,
+                3600
+            ],
+            "filename": "Chips.js",
+            "lineno": 102,
+            "columnno": 86,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000465",
+                "name": "type",
+                "type": "Literal",
+                "value": "text"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3602,
+                3651
+            ],
+            "filename": "Chips.js",
+            "lineno": 102,
+            "columnno": 100,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000467",
+                "name": "value",
+                "type": "ConditionalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3653,
+                3669
+            ],
+            "filename": "Chips.js",
+            "lineno": 102,
+            "columnno": 151,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000478",
+                "name": "pattern",
+                "type": "Literal",
+                "value": ".{1,}"
+            }
+        },
+        "undocumented": true,
+        "name": "pattern",
+        "longname": "pattern",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3799,
+                3848
+            ],
+            "filename": "Chips.js",
+            "lineno": 105,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000491",
+                "name": "item[undefined]",
+                "type": "LogicalExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "item[undefined]",
+        "longname": "item[undefined]",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3919,
+                3962
+            ],
+            "filename": "Chips.js",
+            "lineno": 107,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000506",
+                "name": "this.value[undefined]",
+                "type": "LogicalExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value[undefined]",
+        "longname": "HashBrown.Client.Views.Widgets.Chips#value[undefined]",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Chips",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4125,
+                4174
+            ],
+            "filename": "Chips.js",
+            "lineno": 112,
+            "columnno": 30,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000531",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--chips__chip__remove fa fa-remove"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4176,
+                4196
+            ],
+            "filename": "Chips.js",
+            "lineno": 112,
+            "columnno": 81,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000533",
+                "name": "title",
+                "type": "Literal",
+                "value": "Remove item"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4472,
+                4538
+            ],
+            "filename": "Chips.js",
+            "lineno": 122,
+            "columnno": 22,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000564",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button round widget--chips__add fa fa-plus"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4540,
+                4557
+            ],
+            "filename": "Chips.js",
+            "lineno": 122,
+            "columnno": 90,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000566",
+                "name": "title",
+                "type": "Literal",
+                "value": "Add item"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4615,
+                4656
+            ],
+            "filename": "Chips.js",
+            "lineno": 124,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000572",
+                "name": "newValue",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "newValue",
+        "longname": "<anonymous>~newValue",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4682,
+                4739
+            ],
+            "filename": "Chips.js",
+            "lineno": 125,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000580",
+                "name": "newKey",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "newKey",
+        "longname": "<anonymous>~newKey",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4844,
+                4873
+            ],
+            "filename": "Chips.js",
+            "lineno": 129,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000605",
+                "name": "this.value[undefined]",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value[undefined]",
+        "longname": "HashBrown.Client.Views.Widgets.Chips#value[undefined]",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Chips",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4989,
+                5003
+            ],
+            "filename": "Chips.js",
+            "lineno": 132,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000622",
+                "name": "newObject",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "newObject",
+        "longname": "<anonymous>~newObject",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5030,
+                5063
+            ],
+            "filename": "Chips.js",
+            "lineno": 134,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000626",
+                "name": "newObject[undefined]",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "newKey",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~newObject.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~newObject",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5089,
+                5124
+            ],
+            "filename": "Chips.js",
+            "lineno": 135,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000634",
+                "name": "newObject[undefined]",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "undefined]",
+        "longname": "<anonymous>~newObject.undefined]",
+        "kind": "member",
+        "memberof": "<anonymous>~newObject",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5467,
+                5489
+            ],
+            "filename": "Chips.js",
+            "lineno": 152,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000669",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "Chips",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets/Chips.js"
+        ]
+    }
+]

@@ -1,0 +1,1440 @@
+[
+    {
+        "comment": "/**\n * A versatile input widget\n *\n * @memberof HashBrown.Client.Views.Widgets\n */",
+        "meta": {
+            "range": [
+                98,
+                5282
+            ],
+            "filename": "Input.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000004",
+                "name": "Input",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "A versatile input widget",
+        "memberof": "HashBrown.Client.Views.Widgets",
+        "name": "Input",
+        "longname": "HashBrown.Client.Views.Widgets.Input",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Change value\n     *\n     * @param {Anything} newValue\n     */",
+        "meta": {
+            "range": [
+                239,
+                401
+            ],
+            "filename": "Input.js",
+            "lineno": 14,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000014",
+                "name": "Input#onChangeInternal",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "newValue"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Change value",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Anything"
+                    ]
+                },
+                "name": "newValue"
+            }
+        ],
+        "name": "onChangeInternal",
+        "longname": "HashBrown.Client.Views.Widgets.Input#onChangeInternal",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Input",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                276,
+                297
+            ],
+            "filename": "Input.js",
+            "lineno": 15,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000020",
+                "name": "this.value",
+                "type": "Identifier",
+                "value": "newValue",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Widgets.Input#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Widgets.Input",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**\n     * Template\n     */",
+        "meta": {
+            "range": [
+                439,
+                5280
+            ],
+            "filename": "Input.js",
+            "lineno": 25,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000042",
+                "name": "Input#template",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Template",
+        "name": "template",
+        "longname": "HashBrown.Client.Views.Widgets.Input#template",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Widgets.Input",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                464,
+                726
+            ],
+            "filename": "Input.js",
+            "lineno": 26,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000047",
+                "name": "config",
+                "type": "ObjectExpression",
+                "value": "{\"placeholder\":\"\",\"title\":\"\",\"type\":\"\",\"class\":\"\",\"value\":\"\",\"name\":\"\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "config",
+        "longname": "<anonymous>~config",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                487,
+                516
+            ],
+            "filename": "Input.js",
+            "lineno": 27,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000050",
+                "name": "placeholder",
+                "type": "MemberExpression",
+                "value": "this.placeholder"
+            }
+        },
+        "undocumented": true,
+        "name": "placeholder",
+        "longname": "<anonymous>~config.placeholder",
+        "kind": "member",
+        "memberof": "<anonymous>~config",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                530,
+                549
+            ],
+            "filename": "Input.js",
+            "lineno": 28,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000054",
+                "name": "title",
+                "type": "MemberExpression",
+                "value": "this.tooltip"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "<anonymous>~config.title",
+        "kind": "member",
+        "memberof": "<anonymous>~config",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                563,
+                588
+            ],
+            "filename": "Input.js",
+            "lineno": 29,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000058",
+                "name": "type",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "<anonymous>~config.type",
+        "kind": "member",
+        "memberof": "<anonymous>~config",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                602,
+                656
+            ],
+            "filename": "Input.js",
+            "lineno": 30,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000064",
+                "name": "class",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "<anonymous>~config.class",
+        "kind": "member",
+        "memberof": "<anonymous>~config",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                670,
+                687
+            ],
+            "filename": "Input.js",
+            "lineno": 31,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000072",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.value"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "<anonymous>~config.value",
+        "kind": "member",
+        "memberof": "<anonymous>~config",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                701,
+                716
+            ],
+            "filename": "Input.js",
+            "lineno": 32,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000076",
+                "name": "name",
+                "type": "MemberExpression",
+                "value": "this.name"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "<anonymous>~config.name",
+        "kind": "member",
+        "memberof": "<anonymous>~config",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                803,
+                835
+            ],
+            "filename": "Input.js",
+            "lineno": 36,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000094",
+                "name": "config.step",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "step",
+        "longname": "<anonymous>~config.step",
+        "kind": "member",
+        "memberof": "<anonymous>~config",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                849,
+                870
+            ],
+            "filename": "Input.js",
+            "lineno": 37,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000104",
+                "name": "config.min",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "this.min",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "min",
+        "longname": "<anonymous>~config.min",
+        "kind": "member",
+        "memberof": "<anonymous>~config",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                884,
+                905
+            ],
+            "filename": "Input.js",
+            "lineno": 38,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000112",
+                "name": "config.max",
+                "type": "MemberExpression",
+                "funcscope": "<anonymous>",
+                "value": "this.max",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "max",
+        "longname": "<anonymous>~config.max",
+        "kind": "member",
+        "memberof": "<anonymous>~config",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1002,
+                1021
+            ],
+            "filename": "Input.js",
+            "lineno": 43,
+            "columnno": 30,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000131",
+                "name": "class",
+                "type": "MemberExpression",
+                "value": "config.class"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1023,
+                1042
+            ],
+            "filename": "Input.js",
+            "lineno": 43,
+            "columnno": 51,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000135",
+                "name": "title",
+                "type": "MemberExpression",
+                "value": "config.title"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1074,
+                1109
+            ],
+            "filename": "Input.js",
+            "lineno": 44,
+            "columnno": 29,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000146",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--input__range-input"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1111,
+                1124
+            ],
+            "filename": "Input.js",
+            "lineno": 44,
+            "columnno": 66,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000148",
+                "name": "type",
+                "type": "Literal",
+                "value": "range"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1126,
+                1143
+            ],
+            "filename": "Input.js",
+            "lineno": 44,
+            "columnno": 81,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000150",
+                "name": "value",
+                "type": "MemberExpression",
+                "value": "this.value"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "value",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1145,
+                1160
+            ],
+            "filename": "Input.js",
+            "lineno": 44,
+            "columnno": 100,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000154",
+                "name": "min",
+                "type": "MemberExpression",
+                "value": "config.min"
+            }
+        },
+        "undocumented": true,
+        "name": "min",
+        "longname": "min",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1162,
+                1177
+            ],
+            "filename": "Input.js",
+            "lineno": 44,
+            "columnno": 117,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000158",
+                "name": "max",
+                "type": "MemberExpression",
+                "value": "config.max"
+            }
+        },
+        "undocumented": true,
+        "name": "max",
+        "longname": "max",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1179,
+                1196
+            ],
+            "filename": "Input.js",
+            "lineno": 44,
+            "columnno": 134,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000162",
+                "name": "step",
+                "type": "MemberExpression",
+                "value": "config.step"
+            }
+        },
+        "undocumented": true,
+        "name": "step",
+        "longname": "step",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1348,
+                1416
+            ],
+            "filename": "Input.js",
+            "lineno": 48,
+            "columnno": 28,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000182",
+                "name": "e.currentTarget.nextElementSibling.innerHTML",
+                "type": "MemberExpression",
+                "value": "e.currentTarget.value",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "innerHTML",
+        "longname": "e.currentTarget.nextElementSibling.innerHTML",
+        "kind": "member",
+        "memberof": "e.currentTarget.nextElementSibling",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1473,
+                1508
+            ],
+            "filename": "Input.js",
+            "lineno": 50,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000200",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--input__range-extra"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1602,
+                1621
+            ],
+            "filename": "Input.js",
+            "lineno": 54,
+            "columnno": 30,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000213",
+                "name": "class",
+                "type": "MemberExpression",
+                "value": "config.class"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1623,
+                1642
+            ],
+            "filename": "Input.js",
+            "lineno": 54,
+            "columnno": 51,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000217",
+                "name": "title",
+                "type": "MemberExpression",
+                "value": "config.title"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1723,
+                1751
+            ],
+            "filename": "Input.js",
+            "lineno": 56,
+            "columnno": 33,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000233",
+                "name": "for",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "for",
+        "longname": "for",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1753,
+                1791
+            ],
+            "filename": "Input.js",
+            "lineno": 56,
+            "columnno": 63,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000239",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--input__checkbox-label"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1866,
+                1893
+            ],
+            "filename": "Input.js",
+            "lineno": 58,
+            "columnno": 29,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000251",
+                "name": "id",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "id",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1895,
+                1933
+            ],
+            "filename": "Input.js",
+            "lineno": 58,
+            "columnno": 58,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000257",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--input__checkbox-input"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1935,
+                1951
+            ],
+            "filename": "Input.js",
+            "lineno": 58,
+            "columnno": 98,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000259",
+                "name": "type",
+                "type": "Literal",
+                "value": "checkbox"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1953,
+                1972
+            ],
+            "filename": "Input.js",
+            "lineno": 58,
+            "columnno": 116,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000261",
+                "name": "checked",
+                "type": "MemberExpression",
+                "value": "this.value"
+            }
+        },
+        "undocumented": true,
+        "name": "checked",
+        "longname": "checked",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2153,
+                2196
+            ],
+            "filename": "Input.js",
+            "lineno": 62,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000285",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--input__checkbox-background"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2227,
+                2266
+            ],
+            "filename": "Input.js",
+            "lineno": 63,
+            "columnno": 27,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000292",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--input__checkbox-switch"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2351,
+                2433
+            ],
+            "filename": "Input.js",
+            "lineno": 67,
+            "columnno": 31,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000304",
+                "name": "class",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2435,
+                2454
+            ],
+            "filename": "Input.js",
+            "lineno": 67,
+            "columnno": 115,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000318",
+                "name": "title",
+                "type": "MemberExpression",
+                "value": "config.title"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2486,
+                2510
+            ],
+            "filename": "Input.js",
+            "lineno": 68,
+            "columnno": 29,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000327",
+                "name": "for",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "for",
+        "longname": "for",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2512,
+                2578
+            ],
+            "filename": "Input.js",
+            "lineno": 68,
+            "columnno": 55,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000333",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--input__file-browse widget widget--button expanded"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2645,
+                2668
+            ],
+            "filename": "Input.js",
+            "lineno": 69,
+            "columnno": 29,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000347",
+                "name": "id",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "longname": "id",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2670,
+                2704
+            ],
+            "filename": "Input.js",
+            "lineno": 69,
+            "columnno": 54,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000353",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget--input__file-input"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2706,
+                2718
+            ],
+            "filename": "Input.js",
+            "lineno": 69,
+            "columnno": 90,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000355",
+                "name": "type",
+                "type": "Literal",
+                "value": "file"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2720,
+                2745
+            ],
+            "filename": "Input.js",
+            "lineno": 69,
+            "columnno": 104,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000357",
+                "name": "name",
+                "type": "LogicalExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "longname": "name",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2747,
+                2773
+            ],
+            "filename": "Input.js",
+            "lineno": 69,
+            "columnno": 131,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000363",
+                "name": "multiple",
+                "type": "MemberExpression",
+                "value": "this.useMultiple"
+            }
+        },
+        "undocumented": true,
+        "name": "multiple",
+        "longname": "multiple",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2775,
+                2803
+            ],
+            "filename": "Input.js",
+            "lineno": 69,
+            "columnno": 159,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000367",
+                "name": "directory",
+                "type": "MemberExpression",
+                "value": "this.useDirectory"
+            }
+        },
+        "undocumented": true,
+        "name": "directory",
+        "longname": "directory",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2885,
+                2895
+            ],
+            "filename": "Input.js",
+            "lineno": 71,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000377",
+                "name": "names",
+                "type": "ArrayExpression",
+                "value": "[]"
+            }
+        },
+        "undocumented": true,
+        "name": "names",
+        "longname": "<anonymous>~names",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2929,
+                2958
+            ],
+            "filename": "Input.js",
+            "lineno": 72,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000381",
+                "name": "files",
+                "type": "MemberExpression",
+                "value": "e.currentTarget.files"
+            }
+        },
+        "undocumented": true,
+        "name": "files",
+        "longname": "<anonymous>~files",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2993,
+                3079
+            ],
+            "filename": "Input.js",
+            "lineno": 74,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000389",
+                "name": "btnBrowse",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "btnBrowse",
+        "longname": "<anonymous>~btnBrowse",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3113,
+                3199
+            ],
+            "filename": "Input.js",
+            "lineno": 75,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000401",
+                "name": "btnSubmit",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "btnSubmit",
+        "longname": "<anonymous>~btnSubmit",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3536,
+                3541
+            ],
+            "filename": "Input.js",
+            "lineno": 84,
+            "columnno": 40,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000448",
+                "name": "i",
+                "type": "Literal",
+                "value": 0
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3829,
+                3867
+            ],
+            "filename": "Input.js",
+            "lineno": 90,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000493",
+                "name": "btnBrowse.innerHTML",
+                "type": "CallExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "innerHTML",
+        "longname": "<anonymous>~btnBrowse.innerHTML",
+        "kind": "member",
+        "memberof": "<anonymous>~btnBrowse",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3939,
+                3992
+            ],
+            "filename": "Input.js",
+            "lineno": 93,
+            "columnno": 32,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000504",
+                "name": "btnBrowse.innerHTML",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "innerHTML",
+        "longname": "<anonymous>~btnBrowse.innerHTML",
+        "kind": "member",
+        "memberof": "<anonymous>~btnBrowse",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4148,
+                4214
+            ],
+            "filename": "Input.js",
+            "lineno": 97,
+            "columnno": 34,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000528",
+                "name": "class",
+                "type": "Literal",
+                "value": "widget widget--button widget--input__file-submit disabled"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4216,
+                4230
+            ],
+            "filename": "Input.js",
+            "lineno": 97,
+            "columnno": 102,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000530",
+                "name": "type",
+                "type": "Literal",
+                "value": "submit"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4232,
+                4252
+            ],
+            "filename": "Input.js",
+            "lineno": 97,
+            "columnno": 118,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000532",
+                "name": "title",
+                "type": "Literal",
+                "value": "Upload file"
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "title",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4291,
+                4312
+            ],
+            "filename": "Input.js",
+            "lineno": 98,
+            "columnno": 36,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000539",
+                "name": "class",
+                "type": "Literal",
+                "value": "fa fa-upload"
+            }
+        },
+        "undocumented": true,
+        "name": "class",
+        "longname": "class",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4506,
+                4573
+            ],
+            "filename": "Input.js",
+            "lineno": 105,
+            "columnno": 24,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000553",
+                "name": "input",
+                "type": "CallExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "input",
+        "longname": "<anonymous>~input",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5284,
+                5306
+            ],
+            "filename": "Input.js",
+            "lineno": 129,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets",
+            "code": {
+                "id": "astnode100000655",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "Input",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Widgets/Input.js"
+        ]
+    }
+]

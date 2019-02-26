@@ -1,0 +1,520 @@
+[
+    {
+        "comment": "/**\n * A browser modal for Media objects\n *\n * @memberof HashBrown.Client.Views.Modals\n */",
+        "meta": {
+            "range": [
+                106,
+                1914
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000004",
+                "name": "MediaBrowser",
+                "type": "ClassDeclaration",
+                "paramnames": [
+                    "params"
+                ]
+            }
+        },
+        "classdesc": "A browser modal for Media objects",
+        "memberof": "HashBrown.Client.Views.Modals",
+        "name": "MediaBrowser",
+        "longname": "HashBrown.Client.Views.Modals.MediaBrowser",
+        "kind": "class",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                168,
+                971
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 9,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000014",
+                "name": "MediaBrowser",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "params"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "MediaBrowser",
+        "longname": "HashBrown.Client.Views.Modals~MediaBrowser",
+        "kind": "class",
+        "memberof": "HashBrown.Client.Views.Modals",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                198,
+                219
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 10,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000020",
+                "name": "params",
+                "type": "LogicalExpression",
+                "funcscope": "<anonymous>",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "params",
+        "longname": "<anonymous>~params",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                230,
+                264
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 12,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000026",
+                "name": "params.className",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "media-browser",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "className",
+        "longname": "<anonymous>~params.className",
+        "kind": "member",
+        "memberof": "<anonymous>~params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                274,
+                301
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 13,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000032",
+                "name": "params.title",
+                "type": "Literal",
+                "funcscope": "<anonymous>",
+                "value": "Pick media",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "title",
+        "longname": "<anonymous>~params.title",
+        "kind": "member",
+        "memberof": "<anonymous>~params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                313,
+                487
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 15,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000038",
+                "name": "params.actions",
+                "type": "ArrayExpression",
+                "funcscope": "<anonymous>",
+                "value": "[\"{\\\"label\\\":\\\"OK\\\",\\\"onClick\\\":\\\"\\\"}\"]",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "actions",
+        "longname": "<anonymous>~params.actions",
+        "kind": "member",
+        "memberof": "<anonymous>~params",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                362,
+                373
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 17,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000044",
+                "name": "label",
+                "type": "Literal",
+                "value": "OK"
+            }
+        },
+        "undocumented": true,
+        "name": "label",
+        "longname": "label",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                391,
+                463
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 18,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000046",
+                "name": "onClick",
+                "type": "ArrowFunctionExpression"
+            }
+        },
+        "undocumented": true,
+        "name": "onClick",
+        "longname": "onClick",
+        "kind": "function",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                590,
+                630
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 27,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000059",
+                "name": "iframe",
+                "type": "MemberExpression",
+                "value": "[0]"
+            }
+        },
+        "undocumented": true,
+        "name": "iframe",
+        "longname": "<anonymous>~iframe",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                653,
+                964
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 29,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000071",
+                "name": "iframe.onload",
+                "type": "ArrowFunctionExpression",
+                "funcscope": "<anonymous>",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "onload",
+        "longname": "<anonymous>~iframe.onload",
+        "kind": "function",
+        "memberof": "<anonymous>~iframe",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Event: Pick Media\n     *\n     * @param {string} id\n     */",
+        "meta": {
+            "range": [
+                1051,
+                1099
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 44,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000116",
+                "name": "MediaBrowser#onPickMedia",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Pick Media",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "name": "onPickMedia",
+        "longname": "HashBrown.Client.Views.Modals.MediaBrowser#onPickMedia",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.MediaBrowser",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1077,
+                1092
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 45,
+            "columnno": 8,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000122",
+                "name": "this.value",
+                "type": "Identifier",
+                "value": "id",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "longname": "HashBrown.Client.Views.Modals.MediaBrowser#value",
+        "kind": "member",
+        "memberof": "HashBrown.Client.Views.Modals.MediaBrowser",
+        "scope": "instance"
+    },
+    {
+        "comment": "/** \n     * Event: Click OK\n     */",
+        "meta": {
+            "range": [
+                1145,
+                1270
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 51,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000127",
+                "name": "MediaBrowser#onClickOK",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click OK",
+        "name": "onClickOK",
+        "longname": "HashBrown.Client.Views.Modals.MediaBrowser#onClickOK",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.MediaBrowser",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/** \n     * Event: Click cancel\n     */",
+        "meta": {
+            "range": [
+                1324,
+                1369
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 62,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000150",
+                "name": "MediaBrowser#onClickCancel",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Click cancel",
+        "name": "onClickCancel",
+        "longname": "HashBrown.Client.Views.Modals.MediaBrowser#onClickCancel",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.MediaBrowser",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Event: Change resource\n     */",
+        "meta": {
+            "range": [
+                1421,
+                1605
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 69,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000159",
+                "name": "MediaBrowser#onChangeResource",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Event: Change resource",
+        "name": "onChangeResource",
+        "longname": "HashBrown.Client.Views.Modals.MediaBrowser#onChangeResource",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.MediaBrowser",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Render body\n     *\n     * @returns {HTMLElement} Body\n     */",
+        "meta": {
+            "range": [
+                1688,
+                1912
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 81,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000189",
+                "name": "MediaBrowser#renderBody",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Render body",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "HTMLElement"
+                    ]
+                },
+                "description": "Body"
+            }
+        ],
+        "name": "renderBody",
+        "longname": "HashBrown.Client.Views.Modals.MediaBrowser#renderBody",
+        "kind": "function",
+        "memberof": "HashBrown.Client.Views.Modals.MediaBrowser",
+        "scope": "instance",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1728,
+                1903
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 82,
+            "columnno": 25,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000199",
+                "name": "src",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "src",
+        "longname": "src",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                1916,
+                1945
+            ],
+            "filename": "MediaBrowser.js",
+            "lineno": 86,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals",
+            "code": {
+                "id": "astnode100000234",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "MediaBrowser",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Client/Views/Modals/MediaBrowser.js"
+        ]
+    }
+]

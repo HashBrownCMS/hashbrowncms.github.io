@@ -1,0 +1,1151 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                21,
+                47
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 3,
+            "columnno": 6,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000005",
+                "name": "WATCH_INTERVAL",
+                "type": "BinaryExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "WATCH_INTERVAL",
+        "longname": "WATCH_INTERVAL",
+        "kind": "constant",
+        "scope": "global",
+        "params": []
+    },
+    {
+        "comment": "/**\n * A helper class for scheduling tasks\n *\n * @memberof HashBrown.Server.Helpers\n */",
+        "meta": {
+            "range": [
+                152,
+                6741
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 10,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000010",
+                "name": "ScheduleHelper",
+                "type": "ClassDeclaration",
+                "paramnames": []
+            }
+        },
+        "classdesc": "A helper class for scheduling tasks",
+        "memberof": "HashBrown.Server.Helpers",
+        "name": "ScheduleHelper",
+        "longname": "HashBrown.Server.Helpers.ScheduleHelper",
+        "kind": "class",
+        "scope": "static"
+    },
+    {
+        "comment": "/**\n     * Starts wathing for tasks\n     */",
+        "meta": {
+            "range": [
+                227,
+                465
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 14,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000013",
+                "name": "ScheduleHelper.startWatching",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Starts wathing for tasks",
+        "name": "startWatching",
+        "longname": "HashBrown.Server.Helpers.ScheduleHelper.startWatching",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ScheduleHelper",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Checks for potential tasks to do\n     *\n     * @returns {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                576,
+                1842
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 30,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000039",
+                "name": "ScheduleHelper.checkTasks",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Checks for potential tasks to do",
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "checkTasks",
+        "longname": "HashBrown.Server.Helpers.ScheduleHelper.checkTasks",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ScheduleHelper",
+        "scope": "static",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                732,
+                1790
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 35,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000063",
+                "name": "nextTask",
+                "type": "ArrowFunctionExpression"
+            },
+            "vars": {
+                "task": "<anonymous>~nextTask~task",
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "nextTask",
+        "longname": "<anonymous>~nextTask",
+        "kind": "function",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                772,
+                787
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 36,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000069",
+                "name": "task",
+                "type": "MemberExpression",
+                "value": "tasks[undefined]"
+            }
+        },
+        "undocumented": true,
+        "name": "task",
+        "longname": "<anonymous>~nextTask~task",
+        "kind": "member",
+        "memberof": "<anonymous>~nextTask",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "/**\n     * Runs a task\n     *\n     * @param {Task} task\n     *\n     * @return {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                1956,
+                3225
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 75,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000170",
+                "name": "ScheduleHelper.runTask",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "task"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Runs a task",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Task"
+                    ]
+                },
+                "name": "task"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "runTask",
+        "longname": "HashBrown.Server.Helpers.ScheduleHelper.runTask",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ScheduleHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2139,
+                2143
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 80,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000205",
+                "name": "user"
+            }
+        },
+        "undocumented": true,
+        "name": "user",
+        "longname": "<anonymous>~user",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2255,
+                2270
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 84,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000228",
+                "name": "user",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "taskUser",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "user",
+        "longname": "<anonymous>~user",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner"
+    },
+    {
+        "comment": "/**\n     * Gets a list of scheduled tasks by query\n     *\n     * @param {String} type\n     * @param {String} contentId\n     * @param {Date} date\n     *\n     * @returns {Promise} An array of tasks\n     */",
+        "meta": {
+            "range": [
+                3439,
+                4027
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 118,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000346",
+                "name": "ScheduleHelper.getTasks",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "type",
+                    "contentId",
+                    "date"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Gets a list of scheduled tasks by query",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "type"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "contentId"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Date"
+                    ]
+                },
+                "name": "date"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "An array of tasks"
+            }
+        ],
+        "name": "getTasks",
+        "longname": "HashBrown.Server.Helpers.ScheduleHelper.getTasks",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ScheduleHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3492,
+                3502
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 119,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000354",
+                "name": "query",
+                "type": "ObjectExpression",
+                "value": "{}"
+            }
+        },
+        "undocumented": true,
+        "name": "query",
+        "longname": "<anonymous>~query",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3536,
+                3553
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 122,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000361",
+                "name": "query.type",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "type",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "<anonymous>~query.type",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3602,
+                3627
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 126,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000370",
+                "name": "query.content",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "contentId",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "content",
+        "longname": "<anonymous>~query.content",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3679,
+                3696
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 130,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000379",
+                "name": "query.date",
+                "type": "Identifier",
+                "funcscope": "<anonymous>",
+                "value": "date",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "date",
+        "longname": "<anonymous>~query.date",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3874,
+                3875
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 138,
+            "columnno": 20,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000404",
+                "name": "i"
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "longname": "<anonymous>~i",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                3904,
+                3950
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 139,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000409",
+                "name": "tasks[undefined]",
+                "type": "NewExpression",
+                "value": "",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "tasks[undefined]",
+        "longname": "tasks[undefined]",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Updates a task\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} type\n     * @param {String} contentId\n     * @param {Date} date\n     * @param {User} user\n     *\n     * @returns {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                4298,
+                5620
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 158,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000428",
+                "name": "ScheduleHelper.updateTask",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "type",
+                    "contentId",
+                    "date",
+                    "user"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Updates a task",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "type"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "contentId"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Date"
+                    ]
+                },
+                "name": "date"
+            },
+            {
+                "type": {
+                    "names": [
+                        "User"
+                    ]
+                },
+                "name": "user"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "updateTask",
+        "longname": "HashBrown.Server.Helpers.ScheduleHelper.updateTask",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ScheduleHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4913,
+                5132
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 171,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000513",
+                "name": "task",
+                "type": "NewExpression",
+                "value": ""
+            }
+        },
+        "undocumented": true,
+        "name": "task",
+        "longname": "<anonymous>~task",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4960,
+                4970
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 172,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000522",
+                "name": "type",
+                "type": "Identifier",
+                "value": "type"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "type",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                4984,
+                5002
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 173,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000524",
+                "name": "content",
+                "type": "Identifier",
+                "value": "contentId"
+            }
+        },
+        "undocumented": true,
+        "name": "content",
+        "longname": "content",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5016,
+                5026
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 174,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000526",
+                "name": "date",
+                "type": "Identifier",
+                "value": "date"
+            }
+        },
+        "undocumented": true,
+        "name": "date",
+        "longname": "date",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5040,
+                5056
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 175,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000528",
+                "name": "project",
+                "type": "Identifier",
+                "value": "project"
+            }
+        },
+        "undocumented": true,
+        "name": "project",
+        "longname": "project",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5070,
+                5094
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 176,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000530",
+                "name": "environment",
+                "type": "Identifier",
+                "value": "environment"
+            }
+        },
+        "undocumented": true,
+        "name": "environment",
+        "longname": "environment",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5108,
+                5121
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 177,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000532",
+                "name": "user",
+                "type": "MemberExpression",
+                "value": "user.id"
+            }
+        },
+        "undocumented": true,
+        "name": "user",
+        "longname": "user",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5147,
+                5289
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 180,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000537",
+                "name": "query",
+                "type": "ObjectExpression",
+                "value": "{\"type\":\"\",\"content\":\"\",\"project\":\"\",\"environment\":\"\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "query",
+        "longname": "<anonymous>~query",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5169,
+                5179
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 181,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000540",
+                "name": "type",
+                "type": "Identifier",
+                "value": "type"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "<anonymous>~query.type",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5193,
+                5211
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 182,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000542",
+                "name": "content",
+                "type": "Identifier",
+                "value": "contentId"
+            }
+        },
+        "undocumented": true,
+        "name": "content",
+        "longname": "<anonymous>~query.content",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5225,
+                5241
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 183,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000544",
+                "name": "project",
+                "type": "Identifier",
+                "value": "project"
+            }
+        },
+        "undocumented": true,
+        "name": "project",
+        "longname": "<anonymous>~query.project",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5255,
+                5279
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 184,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000546",
+                "name": "environment",
+                "type": "Identifier",
+                "value": "environment"
+            }
+        },
+        "undocumented": true,
+        "name": "environment",
+        "longname": "<anonymous>~query.environment",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                5577,
+                5589
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 195,
+            "columnno": 16,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000585",
+                "name": "upsert",
+                "type": "Literal",
+                "value": true
+            }
+        },
+        "undocumented": true,
+        "name": "upsert",
+        "longname": "upsert",
+        "kind": "member",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * Removes a task\n     *\n     * @param {String} project\n     * @param {String} environment\n     * @param {String} type\n     * @param {String} contentId\n     *\n     * @returns {Promise} Promise\n     */",
+        "meta": {
+            "range": [
+                5839,
+                6739
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 210,
+            "columnno": 4,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000587",
+                "name": "ScheduleHelper.removeTask",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "project",
+                    "environment",
+                    "type",
+                    "contentId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Removes a task",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "project"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "environment"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "type"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "contentId"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                },
+                "description": "Promise"
+            }
+        ],
+        "name": "removeTask",
+        "longname": "HashBrown.Server.Helpers.ScheduleHelper.removeTask",
+        "kind": "function",
+        "memberof": "HashBrown.Server.Helpers.ScheduleHelper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6109,
+                6251
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 216,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000620",
+                "name": "query",
+                "type": "ObjectExpression",
+                "value": "{\"type\":\"\",\"content\":\"\",\"project\":\"\",\"environment\":\"\"}"
+            }
+        },
+        "undocumented": true,
+        "name": "query",
+        "longname": "<anonymous>~query",
+        "kind": "member",
+        "memberof": "<anonymous>",
+        "scope": "inner",
+        "params": []
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6131,
+                6141
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 217,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000623",
+                "name": "type",
+                "type": "Identifier",
+                "value": "type"
+            }
+        },
+        "undocumented": true,
+        "name": "type",
+        "longname": "<anonymous>~query.type",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6155,
+                6173
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 218,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000625",
+                "name": "content",
+                "type": "Identifier",
+                "value": "contentId"
+            }
+        },
+        "undocumented": true,
+        "name": "content",
+        "longname": "<anonymous>~query.content",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6187,
+                6203
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 219,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000627",
+                "name": "project",
+                "type": "Identifier",
+                "value": "project"
+            }
+        },
+        "undocumented": true,
+        "name": "project",
+        "longname": "<anonymous>~query.project",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6217,
+                6241
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 220,
+            "columnno": 12,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000629",
+                "name": "environment",
+                "type": "Identifier",
+                "value": "environment"
+            }
+        },
+        "undocumented": true,
+        "name": "environment",
+        "longname": "<anonymous>~query.environment",
+        "kind": "member",
+        "memberof": "<anonymous>~query",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                6743,
+                6774
+            ],
+            "filename": "ScheduleHelper.js",
+            "lineno": 242,
+            "columnno": 0,
+            "path": "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers",
+            "code": {
+                "id": "astnode100000687",
+                "name": "module.exports",
+                "type": "Identifier",
+                "value": "ScheduleHelper",
+                "paramnames": []
+            }
+        },
+        "undocumented": true,
+        "name": "exports",
+        "longname": "module.exports",
+        "kind": "member",
+        "memberof": "module",
+        "scope": "static"
+    },
+    {
+        "kind": "package",
+        "longname": "package:undefined",
+        "files": [
+            "/home/mrzapp/Development/Web/hashbrown-cms/src/Server/Helpers/ScheduleHelper.js"
+        ]
+    }
+]
