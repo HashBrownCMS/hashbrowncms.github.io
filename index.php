@@ -53,17 +53,24 @@ function path_join() {
     return $path;
 }
 
-if(get_path(0) === 'docs') {
-    include __DIR__ . '/views/docs.php';
+switch(get_path(0)) {
+    case 'docs':
+        include __DIR__ . '/views/docs.php';
+        break;
 
-} else {    
-    echo 'PAGES';
+    case 'src':
+        include __DIR__ . '/views/src.php';
+        break;
 
-    require_once(__DIR__ . '/lib/hashbrown-driver/index.php');
+    default:
+        echo 'PAGES';
 
-    HashBrown\init(__DIR__);
+        require_once(__DIR__ . '/lib/hashbrown-driver/index.php');
 
-    HashBrown\render_current_page();
+        HashBrown\init(__DIR__);
+
+        HashBrown\render_current_page();
+        break;
 }
 
 ?>

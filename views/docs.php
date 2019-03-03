@@ -58,7 +58,7 @@
 
                 <?php foreach($entries as $entry) { ?>
                     <?php
-                        if(isset($entry->undocumented) || $entry->kind !== 'function') { continue; }
+                        if(isset($entry->undocumented) || !isset($entry->name) || $entry->name === 'structure' || $entry->kind !== 'function') { continue; }
 
                         if(isset($entry->returns) && $entry->returns[0]->type->names[0] === 'Promise') {
                             $entry->async = true;

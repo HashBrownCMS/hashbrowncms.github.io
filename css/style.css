@@ -3,6 +3,35 @@ html {
   font-family: sans-serif;
 }
 
+.code {
+  font-family: monospace;
+}
+.code--source {
+  overflow: auto;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+}
+.code--type {
+  color: blue;
+}
+.code--uri {
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: lightgrey;
+  color: dimgrey;
+}
+
+.tag {
+  font-size: 0.8rem;
+  font-weight: normal;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: blue;
+  color: white;
+}
+
 .container {
   width: calc(100% - 2rem);
   max-width: 60rem;
@@ -27,35 +56,6 @@ html {
   margin: 0;
   border-radius: 0.5rem;
   padding: 0.25rem 0.5rem;
-}
-
-.function {
-  margin-top: 3rem;
-}
-.function__meta {
-  padding: 0;
-}
-.function__meta__name {
-  list-style-type: none;
-  display: inline-block;
-  background-color: blue;
-  color: white;
-  border-radius: 0.5rem;
-  padding: 0.25rem 0.5rem;
-}
-.function__param__type {
-  margin-right: 0.5rem;
-  font-family: monospace;
-}
-.function__param__description {
-  margin-left: 0.5rem;
-}
-.function__example__code {
-  font-family: monospace;
-}
-.function__returns {
-  margin-right: 0.5rem;
-  font-family: monospace;
 }
 
 /*# sourceMappingURL=style.css.map */

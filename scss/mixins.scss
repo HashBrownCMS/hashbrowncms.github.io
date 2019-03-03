@@ -24,4 +24,14 @@
         background-color: $color-secondary-bg;
         color: $color-secondary-txt;
     }
+    
+    @if($type == 'standard') {
+        background-color: $color-standard-bg;
+        color: $color-standard-txt;
+    }
+    
+    @if($type == 'standard-dark') {
+        background-color: $color-standard-dark-bg;
+        color: $color-standard-dark-txt;
+    }
 }

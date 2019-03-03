@@ -2,3 +2,31 @@ html {
     font-size: 16px;
     font-family: sans-serif;
 }
+
+.code {
+    font-family: monospace;
+    
+    &--source {
+        overflow: auto;
+    
+        @include box(false, 'large');
+        @include colors('secondary');
+    }
+
+    &--type {
+        color: $color-secondary-bg;
+    }
+
+    &--uri {
+        @include box(false, 'small');
+        @include colors('standard-dark');
+    }
+}
+
+.tag {
+    font-size: 0.8rem;
+    font-weight: normal;
+
+    @include box(false, 'small');
+    @include colors('secondary');
+}
