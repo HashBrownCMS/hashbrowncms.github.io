@@ -1,0 +1,9 @@
+.header {
+    margin-bottom: 6rem;
+
+    @include colors('secondary');
+
+    &__container {
+        padding: 4rem 0;
+    }
+}

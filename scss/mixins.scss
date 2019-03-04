@@ -25,6 +25,11 @@
         color: $color-secondary-txt;
     }
     
+    @if($type == 'secondary-dark') {
+        background-color: $color-secondary-dark-bg;
+        color: $color-secondary-dark-txt;
+    }
+    
     @if($type == 'standard') {
         background-color: $color-standard-bg;
         color: $color-standard-txt;

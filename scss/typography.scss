@@ -1,23 +1,84 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: normal;
+    src: url('/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: bold;
+    src: url('/fonts/Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 100;
+    src: url('/fonts/Roboto/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 300;
+    src: url('/fonts/Roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    font-weight: normal;
+    src: url('/fonts/Roboto_Mono/RobotoMono-Regular.ttf');
+}
+
 html {
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    @include colors('standard');
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-top: 3em;
+}
+
+a {
+    text-decoration: none;
+
+    &[href] {
+        color: $color-primary-bg;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 .code {
-    font-family: monospace;
-    
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    font-weight: normal;
+
     &--source {
         overflow: auto;
-    
+        display: block;
+
         @include box(false, 'large');
         @include colors('secondary');
     }
 
     &--type {
-        color: $color-secondary-bg;
+        display: inline;
+        
+        @include box(false, 'small');
+        @include colors('standard-dark');
     }
 
     &--uri {
+        display: inline;
+        
         @include box(false, 'small');
         @include colors('standard-dark');
     }

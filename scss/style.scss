@@ -1,6 +1,12 @@
+@import './sanitize';
 @import './variables';
 @import './mixins';
 
 @import './typography';
 @import './utilities';
 @import './widgets';
+
+@import './section';
+@import './header';
+@import './footer';
+@import './menu';

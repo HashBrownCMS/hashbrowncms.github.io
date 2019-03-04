@@ -1,11 +1,17 @@
-$color-standard-bg: white;
-$color-standard-txt: black;
+$color-standard-bg: #eeeeee;
+$color-standard-txt: #333333;
 
-$color-standard-dark-bg: lightgrey;
-$color-standard-dark-txt: dimgrey;
+$color-standard-dark-bg: darken($color-standard-bg, 10%);
+$color-standard-dark-txt: $color-standard-txt;
 
-$color-primary-bg: red;
+$color-primary-bg: #e70d3b;
 $color-primary-txt: white;
 
-$color-secondary-bg: blue;
+$color-primary-dark-bg: darken($color-primary-bg, 10%);
+$color-primary-dark-txt: $color-primary-txt;
+
+$color-secondary-bg: #21303b;
 $color-secondary-txt: white;
+
+$color-secondary-dark-bg: darken($color-secondary-bg, 10%);
+$color-secondary-dark-txt: $color-secondary-txt;

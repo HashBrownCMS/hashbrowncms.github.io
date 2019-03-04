@@ -1,0 +1,8 @@
+.footer {
+    padding: 4rem 0;
+    text-align: center;
+    line-height: 2;
+    margin-top: 6rem;
+
+    @include colors('secondary');
+}
