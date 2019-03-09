@@ -5,7 +5,7 @@ services:
         image: php:apache
         container_name: "hashbrown-rocks"
         ports:
-            - "1004:80"
+            - "1001:80"
         restart: unless-stopped
         volumes:
             - "./:/var/www/html/"
