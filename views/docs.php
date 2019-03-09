@@ -3,15 +3,7 @@
     <?php include __DIR__ . '/inc/head.php'; ?>
 
     <body>
-        <nav class="menu">
-            <div class="container">
-                <a class="menu__item" href="/getting-started">Getting started</a>
-                <a class="menu__item" href="/guides">Guides</a>
-                <a class="menu__item" href="/"><img class="menu__logo" src="/img/logo_pink.svg"></a>
-                <a class="menu__item" href="/docs">Source docs</a>
-                <a class="menu__item" href="/docs/Server/Controllers">API docs</a>
-            </div>
-        </nav>
+        <?php include __DIR__ . '/inc/menu.php'; ?>
 
         <header class="header">
             <div class="container header__container">
@@ -192,11 +184,6 @@
             <?php } ?>
         </main>
 
-        <footer class="footer">
-            <div class="container">
-                HashBrown CMS is licensed under the MIT license<br>
-                Copyright <a href="//putaitu.com">Putaitu</a>
-            </div>
-        </footer>
+        <?php include __DIR__ . '/inc/footer.php'; ?>
     </body>
 </html>
