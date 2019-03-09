@@ -9,6 +9,27 @@
         }
     }
 
+    &--separator {
+        border: 0;
+        background: none;
+        margin: 2rem 0;
+    }
+
+    &--button {
+        background-color: $color-primary-bg;
+        color: $color-primary-txt !important;
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;
+
+        @include box();
+
+        &:hover {
+            background-color: $color-primary-dark-bg;
+            text-decoration: none !important;
+        }
+    }
+
     &--breadcrumbs {
         padding: 1rem 0;
 
@@ -27,5 +48,17 @@
         list-style-type: none;
         padding: 0;
         line-height: 2;
+    }
+
+    &--links {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: center; 
+
+        &__item {
+            padding: 0 1rem;
+        }
     }
 }

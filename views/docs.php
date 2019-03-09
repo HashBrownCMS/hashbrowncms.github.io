@@ -46,7 +46,7 @@
                 </nav>
             <?php } ?>
 
-            <?php if(get_path(2) === 'Controllers') { ?>
+            <?php if(get_path(2) === 'API') { ?>
                 <div class="widget widget--notice">
                     <div class="container">
                         <p class="widget--notice__heading">To authorise an API request, you must get an API token, like this:</p>

@@ -38,6 +38,10 @@ html {
 h1 {
     font-weight: 100;
     font-size: 4rem;
+
+    @media($mobile-down) {
+        font-size: 2.5rem;
+    }
 }
 
 h2, h3, h4, h5, h6 {
@@ -54,6 +58,10 @@ a {
             text-decoration: underline;
         }
     }
+}
+
+p {
+    margin-bottom: 1em;
 }
 
 .code {
@@ -77,8 +85,10 @@ a {
     }
 
     &--uri {
-        display: inline;
-        
+        display: inline-block;
+        overflow: auto;
+        max-width: 100%;
+
         @include box(false, 'small');
         @include colors('standard-dark');
     }

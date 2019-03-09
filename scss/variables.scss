@@ -1,3 +1,4 @@
+// Colours
 $color-standard-bg: #eeeeee;
 $color-standard-txt: #333333;
 
@@ -15,3 +16,16 @@ $color-secondary-txt: white;
 
 $color-secondary-dark-bg: darken($color-secondary-bg, 10%);
 $color-secondary-dark-txt: $color-secondary-txt;
+
+// Breakpoints
+$desktop-up: "min-width: 1600px";
+$desktop-down: "max-width: 1599px";
+
+$laptop-up: "min-width: 1200px";
+$laptop-down: "max-width: 1199px";
+
+$tablet-up: "min-width: 992px";
+$tablet-down: "max-width: 991px";
+
+$mobile-up: "min-width: 768px";
+$mobile-down: "max-width: 767px";
