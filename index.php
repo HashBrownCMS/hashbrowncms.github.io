@@ -7,6 +7,8 @@ error_reporting(E_ALL);
 define('URI', $_SERVER['REQUEST_URI']);
 define('PATH', array_values(array_filter(explode('/', URI), function($value) { return $value !== ''; })));
 define('ROOT_DIR', __DIR__);
+define('SRC_CLASS_ROOT_URL', 'https://raw.githubusercontent.com/HashBrownCMS/hashbrown-cms/stable');
+define('SRC_DIR_ROOT_URL', 'https://github.com/HashBrownCMS/hashbrown-cms/tree/stable');
 
 function get_output_cache() {
     if(!file_exists(ROOT_DIR . '/cache')) { return null; }
@@ -78,27 +80,127 @@ function path_join() {
     return $path;
 }
 
-function check_doc_link($link) {
-    return
-        $link !== 'index.js' &&
-        $link !== 'server.js' &&
-        $link !== 'client.js' &&
-        $link !== 'common.js' &&
-        $link !== 'demo.js' &&
-        $link !== 'dashboard.js' &&
-        $link !== 'utilities.js' &&
-        $link !== 'helpers.js' &&
+function parse_type($string) {
+    if(strpos($string, 'HashBrown.') === false) { return $string; }
 
-        $link !== 'ApiController.js' &&
-        $link !== 'Controller.js' &&
+    $parts = explode('.', $string);
 
-        $link !== 'Schemas' &&
-        $link !== 'Routes' &&
-        $link !== 'Style' &&
+    return $parts[sizeof($parts) - 1];
+}
 
-        !strpos($link, ' ') &&
-        
-        $link !== 'icons.json';
+function parse_dir($url) {
+    $dir_contents = @file_get_contents($url);
+
+    if(!$dir_contents) { not_found(); }
+
+    $page_links = [];
+    preg_match_all('/<a.+class="js-navigation-open" title="([^"]+)"/', $dir_contents, $page_links);
+
+    if(sizeof($page_links) > 0) {
+        $page_links = array_filter($page_links[1], function($link) {
+            return
+                $link !== 'index.js' &&
+                $link !== 'server.js' &&
+                $link !== 'client.js' &&
+                $link !== 'environment.js' &&
+                $link !== 'common.js' &&
+                $link !== 'demo.js' &&
+                $link !== 'dashboard.js' &&
+                $link !== 'utilities.js' &&
+                $link !== 'helpers.js' &&
+
+                $link !== 'ApiController.js' &&
+                $link !== 'ViewController.js' &&
+                $link !== 'Controller.js' &&
+
+                $link !== 'Schemas' &&
+                $link !== 'Routes' &&
+                $link !== 'Style' &&
+                $link !== 'Controllers' &&
+                $link !== 'Views' &&
+
+                !strpos($link, ' ') &&
+                
+                $link !== 'icons.json';
+        });
+    }
+
+    return ['links' => $page_links];
+}
+
+function parse_source_file($url) {
+    $output = [];
+    
+    $file_contents = @file_get_contents($url);
+
+    if(!$file_contents) { http_response_code(404); die('Not found'); }
+
+    $output['name'] = PATH[sizeof(PATH) - 1];
+
+    $output['source'] = $file_contents;
+    
+    // Description
+    $class_description = [];
+    preg_match("/\* ([^@][^\n]+)/", $file_contents, $class_description);
+    $output['description'] = isset($class_description[1]) ? $class_description[1] : '';
+
+    // Remove the class meta docs to prevent confusion
+    $file_contents = preg_replace("/\/\*\*[^\/]+\//", '', $file_contents, 1);
+
+    // Member variables
+    $output['member_vars'] = [];
+    preg_match_all("/this\.def\(([^,]+), '([^']+)'/", $file_contents, $output['member_vars'], PREG_SET_ORDER);
+
+    // Methods
+    $output['methods'] = [];
+    preg_match_all("/\/\*\*\n +[^\(]+\([^'\)]*\) {/", $file_contents, $output['methods']);
+    if(sizeof($output['methods']) > 0) {
+        $output['methods'] = $output['methods'][0];
+    }
+    if(sizeof($output['methods']) > 0) {
+        foreach($output['methods'] as $i => $method_string) {
+            $method = [];
+            
+            $method['name'] = [];
+            preg_match("/([a-zA-Z]+)\(/", $method_string, $method['name']);
+            $method['name'] = isset($method['name'][1]) ? $method['name'][1] : '';
+
+            if(!$method['name'] || $method['name'] === 'structure') {
+                unset($output['methods'][$i]);    
+                continue;
+            }
+
+            $method['description'] = [];
+            preg_match("/\* ([^@][^\n]+)/", $method_string, $method['description']);
+            $method['description'] = isset($method['description'][1]) ? $method['description'][1] : '';
+
+            $method['is_static'] = preg_match("/static/", $method_string);
+            $method['is_async'] = preg_match("/async/", $method_string);
+            
+            $method['example'] = [];
+            preg_match("/@example ([^\n]+)/", $method_string, $method['example']);
+            $method['example'] = isset($method['example'][1]) ? $method['example'][1] : '';
+
+            $method['params'] = [];
+            preg_match_all("/@param.+{([^}]+)} ([^\n]+)/", $method_string, $method['params'], PREG_SET_ORDER);
+            
+            $method['returns'] = [];
+            preg_match("/@return.+{([^}]+)} ([^\n]+)/", $method_string, $method['returns']);
+
+            if(isset($method['returns'][1]) && $method['returns'][1] === 'Promise') {
+                $method['is_async'] = true;
+            }
+
+            $output['methods'][$i] = $method;
+        }
+    }
+
+    return $output;
+}
+
+function not_found() {
+    http_response_code(404);
+    die('Not found');
 }
 
 function render_page() {
@@ -109,64 +211,71 @@ function render_page() {
         
         switch(get_path(0)) {
             case 'docs':
-                $page_is_class = substr(URI, -3) === '.js';
-                $page_is_view = substr(URI, -4) === '.pug';
-                $page_is_api = strpos(URI, '/API') !== false;
-                $page_is_dir = !$page_is_class && !$page_is_view;
-                
-                $page_title = PATH[sizeof(PATH) - 1];
-                $page_description = '';
+                switch(get_path(1)) {
+                    case 'src':
+                        $page = [];
 
-                if($page_is_class) {
-                    $file_url = 'https://' . path_join('raw.githubusercontent.com/HashBrownCMS/hashbrown-cms/stable', str_replace('docs/', 'src/', URI)); 
+                        if(substr(URI, -1) === '/') {
+                            $page_is_dir = true;
 
-                    if($page_is_api) {
-                        $file_url = str_replace('/API', '/Controllers', $file_url);
-                    }
+                            $file_url = SRC_DIR_ROOT_URL . str_replace('/docs/src', '/src', URI);
+                            $page = parse_dir($file_url);
 
-                    $file_contents = file_get_contents($file_url);
+                            $page_title = PATH[sizeof(PATH) - 1];
 
-                    $class_name = $page_title;
+                            if($page_title === 'src') {
+                                $page_title = 'Source docs';
+                            }
 
-                    $class_description = [];
-                    preg_match("/\* ([^@][^\n]+)/", $file_contents, $class_description);
-                    $class_description = isset($class_description[1]) ? $class_description[1] : ''; 
-                    $page_description = $class_description;
+                            define('PAGE_TITLE', $page_title);
+                            define('PAGE_DESCRIPTION', '');
 
-                    // Remove the class meta docs to prevent confusion
-                    $file_contents = preg_replace("/\/\*\*[^\/]+\//", '', $file_contents, 1);
+                        } else {
+                            $page_is_dir = false;
 
-                    $class_member_vars = [];
-                    preg_match_all("/this\.def\(([^,]+), '([^']+)'/", $file_contents, $class_member_vars, PREG_SET_ORDER);
+                            $file_url = SRC_CLASS_ROOT_URL . str_replace('/docs/src', '/src', URI) . '.js';
+                            $page = parse_source_file($file_url);
+                            
+                            define('PAGE_TITLE', $page['name']);
+                            define('PAGE_DESCRIPTION', $page['description']);
+                        }
+                        
+                        include __DIR__ . '/views/docs/src.php';
+                        break;
 
-                    $class_methods = [];
-                    preg_match_all("/\/\*\*\n +[^\(]+\([^'\)]*\) {/", $file_contents, $class_methods);
-                    
-                    include __DIR__ . '/views/docs.php';
+                    case 'api':
+                        $page = [];
 
-                } else if($page_is_view) {
-                    $file_url = 'https://' . path_join('raw.githubusercontent.com/HashBrownCMS/hashbrown-cms/stable', str_replace('docs/', 'src/', URI)); 
-                    $file_contents = file_get_contents($file_url);
-                    
-                    include __DIR__ . '/views/docs.php';
+                        if(substr(URI, -1) === '/') {
+                            $page_is_dir = true;
 
-                } else if($page_is_dir) {
-                    $page_url = 'https://' . path_join('github.com/HashBrownCMS/hashbrown-cms/tree/stable', str_replace('docs/', 'src/', URI));
-                    
-                    if($page_title === 'docs') {
-                        $page_title = 'Documentation';
-                    }
+                            $file_url = SRC_DIR_ROOT_URL . str_replace('/docs/api', '/src/Server/Controllers', URI);
+                            $page = parse_dir($file_url);
 
-                    if($page_title === 'API') {
-                        $page_url = str_replace('/API', '/Controllers', $page_url);
-                    }
+                            $page_title = PATH[sizeof(PATH) - 1];
+                            
+                            if($page_title === 'api') {
+                                $page_title = 'API docs';
+                            }
 
-                    $page_contents = file_get_contents($page_url);
+                            define('PAGE_TITLE', $page_title);
+                            define('PAGE_DESCRIPTION', '');
 
-                    $page_links = [];
-                    preg_match_all('/<a.+class="js-navigation-open" title="([^"]+)"/', $page_contents, $page_links);
-                    
-                    include __DIR__ . '/views/docs.php';
+                        } else {
+                            $page_is_dir = false;
+
+                            $file_url = SRC_CLASS_ROOT_URL . str_replace('/docs/api', '/src/Server/Controllers', URI) . 'Controller.js';
+                            $page = parse_source_file($file_url);
+                            
+                            define('PAGE_TITLE', $page['name']);
+                            define('PAGE_DESCRIPTION', '');
+                        }
+                        
+                        include __DIR__ . '/views/docs/api.php';
+                        break;
+
+                    default:
+                        not_found();
                 }
                 break;
 
@@ -177,12 +286,18 @@ function render_page() {
 
                 $page = HashBrown\get_current_page();
 
-                if(isset($page->title)) { 
-                    $page_title = $page->title;
+                if(!$page) { not_found(); }
+
+                if(isset($page->title)) {
+                    define('PAGE_TITLE', $page->title);
+                } else {
+                    define('PAGE_TITLE', '');
                 }
-                
-                if(isset($page->description)) { 
-                    $page_description = $page->description;
+
+                if(isset($page->description)) {
+                    define('PAGE_DESCRIPTION', $page->description);
+                } else {
+                    define('PAGE_DESCRIPTION', '');
                 }
 
                 HashBrown\render_current_page();
