@@ -13,6 +13,8 @@
 
                     $breadcrumb_link = path_join($breadcrumb_link, $namespace . '/');
 
+                    $namespace = str_replace('-', ' ', $namespace);
+
                     echo '<a class="widget--breadcrumbs__link" ' . ($i < sizeof(PATH) - 1 ? 'href="' . $breadcrumb_link . '"' : '') . '>' . $namespace . '</a>';
                 }
             ?>

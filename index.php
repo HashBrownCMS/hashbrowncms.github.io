@@ -7,6 +7,7 @@ error_reporting(E_ALL);
 define('URI', $_SERVER['REQUEST_URI']);
 define('PATH', array_values(array_filter(explode('/', URI), function($value) { return $value !== ''; })));
 define('ROOT_DIR', __DIR__);
+define('WIKI_PAGE_ROOT_URL', 'https://github.com/HashBrownCMS/hashbrown-cms/wiki');
 define('SRC_CLASS_ROOT_URL', 'https://raw.githubusercontent.com/HashBrownCMS/hashbrown-cms/stable');
 define('SRC_DIR_ROOT_URL', 'https://github.com/HashBrownCMS/hashbrown-cms/tree/stable');
 
@@ -128,6 +129,34 @@ function parse_dir($url) {
     return ['links' => $page_links];
 }
 
+function parse_wiki_page($url) {
+    $output = [];
+
+    $file_contents = @file_get_contents($url);
+    
+    if(!$file_contents) { http_response_code(404); die('Not found'); }
+
+    $file_contents = trim(preg_replace("/\r|\n/", '', $file_contents));
+
+    $title = [];
+    preg_match("/<h1[^>]+>([^<]+)<\/h1>/", $file_contents, $title);
+    $output['title'] = isset($title[1]) ? $title[1] : 'No title';
+
+    $output['description'] = '';
+
+    $body = [];
+    preg_match("/<div class=\"markdown-body\">(.*?)<\/div>/", $file_contents, $body);
+    $output['body'] = isset($body[1]) ? $body[1] : '<p>No body</p>';
+
+    $output['body'] = preg_replace("/<a id=\"user-content[^>]+>.*?<\/a>/", '', $output['body']);
+
+    $links = [];
+    preg_match_all("/<a class=\"d-block\" href=\"\/HashBrownCMS\/hashbrown-cms\/wiki\/([^\"]+)/", $file_contents, $links, PREG_SET_ORDER);
+    $output['links'] = $links;
+
+    return $output;
+}
+
 function parse_source_file($url) {
     $output = [];
     
@@ -210,6 +239,17 @@ function render_page() {
         ob_start();
         
         switch(get_path(0)) {
+            case 'guides':
+                $file_url = WIKI_PAGE_ROOT_URL . str_replace('guides/', '', URI);
+
+                $page = parse_wiki_page($file_url);
+                
+                define('PAGE_TITLE', $page['title']);
+                define('PAGE_DESCRIPTION', $page['description']);
+                
+                include __DIR__ . '/views/docs/guide.php';
+                break;
+
             case 'docs':
                 switch(get_path(1)) {
                     case 'src':

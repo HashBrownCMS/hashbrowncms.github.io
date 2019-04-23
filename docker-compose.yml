@@ -8,5 +8,5 @@ services:
             - "1001:80"
         restart: unless-stopped
         volumes:
-            - "./:/var/www/html/"
-            - "./site.conf:/etc/apache2/sites-available/000-default.conf"
+            - "./:/var/www/html/:rw"
+            - "./site.conf:/etc/apache2/sites-available/000-default.conf:rw"
