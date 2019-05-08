@@ -14,9 +14,17 @@ if(!$html) {
                     $file_url = WIKI_PAGE_ROOT_URL . str_replace('docs/guides/', '', URI);
 
                     $GLOBALS['page'] = parse_page($file_url);
-                    
-                    define('PAGE_TITLE', query_selector_all('//h1')[1]->nodeValue);
-                    define('PAGE_DESCRIPTION', '');
+
+                    $title = query_selector_all('//h1')[1]->nodeValue;
+                    $description = '';
+
+                    if($title === 'Home') {
+                        $title = 'Guides';
+                        $description = 'Learn how to get along with HashBrown';
+                    }
+
+                    define('PAGE_TITLE', $title);
+                    define('PAGE_DESCRIPTION', $description);
                     
                     include __DIR__ . '/views/docs/guide.php';
                     break;
