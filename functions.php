@@ -88,6 +88,7 @@ function get_inner_html($node, $keep_attributes = false) {
             $html = preg_replace("/class=\".*?\"/", "", $html);
             $html = preg_replace("/id=\".*?\"/", "", $html);
             $html = preg_replace("/<svg.*?\/svg>/", "", $html);
+            $html = preg_replace("/<pre/", "<pre class=\"code code--source\"", $html);
         }
 
         $innerHTML .= $html;
