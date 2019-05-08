@@ -8,19 +8,19 @@ if(!$html) {
     ob_start();
     
     switch(get_path(0)) {
-        case 'guides':
-            $file_url = WIKI_PAGE_ROOT_URL . str_replace('guides/', '', URI);
-
-            $page = parse_wiki_page($file_url);
-            
-            define('PAGE_TITLE', $page['title']);
-            define('PAGE_DESCRIPTION', $page['description']);
-            
-            include __DIR__ . '/views/docs/guide.php';
-            break;
-
         case 'docs':
             switch(get_path(1)) {
+                case 'guides':
+                    $file_url = WIKI_PAGE_ROOT_URL . str_replace('docs/guides/', '', URI);
+
+                    $GLOBALS['page'] = parse_page($file_url);
+                    
+                    define('PAGE_TITLE', query_selector_all('//h1')[1]->nodeValue);
+                    define('PAGE_DESCRIPTION', '');
+                    
+                    include __DIR__ . '/views/docs/guide.php';
+                    break;
+
                 case 'src':
                     $page = [];
 

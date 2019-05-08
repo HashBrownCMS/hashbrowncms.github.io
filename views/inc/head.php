@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     
-    <title>HashBrown CMS | <?php echo PAGE_TITLE; ?></title>
+    <title><?php echo PAGE_TITLE; ?> | HashBrown CMS</title>
     
     <link rel="icon" type="image/svg" href="/svg/logo.svg">
     <link rel="stylesheet" type="text/css" href="/css/style.css">

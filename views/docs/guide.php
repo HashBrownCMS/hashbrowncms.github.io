@@ -11,22 +11,19 @@
         </header>
         
         <main class="container">
-            <ul class="widget widget--directory">
-                <?php foreach($page['links'] as $link) { ?>
-                    <?php
-
-                    $link_text = str_replace('-', ' ', $link[1]);
-                    $link_href = '/guides/' . $link[1];
-
-                    ?>
-                        
-                    <li class="widget--directory__item">
-                        <a href="<?php echo $link_href ?>"><?php echo $link_text; ?></a>
-                    </li>
-                <?php } ?>
-            </ul>
+            <?php if(sizeof(PATH) < 3) { ?>
+                <ul class="widget widget--directory">
+                    <?php foreach(query_selector_all('//div[@id="wiki-pages-box"]//ul/li') as $li) { ?>
+                        <li class="widget widget--directory__item">
+                            <a href="<?php echo str_replace('HashBrownCMS/hashbrown-cms/wiki', 'docs/guides', query_selector('strong/a/@href', $li)); ?>"><?php echo $li->nodeValue; ?></a>
+                        </li>
+                    <?php } ?>
+                </ul>
             
-            <?php echo $page['body']; ?> 
+            <?php } else { ?>
+                <?php echo get_inner_html(query_selector('//div[@id="wiki-body"]/div[@class="markdown-body"]')); ?>
+            
+            <?php } ?>
         </main>
 
         <?php include __DIR__ . '/../inc/footer.php'; ?>

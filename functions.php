@@ -1,5 +1,7 @@
 <?php 
 
+
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -65,6 +67,73 @@ function get_path($start, $levels = 1) {
 
     return implode('/', $path);
 }
+
+/**
+ * Gets the inner HTML content of a DOMNode
+ *
+ * @param {DOMNode} $node
+ * @param {bool} keep_attributes
+ *
+ * @return {string} HTML
+ */
+function get_inner_html($node, $keep_attributes = false) {
+    $innerHTML = ""; 
+    $children  = $node->childNodes;
+
+    foreach ($children as $child) 
+    {
+        $html = $node->ownerDocument->saveHTML($child);
+
+        if(!$keep_attributes) {
+            $html = preg_replace("/class=\".*?\"/", "", $html);
+            $html = preg_replace("/id=\".*?\"/", "", $html);
+            $html = preg_replace("/<svg.*?\/svg>/", "", $html);
+        }
+
+        $innerHTML .= $html;
+    }
+
+    return $innerHTML; 
+}
+
+/**
+ * A wrapper around XPath queries for single results
+ *
+ * @param {string} query
+ *
+ * @return {mixed} Result
+ */
+function query_selector($query, $node = null) {
+    $xpath = new DOMXPath($GLOBALS['page']);
+
+    $results = $xpath->query($query, $node);
+
+    if(!$results) { return null; }
+
+    foreach($results as $result) {
+        if(isset($result->value)) { return $result->value; }
+    }
+
+    return $results[0];
+}
+
+/**
+ * A wrapper around XPath queries for multiple results
+ *
+ * @param {string} query
+ *
+ * @return {mixed} Result
+ */
+function query_selector_all($query) {
+    $xpath = new DOMXPath($GLOBALS['page']);
+
+    $results = $xpath->query($query);
+
+    if(!$results) { return []; }
+
+    return $results;
+}
+
 
 /**
  * Joins any number of string arugments into a path
@@ -169,38 +238,23 @@ function parse_dir($url) {
 }
 
 /**
- * Parses a wiki page on GitHub
+ * Parses a page by URL
  *
  * @param string url
  *
  * @return array
  */
-function parse_wiki_page($url) {
+function parse_page($url) {
     $output = [];
 
     $file_contents = @file_get_contents($url);
     
     if(!$file_contents) { http_response_code(404); die('Not found'); }
 
-    $file_contents = trim(preg_replace("/\r|\n/", '', $file_contents));
+    $dom = new DOMDocument();
+    @$dom->loadHTML($file_contents);
 
-    $title = [];
-    preg_match("/<h1[^>]+>([^<]+)<\/h1>/", $file_contents, $title);
-    $output['title'] = isset($title[1]) ? $title[1] : 'No title';
-
-    $output['description'] = '';
-
-    $body = [];
-    preg_match("/<div class=\"markdown-body\">(.*?)<\/div>/", $file_contents, $body);
-    $output['body'] = isset($body[1]) ? $body[1] : '<p>No body</p>';
-
-    $output['body'] = preg_replace("/<a id=\"user-content[^>]+>.*?<\/a>/", '', $output['body']);
-
-    $links = [];
-    preg_match_all("/<a class=\"d-block\" href=\"\/HashBrownCMS\/hashbrown-cms\/wiki\/([^\"]+)/", $file_contents, $links, PREG_SET_ORDER);
-    $output['links'] = $links;
-
-    return $output;
+    return $dom;
 }
 
 /**
