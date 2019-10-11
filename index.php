@@ -2,6 +2,19 @@
 
 require_once('./functions.php');
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+define('URI', $_SERVER['REQUEST_URI']);
+define('PATH', array_values(array_filter(explode('/', URI), function($value) { return $value !== ''; })));
+define('ROOT_DIR', __DIR__);
+define('CACHE_DIR', '/home/protected/php/cache');
+define('WIKI_PAGE_ROOT_URL', 'https://github.com/HashBrownCMS/hashbrown-cms/wiki');
+define('SRC_CLASS_ROOT_URL', 'https://raw.githubusercontent.com/HashBrownCMS/hashbrown-cms/stable');
+define('SRC_DIR_ROOT_URL', 'https://github.com/HashBrownCMS/hashbrown-cms/tree/stable');
+
+
 if(
     get_path(0) === 'css' ||
     get_path(0) === 'js' ||

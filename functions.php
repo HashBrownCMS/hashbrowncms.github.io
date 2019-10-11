@@ -1,29 +1,18 @@
 <?php 
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-define('URI', $_SERVER['REQUEST_URI']);
-define('PATH', array_values(array_filter(explode('/', URI), function($value) { return $value !== ''; })));
-define('ROOT_DIR', __DIR__);
-define('WIKI_PAGE_ROOT_URL', 'https://github.com/HashBrownCMS/hashbrown-cms/wiki');
-define('SRC_CLASS_ROOT_URL', 'https://raw.githubusercontent.com/HashBrownCMS/hashbrown-cms/stable');
-define('SRC_DIR_ROOT_URL', 'https://github.com/HashBrownCMS/hashbrown-cms/tree/stable');
-
 /**
  * Gets the HTML output cache for the current page, if applicable
  *
  * @return string
  */
 function get_output_cache() {
-    if(!file_exists(ROOT_DIR . '/cache')) { return null; }
+    if(!file_exists(CACHE_DIR)) { return null; }
 
     $key = base64_encode(URI);
 
-    if(!file_exists(ROOT_DIR . '/cache/' . $key)) { return null; }
+    if(!file_exists(CACHE_DIR . '/' . $key)) { return null; }
 
-    $json = file_get_contents(ROOT_DIR . '/cache/' . $key);
+    $json = file_get_contents(CACHE_DIR . '/' . $key);
     $json = json_decode($json);
 
     if($json->expires < time()) { return null; }
@@ -37,13 +26,13 @@ function get_output_cache() {
  * @param string html
  */
 function set_output_cache($html) {
-    if(!file_exists(ROOT_DIR . '/cache')) { return; }
+    if(!file_exists(CACHE_DIR)) { return; }
     
     $key = base64_encode(URI);
 
     $json = json_encode([ 'expires' => time() + 60, 'html' => $html ]);
 
-    file_put_contents(ROOT_DIR . '/cache/' . $key, $json);
+    file_put_contents(CACHE_DIR . '/' . $key, $json);
 }
 
 /**

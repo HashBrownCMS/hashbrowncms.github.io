@@ -2,3 +2,4 @@
 *.swo
 
 cache/*
+.well-known/*
