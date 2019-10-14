@@ -406,8 +406,13 @@ function handle_api_request() {
             
             $content = file_get_contents('php://input');
             $content = base64_decode($content);
-            file_put_contents($file_path, $content);
-            echo 'OK';
+            
+            if(@file_put_contents($file_path, $content) === false) {
+                http_response_code(502);
+                echo 'Could not write content';
+            } else {
+                echo 'OK';
+            }
             break;
         
         case 'patch':
