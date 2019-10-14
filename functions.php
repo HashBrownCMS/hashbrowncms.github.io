@@ -330,4 +330,116 @@ function not_found() {
     die('Not found');
 }
 
+/**
+ * Removes any file or directory recursively
+ */
+function remove_file($path) {
+    if(!file_exists($path)) { return true; }
+
+    if(!is_dir($path)) {
+        return unlink($path);
+    }
+
+    foreach(scandir($path) as $item) {
+        if($item == '.' || $item == '..') {
+            continue;
+        }
+
+        if(!remove_file($path . DIRECTORY_SEPARATOR . $item)) {
+            return false;
+        }
+
+    }
+
+    return rmdir($path);
+}
+
+/**
+ * Handles an API request
+ */
+function handle_api_request() {
+    require_once(ROOT_DIR . '/config.php');
+
+    $method = strtolower($_SERVER['REQUEST_METHOD']);
+    $file_path = ROOT_DIR . '/' . get_path(1, 10);
+    $dir_path = dirname($file_path);
+
+    if($method !== 'get' && (!isset($_GET['token']) || $_GET['token'] !== $config['api_token'])) {
+        http_response_code(401);
+        die('Unauthorised');
+    }
+
+    switch($method) {
+        case 'get':
+            if(!file_exists($file_path)) {
+                http_response_code(404);
+                echo 'Not found';
+            
+            } else if(is_dir($file_path)) {
+                $directory = new \RecursiveDirectoryIterator($file_path);
+                $iterator = new \RecursiveIteratorIterator($directory);
+                
+                $files = [];
+
+                foreach($iterator as $info) {
+                    if($info->getFilename() === '.' || $info->getFilename() === '..') { continue; }
+
+                    $files[] = str_replace($file_path . '/', '', $info->getPathname());
+                }
+
+                header('Content-Type: application/json');
+
+                echo json_encode($files);
+            
+            } else {
+                header('Content-Type: ' . mime_content_type($file_path));
+                
+                echo file_get_contents($file_path);
+            }
+
+            break;
+
+        case 'put':
+            if(!file_exists($dir_path)) {
+                mkdir($dir_path, 0777, true);
+            }
+            
+            $content = file_get_contents('php://input');
+            $content = base64_decode($content);
+            file_put_contents($file_path, $content);
+            echo 'OK';
+            break;
+        
+        case 'patch':
+            if(file_exists($file_path)) {
+                $new_path = $dir_path . '/' . file_get_contents('php://input');
+
+                rename($file_path, $new_path); 
+            }
+            
+            echo 'OK';
+            break;
+
+        case 'delete':
+            remove_file($file_path);
+            echo 'OK';
+            break;
+    }          
+}
+
+/**
+ * Write a log message
+ */
+function debug_log($message) {
+    if(!is_string($message)) {
+        $message = var_export($message, true);
+    }
+
+    $log = file_get_contents(ROOT_DIR . '/log.txt');
+
+    $log .= $message . "\n";
+
+    file_put_contents(ROOT_DIR . '/log.txt', $log);
+}
+
 ?>

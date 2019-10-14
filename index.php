@@ -6,7 +6,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-define('URI', $_SERVER['REQUEST_URI']);
+define('URI', strtok($_SERVER['REQUEST_URI'], '?'));
 define('PATH', array_values(array_filter(explode('/', URI), function($value) { return $value !== ''; })));
 define('ROOT_DIR', __DIR__);
 define('CACHE_DIR', '/home/protected/php/cache');
@@ -15,7 +15,10 @@ define('SRC_CLASS_ROOT_URL', 'https://raw.githubusercontent.com/HashBrownCMS/has
 define('SRC_DIR_ROOT_URL', 'https://github.com/HashBrownCMS/hashbrown-cms/tree/stable');
 
 
-if(
+if(get_path(0) === 'api') {
+    handle_api_request(); 
+
+} else if(
     get_path(0) === 'css' ||
     get_path(0) === 'js' ||
     get_path(0) === 'fonts' ||
@@ -46,6 +49,10 @@ if(
     }
 
     $output = file_get_contents($file_path);
+    
+    header('Content-Type: ' . $content_type);
+
+    echo $output;
 
 } else {
     $content_type = 'text/html';
@@ -173,10 +180,10 @@ if(
         
         set_output_cache($output);
     }
+    
+    header('Content-Type: ' . $content_type);
+
+    echo $output;
 }
-
-header('Content-Type: ' . $content_type);
-
-echo $output;
 
 ?>
