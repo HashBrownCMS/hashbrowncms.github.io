@@ -207,8 +207,9 @@ function parse_dir($url) {
                 $link !== 'helpers.js' &&
 
                 $link !== 'ApiController.js' &&
+                $link !== 'TestController.js' &&
                 $link !== 'ViewController.js' &&
-                $link !== 'Controller.js' &&
+                $link !== 'ControllerBase.js' &&
 
                 $link !== 'Schemas' &&
                 $link !== 'Routes' &&

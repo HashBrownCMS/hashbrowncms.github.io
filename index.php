@@ -9,7 +9,7 @@ error_reporting(E_ALL);
 define('URI', strtok($_SERVER['REQUEST_URI'], '?'));
 define('PATH', array_values(array_filter(explode('/', URI), function($value) { return $value !== ''; })));
 define('ROOT_DIR', __DIR__);
-define('CACHE_DIR', '/home/protected/php/cache');
+define('CACHE_DIR', '/tmp');
 define('WIKI_PAGE_ROOT_URL', 'https://github.com/HashBrownCMS/hashbrown-cms/wiki');
 define('SRC_CLASS_ROOT_URL', 'https://raw.githubusercontent.com/HashBrownCMS/hashbrown-cms/stable');
 define('SRC_DIR_ROOT_URL', 'https://github.com/HashBrownCMS/hashbrown-cms/tree/stable');
@@ -121,7 +121,7 @@ if(get_path(0) === 'api') {
                         if(substr(URI, -1) === '/') {
                             $page_is_dir = true;
 
-                            $file_url = SRC_DIR_ROOT_URL . str_replace('/docs/api', '/src/Server/Controllers', URI);
+                            $file_url = SRC_DIR_ROOT_URL . str_replace('/docs/api', '/src/Server/Controller', URI);
                             $page = parse_dir($file_url);
 
                             $page_title = PATH[sizeof(PATH) - 1];
@@ -136,7 +136,7 @@ if(get_path(0) === 'api') {
                         } else {
                             $page_is_dir = false;
 
-                            $file_url = SRC_CLASS_ROOT_URL . str_replace('/docs/api', '/src/Server/Controllers', URI) . 'Controller.js';
+                            $file_url = SRC_CLASS_ROOT_URL . str_replace('/docs/api', '/src/Server/Controller', URI) . 'Controller.js';
                             $page = parse_source_file($file_url);
                             
                             define('PAGE_TITLE', $page['name']);

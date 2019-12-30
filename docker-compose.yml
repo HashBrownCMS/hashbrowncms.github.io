@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+    php:
+        image: php:apache
+        container_name: "hashbrowncms-org--php"
+        ports: 
+            - "3000:80"
+        restart: unless-stopped
+        volumes:
+            - ./:/var/www/html
