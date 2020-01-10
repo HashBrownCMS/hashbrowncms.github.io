@@ -410,7 +410,7 @@ function handle_api_request() {
             
             if(@file_put_contents($file_path, $content) === false) {
                 http_response_code(502);
-                echo 'Could not write content';
+                echo 'Could not write content to ' . $file_path;
             } else {
                 echo 'OK';
             }
