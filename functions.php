@@ -6,6 +6,7 @@
  * @return string
  */
 function get_output_cache() {
+    if(isset($_GET['nocache'])) { return null; }
     if(!file_exists(CACHE_DIR)) { return null; }
 
     $key = base64_encode(URI);
@@ -191,7 +192,7 @@ function parse_dir($url) {
     if(!$dir_contents) { not_found(); }
 
     $page_links = [];
-    preg_match_all('/<a.+class="js-navigation-open" title="([^"]+)"/', $dir_contents, $page_links);
+    preg_match_all('/<a.+class="js-navigation-open.+?" title="([^"]+)"/', $dir_contents, $page_links);
 
     if(sizeof($page_links) > 0) {
         $page_links = array_filter($page_links[1], function($link) {

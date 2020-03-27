@@ -87,6 +87,7 @@ if(get_path(0) === 'api') {
                     case 'src':
                         $page = [];
 
+                        // Root source docs page
                         if(substr(URI, -1) === '/') {
                             $page_is_dir = true;
 
@@ -98,16 +99,19 @@ if(get_path(0) === 'api') {
                             if($page_title === 'src') {
                                 $page_title = 'Source docs';
                             }
-
+                            
                             define('PAGE_TITLE', $page_title);
                             define('PAGE_DESCRIPTION', '');
 
+                        // Subpages
                         } else {
                             $page_is_dir = false;
 
                             $file_url = SRC_CLASS_ROOT_URL . str_replace('/docs/src', '/src', URI) . '.js';
                             $page = parse_source_file($file_url);
-                            
+
+                            var_dump($file_url);
+
                             define('PAGE_TITLE', $page['name']);
                             define('PAGE_DESCRIPTION', $page['description']);
                         }
