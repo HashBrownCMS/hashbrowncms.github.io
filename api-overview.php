@@ -8,11 +8,7 @@
         <h1><?php echo $json['name']; ?></h1>
         <p><?php echo $json['description']; ?></p>
 
-        <?php if(isset($json['text'])) { ?>
-            <?php echo $json['text']; ?>
-        <?php } ?>
-
-        <?php foreach($json['relatedContent'] as $group => $pages) { ?>
+        <?php foreach($json['apiGroups'] as $group => $pages) { ?>
             <h2><?php echo $group; ?></h2>
             <ul>
                 <?php foreach($pages as $page) { ?>

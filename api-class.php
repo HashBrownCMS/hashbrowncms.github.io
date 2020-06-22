@@ -10,10 +10,10 @@
 
         <?php foreach($json['methods'] as $method) { ?>
             <h2><?php echo $method['name']; ?></h2>
-            <?php if($method['is_static'] || $method['is_async']) { ?>
+            <?php if($method['isStatic'] || $method['isAsync']) { ?>
                 <h6>
-                    <?php if($method['is_static']) { ?>async<?php } ?>
-                    <?php if($method['is_async']) { ?>static<?php } ?>
+                    <?php if($method['isStatic']) { ?>async<?php } ?>
+                    <?php if($method['isAsync']) { ?>static<?php } ?>
                 </h6>
             <?php } ?>
             <p><?php echo $method['description']; ?></p>
