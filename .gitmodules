@@ -1,0 +1,6 @@
+[submodule "repo"]
+	path = repo
+	url = https://github.com/HashBrownCMS/hashbrown-cms.git
+[submodule "wiki"]
+	path = wiki
+	url = https://github.com/HashBrownCMS/hashbrown-cms.wiki.git

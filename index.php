@@ -1,193 +1,170 @@
 <?php
 
-require_once('./functions.php');
-
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-define('URI', strtok($_SERVER['REQUEST_URI'], '?'));
-define('PATH', array_values(array_filter(explode('/', URI), function($value) { return $value !== ''; })));
-define('ROOT_DIR', __DIR__);
-define('CACHE_DIR', '/tmp');
-define('WIKI_PAGE_ROOT_URL', 'https://github.com/HashBrownCMS/hashbrown-cms/wiki');
-define('SRC_CLASS_ROOT_URL', 'https://raw.githubusercontent.com/HashBrownCMS/hashbrown-cms/stable');
-define('SRC_DIR_ROOT_URL', 'https://github.com/HashBrownCMS/hashbrown-cms/tree/stable');
+require_once './vendor/autoload.php';
+require_once './functions.php';
 
+// Settings
+$cache_timeout = 60 * 60 * 24;
+$content_paths = [ '/repo', '/wiki' ];
 
-if(get_path(0) === 'api') {
-    handle_api_request(); 
+// Check cache
+$cache_path = '/tmp/pages';
+$cache_data = unserialize(@file_get_contents($cache_path));
 
-} else if(
-    get_path(0) === 'css' ||
-    get_path(0) === 'js' ||
-    get_path(0) === 'fonts' ||
-    get_path(0) === 'img'
-) {
-    $file_path = ROOT_DIR . URI;
+//if(!$cache_data || time() - filemtime($cache_path) >= $cache_timeout) {
+    $cache_data = [];
+
+    // Guides overview
+    $cache_data['/guides'] = [
+        '@context' => 'http://schema.org',
+        '@type' => 'CollectionPage',
+        'name' => 'Guides',
+        'description' => 'Learn how to get along with HashBrown',
+        'url' => '/guides',
+        'relatedContent' => [],
+    ];
     
-    switch(strtolower(pathinfo($file_path, PATHINFO_EXTENSION))) {
-        case 'js':
-            $content_type = 'text/javascript';
-            break;
-        
-        case 'css':
-            $content_type = 'text/css';
-            break;
-        
-        case 'svg':
-            $content_type = 'image/svg+xml';
-            break;
-
-        case 'ttf':
-            $content_type = 'font/ttf';
-            break;
+    // API docs overview
+    $cache_data['/docs/api'] = [
+        '@context' => 'http://schema.org',
+        '@type' => 'WebPage',
+        'name' => 'API docs',
+        'description' => 'The documentation for website developers',
+        'url' => '/docs/api',
+        'text' => 'To authorise an API request, you must get an API token, like this: <pre>POST { username: myusername, password: mypassword } /api/user/login?persist=true|false</pre>',
+        'mainContentOfPage' => [],
+    ];
     
-        default:
-            $content_type = mime_content_type($file_path);
-            break;
+    foreach(recurse_directory(__DIR__ . '/repo/src/Server/Controller') as $file) {
+        $data = parse_source_file(@file_get_contents($file), pathinfo($file, PATHINFO_FILENAME));
+
+        if(empty($data)) { continue; }
+
+        $cache_data['/docs/api']['mainContentOfPage'][] = $data;
     }
-
-    $output = file_get_contents($file_path);
     
-    header('Content-Type: ' . $content_type);
+    // Source docs overview
+    $cache_data['/docs/src'] = [
+        '@context' => 'http://schema.org',
+        '@type' => 'CollectionPage',
+        'name' => 'Source docs',
+        'description' => 'The documentation for HashBrown developers',
+        'url' => '/docs/src',
+        'relatedContent' => [],
+    ];
 
-    echo $output;
+    // Init markdown
+    $converter = new League\CommonMark\CommonMarkConverter();
 
-} else {
-    $content_type = 'text/html';
+    foreach($content_paths as $content_path) {
+        foreach(recurse_directory(__DIR__ . $content_path) as $file) {
+            if(
+                basename($file) === 'Home.md' ||
+                basename($file) === 'index.js'|| 
+                strpos($file, 'Controller') !== false
+            ) { continue; }
 
-    $output = get_output_cache();
+            // Get extension
+            $extension = pathinfo($file, PATHINFO_EXTENSION);
 
-    if(!$output) {
-        ob_start();
-        
-        switch(get_path(0)) {
-            case 'docs':
-                switch(get_path(1)) {
-                    case 'guides':
-                        $file_url = WIKI_PAGE_ROOT_URL . str_replace('docs/guides/', '', URI);
+            if($extension !== 'md' && $extension !== 'js') { continue; }
 
-                        $GLOBALS['page'] = parse_page($file_url);
+            // Get file data
+            $data = @file_get_contents($file);
 
-                        $title = query_selector_all('//h1')[1]->nodeValue;
-                        $description = '';
+            if(empty($data)) { continue; }
 
-                        if($title === 'Home') {
-                            $title = 'Guides';
-                            $description = 'Learn how to get along with HashBrown';
-                        }
+            // Init JSON
+            $json = [
+                '@context' => 'http://schema.org',
+                '@type' => 'WebPage',
+            ];
 
-                        define('PAGE_TITLE', $title);
-                        define('PAGE_DESCRIPTION', $description);
+            if(basename($file) === 'README.md') {
+                $json['name'] = 'HashBrown CMS';
+                $json['description'] = 'A free and open-source headless CMS built with Node.js and MongoDB';
+                $json['url'] = '/';
+                
+                $data = preg_replace('/^.+\n/', '', $data);
+                $data = preg_replace('/^.+\n/', '', $data);
                         
-                        include __DIR__ . '/views/docs/guide.php';
-                        break;
+            } else if($content_path === '/repo') {
+                if($extension === 'js') {
+                    foreach(parse_source_file($data, pathinfo($file, PATHINFO_FILENAME)) as $key => $value) {
+                        $json[$key] = $value;                        
+                    }
 
-                    case 'src':
-                        $page = [];
+                    $json['url'] = strtolower('/docs/src' . str_replace(__DIR__ . $content_path . '/src', '', dirname($file)) . '/' . pathinfo($file, PATHINFO_FILENAME));
+                    $cache_data['/docs/src']['relatedContent'][] = $json;
 
-                        // Root source docs page
-                        if(substr(URI, -1) === '/') {
-                            $page_is_dir = true;
-
-                            $file_url = SRC_DIR_ROOT_URL . str_replace('/docs/src', '/src', URI);
-                            $page = parse_dir($file_url);
-
-                            $page_title = PATH[sizeof(PATH) - 1];
-
-                            if($page_title === 'src') {
-                                $page_title = 'Source docs';
-                            }
-                            
-                            define('PAGE_TITLE', $page_title);
-                            define('PAGE_DESCRIPTION', '');
-
-                        // Subpages
-                        } else {
-                            $page_is_dir = false;
-
-                            $file_url = SRC_CLASS_ROOT_URL . str_replace('/docs/src', '/src', URI) . '.js';
-                            $page = parse_source_file($file_url);
-
-                            var_dump($file_url);
-
-                            define('PAGE_TITLE', $page['name']);
-                            define('PAGE_DESCRIPTION', $page['description']);
-                        }
-                        
-                        include __DIR__ . '/views/docs/src.php';
-                        break;
-
-                    case 'api':
-                        $page = [];
-
-                        if(substr(URI, -1) === '/') {
-                            $page_is_dir = true;
-
-                            $file_url = SRC_DIR_ROOT_URL . str_replace('/docs/api', '/src/Server/Controller', URI);
-                            $page = parse_dir($file_url);
-
-                            $page_title = PATH[sizeof(PATH) - 1];
-                            
-                            if($page_title === 'api') {
-                                $page_title = 'API docs';
-                            }
-
-                            define('PAGE_TITLE', $page_title);
-                            define('PAGE_DESCRIPTION', '');
-
-                        } else {
-                            $page_is_dir = false;
-
-                            $file_url = SRC_CLASS_ROOT_URL . str_replace('/docs/api', '/src/Server/Controller', URI) . 'Controller.js';
-                            $page = parse_source_file($file_url);
-                            
-                            define('PAGE_TITLE', $page['name']);
-                            define('PAGE_DESCRIPTION', '');
-                        }
-                        
-                        include __DIR__ . '/views/docs/api.php';
-                        break;
-
-                    default:
-                        not_found();
-                }
-                break;
-
-            default:
-                require_once(__DIR__ . '/lib/hashbrown-driver/index.php');
-
-                HashBrown\init(__DIR__);
-
-                $page = HashBrown\get_current_page();
-
-                if(!$page) { not_found(); }
-
-                if(isset($page->title)) {
-                    define('PAGE_TITLE', $page->title);
                 } else {
-                    define('PAGE_TITLE', '');
+                    continue;
                 }
 
-                if(isset($page->description)) {
-                    define('PAGE_DESCRIPTION', $page->description);
-                } else {
-                    define('PAGE_DESCRIPTION', '');
-                }
+            } else if($content_path === '/wiki') {
+                $json['name'] = str_replace('-', ' ', pathinfo($file, PATHINFO_FILENAME));
+                $json['description'] = '';
+                $json['url'] = '/guides/' . strtolower(pathinfo($file, PATHINFO_FILENAME));
 
-                HashBrown\render_current_page();
-                break;
+                $cache_data['/guides']['relatedContent'][] = $json;
+            }
+
+            switch($extension) {
+                case 'md':
+                    $json['text'] = $converter->convertToHtml($data);
+                    break;
+
+                case 'js':
+                    break;
+
+                default:
+                    continue 2;
+            }
+
+            $cache_data[$json['url']] = $json;
         }
-
-        $output = ob_get_clean();
-        
-        set_output_cache($output);
     }
     
-    header('Content-Type: ' . $content_type);
+    //file_put_contents($cache_path, serialize($cache_data));
+//}
 
-    echo $output;
+$url = strtok($_SERVER['REQUEST_URI'], '?');
+
+//echo '<pre>';
+//var_dump($cache_data);
+//echo '</pre>';
+
+// Page
+if(isset($cache_data[$url])) {
+    $json = $cache_data[$url];
+
+// 404
+} else {
+    http_response_code(404);
+
+    $json = [
+        '@context' => 'http://schema.org',
+        '@type' => 'WebPage',
+        'name' => 'Not found',
+        'description' => 'The page ' . $url . ' could not be found',
+        'text' => '<a href="/">Return to home page</a>'
+    ];
 }
 
-?>
+switch($json['@type']) {
+    case 'CollectionPage':
+        require './collection-page.php';
+        break;
+    
+    case 'ApiClass':
+        require './api-class.php';
+        break;
+    
+    default:
+        require './web-page.php';
+        break;
+}
