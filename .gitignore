@@ -1,7 +1,7 @@
 *.swp
 *.swo
 
-cache/*
+/.cache
 .well-known/*
 /log.txt
 /config.php

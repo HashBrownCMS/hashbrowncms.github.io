@@ -12,6 +12,13 @@
             <?php echo $json['text']; ?>
         <?php } ?>
 
-        <?php require './nested-list.php'; ?>
+        <?php foreach($json['relatedContent'] as $group => $pages) { ?>
+            <h2><?php echo $group; ?></h2>
+            <ul>
+                <?php foreach($pages as $page) { ?>
+                    <li><a href="<?php echo $page['url']; ?>"><?php echo $page['name']; ?></a></li>
+                <?php } ?>
+            </ul>
+        <?php } ?>
     </body>
 </html>

@@ -9,25 +9,14 @@ require_once './functions.php';
 
 // Settings
 $cache_timeout = 60 * 60 * 24;
-$content_paths = [ '/repo', '/wiki' ];
 
 // Check cache
-$cache_path = '/tmp/pages';
+$cache_path = __DIR__ . '/.cache';
 $cache_data = unserialize(@file_get_contents($cache_path));
 
-//if(!$cache_data || time() - filemtime($cache_path) >= $cache_timeout) {
+if(!$cache_data || time() - filemtime($cache_path) >= $cache_timeout) {
     $cache_data = [];
 
-    // Guides overview
-    $cache_data['/guides'] = [
-        '@context' => 'http://schema.org',
-        '@type' => 'CollectionPage',
-        'name' => 'Guides',
-        'description' => 'Learn how to get along with HashBrown',
-        'url' => '/guides',
-        'relatedContent' => [],
-    ];
-    
     // API docs overview
     $cache_data['/docs/api'] = [
         '@context' => 'http://schema.org',
@@ -60,83 +49,67 @@ $cache_data = unserialize(@file_get_contents($cache_path));
     // Init markdown
     $converter = new League\CommonMark\CommonMarkConverter();
 
-    foreach($content_paths as $content_path) {
-        foreach(recurse_directory(__DIR__ . $content_path) as $file) {
-            if(
-                basename($file) === 'Home.md' ||
-                basename($file) === 'index.js'|| 
-                strpos($file, 'Controller') !== false
-            ) { continue; }
+    foreach(recurse_directory(__DIR__ . '/repo') as $file) {
+        if(
+            basename($file) === 'Home.md' ||
+            basename($file) === 'index.js'|| 
+            strpos($file, 'Controller') !== false
+        ) { continue; }
 
-            // Get extension
-            $extension = pathinfo($file, PATHINFO_EXTENSION);
+        // Get extension
+        $extension = pathinfo($file, PATHINFO_EXTENSION);
 
-            if($extension !== 'md' && $extension !== 'js') { continue; }
+        if($extension !== 'md' && $extension !== 'js') { continue; }
 
-            // Get file data
-            $data = @file_get_contents($file);
+        // Get file data
+        $data = @file_get_contents($file);
 
-            if(empty($data)) { continue; }
+        if(empty($data)) { continue; }
 
-            // Init JSON
-            $json = [
-                '@context' => 'http://schema.org',
-                '@type' => 'WebPage',
-            ];
+        // Init JSON
+        $json = [
+            '@context' => 'http://schema.org',
+            '@type' => 'WebPage',
+        ];
 
-            if(basename($file) === 'README.md') {
-                $json['name'] = 'HashBrown CMS';
-                $json['description'] = 'A free and open-source headless CMS built with Node.js and MongoDB';
-                $json['url'] = '/';
-                
-                $data = preg_replace('/^.+\n/', '', $data);
-                $data = preg_replace('/^.+\n/', '', $data);
-                        
-            } else if($content_path === '/repo') {
-                if($extension === 'js') {
-                    foreach(parse_source_file($data, pathinfo($file, PATHINFO_FILENAME)) as $key => $value) {
-                        $json[$key] = $value;                        
-                    }
+        // Index page
+        if(basename($file) === 'README.md') {
+            $json['name'] = 'HashBrown CMS';
+            $json['description'] = 'A free and open-source headless CMS built with Node.js and MongoDB';
+            $json['url'] = '/';
+            
+            $data = preg_replace('/^.+\n/', '', $data);
+            $data = preg_replace('/^.+\n/', '', $data);
+            
+            $json['text'] = $converter->convertToHtml($data);
 
-                    $json['url'] = strtolower('/docs/src' . str_replace(__DIR__ . $content_path . '/src', '', dirname($file)) . '/' . pathinfo($file, PATHINFO_FILENAME));
-                    $cache_data['/docs/src']['relatedContent'][] = $json;
-
-                } else {
-                    continue;
-                }
-
-            } else if($content_path === '/wiki') {
-                $json['name'] = str_replace('-', ' ', pathinfo($file, PATHINFO_FILENAME));
-                $json['description'] = '';
-                $json['url'] = '/guides/' . strtolower(pathinfo($file, PATHINFO_FILENAME));
-
-                $cache_data['/guides']['relatedContent'][] = $json;
+        // Documentation
+        } else if($extension === 'js') {
+            foreach(parse_source_file($data, pathinfo($file, PATHINFO_FILENAME)) as $key => $value) {
+                $json[$key] = $value;                        
             }
 
-            switch($extension) {
-                case 'md':
-                    $json['text'] = $converter->convertToHtml($data);
-                    break;
+            $json['url'] = strtolower('/docs/src' . str_replace(__DIR__ . '/repo/src', '', dirname($file)) . '/' . pathinfo($file, PATHINFO_FILENAME));
 
-                case 'js':
-                    break;
+            if(!$json['member_of']) { continue; }
 
-                default:
-                    continue 2;
+            if(!isset($cache_data['/docs/src']['relatedContent'][$json['member_of']])) {
+                $cache_data['/docs/src']['relatedContent'][$json['member_of']] = [];
             }
 
-            $cache_data[$json['url']] = $json;
+            $cache_data['/docs/src']['relatedContent'][$json['member_of']][] = $json;
+
         }
+
+        $cache_data[$json['url']] = $json;
     }
+                
+    ksort($cache_data['/docs/src']['relatedContent']);
     
-    //file_put_contents($cache_path, serialize($cache_data));
-//}
+    file_put_contents($cache_path, serialize($cache_data));
+}
 
 $url = strtok($_SERVER['REQUEST_URI'], '?');
-
-//echo '<pre>';
-//var_dump($cache_data);
-//echo '</pre>';
 
 // Page
 if(isset($cache_data[$url])) {

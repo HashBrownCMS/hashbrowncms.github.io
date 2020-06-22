@@ -3,8 +3,12 @@
 /**
  * Recurses infinitely into a directory
  */
-function recurse_directory(string $path): RecursiveIteratorIterator {
-    return new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path));
+function recurse_directory(string $path) {
+    try {
+        return new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path));
+    } catch(\Exception $e) {
+        return [];
+    }
 }
 
 /**
@@ -14,7 +18,7 @@ function recurse_directory(string $path): RecursiveIteratorIterator {
  *
  * @return array
  */
-function parse_source_file(string $file_contents, ?string $name = '') {
+function parse_source_file(string $file_contents, ?string $name = ''): ?array {
     if(!$file_contents) { return null; }
 
     $output['@type'] = 'ApiClass';
@@ -39,6 +43,13 @@ function parse_source_file(string $file_contents, ?string $name = '') {
     $class_description = [];
     preg_match("/\* ([^@][^\n]+)/", $file_contents, $class_description);
     $output['description'] = isset($class_description[1]) ? $class_description[1] : '';
+    
+    // Member of
+    $output['member_of'] = [];
+    preg_match("/@memberof ([^\n]+)/", $file_contents, $output['member_of']);
+    $output['member_of'] = isset($output['member_of'][1]) ? $output['member_of'][1] : '';
+    $output['member_of'] = str_replace('{', '', $output['member_of']);
+    $output['member_of'] = str_replace('}', '', $output['member_of']);
 
     // Remove the class meta docs to prevent confusion
     $file_contents = preg_replace("/\/\*\*[^\/]+\//", '', $file_contents, 1);
