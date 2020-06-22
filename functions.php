@@ -157,7 +157,7 @@ function build_src_docs(array &$pages) {
         $json = parse_source_file($data, pathinfo($file, PATHINFO_FILENAME));
 
         $json['@context'] = 'http://schema.org';
-        $json['@type'] = 'WebPage';
+        $json['@type'] = 'ApiClass';
         $json['url'] = strtolower('/docs/src' . str_replace(__DIR__ . '/repo/src', '', dirname($file)) . '/' . pathinfo($file, PATHINFO_FILENAME));
 
         if(empty($json['memberOf'])) { continue; }
