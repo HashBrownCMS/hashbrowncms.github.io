@@ -16,7 +16,7 @@ function recurse_directory(string $path) {
 /**
  * Parses a source file with JSDoc markup
  */
-function parse_source_file(string $file_contents, ?string $name = ''): ?array {
+function parse_source_file(string $file_contents, ?string $name = '', bool $require_examples = false): ?array {
     if(!$file_contents) { return null; }
 
     if($name) {
@@ -60,6 +60,8 @@ function parse_source_file(string $file_contents, ?string $name = ''): ?array {
         $output['methods'] = $output['methods'][0];
     }
 
+    $examples = 0;
+
     if(sizeof($output['methods']) > 0) {
         foreach($output['methods'] as $i => $method_string) {
             $method = [];
@@ -95,8 +97,14 @@ function parse_source_file(string $file_contents, ?string $name = ''): ?array {
             }
 
             $output['methods'][$i] = $method;
+
+            if(!empty($method['example'])) {
+                $examples++;
+            }
         }
     }
+
+    if($require_examples && $examples < 1) { return null; }
 
     // Source
     $output['source'] = $file_contents;
@@ -114,12 +122,12 @@ function build_api_docs(array &$pages) {
         'name' => 'API docs',
         'description' => 'The documentation for website developers',
         'url' => '/docs/api',
-        'text' => 'To authorise an API request, you must get an API token, like this: <pre>POST { username: myusername, password: mypassword } /api/user/login?persist=true|false</pre>',
+        'notice' => 'To authorise an API request, you must first get a token: <pre>POST /api/user/login?persist=true|false { username: XXX, password: XXX }</pre>Then use the returned token in every subsequent request: <pre>POST|GET /api/method?token=XXX</pre>',
         'apiClasses' => [],
     ];
     
     foreach(recurse_directory(__DIR__ . '/repo/src/Server/Controller') as $file) {
-        $data = parse_source_file(@file_get_contents($file), pathinfo($file, PATHINFO_FILENAME));
+        $data = parse_source_file(@file_get_contents($file), pathinfo($file, PATHINFO_FILENAME), true);
 
         if(empty($data)) { continue; }
 

@@ -65,6 +65,12 @@
         header a:not(:first-child) {
             margin-left: 1rem;
         }
+
+        aside {
+            margin: 2rem auto;
+            padding: 2rem;
+            border: 1px solid lightgrey;
+        }
     </style>
 
     <link rel="icon" type="image/svg" href="/img/logo_pink.svg">

@@ -7,6 +7,10 @@
         
         <h1><?php echo $json['name']; ?></h1>
         <p><?php echo $json['description']; ?></p>
+        
+        <?php if(isset($json['notice'])) { ?>
+            <aside><?php echo $json['notice']; ?></aside>
+        <?php } ?>
 
         <?php if(isset($json['apiClasses'])) { ?>
             <?php foreach($json['apiClasses'] as $class) { ?>
