@@ -1,6 +1,7 @@
 <?php
 
 $url = strtok($_SERVER['REQUEST_URI'], '?');
+$url = '/' . implode('/', array_filter(explode('/', $url)));
 
 // Page
 if(isset($cache_data[$url])) {
