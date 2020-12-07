@@ -45,6 +45,7 @@ function parse_source_file(string $file_contents, ?string $name = '', bool $requ
     $output['memberOf'] = isset($output['memberOf'][1]) ? $output['memberOf'][1] : '';
     $output['memberOf'] = str_replace('{', '', $output['memberOf']);
     $output['memberOf'] = str_replace('}', '', $output['memberOf']);
+    $output['memberOf'] = str_replace('HashBrown.', '', $output['memberOf']);
 
     // Remove the class meta docs to prevent confusion
     $file_contents = preg_replace("/\/\*\*[^\/]+\//", '', $file_contents, 1);
