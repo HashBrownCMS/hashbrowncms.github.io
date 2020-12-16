@@ -184,46 +184,96 @@ function build_src_docs(array &$pages) {
 }
 
 /**
+ * Builds a single markdown page
+ */
+function build_markdown_page(string $file): ?array {
+    if(substr($file, -2) === '..') { return null; }
+
+    if(substr($file, -2) === '/.') {
+        $file = substr($file, 0, -2);
+    }
+
+    $filename = pathinfo($file, PATHINFO_FILENAME);
+
+    $url = strtolower(str_replace('.md', '', str_replace(__DIR__ . '/repo', '', $file)));
+
+    // Init JSON
+    $json = [
+        '@context' => 'http://schema.org',
+    ];
+
+    // Folder
+    if(is_dir($file) && $filename !== 'repo') {
+        $json['@type'] = 'CollectionPage';
+        $json['name'] = ucfirst($filename);
+
+        $json['description'] = '';
+        $json['url'] = $url;
+        $json['relatedLink'] = [];
+
+        foreach(scandir($file) as $child) {
+            $extension = pathinfo($child, PATHINFO_EXTENSION);
+
+            if($extension !== 'md') { continue; }
+
+            $json['relatedLink'][] = [
+                '@context' => 'http://schema.org',
+                '@type' => 'URL',
+                'name' => pathinfo($child, PATHINFO_FILENAME),
+                'url' => $url . '/' . strtolower(str_replace('.md', '', str_replace(__DIR__ . '/repo', '', $child))),
+            ];
+        }
+
+        if(empty($json['relatedLink'])) { return null; }
+
+        return $json;
+    }
+
+    // File
+    $converter = new League\CommonMark\CommonMarkConverter();
+
+    $extension = pathinfo($file, PATHINFO_EXTENSION);
+
+    if($extension !== 'md') { return null; }
+
+    $data = @file_get_contents($file);
+
+    if(empty($data)) { return null; }
+    
+    $json['@type'] = 'WebPage';
+    
+    // Index page
+    if(basename($file) === 'README.md') {
+        $json['name'] = 'HashBrown CMS';
+        $json['description'] = 'A free and open-source headless CMS built with Node.js and MongoDB';
+        $json['url'] = '/';
+        
+        $data = preg_replace('/^.+\n/', '', $data);
+        $data = preg_replace('/^.+\n/', '', $data);
+        
+        $json['text'] = str_replace('http://hashbrowncms.org', '', $converter->convertToHtml($data));
+
+    // Documentation
+    } else {
+        $json['name'] = $filename;
+        $json['description'] = '';
+        $json['url'] = $url;
+
+        $json['text'] = $converter->convertToHtml($data);
+    
+    }
+
+    return $json;
+}
+
+/**
  * Build the markdown pages
  */
 function build_markdown_pages(array &$pages) {
-    $converter = new League\CommonMark\CommonMarkConverter();
+    foreach(recurse_directory(__DIR__ . '/repo') as $file) { 
+        $json = build_markdown_page($file);
 
-    foreach(recurse_directory(__DIR__ . '/repo') as $file) {
-        // Get extension
-        $extension = pathinfo($file, PATHINFO_EXTENSION);
-
-        if(!empty($extension) && $extension !== 'md') { continue; }
-
-        // Get file data
-        $data = @file_get_contents($file);
-
-        if(empty($data)) { continue; }
-
-        // Init JSON
-        $json = [
-            '@context' => 'http://schema.org',
-            '@type' => 'WebPage',
-        ];
-
-        // Index page
-        if(basename($file) === 'README.md') {
-            $json['name'] = 'HashBrown CMS';
-            $json['description'] = 'A free and open-source headless CMS built with Node.js and MongoDB';
-            $json['url'] = '/';
-            
-            $data = preg_replace('/^.+\n/', '', $data);
-            $data = preg_replace('/^.+\n/', '', $data);
-            
-        // Documentation
-        } else {
-            $json['name'] = pathinfo($file, PATHINFO_FILENAME);
-            $json['description'] = '';
-            $json['url'] = strtolower('/' . $json['name']);
-
-        }
-        
-        $json['text'] = $converter->convertToHtml($data);
+        if(!$json) { continue; }
 
         $pages[$json['url']] = $json;
     }

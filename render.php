@@ -32,7 +32,11 @@ switch($json['@type']) {
     case 'ApiClass':
         require './api-class.php';
         break;
-    
+
+    case 'CollectionPage':
+        require './collection-page.php';
+        break;
+
     default:
         require './web-page.php';
         break;

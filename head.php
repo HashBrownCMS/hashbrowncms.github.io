@@ -53,10 +53,10 @@
             text-decoration: none;
         }
         
-        header a:first-child {
+        header a[href="/"] {
             margin-right: auto;
             width: 3rem;
-            background-image: url('/img/logo_pink.svg');
+            background-image: url('/img/logo.svg');
             background-repeat: no-repeat;
             background-position: left center;
             background-size: contain;
@@ -73,5 +73,5 @@
         }
     </style>
 
-    <link rel="icon" type="image/svg" href="/img/logo_pink.svg">
+    <link rel="icon" type="image/svg" href="/img/logo.svg">
 </head>
