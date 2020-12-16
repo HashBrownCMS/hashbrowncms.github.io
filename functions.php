@@ -219,7 +219,7 @@ function build_markdown_page(string $file): ?array {
             $json['relatedLink'][] = [
                 '@context' => 'http://schema.org',
                 '@type' => 'URL',
-                'name' => pathinfo($child, PATHINFO_FILENAME),
+                'name' => ucfirst(pathinfo($child, PATHINFO_FILENAME)),
                 'url' => $url . '/' . strtolower(str_replace('.md', '', str_replace(__DIR__ . '/repo', '', $child))),
             ];
         }
@@ -240,28 +240,21 @@ function build_markdown_page(string $file): ?array {
 
     if(empty($data)) { return null; }
     
-    $json['@type'] = 'WebPage';
-    
-    // Index page
-    if(basename($file) === 'README.md') {
-        $json['name'] = 'HashBrown CMS';
-        $json['description'] = 'A free and open-source headless CMS built with Node.js and MongoDB';
-        $json['url'] = '/';
-        
-        $data = preg_replace('/^.+\n/', '', $data);
-        $data = preg_replace('/^.+\n/', '', $data);
-        
-        $json['text'] = str_replace('http://hashbrowncms.org', '', $converter->convertToHtml($data));
+    $json['@type'] = 'WebPage';    
+    $json['url'] = $filename === 'README' ? '/' : $url;
 
-    // Documentation
-    } else {
-        $json['name'] = $filename;
-        $json['description'] = '';
-        $json['url'] = $url;
+    $lines = explode("\n", $data);
 
-        $json['text'] = $converter->convertToHtml($data);
-    
-    }
+    // Grab the name from the first line of text
+    $json['name'] = str_replace('# ', '', array_shift($lines));
+    array_shift($lines);
+
+    // Grab the description from the second line of text
+    $json['description'] = array_shift($lines);
+    array_shift($lines);
+
+    // Print the remaining lines as body text 
+    $json['text'] = str_replace('http://hashbrowncms.org', '', $converter->convertToHtml(implode("\n", $lines)));
 
     return $json;
 }
