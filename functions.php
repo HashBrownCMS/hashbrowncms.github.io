@@ -27,6 +27,10 @@ function parse_source_file(string $file_contents, ?string $name = '', bool $requ
         $output['name'] === 'index' ||
         $output['name'] === 'ApiController' ||
         $output['name'] === 'ResourceController' ||
+        $output['name'] === 'InputController' ||
+        $output['name'] === 'TestController' ||
+        $output['name'] === 'DeployerController' ||
+        $output['name'] === 'ProcessorController' ||
         $output['name'] === 'ViewController' ||
         $output['name'] === 'ControllerBase'
     ) { return null; }
@@ -121,7 +125,7 @@ function build_api_docs(array &$pages) {
         '@context' => 'http://schema.org',
         '@type' => 'ApiSummary',
         'name' => 'API docs',
-        'description' => 'The documentation for website developers',
+        'description' => 'The documentation for app developers',
         'url' => '/docs/api',
         'notice' => 'To authorise an API request, you must first get a token: <pre>POST /api/user/login?persist=true|false { username: XXX, password: XXX }</pre>Then use the returned token in every subsequent request: <pre>POST|GET /api/method?token=XXX</pre>',
         'apiClasses' => [],
