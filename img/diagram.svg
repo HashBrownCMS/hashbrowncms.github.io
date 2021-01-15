@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="600"
-   height="300"
-   viewBox="0 0 158.74999 79.375002"
+   width="1024"
+   height="512"
+   viewBox="0 0 270.93332 135.46667"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="370.34009"
-     inkscape:cy="187.54031"
+     inkscape:zoom="0.50000001"
+     inkscape:cx="394.63747"
+     inkscape:cy="459.66394"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -54,17 +54,17 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.266935;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.455569;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
        id="rect3544"
-       width="158.75"
-       height="79.375"
+       width="270.93332"
+       height="135.46666"
        x="0"
        y="2.7755576e-17"
-       rx="2.1289992"
-       ry="2.1419847" />
+       rx="2.1166666"
+       ry="2.1166666" />
     <g
        id="g3542"
-       transform="translate(7.7715316,6.184985)">
+       transform="matrix(1.7066666,0,0,1.7066666,13.263414,10.555708)">
       <g
          id="g2867"
          transform="translate(-5.0016839,13.115728)">
