@@ -26,7 +26,6 @@ function parse_source_file(string $file_contents, ?string $name = '', bool $requ
     if(
         $output['name'] === 'index' ||
         $output['name'] === 'ApiController' ||
-        $output['name'] === 'ResourceController' ||
         $output['name'] === 'InputController' ||
         $output['name'] === 'TestController' ||
         $output['name'] === 'DeployerController' ||
@@ -109,6 +108,10 @@ function parse_source_file(string $file_contents, ?string $name = '', bool $requ
         }
     }
 
+    usort($output['methods'], function($a, $b) {
+        return $a['name'] < $b['name'] ? -1 : 1;
+    });
+
     if($require_examples && $examples < 1) { return null; }
 
     // Source
@@ -138,6 +141,10 @@ function build_api_docs(array &$pages) {
 
         $pages['/docs/api']['apiClasses'][] = $data;
     }
+    
+    usort($pages['/docs/api']['apiClasses'], function($a, $b) {
+        return $a['name'] < $b['name'] ? -1 : 1;
+    });
 }
 
 /**

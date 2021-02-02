@@ -24,6 +24,11 @@
             line-height: 1.2;
         }
 
+        h2, h3, h4 {
+            margin-top: 2em;
+            margin-bottom: 1em;
+        }
+
         hr {
             margin: 4rem 0;
         }

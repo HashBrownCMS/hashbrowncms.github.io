@@ -22,8 +22,9 @@
                     <?php foreach($class['methods'] as $method) { ?>
                         <?php if(!isset($method['example']) || empty($method['example'])) { continue; } ?>
 
-                        <pre><?php echo $method['example']; ?></pre>
+                        <h3><?php echo $method['name']; ?></h3>
                         <p><?php echo $method['description']; ?></p>
+                        <pre><?php echo $method['example']; ?></pre>
                     <?php } ?>
                 </section>
             <?php } ?>
