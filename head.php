@@ -43,6 +43,14 @@
             background-color: lightgrey;
         }
 
+        code {
+            font-size: 1rem;
+        }
+
+        var {
+            color: dimgrey;
+        }
+
         img {
             max-width: 100%;
         }

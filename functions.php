@@ -23,6 +23,7 @@ function parse_source_file(string $file_contents, ?string $name = '', bool $requ
         $output['name'] = $name;
     }
 
+    // Exclude some classes
     if(
         $output['name'] === 'index' ||
         $output['name'] === 'ApiController' ||
@@ -38,7 +39,7 @@ function parse_source_file(string $file_contents, ?string $name = '', bool $requ
 
     // Description
     $class_description = [];
-    preg_match("/\* ([^@][^\n]+)/", $file_contents, $class_description);
+    preg_match("/\/\*\*\n \* ([^@][^\n]+)/", $file_contents, $class_description);
     $output['description'] = isset($class_description[1]) ? $class_description[1] : '';
     
     // Member of
@@ -49,6 +50,40 @@ function parse_source_file(string $file_contents, ?string $name = '', bool $requ
     $output['memberOf'] = str_replace('{', '', $output['memberOf']);
     $output['memberOf'] = str_replace('}', '', $output['memberOf']);
     $output['memberOf'] = str_replace('HashBrown.', '', $output['memberOf']);
+
+    // Extends
+    $class_extends = [];
+    preg_match("/ extends require\('([^']+)'\)/", $file_contents, $class_extends);
+    $output['extends'] = '';    
+
+    if(isset($class_extends[1])) {
+        $output['extends'] = str_replace('/', '.', $class_extends[1]);
+    
+    } else {
+        preg_match("/ extends ([^ ]+)/", $file_contents, $class_extends);
+
+        if(isset($class_extends[1])) {
+            $output['extends'] = $class_extends[1];
+        }
+    }
+
+    if(
+        !empty($output['extends']) &&
+        strpos($output['extends'], 'Server') === false &&
+        strpos($output['extends'], 'Client') === false &&
+        strpos($output['extends'], 'Common') === false
+    ) {
+        if(strpos($output['memberOf'], 'Server') !== false) {
+            $output['extends'] = str_replace('HashBrown.', 'HashBrown.Server.', $output['extends']);
+
+        } else if(strpos($output['memberOf'], 'Client') !== false) {
+            $output['extends'] = str_replace('HashBrown.', 'HashBrown.Client.', $output['extends']);
+        
+        } else if(strpos($output['memberOf'], 'Common') !== false) {
+            $output['extends'] = str_replace('HashBrown.', 'HashBrown.Common.', $output['extends']);
+        
+        }
+    }
 
     // Remove the class meta docs to prevent confusion
     $file_contents = preg_replace("/\/\*\*[^\/]+\//", '', $file_contents, 1);
