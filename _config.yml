@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 title: HashBrown CMS
 description: A free and open-source headless CMS built with Node.js and MongoDB
 domain: "hashbrowncms.github.io"
 url: "https://hashbrowncms.github.io"
+=======
+theme: jekyll-theme-minimal
+>>>>>>> e3f077e6da5ca0d27cdfc9eabc32888c620da365
