@@ -1,1 +1,4 @@
-theme: jekyll-theme-tactile
+title: HashBrown CMS
+description: A free and open-source headless CMS built with Node.js and MongoDB
+domain: "hashbrowncms.github.io"
+url: "https://hashbrowncms.github.io"
