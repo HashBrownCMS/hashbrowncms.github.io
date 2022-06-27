@@ -1,9 +1,2 @@
 *.swp
 *.swo
-
-/.cache
-.well-known/*
-/log.txt
-/config.php
-
-/.env
